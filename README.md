@@ -1,18 +1,11 @@
-# A Bumpy Ride - Traductions communautaires (mod non-officiel)
+# A Bumpy Ride - Traduction française (mod non-officiel)
 
-Mods de traduction pour [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), un jeu de simulation ferroviaire indé sur Steam.
+Mod de traduction française pour [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), un jeu de simulation ferroviaire indé sur Steam.
 
-**Langues disponibles**
-
-| Langue | Version | Statut | Zip à télécharger |
-|---|---|---|---|
-| 🇫🇷 Français | 1.3.0 (5 mai 2026) | Stable | `ABR-fr_v1.3.0_prepatched.zip` |
-
-D'autres langues (ES, DE, IT…) seront ajoutées quand des contributeurs s'en chargeront. La structure du repo (`src/languages/<code>/`) est prête pour ça — voir [src/README.md](src/README.md) pour les étapes.
-
+**Version actuelle : 1.3.0** (5 mai 2026)
 **Moteur du jeu : Unreal Engine 5.3.2 (IoStore)**
 
-> Ces mods ne sont ni développés ni soutenus par les créateurs du jeu. C'est un travail de fan, fourni en l'état.
+> Ce mod n'est ni développé ni soutenu par les créateurs du jeu. C'est un travail de fan, fourni en l'état.
 
 ---
 
