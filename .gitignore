@@ -1,0 +1,17 @@
+# Build outputs / intermediates
+*.tmp
+*.bak
+__pycache__/
+
+# OS
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Don't store the heavy zips in the repo itself — push them via GitHub Releases.
+# (If you change your mind: delete these two lines and `git add` the zips.)
+ABR-fr_v*.zip
