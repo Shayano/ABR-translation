@@ -27,50 +27,39 @@ Mod de traduction française pour [A Bumpy Ride](https://store.steampowered.com/
 
 ## Installation
 
-Deux modes selon votre plateforme.
+Le mod se distribue sous forme d'un zip qui contient les 3 fichiers de container du jeu déjà patchés. C'est un remplacement direct de fichiers, sans installeur.
 
-### 🪟 Windows (recommandé)
+### Étapes
 
-Utilise un installeur PowerShell qui dérive le patch à partir des fichiers vanilla de votre installation. Sécurisé (backup automatique du jeu original) et léger à télécharger (~67 Mo).
-
-1. Téléchargez `ABR-fr_v1.3.0.zip` (cf. section [Téléchargements](#téléchargements))
-2. Extrayez-le n'importe où sur votre PC
-3. **Fermez le jeu si ouvert**, puis double-cliquez sur `install.ps1`
-   - Si Windows bloque l'exécution : clic droit → *Exécuter avec PowerShell*
-   - Si SmartScreen avertit : *Plus d'infos* → *Exécuter quand même*
-4. L'installeur détecte automatiquement le jeu via Steam et patche en place
-5. Comptez 4–5 min sur SSD, ~12 Go d'espace temporaire
-
-Pour désinstaller : exécutez `uninstall.ps1` (restaure depuis le backup automatique `_ABRfr_backup`).
-
-### 🎮 Steam Deck / Linux
-
-Sur Steam Deck (et systèmes Linux en général), l'installeur PowerShell ne tourne pas. Utilisez le zip pré-patché : c'est un drop-in direct, plus simple mais ~3 Go à télécharger.
-
-1. Téléchargez `ABR-fr_v1.3.0_prepatched.zip` (cf. section [Téléchargements](#téléchargements))
-2. Localisez le dossier Paks de votre installation :
-   - Steam Deck : `~/.steam/steam/steamapps/common/A Bumpy Ride/ABumpyRide/Content/Paks/`
-3. Sauvegardez les 3 fichiers vanilla dans un sous-dossier `_backup_vanilla` :
+1. Téléchargez `ABR-fr_v1.3.0_prepatched.zip` (cf. [Releases](../../releases))
+2. **Fermez le jeu** s'il est ouvert
+3. Localisez le dossier `Paks` de votre installation A Bumpy Ride :
+   - **Windows**   : `<bibliothèque Steam>\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks\`
+   - **Steam Deck**: `~/.steam/steam/steamapps/common/A Bumpy Ride/ABumpyRide/Content/Paks/`
+   - **Linux**     : `~/.local/share/Steam/steamapps/common/A Bumpy Ride/ABumpyRide/Content/Paks/`
+4. Extrayez le zip dans ce dossier `Paks/`. Trois fichiers existants vont être remplacés :
    ```
    ABumpyRide-Windows.utoc
    ABumpyRide-Windows.ucas
    ABumpyRide-Windows.pak
    ```
-4. Extrayez les 3 fichiers du zip dans le dossier `Paks/` (à côté du `_backup_vanilla`)
-5. Lancez le jeu via Steam normalement
+   Pas besoin de sauvegarder les originaux : Steam peut les restaurer à tout moment (cf. désinstallation).
+5. Lancez le jeu via Steam normalement. Le menu doit être en français.
 
-Pour désinstaller : supprimez les 3 fichiers patchés et remettez ceux de `_backup_vanilla`.
-
-> Note technique : le `.ucas` patché fait ~5,2 Go (vs 1,6 Go vanilla) car le pipeline de génération ne re-compresse pas avec Oodle. C'est fonctionnel, juste plus lourd sur disque.
+> Note technique : le `.ucas` patché fait ~5,2 Go (vs ~1,6 Go vanilla) parce que le pipeline de génération ne re-compresse pas avec Oodle. C'est fonctionnel, juste plus lourd sur disque.
 
 ---
 
-## Téléchargements
+## Désinstallation / retour à la version originale
 
-Allez voir l'onglet **Releases** de ce dépôt pour télécharger les zips :
+Pas besoin de gérer manuellement un backup. Steam sait restaurer les fichiers vanilla en une étape :
 
-- `ABR-fr_v1.3.0.zip` (~67 Mo) — pour Windows
-- `ABR-fr_v1.3.0_prepatched.zip` (~3 Go) — pour Steam Deck / Linux
+1. Dans la bibliothèque Steam, **clic droit sur A Bumpy Ride** → *Propriétés*
+2. *Fichiers installés* → **Vérifier l'intégrité des fichiers du jeu**
+3. Steam détecte que les 3 fichiers sont modifiés et les re-télécharge (~1,6 Go)
+4. Au prochain lancement, le jeu est en anglais, comme à l'origine
+
+Cette même méthode fonctionne en cas de problème : si le mod casse quelque chose, lance une vérification d'intégrité et tu reviens à un état propre sans avoir à fouiller dans les dossiers.
 
 ---
 
@@ -79,25 +68,24 @@ Allez voir l'onglet **Releases** de ce dépôt pour télécharger les zips :
 | Aspect | Statut |
 |---|---|
 | Version du jeu | A Bumpy Ride au 5 mai 2026 (Steam app id `2540610`) |
-| Sauvegardes | Compatibles, le mod est entièrement réversible |
+| Sauvegardes | Compatibles, le mod ne touche à aucun fichier de save |
 | Multijoueur | Pas de multi dans ABR — non concerné |
-| Saison/DLC | Aucun pour le moment |
-| Mise à jour du jeu | À chaque patch officiel, le mod doit être réinstallé (sinon le jeu peut crasher) |
+| Mise à jour du jeu | À chaque patch officiel du jeu, il faudra réinstaller la version à jour du mod (sinon le jeu peut crasher au lancement) |
 
 ---
 
 ## Problèmes connus
 
-- **Le jeu crashe au lancement après l'install** : votre version du jeu est probablement plus récente que celle ciblée par le mod. Désinstallez via `uninstall.ps1` (Windows) ou en restaurant depuis `_backup_vanilla` (Steam Deck), puis attendez une mise à jour du mod.
-- **Certains textes restent en anglais** : ce sont probablement des noms propres conservés volontairement (skins, stations, régions). Si c'est un texte d'interface non traduit, [ouvrez une issue](#) avec une capture d'écran.
-- **Caractères bizarres (ä, õ, etc.)** au lieu d'accents corrects : signe d'un encodage cassé. Réinstallez le mod ; sur Steam Deck, vérifiez que le zip a été extrait sans corruption.
+- **Le jeu crashe au lancement après l'install** : votre version du jeu est probablement plus récente que celle ciblée par le mod. Lancez une vérification d'intégrité Steam pour revenir au vanilla, et attendez une mise à jour du mod.
+- **Certains textes restent en anglais** : ce sont probablement des noms propres conservés volontairement (skins, stations, régions). Si c'est un texte d'interface non traduit, [ouvrez une issue](../../issues) avec une capture d'écran.
+- **Caractères bizarres (ä, õ, etc.) au lieu d'accents corrects** : signe d'une corruption à l'extraction du zip. Re-téléchargez et ré-extrayez avec un outil qui gère bien les fichiers volumineux (7-Zip, l'outil intégré Windows 10/11, Ark sur Steam Deck).
 
 ---
 
 ## Crédits & remerciements
 
 - **Mod** : Shayano
-- **Outils** :
+- **Outils utilisés pour le pipeline de patch** :
   - [retoc-rivals](https://github.com/natimerry/repak-rivals) — repackager IoStore UE5.3
   - [KissE / KismetEditor](https://github.com/SolicenTEAM/KismetEditor) (fork patché par Shayano) — patcher de bytecode Blueprint
   - [Dumper-7](https://github.com/Encryqed/Dumper-7) — génération du `.usmap` du jeu
