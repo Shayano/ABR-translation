@@ -1,0 +1,8 @@
+[
+  { "source": "Time",     "translation": "Temps" },
+  { "source": "Landmark", "translation": "Site" },
+  { "source": "Law",      "translation": "Loi" },
+  { "source": "Railfan",  "translation": "Passionné" },
+  { "source": "Speed",    "translation": "Vitesse" },
+  { "source": "Weather",  "translation": "Météo" }
+]

@@ -1,0 +1,15 @@
+[
+  { "source": "Honey",            "translation": "Miel" },
+  { "source": "TNT",              "translation": "TNT" },
+  { "source": "Hay",              "translation": "Foin" },
+  { "source": "Fruit",            "translation": "Fruits" },
+  { "source": "Ice",              "translation": "Glace" },
+  { "source": "N/A",              "translation": "N/D" },
+  { "source": "Cheese",           "translation": "Fromage" },
+  { "source": "DESTROYED FRUIT",  "translation": "FRUITS DÉTRUITS" },
+  { "source": "DESTROYED HONEY",  "translation": "MIEL DÉTRUIT" },
+  { "source": "DESTROYED TNT",    "translation": "TNT DÉTRUIT" },
+  { "source": "DESTROYED HAY",    "translation": "FOIN DÉTRUIT" },
+  { "source": "DESTROYED ICE",    "translation": "GLACE DÉTRUITE" },
+  { "source": "DESTROYED CHEESE", "translation": "FROMAGE DÉTRUIT" }
+]

@@ -1,0 +1,12 @@
+[
+  { "source": "Large Barn",         "translation": "Grande grange" },
+  { "source": "Small Barn",         "translation": "Petite grange" },
+  { "source": "Farmhouse 1",        "translation": "Ferme 1" },
+  { "source": "Fire Station",       "translation": "Caserne" },
+  { "source": "Hotel",              "translation": "Hôtel" },
+  { "source": "Marshall",           "translation": "Bureau du shérif" },
+  { "source": "Saloon / Dry Goods", "translation": "Saloon / Mercerie" },
+  { "source": "School House",       "translation": "École" },
+  { "source": "General Store",      "translation": "Magasin général" },
+  { "source": "Mansion",            "translation": "Manoir" }
+]

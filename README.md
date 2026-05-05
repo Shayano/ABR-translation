@@ -1,4 +1,4 @@
-# A Bumpy Ride — Traduction française (mod non-officiel)
+# A Bumpy Ride - Traduction française (mod non-officiel)
 
 Mod de traduction française pour [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), un jeu de simulation ferroviaire indé sur Steam.
 
@@ -69,7 +69,7 @@ Cette même méthode fonctionne en cas de problème : si le mod casse quelque ch
 |---|---|
 | Version du jeu | A Bumpy Ride au 5 mai 2026 (Steam app id `2540610`) |
 | Sauvegardes | Compatibles, le mod ne touche à aucun fichier de save |
-| Multijoueur | Pas de multi dans ABR — non concerné |
+| Multijoueur | Pas de multi dans ABR - non concerné |
 | Mise à jour du jeu | À chaque patch officiel du jeu, il faudra réinstaller la version à jour du mod (sinon le jeu peut crasher au lancement) |
 
 ---
@@ -86,16 +86,16 @@ Cette même méthode fonctionne en cas de problème : si le mod casse quelque ch
 
 - **Mod** : Shayano
 - **Outils utilisés pour le pipeline de patch** :
-  - [retoc-rivals](https://github.com/natimerry/repak-rivals) — repackager IoStore UE5.3
-  - [KissE / KismetEditor](https://github.com/SolicenTEAM/KismetEditor) (fork patché par Shayano) — patcher de bytecode Blueprint
-  - [Dumper-7](https://github.com/Encryqed/Dumper-7) — génération du `.usmap` du jeu
-  - [UAssetAPI](https://github.com/atenfyr/UAssetAPI) — manipulation des assets UE
+  - [retoc-rivals](https://github.com/natimerry/repak-rivals) - repackager IoStore UE5.3
+  - [KissE / KismetEditor](https://github.com/SolicenTEAM/KismetEditor) (fork patché par Shayano) - patcher de bytecode Blueprint
+  - [Dumper-7](https://github.com/Encryqed/Dumper-7) - génération du `.usmap` du jeu
+  - [UAssetAPI](https://github.com/atenfyr/UAssetAPI) - manipulation des assets UE
 - **Méthodologie** : développé en pair-programming avec Claude Code (Anthropic) sur ~10 sessions.
 
 ---
 
 ## Licence
 
-Ce mod est fourni gratuitement, sans garantie, en l'état. Les assets traduits dérivent du jeu original (propriété de ses auteurs) — la traduction française est libre d'usage personnel.
+Ce mod est fourni gratuitement, sans garantie, en l'état. Les assets traduits dérivent du jeu original (propriété de ses auteurs) - la traduction française est libre d'usage personnel.
 
 Pas de redistribution commerciale.

@@ -1,0 +1,121 @@
+[
+  { "row": "NewRow",    "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "36DA68CA4AAC66FF68C71288B42B6130", "source": "Comet",            "translation": "" },
+  { "row": "NewRow",    "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "CE724839404B42833182D1B4A5122CF8", "source": "L.&P.R.R.",        "translation": "" },
+  { "row": "NewRow",    "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "8498FE7949310F37394BF7A38C181677", "source": "If it ain't broke,\r\ndon't fix it!", "translation": "Si ça marche,\r\nn'y touche pas !" },
+
+  { "row": "NewRow_13", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "D0FE601A483CD31F360D5C97E7FA77B4", "source": "Spirit",           "translation": "" },
+  { "row": "NewRow_13", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "D0DCA5D54308AAB05DF32FB3F03D560A", "source": "Hero",             "translation": "" },
+  { "row": "NewRow_13", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "744444CD4E2EB02B4EF1958F661CEFCE", "source": "It's Legendary.", "translation": "Une légende." },
+
+  { "row": "NewRow_20", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "61FFE4B14DB48AA65FC160BDD52530CF", "source": "Forgotten",        "translation": "" },
+  { "row": "NewRow_20", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "F5E5B675447D023D39DDB5B445381941", "source": "Nathaniel",        "translation": "" },
+  { "row": "NewRow_20", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "DF6661724F87A207CE5B9C9E229D0DF5", "source": "Cool.",            "translation": "Tranquille." },
+
+  { "row": "NewRow_19", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "7541FE124D84FF1FBB1AA6B80ACE017A", "source": "Rover",            "translation": "" },
+  { "row": "NewRow_19", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "FC60D2B34070798C9F42FDB7C3362CA3", "source": "Porter",           "translation": "" },
+  { "row": "NewRow_19", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "44DF5DE3428AB008C09C41B38D76F5BA", "source": "Population:\r\nBoarding!", "translation": "Population :\r\nen voiture !" },
+
+  { "row": "NewRow_3",  "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "455A068B49A6F40F181018943D096C8D", "source": "Sweet Toot",       "translation": "" },
+  { "row": "NewRow_3",  "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "42A658634095ED8926E3AA9C29C586B9", "source": "Saby",             "translation": "" },
+  { "row": "NewRow_3",  "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "E02238084E8DD009D8476587EC7CD131", "source": "May cause\r\ncavities.", "translation": "Risque de\r\ncaries." },
+
+  { "row": "NewRow_15", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "284BDCE14CF43985F1A2428A49624C5C", "source": "Bilge Rat",        "translation": "" },
+  { "row": "NewRow_15", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "64F6D4344569C0407DCC2CBAEC91E13C", "source": "Bobenny",          "translation": "" },
+  { "row": "NewRow_15", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "27295A7249800A58D87F7E9E67F78F99", "source": "The jolliest\r\nof rogers!", "translation": "Le plus joyeux\r\ndes corsaires !" },
+
+  { "row": "NewRow_16", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "8817FA674EEF6AD84E79C3B4502671A1", "source": "Bootlegger",       "translation": "" },
+  { "row": "NewRow_16", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "08C081AE4867ACBB09A9FC8909560AD2", "source": "Copious Kobolds",  "translation": "" },
+  { "row": "NewRow_16", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "480E4A18446C18156029CBA527500DE9", "source": "Nothing like\r\nsome courage!", "translation": "Rien de tel\r\nqu'un peu de courage !" },
+
+  { "row": "NewRow_18", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "DF858FEA477F63BD28D9FF9870CC5C9B", "source": "Little Engine",    "translation": "" },
+  { "row": "NewRow_18", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "80B35406418333C5C95BB6871522E72F", "source": "Piper",            "translation": "" },
+  { "row": "NewRow_18", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "99C49ACB46CD01F781F2AC9612E6669A", "source": "I knew I could!",  "translation": "J'en étais sûr !" },
+
+  { "row": "NewRow_1",  "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "6910AE4B431C6846E0E074AD76C8AFAA", "source": "General",          "translation": "" },
+  { "row": "NewRow_1",  "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "43084EDC4F3457654C2EE5A270748EBC", "source": "Sam",              "translation": "" },
+  { "row": "NewRow_1",  "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "4C3FDA4F4990432E962C6D89DEEC4640", "source": "The chasee in the\r\nGreat Locomotive \r\nChase!", "translation": "Pourchassé dans la\r\nGrande Course\r\ndes Locomotives !" },
+
+  { "row": "NewRow_2",  "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "0850BEC544396F9C5D480E860533A1CB", "source": "Texas",            "translation": "" },
+  { "row": "NewRow_2",  "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "9F342CFC433403712CE16A9231F75302", "source": "Sam",              "translation": "" },
+  { "row": "NewRow_2",  "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "77CB76094141568450D774BAD10F0296", "source": "The chaser in the\r\nGreat Locomotive\r\nChase!", "translation": "Poursuivant dans la\r\nGrande Course\r\ndes Locomotives !" },
+
+  { "row": "NewRow_5",  "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "65DC49684BFF2C6CE018FA9E343FA85D", "source": "Neko Neon",        "translation": "" },
+  { "row": "NewRow_5",  "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "504E966C42492A0219A6C589EAE058FD", "source": "Ashley",           "translation": "" },
+  { "row": "NewRow_5",  "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "905721DB49EFFBEA5925F299DC68A28E", "source": "You feeling\r\ncyber, punk?", "translation": "Envie d'un peu\r\nde cyberpunk ?" },
+
+  { "row": "NewRow_27", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "CA46D59B4AC42B3FA0C178987F8E9CB6", "source": "Delta",            "translation": "" },
+  { "row": "NewRow_27", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "A11C1F07442689D570F9AAB84B0BE9C9", "source": "A Small White Dog","translation": "" },
+  { "row": "NewRow_27", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "87C0C82A4CD58E6BDD6153B5372F6C5A", "source": "With you in\r\nthe dark!", "translation": "À tes côtés\r\ndans le noir !" },
+
+  { "row": "NewRow_22", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "7E920FE64BF641CA429C4281BFC7C3FB", "source": "Huntie",           "translation": "" },
+  { "row": "NewRow_22", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "418577DE4E11387A8DF64E8AD8E06066", "source": "Collis",           "translation": "" },
+  { "row": "NewRow_22", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "A8E18ACC4AA323D822C4BAAB2C69EF3D", "source": "An icon of\r\nrail history!", "translation": "Une icône\r\ndu rail !" },
+
+  { "row": "NewRow_7",  "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "1F44C7E74F26A5B31343E19778A44539", "source": "Jupiter",          "translation": "" },
+  { "row": "NewRow_7",  "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "E089E8CF4F75E950DE1B0DA03032D4D9", "source": "McQueen",          "translation": "" },
+  { "row": "NewRow_7",  "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "9FA1079A4685BFAEB1A7C1AA120E5EFD", "source": "The dignitary\r\nfrom the west!", "translation": "L'invité\r\nde l'Ouest !" },
+
+  { "row": "NewRow_8",  "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "821723024B49D670AFA9EA9AFC7A12FA", "source": "119",              "translation": "" },
+  { "row": "NewRow_8",  "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "4530FC1E4779D65AE4DBD0934ACA14D1", "source": "Rogers",           "translation": "" },
+  { "row": "NewRow_8",  "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "E75DAB6F4154353B8C880E9178EE2ACE", "source": "The dignitary\r\nfrom the east!", "translation": "L'invité\r\nde l'Est !" },
+
+  { "row": "NewRow_10", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "78483ED44A94AA9B1C24CBB34F31D00F", "source": "Bolt",             "translation": "" },
+  { "row": "NewRow_10", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "8BB203874F2B58A9A4CA659E55C25C31", "source": "Josh",             "translation": "" },
+  { "row": "NewRow_10", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "D0F648E44F69E3433AF64894C7D9FF9C", "source": "01000010 01100101\r\n01100101 01110000", "translation": "" },
+
+  { "row": "NewRow_17", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "6CD47FF24F047CFCFC4EAFA7818FCD27", "source": "Hidden Rose",      "translation": "" },
+  { "row": "NewRow_17", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "64E97520402222F3DC890B9C620BC96D", "source": "Jessica",          "translation": "" },
+  { "row": "NewRow_17", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "46CDAC144E2DE1CBE2FD93A16A2A5541", "source": "Let your heart\r\nburn brightly!", "translation": "Que ton cœur\r\nflamboie !" },
+
+  { "row": "NewRow_25", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "C83969EF4CD83563CC783387879E350C", "source": "Stockton",         "translation": "" },
+  { "row": "NewRow_25", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "AA967F3F4DDAE8552D65D999708CC33B", "source": "Don Ball, Jr.",    "translation": "" },
+  { "row": "NewRow_25", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "AA1AC459435BB37F3A841CB45EC3C49D", "source": "All aboard for\r\nCopperopolis!", "translation": "En voiture pour\r\nCopperopolis !" },
+
+  { "row": "NewRow_28", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "1EADD2BD479D8B2555A3DEA65EAD653C", "source": "Movie Star",       "translation": "" },
+  { "row": "NewRow_28", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "5CA2CAE7475F8D90AACD1093B7F31A4F", "source": "W.N. Kelley",      "translation": "" },
+  { "row": "NewRow_28", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "5DE354A04A5F447D8FC56C98AE264BB5", "source": "Ride the little train\r\nto the junction!", "translation": "Le petit train\r\ntrace sa route !" },
+
+  { "row": "NewRow_4",  "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "9798898C40A5E56DD97285A9CAE339BA", "source": "Big Dipper",       "translation": "" },
+  { "row": "NewRow_4",  "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "1FBCFC414F879B5D3E3F1DBD545C9686", "source": "Josh",             "translation": "" },
+  { "row": "NewRow_4",  "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "94E1776344031C6C6347E68CFF5EA5B4", "source": "Reach for\r\nthe stars!", "translation": "Décroche\r\nles étoiles !" },
+
+  { "row": "NewRow_21", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "20D4CC954C7263DB08B5BF9E56A3204E", "source": "Courage",          "translation": "" },
+  { "row": "NewRow_21", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "BA23A1FB4C7BA476C0B2A5B3D926D491", "source": "Satsuma",          "translation": "" },
+  { "row": "NewRow_21", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "B82D3FBE4F035CB67C44468178BB7CAF", "source": "EGAD!",            "translation": "SAPRISTI !" },
+
+  { "row": "NewRow_6",  "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "351B8E7940B5D8F577F495B1975F02BA", "source": "Lil' Belle",       "translation": "" },
+  { "row": "NewRow_6",  "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "4347B65F4C8897E2DE64EE86CF13ECD6", "source": "Walter",           "translation": "" },
+  { "row": "NewRow_6",  "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "529EB3E7406AC4957240509304AAF4D5", "source": "Go on a grand\r\ncircle tour!", "translation": "Pars en grande\r\ntournée !" },
+
+  { "row": "NewRow_0",  "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "15E132B14925C14012E40B9349BE49BB", "source": "Sacramento",       "translation": "" },
+  { "row": "NewRow_0",  "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "5067839142B3E024DC6F1097BC52CC2F", "source": "AJ Stevens",       "translation": "" },
+  { "row": "NewRow_0",  "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "CFCB703043AE95D65BE90097F3608FED", "source": "Built by the\r\nCentral Pacific!", "translation": "Construite par la\r\nCentral Pacific !" },
+
+  { "row": "NewRow_26", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "DDF2F812450429DF5897A2BE46892C0D", "source": "Dayton",           "translation": "" },
+  { "row": "NewRow_26", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "8857AB0347214F649F4BBC8504B2D193", "source": "AJ Stevens",       "translation": "" },
+  { "row": "NewRow_26", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "4A06790045A030B9D4FD8E96EF01F459", "source": "Ran on the Queen\r\nof the Shortlines!", "translation": "Reine des\r\npetites lignes !" },
+
+  { "row": "NewRow_12", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "8A28B6734F4995817CEC92B91C2CF98B", "source": "Very Useful",      "translation": "" },
+  { "row": "NewRow_12", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "662DFD794F787862AF3B8686E2C46A9C", "source": "Ethan",            "translation": "" },
+  { "row": "NewRow_12", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "390B2FB64407742FF4E43F8D95B95087", "source": "Cinders and\r\nashes!", "translation": "Suie et\r\ncendres !" },
+
+  { "row": "NewRow_9",  "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "0EC82D38402B394247A78A8C948FF921", "source": "Voyager",          "translation": "" },
+  { "row": "NewRow_9",  "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "09CA25654440CC79F32F86B44A4BD4AD", "source": "    Sam",          "translation": "" },
+  { "row": "NewRow_9",  "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "D4319487416B8D2F5CD01B9766454E79", "source": "It's a wild, wild\r\nfrontier!", "translation": "Une frontière\r\nsauvage, vraiment !" },
+
+  { "row": "NewRow_11", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "EA685D364AFDA73BEF9167B4E7624773", "source": "Conrad",           "translation": "" },
+  { "row": "NewRow_11", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "C37AF1F54ACBAC8B6D6DC18462D94D50", "source": "ALCO",             "translation": "" },
+  { "row": "NewRow_11", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "41AB4C7444BC32C95C75CABE6DC42C02", "source": "The Little\r\nBallerina herself!", "translation": "La Petite\r\nBallerine en personne !" },
+
+  { "row": "NewRow_23", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "5462F856466E9B58D0F174AEED83C392", "source": "Zuma",             "translation": "" },
+  { "row": "NewRow_23", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "9B5DE7CF45C9C6668876A7BB393C722A", "source": "Palmer",           "translation": "" },
+  { "row": "NewRow_23", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "A583479C4E64C0D0426D089DF853FEEF", "source": "Your father smelt\r\nof elderberries!", "translation": "Ton père sentait\r\nle sureau !" },
+
+  { "row": "NewRow_24", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "BF32F4C9434CEF338078C6A57AECC635", "source": "Lavish",           "translation": "" },
+  { "row": "NewRow_24", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "5EC3767346BEA6C263F8E8A8B7342432", "source": "Poshley",          "translation": "" },
+  { "row": "NewRow_24", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "4070F2FA49755010E90FA1849C396DB6", "source": "The lap of luxury!", "translation": "Le grand luxe !" },
+
+  { "row": "NewRow_14", "field": "Name",        "field_full": "Name_2_C4C2D9D54622E452248034A91CDF32DF",        "key": "8191A37845B7EA4E2B540097FC5EAE2D", "source": "Shimmer",          "translation": "" },
+  { "row": "NewRow_14", "field": "Author",      "field_full": "Author_4_8886C6A84723F2ABD7138789DF795C96",      "key": "EA4B25344F8E7C553A5879AAEA3DEF69", "source": "Cosmoporium",      "translation": "" },
+  { "row": "NewRow_14", "field": "Description", "field_full": "Description_27_F1C18C69462185785239D0A797C018BE", "key": "143AF6234B6D323F87745AA687FB1520", "source": "You've definitely\r\nearned it!", "translation": "Tu l'as bien\r\nmérité !" }
+]
