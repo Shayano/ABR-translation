@@ -1,8 +1,8 @@
 {
   "mod_name": "A Bumpy Ride — Traduction française",
-  "mod_version": "1.3.0",
+  "mod_version": "1.3.1",
   "mod_author": "Shayano",
-  "mod_date": "2026-05-05",
+  "mod_date": "2026-05-06",
   "engine_version": "UE5_3",
   "target_game": {
     "name": "A Bumpy Ride",
@@ -37,6 +37,7 @@
     "additional_runtime": ".NET 8 (inclus dans MainMapPatcher.exe via single-file self-contained, ~38 Mo)"
   },
   "changelog": {
+    "1.3.1": "Correctifs de traduction et résolution d'un crash. (1) Fix crash 0xEC dans le shop staff — les améliorations Bartender/Fireman/Early Bird (Barman/Chauffeur/Lève-tôt en FR) faisaient crasher le jeu en cliquant dessus, à cause d'un bug de calcul d'offset dans KissE qui pointait les EX_Jump au milieu d'une instruction normale ; correction par recalcul Visit-based aligné sur Asset.Write() (commit dfab90f du fork Shayano/KismetEditor). (2) \"OWNED\" sur les améliorations déjà achetées dans le shop est maintenant traduit en \"ACQUIS\". (3) Intro de la carte : \"Les rails de votre carte\" → \"Les rails sur votre carte\" (plus naturel). (4) Blagues de l'écran d'accueil : \"Enfuyons-nous ensemble !\" → \"Évadons-nous ensemble !\".",
     "1.3.0": "Trois chaînes restantes traduites : \"Money made today: \" → \"Recettes du jour : \" (EndOfDayScreen_Paper), \"Water usage is twice as fast!\" → \"Consommation d'eau doublée !\" (TrainScreen), et \"New Staff Member Unlocked!\" → \"Nouveau personnel débloqué !\" dans MainMap. MainMapPatcher étendu avec un argument --target=intro|staff et appelé en deux passes pendant l'install (intro puis staff). Découverte importante : KissE a besoin du flag --map=ABumpyRide.usmap pour charger les exports correctement, sinon UAssetAPI fallback sur RawExport et KissE no-op silencieusement.",
     "1.2.0": "Traduction de l'intro de la carte principale (\"Oh no! The tracks on your map got ruined...\" → \"Oh non ! Les rails de votre carte ont été abîmés...\"). Première traduction d'un bytecode embarqué dans un asset .uexp >2 GB que UAssetAPI/KissE refusent de charger normalement. Le patch est appliqué pendant l'install via un outil custom (MainMapPatcher.exe) qui isole l'export ExecuteUbergraph_MainMap et applique l'algorithme placeholder + branch détour de KissE. Ajoute MainMapPatcher.exe (~38 Mo) et ABumpyRide.usmap (344 Ko) à la trousse d'install.",
     "1.1.0": "Inclusion des 7 enums (TitleScreenBlurbs, BuildingType, FreightType, QuestLine, QuestType, PassengerEnum, TitleScreenBlurbsRainy) et de SkinButtonTable (descriptions de skins) qui étaient absents en 1.0.0.",

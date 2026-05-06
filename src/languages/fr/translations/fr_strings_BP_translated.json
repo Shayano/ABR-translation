@@ -3157,6 +3157,10 @@
         "NewValue": "ACHETER"
       },
       {
+        "Original": "OWNED",
+        "NewValue": "ACQUIS"
+      },
+      {
         "KeyValue": "7111EBBE413A18622279D48EBEE6DEC4",
         "Original": "The caboose provides<cf>you with space for one <cf>additional crew member.",
         "NewValue": "Le fourgon de queue offre<cf>de la place pour un membre <cf>d'équipage supplémentaire."

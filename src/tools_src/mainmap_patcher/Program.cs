@@ -37,7 +37,7 @@ class Program
 
     // French translation, vouvoiement, grand public, conventions ABR.
     const string FRENCH_INTRO =
-        "Oh non !^Les rails de votre carte ont été abîmés lorsque vous l'avez fait tomber dans l'eau, vous devrez les redessiner au fur et à mesure.^"
+        "Oh non !^Les rails sur votre carte ont été abîmés lorsque vous l'avez fait tomber dans l'eau, vous devrez les redessiner au fur et à mesure.^"
       + "Explorez simplement le monde pour la remplir à nouveau !^"
       + "Cliquez sur la carte en bas à droite pour l'ouvrir et voir où vous êtes passé...^"
       + "...et utilisez les timbres pour marquer les lieux importants !^"
