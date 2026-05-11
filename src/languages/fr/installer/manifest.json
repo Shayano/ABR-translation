@@ -1,8 +1,8 @@
 {
   "mod_name": "A Bumpy Ride — Traduction française",
-  "mod_version": "1.3.3",
+  "mod_version": "1.3.4",
   "mod_author": "Shayano",
-  "mod_date": "2026-05-07",
+  "mod_date": "2026-05-08",
   "engine_version": "UE5_3",
   "target_game": {
     "name": "A Bumpy Ride",
@@ -23,10 +23,10 @@
     }
   },
   "bundle": {
-    "patched_uasset_count": 73,
+    "patched_uasset_count": 74,
     "patched_umap_count": 5,
-    "total_files": 155,
-    "approx_size_mb": 96.5,
+    "total_files": 157,
+    "approx_size_mb": 93,
     "runtime_patch": {
       "MainMap.umap": "Patch bytecode appliqué à l'install via MainMapPatcher.exe en deux passes (--target=intro puis --target=staff). Vise l'export ExecuteUbergraph_MainMap pour traduire (1) l'intro du jeu et (2) la notification \"New Staff Member Unlocked!\". Algorithme : KissE-style placeholder + branch détour sur l'export isolé (le .uexp vanilla fait 2,3 GB et ne tient pas dans un MemoryStream Int32)."
     }
@@ -37,6 +37,7 @@
     "additional_runtime": ".NET 8 (inclus dans MainMapPatcher.exe via single-file self-contained, ~38 Mo)"
   },
   "changelog": {
+    "1.3.4": "Bascule complète au tutoiement et correction d'un oubli historique. (1) Cohérence de registre — le jeu tutoyait dans les enums (titre, descriptions de quêtes) mais vouvoyait dans tous les BPs (tutoriel, popups, settings, shop) ; 45 strings BP converties en tutoiement (Tutorial_Table, PlayerTrain, AreYouSure, EndDayEarly, NewShopMenu, StaffBoard, Rubble, TreeBranch, FreightTooltip, EndOfDayScreen_Paper, New_SettingsMenu, Basic_Credits, SwitchCameraButton, TutorialTeleport, QuestPointTrigger). Les 3 catch phrases diégétiques du title screen (\"Vos tickets, s'il vous plaît ?\" = contrôleur, \"Votre attention s'il vous plaît...\" = annonce gare, \"VOUS. NE. PASSEREZ. PAS !!\" = citation VF Gandalf) sont préservées en vouvoiement intentionnel. (2) Correction de 2 erreurs de traduction de quêtes — \"gondola\" en contexte ferroviaire anglais = wagon-tombereau, pas télécabine ; \"télécabine\" → \"wagon plat\" dans QuestLine (cohérent avec le visuel et la traduction allemande \"Flachwagen\"). (3) 3 nouvelles descriptions de quêtes reformulées par les devs (\"Explore the prairie...\", \"Explore the mines & canyons of Rio Frontera!\", \"Search the depths of Lilli Forest...\") qui étaient restées en anglais depuis la mise à jour Steam — datatable_text_patcher patchait silencieusement 8/11 strings sans signaler les 3 mismatch. (4) FIX CRITIQUE : Tutorial_Table.uasset (33 strings du tutoriel d'introduction) traduit pour la première fois depuis v1.0 — le pipeline historique avait silencieusement raté ce DataTable car KissE ne touche pas les UserDefinedStruct et le datatable_text_patcher original ne walkait que NormalExport.Data sans descendre dans DataTableExport.Table.Data. Outil étendu pour walker les DataTable rows et patcher StrPropertyData. \"Welcome to A Bumpy Ride!\" → \"Bienvenue dans A Bumpy Ride !\" et 32 autres bulles du tuto désormais en français tutoiement. Limitation restante v1.3.3 conservée : \"ELEVATION: 5567 FT\" (Aurora StationSign3, TextProperty d'actor).",
     "1.3.3": "Récupération de 5 strings perdues en v1.3.2 via un nouvel outil custom (BPStringPatcher) qui généralise l'approche binaire ciblée de MainMapPatcher (placeholder + branch détour) à n'importe quel Blueprint. KissE échouait sur PlayerTrain (Bad import index 949928447 au chargement MainMap), problème contourné en patchant directement l'export ExecuteUbergraph_PlayerTrain sans toucher à l'ImportMap. (1) PlayerTrain : 4 messages d'erreur fret traduits — \"ITEMS MISSING\" → \"OBJETS MANQUANTS\", \"It looks like you already have the needed freight from this station.\" → \"Vous avez déjà le fret nécessaire de cette gare.\", \"It looks like you don't need freight from this station.\" → \"Vous n'avez pas besoin de fret de cette gare.\", \"It looks like you don't have a freight car, come back when you do!\" → \"Vous n'avez pas de wagon de fret, revenez quand vous en aurez un !\". (2) ForestTeleport : la string a été étendue par le dev en \"It's too dark to navigate... come back when you have a brighter lamp.\" et est maintenant traduite en \"Il fait trop sombre pour naviguer... revenez avec une lampe plus puissante.\". Limitation restante : \"ELEVATION: 5567 FT\" (panneau d'altitude sur Aurora) — c'est une TextProperty d'actor (StationSign3) et pas du bytecode, à corriger en v1.3.4 via approche TextProperty. Une seule string sur ~1500 reste non traduite.",
     "1.3.2": "Compatibilité avec la mise à jour officielle du jeu publiée le 2026-05-07 (correctifs de bugs côté dev, pas de nouveau contenu). Re-synchronisation de 22 assets retouchés par le développeur (Passenger, SpecialPassenger, PlayerTrain, ForestTeleport, QuestPointTrigger, Controller, ImportExport, MainMenu, QuestLine, NewTutorialLevel, Frst_Blowhistle_SubLvl, Snw_Aurora_SubLvl) en re-patchant depuis le nouveau vanilla via KissE et datatable_text_patcher. MainMapPatcher (intro + staff) validé sans modification — les patterns ciblés sont intacts dans le nouveau bytecode. Limitation connue : 6 strings non re-patchées dans cette release (4 messages d'erreur fret PlayerTrain : \"ITEMS MISSING\", \"It looks like you already have…\" etc., 1 string ForestTeleport : \"It's too dark to navigate...\", 1 string Snw_Aurora : \"ELEVATION: 5524 FT\") — à corriger en v1.3.3 via approche binaire ciblée. Toutes les autres traductions (intro, shop, tuto, enums, dialogues) sont conservées et fonctionnelles.",
     "1.3.1": "Correctifs de traduction et résolution d'un crash. (1) Fix crash 0xEC dans le shop staff — les améliorations Bartender/Fireman/Early Bird (Barman/Chauffeur/Lève-tôt en FR) faisaient crasher le jeu en cliquant dessus, à cause d'un bug de calcul d'offset dans KissE qui pointait les EX_Jump au milieu d'une instruction normale ; correction par recalcul Visit-based aligné sur Asset.Write() (commit dfab90f du fork Shayano/KismetEditor). (2) \"OWNED\" sur les améliorations déjà achetées dans le shop est maintenant traduit en \"ACQUIS\". (3) Intro de la carte : \"Les rails de votre carte\" → \"Les rails sur votre carte\" (plus naturel). (4) Blagues de l'écran d'accueil : \"Enfuyons-nous ensemble !\" → \"Évadons-nous ensemble !\".",

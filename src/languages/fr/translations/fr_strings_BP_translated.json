@@ -539,15 +539,15 @@
       },
       {
         "Original": "It looks like you already have the needed freight from this station.",
-        "NewValue": "Vous avez déjà le fret nécessaire de cette gare."
+        "NewValue": "Tu as déjà le fret nécessaire de cette gare."
       },
       {
         "Original": "It looks like you don't need freight from this station.",
-        "NewValue": "Vous n'avez pas besoin de fret de cette gare."
+        "NewValue": "Tu n'as pas besoin de fret de cette gare."
       },
       {
         "Original": "It looks like you don't have a freight car, come back when you do!",
-        "NewValue": "Vous n'avez pas de wagon de fret, revenez quand vous en aurez un !"
+        "NewValue": "Tu n'as pas de wagon de fret, reviens quand tu en auras un !"
       },
       {
         "Original": "MultiGate Node failed! Out of bounds indexing of the out pins. There are only 5 outs available.",
@@ -569,47 +569,47 @@
       {
         "KeyValue": "Test",
         "Original": "Welcome to A Bumpy Ride! For the          purposes of this demo, let's start with a tutorial! Click to continue.",
-        "NewValue": "Bienvenue dans A Bumpy Ride ! Pour cette          démo, commençons par un tutoriel ! Cliquez pour continuer."
+        "NewValue": "Bienvenue dans A Bumpy Ride ! Pour cette          démo, commençons par un tutoriel ! Clique pour continuer."
       },
       {
         "KeyValue": "Test2",
         "Original": "For this first section, play with the         controls of the train. The throttle is        located on the right side of the screen.",
-        "NewValue": "Dans cette première section, familiarisez-vous         avec les commandes du train. Le régulateur est        situé à droite de l'écran."
+        "NewValue": "Dans cette première section, familiarise-toi         avec les commandes du train. Le régulateur est        situé à droite de l'écran."
       },
       {
         "KeyValue": "NewRow",
         "Original": "You can click and drag to interact, or      use W and S to change the speed. Right-    click and drag to move the camera.",
-        "NewValue": "Cliquez-glissez pour interagir, ou       utilisez W et S pour changer de vitesse. Clic-     droit + glisser pour bouger la caméra."
+        "NewValue": "Clique-glisse pour interagir, ou       utilise W et S pour changer de vitesse. Clic-     droit + glisser pour bouger la caméra."
       },
       {
         "KeyValue": "NewRow_2",
         "Original": "Once you feel comfortable driving, stop      at the station to move on.",
-        "NewValue": "Quand vous serez à l'aise, arrêtez-vous       à la gare pour continuer."
+        "NewValue": "Quand tu seras à l'aise, arrête-toi       à la gare pour continuer."
       },
       {
         "KeyValue": "NewRow_0",
         "Original": "Now that you've mastered controlling the train, it's time to start making some      money!",
-        "NewValue": "Maintenant que vous maîtrisez le train, il est temps de gagner de l'argent !"
+        "NewValue": "Maintenant que tu maîtrises le train, il est temps de gagner de l'argent !"
       },
       {
         "KeyValue": "NewRow_1",
         "Original": "Pull up to the upcoming station to pick     up the passenger.",
-        "NewValue": "Avancez jusqu'à la prochaine gare pour      embarquer le passager."
+        "NewValue": "Avance jusqu'à la prochaine gare pour      embarquer le passager."
       },
       {
         "KeyValue": "NewRow_5",
         "Original": "On the left hand side, you can see where    the passenger wants to go, and by what    time.",
-        "NewValue": "Sur le côté gauche, vous voyez où le     passager veut aller et à quelle     heure."
+        "NewValue": "Sur le côté gauche, tu vois où le     passager veut aller et à quelle     heure."
       },
       {
         "KeyValue": "NewRow_6",
         "Original": "Looks like they want to go to the next     station down the line! Make sure to drop them off on time!",
-        "NewValue": "Il veut aller à la prochaine gare      sur la ligne ! Pensez à le déposer à l'heure !"
+        "NewValue": "Il veut aller à la prochaine gare      sur la ligne ! Pense à le déposer à l'heure !"
       },
       {
         "KeyValue": "NewRow_8",
         "Original": "Congratulations, you've just been paid!",
-        "NewValue": "Félicitations, vous venez d'être payé !"
+        "NewValue": "Félicitations, tu viens d'être payé !"
       },
       {
         "KeyValue": "NewRow_9",
@@ -624,17 +624,17 @@
       {
         "KeyValue": "NewRow_11",
         "Original": "Timeliness is most important, be sure to   be on time!",
-        "NewValue": "La ponctualité est primordiale, soyez    à l'heure !"
+        "NewValue": "La ponctualité est primordiale, sois    à l'heure !"
       },
       {
         "KeyValue": "NewRow_12",
         "Original": "Comfort is based on how bumpy their      ride is. Drive carefully around turns,      and don't slam on your brakes.",
-        "NewValue": "Le confort dépend des secousses du voyage.      Conduisez prudemment dans les virages       et ne freinez pas brusquement."
+        "NewValue": "Le confort dépend des secousses du voyage.      Conduis prudemment dans les virages       et ne freine pas brusquement."
       },
       {
         "KeyValue": "NewRow_13",
         "Original": "Accuracy is how well you align your stop at the platform. Don't drive past their      desired station!",
-        "NewValue": "La précision mesure votre arrêt par rapport au quai. Ne dépassez pas la       gare désirée !"
+        "NewValue": "La précision mesure ton arrêt par rapport au quai. Ne dépasse pas la       gare désirée !"
       },
       {
         "KeyValue": "NewRow_14",
@@ -644,7 +644,7 @@
       {
         "KeyValue": "NewRow_16",
         "Original": "As you drive your train, you'll see signs   on either side of the track, these are        what Attentiveness is based on.",
-        "NewValue": "En conduisant, vous verrez des panneaux    de chaque côté de la voie : c'est sur eux         qu'est basée l'attention."
+        "NewValue": "En conduisant, tu verras des panneaux    de chaque côté de la voie : c'est sur eux         qu'est basée l'attention."
       },
       {
         "KeyValue": "NewRow_17",
@@ -654,12 +654,12 @@
       {
         "KeyValue": "NewRow_30",
         "Original": "Whistle signs are simple- as your engine   passes by these signs, make sure your     whistle is blowing!",
-        "NewValue": "Les panneaux de sifflet sont simples : quand    votre locomotive passe devant, sifflez !"
+        "NewValue": "Les panneaux de sifflet sont simples : quand    ta locomotive passe devant, siffle !"
       },
       {
         "KeyValue": "NewRow_41",
         "Original": "To blow your whistle, pull the rope or      press spacebar.",
-        "NewValue": "Pour siffler, tirez la corde ou       appuyez sur Espace."
+        "NewValue": "Pour siffler, tire la corde ou       appuie sur Espace."
       },
       {
         "KeyValue": "NewRow_18",
@@ -669,27 +669,27 @@
       {
         "KeyValue": "NewRow_31",
         "Original": "Red is where the zone starts, and yellow   is the end. Make sure to stay at or below 50% speed while in the zone!",
-        "NewValue": "Le rouge marque le début, le jaune    la fin. Restez à 50% de vitesse ou moins dans la zone !"
+        "NewValue": "Le rouge marque le début, le jaune    la fin. Reste à 50% de vitesse ou moins dans la zone !"
       },
       {
         "KeyValue": "NewRow_19",
         "Original": "This section has a slow zone, and a         whistle sign. Go ahead and pick up your     passenger.",
-        "NewValue": "Cette section a une zone de ralentissement et un          panneau de sifflet. Allez récupérer votre      passager."
+        "NewValue": "Cette section a une zone de ralentissement et un          panneau de sifflet. Va récupérer ton      passager."
       },
       {
         "KeyValue": "NewRow_21",
         "Original": "Now that you have your passenger, drop     them off at the next station while            following what the signs say.",
-        "NewValue": "Vous avez votre passager, déposez-le      à la prochaine gare en respectant             les panneaux."
+        "NewValue": "Tu as ton passager, dépose-le      à la prochaine gare en respectant             les panneaux."
       },
       {
         "KeyValue": "NewRow_22",
         "Original": "They will indicate that they are upset if     you do not obey the signs.",
-        "NewValue": "Ils montreront leur mécontentement si      vous n'obéissez pas aux panneaux."
+        "NewValue": "Ils montreront leur mécontentement si      tu n'obéis pas aux panneaux."
       },
       {
         "KeyValue": "NewRow_24",
         "Original": "Great job following the signs! You now      have a basic understanding of all          four payment criteria.",
-        "NewValue": "Bravo pour le respect des panneaux ! Vous       maîtrisez les quatre critères           de paiement."
+        "NewValue": "Bravo pour le respect des panneaux ! Tu       maîtrises les quatre critères           de paiement."
       },
       {
         "KeyValue": "NewRow_25",
@@ -699,7 +699,7 @@
       {
         "KeyValue": "NewRow_27",
         "Original": "Seems like you didn't obey all the signs.    If you don't, you will get paid less!",
-        "NewValue": "Vous n'avez pas respecté tous les panneaux.     Sans cela, vous serez moins payé !"
+        "NewValue": "Tu n'as pas respecté tous les panneaux.     Sans cela, tu seras moins payé !"
       },
       {
         "KeyValue": "NewRow_32",
@@ -709,32 +709,32 @@
       {
         "KeyValue": "NewRow_33",
         "Original": "As you approach a switch in the tracks, a switchstand will appear in the center    of your view.",
-        "NewValue": "Quand vous approchez d'un aiguillage, un levier apparaît au centre     de votre vue."
+        "NewValue": "Quand tu approches d'un aiguillage, un levier apparaît au centre     de ta vue."
       },
       {
         "KeyValue": "NewRow_34",
         "Original": "Throw the switch left or right by clicking and dragging, or using A and D. ",
-        "NewValue": "Actionnez l'aiguillage à gauche ou à droite par clic-glisser, ou avec A et D. "
+        "NewValue": "Actionne l'aiguillage à gauche ou à droite par clic-glisser, ou avec A et D. "
       },
       {
         "KeyValue": "NewRow_35",
         "Original": "You might want to check which track is    the one you need to take!",
-        "NewValue": "Vérifiez bien quelle voie     vous devez prendre !"
+        "NewValue": "Vérifie bien quelle voie     tu dois prendre !"
       },
       {
         "KeyValue": "NewRow_38",
         "Original": "To do this, press the map icon in the      bottom left, or press ESC.",
-        "NewValue": "Pour cela, cliquez sur l'icône de carte en       bas à gauche, ou appuyez sur ÉCHAP."
+        "NewValue": "Pour cela, clique sur l'icône de carte en       bas à gauche, ou appuie sur ÉCHAP."
       },
       {
         "KeyValue": "NewRow_36",
         "Original": "Go ahead and complete this section,      using your map and new track-switching skills to get to the end!",
-        "NewValue": "Terminez cette section en utilisant       votre carte et vos nouvelles compétences d'aiguillage pour atteindre la fin !"
+        "NewValue": "Termine cette section en utilisant       ta carte et tes nouvelles compétences d'aiguillage pour atteindre la fin !"
       },
       {
         "KeyValue": "NewRow_39",
         "Original": "Congratulations! You have finished the    tutorial. Feel free to play around in the demo.",
-        "NewValue": "Félicitations ! Vous avez terminé le     tutoriel. Amusez-vous dans la démo."
+        "NewValue": "Félicitations ! Tu as terminé le     tutoriel. Amuse-toi dans la démo."
       }
     ]
   },
@@ -1278,7 +1278,7 @@
       },
       {
         "Original": "You need to have a gondola car to bring honey!",
-        "NewValue": "Il vous faut un wagon plat pour transporter du miel !"
+        "NewValue": "Il te faut un wagon plat pour transporter du miel !"
       },
       {
         "Original": "Looks like construction will be finished by tomorrow!",
@@ -1298,7 +1298,7 @@
       },
       {
         "Original": "You need to have a gondola car to bring TNT!",
-        "NewValue": "Il vous faut un wagon plat pour transporter de la TNT !"
+        "NewValue": "Il te faut un wagon plat pour transporter de la TNT !"
       }
     ]
   },
@@ -1307,7 +1307,7 @@
     "Values": [
       {
         "Original": "Do I have to tell you again?",
-        "NewValue": "Dois-je vous le répéter ?"
+        "NewValue": "Dois-je te le répéter ?"
       },
       {
         "Original": "Please just pick up the passenger.",
@@ -1315,11 +1315,11 @@
       },
       {
         "Original": "Let's try this again. Pick up your passenger at the station.",
-        "NewValue": "On recommence. Embarquez votre passager à la gare."
+        "NewValue": "On recommence. Embarque ton passager à la gare."
       },
       {
         "Original": "Make sure to pick up your passenger at the station!",
-        "NewValue": "Pensez bien à embarquer votre passager à la gare !"
+        "NewValue": "Pense bien à embarquer ton passager à la gare !"
       }
     ]
   },
@@ -1342,7 +1342,7 @@
       {
         "KeyValue": "834F78E643FBF7328904DB886AD46137",
         "Original": "Are you sure you want to quit?",
-        "NewValue": "Voulez-vous vraiment quitter ?"
+        "NewValue": "Veux-tu vraiment quitter ?"
       },
       {
         "KeyValue": "4FA9A30941A4B1964C9758B550E0014B",
@@ -1421,12 +1421,12 @@
       {
         "KeyValue": "782ED64448C3C7F80126E6890ACF941C",
         "Original": "Would you like to end the day?",
-        "NewValue": "Voulez-vous terminer la journée ?"
+        "NewValue": "Veux-tu terminer la journée ?"
       },
       {
         "KeyValue": "F01219C040BFDCB0EAA4AC9FD2531B77",
         "Original": "Your progress will be saved.",
-        "NewValue": "Votre progression sera sauvegardée."
+        "NewValue": "Ta progression sera sauvegardée."
       },
       {
         "KeyValue": "10866A664FFA7C3E348A5D93ABA968BF",
@@ -1593,7 +1593,7 @@
       {
         "KeyValue": "0FF765F049FA8358DA8992B91066DD71",
         "Original": "All your staff have quit since<cf>you can't pay them...",
-        "NewValue": "Votre personnel a démissionné car<cf>vous ne pouvez plus les payer..."
+        "NewValue": "Ton personnel a démissionné car<cf>tu ne peux plus les payer..."
       },
       {
         "KeyValue": "128FF03743EF332848F4DE8DF33447CB",
@@ -1621,7 +1621,7 @@
     "Values": [
       {
         "Original": "Cheese:<cf>Watch out for pesky<cf>cheese thieves!",
-        "NewValue": "Fromage :<cf>Méfiez-vous des<cf>voleurs de fromage !"
+        "NewValue": "Fromage :<cf>Méfie-toi des<cf>voleurs de fromage !"
       },
       {
         "Original": "Ice:<cf>Melts outside of snowy areas.<cf>Rapidly melts in the Desert.",
@@ -1744,11 +1744,11 @@
       },
       {
         "Original": "Passengers will board the train automatically if enabled.<cf><cf>If disabled, you must blow your whistle at the station for them to board.",
-        "NewValue": "Si activé, les passagers montent automatiquement à bord du train.<cf><cf>Si désactivé, vous devez siffler en gare pour qu'ils embarquent."
+        "NewValue": "Si activé, les passagers montent automatiquement à bord du train.<cf><cf>Si désactivé, tu dois siffler en gare pour qu'ils embarquent."
       },
       {
         "Original": "Passengers give cues that reflect their mood if enabled.<cf><cf>If disabled, passengers will no longer notify you of mood updates.",
-        "NewValue": "Si activé, les passagers donnent des indices reflétant leur humeur.<cf><cf>Si désactivé, ils ne vous notifient plus de leur humeur."
+        "NewValue": "Si activé, les passagers donnent des indices reflétant leur humeur.<cf><cf>Si désactivé, ils ne te notifient plus de leur humeur."
       },
       {
         "Original": "Confirm",
@@ -1756,11 +1756,11 @@
       },
       {
         "Original": "Type \"\"Confirm\"\" in the text box above this button to delete your save.<cf><cf>Deleted saves are entirely unrecoverable.",
-        "NewValue": "Tapez \"\"Confirmer\"\" dans la case au-dessus de ce bouton pour supprimer votre sauvegarde.<cf><cf>Les sauvegardes supprimées sont irrécupérables."
+        "NewValue": "Tape \"\"Confirmer\"\" dans la case au-dessus de ce bouton pour supprimer ta sauvegarde.<cf><cf>Les sauvegardes supprimées sont irrécupérables."
       },
       {
         "Original": "Load auto-saves or delete your save file to start over.<cf><cf>If your progress is lost, go here to activate a backup save file.",
-        "NewValue": "Chargez les sauvegardes automatiques ou supprimez votre sauvegarde pour recommencer.<cf><cf>Si votre progression est perdue, allez ici pour activer une sauvegarde de secours."
+        "NewValue": "Charge les sauvegardes automatiques ou supprime ta sauvegarde pour recommencer.<cf><cf>Si ta progression est perdue, viens ici pour activer une sauvegarde de secours."
       },
       {
         "Original": "On",
@@ -2611,7 +2611,7 @@
       {
         "KeyValue": "40D702F44CE714339985F9A5E616CE83",
         "Original": "You can now earn stocks by picking<cf> up Shareholders! Find them at circled<cf>stations on the map for a new challenge.",
-        "NewValue": "Vous pouvez gagner des actions en<cf> récupérant des Actionnaires ! Cherchez-les<cf>aux gares cerclées sur la carte."
+        "NewValue": "Tu peux gagner des actions en<cf> récupérant des Actionnaires ! Cherche-les<cf>aux gares cerclées sur la carte."
       },
       {
         "KeyValue": "5DD83954471FE341D70B89A3C4E87B51",
@@ -3149,7 +3149,7 @@
       {
         "KeyValue": "1F2ECC5A45853DE99ADC18814B512CBB",
         "Original": "You want more money, right?",
-        "NewValue": "Vous voulez plus d'argent, non ?"
+        "NewValue": "Tu veux plus d'argent, non ?"
       },
       {
         "KeyValue": "99698C414C96805ADD9E73ACB083AF5A",
@@ -3173,7 +3173,7 @@
       {
         "KeyValue": "5ABAAD0A45C8E233282C6CBC6011EAB1",
         "Original": "Expand your caboose!<cf>Provides space for one<cf>additional crew member.",
-        "NewValue": "Agrandissez votre fourgon !<cf>De la place pour un<cf>membre d'équipage en plus."
+        "NewValue": "Agrandis ton fourgon !<cf>De la place pour un<cf>membre d'équipage en plus."
       },
       {
         "KeyValue": "0C95200F4B5B16D473C79C946CF7B5B9",
@@ -3203,7 +3203,7 @@
       {
         "KeyValue": "65E3C1FD4700C721E082658E91518DCE",
         "Original": "The more seats you<cf>have, the more<cf>tickets you get.",
-        "NewValue": "Plus vous avez de places,<cf>plus vous obtenez<cf>de billets."
+        "NewValue": "Plus tu as de places,<cf>plus tu obtiens<cf>de billets."
       },
       {
         "KeyValue": "5BE4B8F843E0FE8895382785422C5723",
@@ -3361,12 +3361,12 @@
       },
       {
         "Original": "You can't afford that!",
-        "NewValue": "Vous n'en avez pas les moyens !"
+        "NewValue": "Tu n'en as pas les moyens !"
       },
       {
         "KeyValue": "67E9233C4326B503D089AAAA7638C553",
         "Original": "Gives you an<cf>extra two hours!",
-        "NewValue": "Vous donne deux<cf>heures supplémentaires !"
+        "NewValue": "Te donne deux<cf>heures supplémentaires !"
       },
       {
         "KeyValue": "0EEEBF014C37E8FC59625A89187B3668",
@@ -3471,7 +3471,7 @@
       {
         "KeyValue": "5AD562E84CF4A1C7CD3A7F87A899D0FA",
         "Original": "Choose your Engineer!",
-        "NewValue": "Choisissez votre mécanicien !"
+        "NewValue": "Choisis ton mécanicien !"
       }
     ]
   },
@@ -3514,15 +3514,15 @@
     "Values": [
       {
         "Original": "If only you had help to go faster...",
-        "NewValue": "Si seulement vous aviez de l'aide pour aller plus vite..."
+        "NewValue": "Si seulement tu avais de l'aide pour aller plus vite..."
       },
       {
         "Original": "You need to be going faster to break through!",
-        "NewValue": "Vous devez aller plus vite pour passer !"
+        "NewValue": "Tu dois aller plus vite pour passer !"
       },
       {
         "Original": "There must be a staff member that can increase your speed.",
-        "NewValue": "Il faut un membre du personnel capable d'augmenter votre vitesse."
+        "NewValue": "Il faut un membre du personnel capable d'augmenter ta vitesse."
       },
       {
         "Original": "Reach level 3 to get help going faster.",
@@ -3535,7 +3535,7 @@
     "Values": [
       {
         "Original": "You need to be going faster to break through!",
-        "NewValue": "Vous devez aller plus vite pour passer !"
+        "NewValue": "Tu dois aller plus vite pour passer !"
       }
     ]
   },
