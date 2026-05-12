@@ -1,0 +1,43 @@
+{
+  "mod_name": "A Bumpy Ride - Deutsche Übersetzung",
+  "mod_version": "1.4.0",
+  "mod_author": "Shayano",
+  "mod_date": "2026-05-12",
+  "engine_version": "UE5_3",
+  "language": "de",
+  "language_register": "du",
+  "target_game": {
+    "name": "A Bumpy Ride",
+    "steam_app_id": "2540610",
+    "vanilla_files": {
+      "ABumpyRide-Windows.utoc": {
+        "size": 2228827,
+        "sha256": "a47fbb6b81634ea00a7b96b7619551b64ccd2a298a9f923c90110143ec78839e"
+      },
+      "ABumpyRide-Windows.ucas": {
+        "size": 1610401040,
+        "sha256": "c5d2e8d102f4c4cee2689c0017ef23d218e70af751499d0208642a2f4c74aa0d"
+      },
+      "ABumpyRide-Windows.pak": {
+        "size": 10065249,
+        "sha256": "5658ed6452a03e1e1c7b2e764c67446419275cdef34709ee52594fef11b649fa"
+      }
+    }
+  },
+  "bundle": {
+    "patched_uasset_count": 76,
+    "patched_umap_count": 4,
+    "patched_uexp_count": 74,
+    "total_files": 154,
+    "approx_size_mb": 90.3
+  },
+  "install_requirements": {
+    "free_disk_space_gb": 12,
+    "approx_install_time_minutes": 4
+  },
+  "changelog": {
+    "1.4.0": "Angleichung der Versionsnummerierung mit FR im Multi-Sprachen-Repo. Funktional identisch zur v1.1.0 (gleiche 154 Patches, gleicher Vanilla-Hash). Erste DE-Veröffentlichung über das gemeinsame GitHub-Tag v1.4.0.",
+    "1.0.0": "🇩🇪 Initiale Veröffentlichung der deutschen Übersetzung. ~934 Strings übersetzt (UI, Tutorial, Achievements, Shop, Quests, Skin-Beschreibungen, Titelbildschirm-Sprüche). Registre `du` (informell). Konventionen erhalten: Eigennamen (Skins, Stationen, Regionen) auf EN, Ladenschilder auf EN (Western-Atmosphäre), On/Off auf EN (UI-Platz), kaiserliche Maßeinheiten beibehalten (FT, Meilen).",
+    "1.1.0": "Anpassung an Spiel-Update vom 07.05.2026 + Parität mit FR v1.3.4. Tutorial_Table erstmals übersetzt (33 Strings des Spiel-Tutorials). QuestLine: 3 von Entwicklern umformulierte Questbeschreibungen übersetzt (Prärie, Minen und Schluchten, Tiefen des Lilli-Walds). Vanilla-Baseline auf das Post-Update-Spiel neu kalibriert. Alle Gedankenstriche durch klassische Bindestriche ersetzt."
+  }
+}

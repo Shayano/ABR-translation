@@ -34,7 +34,7 @@ $probe = $ScriptDir
 for ($i = 0; $i -lt 6; $i++) {
     if (Test-GameRoot $probe) { $GameRoot = $probe; break }
     $parent = Split-Path -Parent $probe
-    if ($parent -eq $probe) { break }
+    if (-not $parent -or $parent -eq $probe) { break }
     $probe = $parent
 }
 if (-not $GameRoot) {
