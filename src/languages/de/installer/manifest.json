@@ -1,6 +1,6 @@
 {
   "mod_name": "A Bumpy Ride - Deutsche Übersetzung",
-  "mod_version": "1.4.1",
+  "mod_version": "1.4.2",
   "mod_author": "Shayano",
   "mod_date": "2026-05-15",
   "engine_version": "UE5_3",
@@ -36,6 +36,7 @@
     "approx_install_time_minutes": 4
   },
   "changelog": {
+    "1.4.2": "Rückgewinnung der 4 in v1.4.1 verlorenen QuestBoard-Strings. Die Quest-Tafel zeigt wieder 'Aktuelle Aufgabe:', 'Such einen Aktionär, um Aktien zu verdienen!', 'Alle Aufgaben erledigt, gute Fahrt!' und 'Erreiche Level 10 und heul dann drüber' auf Deutsch. KissE auf QuestBoard.uasset Vanilla mit bereinigtem JSON (ohne den String 'Lock') erneut ausgeführt: die UMG-Bezeichner 'Lock_Panel', 'Lock_INST', 'LockIcon_Locked/Unlocked' bleiben unversehrt in der NameMap, der Schloss-Button behält sein englisches 'Lock' (geringfügig). QuestTicket bleibt Vanilla: der Versuch der Neupatchung führte zu Spielabstürzen (vermutlich EX_Jump-Offset-Korruption bei 'Destination: Nearest Station' → 'Destination : Gare la plus proche', Längenänderung +5 Zeichen), gegebenenfalls in v1.4.3 über BPStringPatcher zu beheben. NPCPointer, W_WonStocks und PopUp bleiben Vanilla (keine Nutzer-Strings zu retten).",
     "1.4.1": "Hotfix Absturz beim Aufnehmen des Aktionärs (Shareholder-Quest). 5 Blueprints zurück auf Vanilla gesetzt: W_WonStocks, NPCPointer, QuestBoard, QuestTicket, PopUp. Diese Widgets enthielten in ihrer NameMap UMG-interne Bezeichner ('Float', 'Pulsate', 'Lock', 'Quest 1/2/3', 'Unlocked Item/Text'), die KissE versehentlich als Anzeigetexte übersetzt hatte. Folge: 'FindChildWidget'/'PlayAnimation'-Aufrufe lieferten null und führten zu EXCEPTION_ACCESS_VIOLATION beim Trigger der Aktionär-Begegnung. Der zugehörige sichtbare Text bleibt zu 99 % unverändert (Bezeichner werden nicht auf dem Bildschirm angezeigt). Die 8 betroffenen Einträge wurden aus translations/de/strings_BP.json entfernt, damit zukünftige Pipeline-Läufe den Fehler nicht erneut erzeugen.",
     "1.4.0": "Angleichung der Versionsnummerierung mit FR im Multi-Sprachen-Repo. Funktional identisch zur v1.1.0 (gleiche 154 Patches, gleicher Vanilla-Hash). Erste DE-Veröffentlichung über das gemeinsame GitHub-Tag v1.4.0.",
     "1.0.0": "🇩🇪 Initiale Veröffentlichung der deutschen Übersetzung. ~934 Strings übersetzt (UI, Tutorial, Achievements, Shop, Quests, Skin-Beschreibungen, Titelbildschirm-Sprüche). Registre `du` (informell). Konventionen erhalten: Eigennamen (Skins, Stationen, Regionen) auf EN, Ladenschilder auf EN (Western-Atmosphäre), On/Off auf EN (UI-Platz), kaiserliche Maßeinheiten beibehalten (FT, Meilen).",
