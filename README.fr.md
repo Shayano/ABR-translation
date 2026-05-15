@@ -4,10 +4,10 @@
 
 Mod de traduction française pour [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), un jeu de simulation ferroviaire indé sur Steam.
 
-**Version actuelle : 1.4.3** (15 mai 2026)
+**Version actuelle : 1.4.4** (15 mai 2026)
 **Moteur du jeu : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.3** : correctif critique pour un crash bloquant lors du pickup d'un Actionnaire (quête Shareholder) - sans le fix, la quête principale se gèle. La release ajoute aussi 10 traductions manquantes : objectifs du QuestBoard (Cherchez un Actionnaire, Tâche actuelle, etc.), alertes du train (Attention aux tornades, Tu es perdu, Rails glissants, Clique pour larguer la TNT), boutons cadenas (Clique pour verrouiller/déverrouiller).
+> 🆕 **v1.4.4** : correctif du crash intermittent restant au pickup d'Actionnaire (quête Shareholder). Diagnostic via dump complet du crash (9 Go) : récursion infinie côté UE5 dans le Blueprint `SpecialPassenger` (celui qui définit les objectifs des tâches Actionnaire), provoquée par un offset `EX_Jump` corrompu dans le bytecode patché. Tentative de re-patche via l'outil safe `BPStringPatcher` n'a pas suffi (probablement à cause de la complexité du bytecode : 62 strings réparties dans de nombreuses branches conditionnelles). Décision : `SpecialPassenger` retourne en vanilla dans cette release. Les 62 objectifs de tâches Actionnaire restent en anglais (`See the sunset`, `Stay aboard until 9PM`, `Avoid the desert between X and Y`, `Obey every law sign`, etc.). Tout le reste du jeu reste en français.
 
 > Ce mod n'est ni développé ni soutenu par les créateurs du jeu. C'est un travail de fan, fourni en l'état.
 
@@ -35,7 +35,7 @@ Le mod se distribue sous forme d'un zip qui contient les 3 fichiers de container
 
 ### Étapes
 
-1. Téléchargez `ABR-fr_v1.4.3.zip` (cf. [Releases](../../releases)) - depuis v1.4.3, seul le zip installer PowerShell est publié officiellement ; le zip prepatched drop-in peut être regénéré localement en lançant `install.ps1` puis en zippant les `.ucas/.utoc/.pak` produits
+1. Téléchargez `ABR-fr_v1.4.4.zip` (cf. [Releases](../../releases)) - depuis v1.4.3, seul le zip installer PowerShell est publié officiellement ; le zip prepatched drop-in peut être regénéré localement en lançant `install.ps1` puis en zippant les `.ucas/.utoc/.pak` produits
 2. **Fermez le jeu** s'il est ouvert
 3. Localisez le dossier `Paks` de votre installation A Bumpy Ride :
    - **Windows**   : `<bibliothèque Steam>\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks\`
@@ -85,6 +85,7 @@ Cette même méthode fonctionne en cas de problème : si le mod casse quelque ch
 - **Certains textes restent en anglais** : ce sont probablement des noms propres conservés volontairement (skins, stations, régions). Si c'est un texte d'interface non traduit, [ouvrez une issue](../../issues) avec une capture d'écran.
 - **Caractères bizarres (ä, õ, etc.) au lieu d'accents corrects** : signe d'une corruption à l'extraction du zip. Re-téléchargez et ré-extrayez avec un outil qui gère bien les fichiers volumineux (7-Zip, l'outil intégré Windows 10/11, Ark sur Steam Deck).
 - **Quelques mots restent en anglais sur le QuestBoard et le ticket de quête** : `Lock` sur le bouton cadenas en haut du tableau, `DESTINATION:` sur le ticket de quête latéral. Ce sont des identifiants internes UMG (les sous-composants graphiques du widget) qui causaient un crash s'ils étaient traduits. Limitation acceptée pour la v1.4.3 ; à corriger dans une future version via une approche alternative.
+- **Les 62 objectifs de tâches d'Actionnaire restent en anglais** (`See the sunset`, `Stay aboard until 9PM`, `Don't open your map`, `Avoid the [biome] between X and Y`, `Obey every law sign`, `View the [scenic spot]`, etc.). Le Blueprint `SpecialPassenger` (qui contient ces 62 strings dans son bytecode) refuse d'être patché sans crash à cause de la complexité de ses branches conditionnelles. Limitation acceptée pour la v1.4.4. Tout le reste du flow Actionnaire (libellé de quête, points marqués sur la carte, validation des objectifs) reste en français.
 
 ---
 
