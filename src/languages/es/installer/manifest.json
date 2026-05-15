@@ -1,0 +1,42 @@
+{
+  "mod_name": "A Bumpy Ride - Traducción al español",
+  "mod_version": "1.4.6",
+  "mod_author": "Shayano",
+  "mod_date": "2026-05-16",
+  "engine_version": "UE5_3",
+  "language": "es",
+  "language_register": "tu",
+  "target_game": {
+    "name": "A Bumpy Ride",
+    "steam_app_id": "2540610",
+    "vanilla_files": {
+      "ABumpyRide-Windows.utoc": {
+        "size": 2228827,
+        "sha256": "a47fbb6b81634ea00a7b96b7619551b64ccd2a298a9f923c90110143ec78839e"
+      },
+      "ABumpyRide-Windows.ucas": {
+        "size": 1610401040,
+        "sha256": "c5d2e8d102f4c4cee2689c0017ef23d218e70af751499d0208642a2f4c74aa0d"
+      },
+      "ABumpyRide-Windows.pak": {
+        "size": 10065249,
+        "sha256": "5658ed6452a03e1e1c7b2e764c67446419275cdef34709ee52594fef11b649fa"
+      }
+    }
+  },
+  "bundle": {
+    "patched_uasset_count": 72,
+    "patched_umap_count": 4,
+    "patched_uexp_count": 71,
+    "total_files": 147,
+    "approx_size_mb": 90.2
+  },
+  "install_requirements": {
+    "free_disk_space_gb": 12,
+    "approx_install_time_minutes": 4
+  },
+  "changelog": {
+    "1.4.5": "Versión inicial de la traducción al español de A Bumpy Ride. ~1000 cadenas traducidas (UI, tutorial, logros, tienda, misiones, descripciones de skins, frases de la pantalla de título). Registro: tú (informal), variante neutra/España. Paridad funcional con FR/DE v1.4.5: incluye el parche SpecialPassenger vía BPOffsetPatcher (62 objetivos de tareas del Accionista en español), los hotfixes v1.4.1 (5 Blueprints UMG mantenidos vanilla para evitar el crash al recoger al Accionista: W_WonStocks, NPCPointer, QuestBoard parcial, QuestTicket, PopUp) y los parches Tutorial_Table (35 cadenas del tutorial del juego). Convenciones: nombres propios en EN (skins de trenes, estaciones, regiones), letreros de tiendas en EN (ambiente western), unidades imperiales conservadas (FT, millas), On/Off no traducidos.",
+    "1.4.6": "Alineación multi-idioma con FR y DE. Sin cambios funcionales para los jugadores ES respecto a v1.4.5, solo cierre de paridad cruzada."
+  }
+}

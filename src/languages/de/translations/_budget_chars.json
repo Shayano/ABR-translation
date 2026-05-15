@@ -1,0 +1,74 @@
+{
+  "_doc": "Budgets de caractères stricts pour les chaînes sous contrainte UI en allemand. Le linter scripts/lint_de_budgets.py vérifie que len(NewValue) <= max_chars. Source : observations FR + instructions user 2026-05-05.",
+  "budgets": [
+    {
+      "file": "NewShopMenu.uasset",
+      "key_value": "1628A5F24F85F7D3754298BD9BC0662E",
+      "original": "UPGRADES",
+      "max_chars": 8,
+      "context": "Onglet du shop - bouton de catégorie",
+      "fr_reference": "AMÉLIO."
+    },
+    {
+      "file": "NewShopMenu.uasset",
+      "key_value": "A8334D964669541DA8DE468D914B8F2A",
+      "original": "FLAGS",
+      "max_chars": 8,
+      "context": "Onglet du shop - bouton de catégorie",
+      "fr_reference": "DRAPEAUX"
+    },
+    {
+      "file": "NewShopMenu.uasset",
+      "original": "PAINT",
+      "max_chars": 8,
+      "context": "Onglet du shop - bouton de catégorie (patché hors KissE en FR ; vérifier le mécanisme avant trad DE)",
+      "fr_reference": "COULEURS"
+    },
+    {
+      "file": "NewShopMenu.uasset",
+      "key_value": "99698C414C96805ADD9E73ACB083AF5A",
+      "original": "BUY",
+      "max_chars": 8,
+      "context": "Bouton d'achat dans le shop",
+      "fr_reference": "ACHETER"
+    },
+    {
+      "file": "NewShopMenu.uasset",
+      "key_value": "BA5899F747E17B146B57C6AE3340E8F1",
+      "original": "COST",
+      "max_chars": 8,
+      "context": "Label de prix dans le shop",
+      "fr_reference": "COÛT"
+    },
+    {
+      "file": "IA_TurnLeft.uasset",
+      "key_value": "437893774DDD23D652F23B966FDEBDBF",
+      "original": "Turn Left",
+      "max_chars": 9,
+      "context": "Direction action (barre d'aide / IA prompt)",
+      "fr_reference": "à gauche"
+    },
+    {
+      "file": "IA_TurnRight.uasset",
+      "key_value": "C18F4A6149FCD9E54E849BBEDE2F1EE0",
+      "original": "Turn Right",
+      "max_chars": 10,
+      "context": "Direction action (barre d'aide / IA prompt)",
+      "fr_reference": "à droite"
+    },
+    {
+      "file": "IA_SpeedUp.uasset",
+      "key_value": "0FACF3DE412D2BEE7102DEB83F3DC443",
+      "original": "Speed Up",
+      "max_chars": 8,
+      "context": "Direction action (barre d'aide / IA prompt)"
+    },
+    {
+      "file": "IA_SlowDown.uasset",
+      "key_value": "28D8E0884645D8C599E40B9673B7FC14",
+      "original": "Slow Down",
+      "max_chars": 9,
+      "context": "Direction action (barre d'aide / IA prompt)"
+    }
+  ]
+}

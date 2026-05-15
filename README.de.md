@@ -4,10 +4,10 @@
 
 Inoffizieller Übersetzungs-Mod für [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), ein indie Eisenbahn-Simulationsspiel auf Steam.
 
-**Aktuelle Version : 1.4.5** (15. Mai 2026)
+**Aktuelle Version : 1.4.6** (16. Mai 2026)
 **Spiel-Engine : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.5** : Wiederherstellung der 62 Aktionär-Aufgabenbeschreibungen, die seit v1.0 wegen des Absturzes durch unendliche Rekursion auf Englisch geblieben waren. Neuer Custom-Patcher `BPOffsetPatcher`, der zwei kumulierte Probleme löst, die kein bestehendes Tool behandelt hat : (1) die internen Offsets der ans Ende des Bytecodes verschobenen Statements und (2) die hartcodierten `EX_IntConst`-Entrypoints in den 47 internen Callern des Blueprints. Im Spiel : `Sonnenuntergang sehen`, `Bis 21 Uhr an Bord bleiben`, `Wüste zwischen 4 und 18 Uhr meiden`, `Sammle etwas Honig: 0/3`, `Großen Baum-Fotopunkt besuchen`, usw. Grammatische Umformulierung der Fracht-Fragmente (`Sammle etwas Birnen` → `Sammle einige Birnen`). Es bleiben 2 Strings `AM`/`PM` auf Englisch (Dubletten-Bug im Patcher, nicht blockierend).
+> 🆕 **v1.4.6** : Wiederherstellung der 62 Aktionär-Aufgabenbeschreibungen, die seit v1.0 wegen des Absturzes durch unendliche Rekursion auf Englisch geblieben waren. Neuer Custom-Patcher `BPOffsetPatcher`, der zwei kumulierte Probleme löst, die kein bestehendes Tool behandelt hat : (1) die internen Offsets der ans Ende des Bytecodes verschobenen Statements und (2) die hartcodierten `EX_IntConst`-Entrypoints in den 47 internen Callern des Blueprints. Im Spiel : `Sonnenuntergang sehen`, `Bis 21 Uhr an Bord bleiben`, `Wüste zwischen 4 und 18 Uhr meiden`, `Sammle etwas Honig: 0/3`, `Großen Baum-Fotopunkt besuchen`, usw. Grammatische Umformulierung der Fracht-Fragmente (`Sammle etwas Birnen` → `Sammle einige Birnen`). Es bleiben 2 Strings `AM`/`PM` auf Englisch (Dubletten-Bug im Patcher, nicht blockierend).
 
 > Dieser Mod wird weder von den Entwicklern des Spiels entwickelt noch unterstützt. Es ist ein Fan-Projekt, ohne Gewähr.
 
@@ -36,7 +36,7 @@ Der Mod wird als Zip-Archiv ausgeliefert, das die 3 bereits gepatchten Spiel-Con
 
 ### Schritte
 
-1. Lade `ABR-de_v1.4.5.zip` herunter (siehe [Releases](../../releases)) - ab v1.4.3 wird offiziell nur das PowerShell-Installer-Zip veröffentlicht ; das Drop-in-Prepatched-Zip kann lokal regeneriert werden, indem du `install.ps1` ausführst und dann die erzeugten `.ucas/.utoc/.pak`-Dateien zippst
+1. Lade `ABR-de_v1.4.6.zip` herunter (siehe [Releases](../../releases)) - ab v1.4.3 wird offiziell nur das PowerShell-Installer-Zip veröffentlicht ; das Drop-in-Prepatched-Zip kann lokal regeneriert werden, indem du `install.ps1` ausführst und dann die erzeugten `.ucas/.utoc/.pak`-Dateien zippst
 2. **Schließe das Spiel**, falls es läuft
 3. Suche den Ordner `Paks` deiner A Bumpy Ride Installation :
    - **Windows**   : `<Steam-Bibliothek>\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks\`

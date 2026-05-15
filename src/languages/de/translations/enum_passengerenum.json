@@ -1,0 +1,202 @@
+[
+  {
+    "source": "Baby doggy",
+    "translation": "Welpe"
+  },
+  {
+    "source": "Crow lady",
+    "translation": "Frau Krähe"
+  },
+  {
+    "source": "Trans duck",
+    "translation": "Trans-Ente"
+  },
+  {
+    "source": "Handsome bear man",
+    "translation": "Schöner Bärenmann"
+  },
+  {
+    "source": "Dog Male",
+    "translation": "Hund"
+  },
+  {
+    "source": "Dog Female",
+    "translation": "Hündin"
+  },
+  {
+    "source": "Cat Male",
+    "translation": "Kater"
+  },
+  {
+    "source": "Cat Female",
+    "translation": "Katze"
+  },
+  {
+    "source": "Rabbit-Up Female",
+    "translation": "Hochohr-Hase (w)"
+  },
+  {
+    "source": "Rabbit-Up Male",
+    "translation": "Hochohr-Hase (m)"
+  },
+  {
+    "source": "Rabbit-Flop Female",
+    "translation": "Hängeohr-Hase (w)"
+  },
+  {
+    "source": "Rabbit-Flop Male",
+    "translation": "Hängeohr-Hase (m)"
+  },
+  {
+    "source": "Bird Female",
+    "translation": "Vogel (w)"
+  },
+  {
+    "source": "Bird Male",
+    "translation": "Vogel (m)"
+  },
+  {
+    "source": "Deer Female",
+    "translation": "Hirschkuh"
+  },
+  {
+    "source": "Deer Male",
+    "translation": "Hirsch"
+  },
+  {
+    "source": "Lizard Male",
+    "translation": "Eidechse (m)"
+  },
+  {
+    "source": "Lizard Female",
+    "translation": "Eidechse (w)"
+  },
+  {
+    "source": "RoadRunner Male",
+    "translation": "Roadrunner (m)"
+  },
+  {
+    "source": "RoadRunner Female",
+    "translation": "Roadrunner (w)"
+  },
+  {
+    "source": "Gorilla dude",
+    "translation": "Gorilla-Typ"
+  },
+  {
+    "source": "Bear Male",
+    "translation": "Bär"
+  },
+  {
+    "source": "Bear Female",
+    "translation": "Bärin"
+  },
+  {
+    "source": "Catfish Male",
+    "translation": "Wels (m)"
+  },
+  {
+    "source": "Catfish Female",
+    "translation": "Wels (w)"
+  },
+  {
+    "source": "Gator Male",
+    "translation": "Alligator (m)"
+  },
+  {
+    "source": "Gator Female",
+    "translation": "Alligator (w)"
+  },
+  {
+    "source": "Horse Male",
+    "translation": "Hengst"
+  },
+  {
+    "source": "Horse Female",
+    "translation": "Stute"
+  },
+  {
+    "source": "Mouse Male",
+    "translation": "Maus (m)"
+  },
+  {
+    "source": "Mouse Female",
+    "translation": "Maus (w)"
+  },
+  {
+    "source": "Panda Male",
+    "translation": "Panda (m)"
+  },
+  {
+    "source": "Panda Female",
+    "translation": "Panda (w)"
+  },
+  {
+    "source": "Bison Male",
+    "translation": "Bison (m)"
+  },
+  {
+    "source": "Bison Female",
+    "translation": "Bison (w)"
+  },
+  {
+    "source": "MinerCanary",
+    "translation": "Bergbau-Kanari"
+  },
+  {
+    "source": "Cow Male",
+    "translation": "Stier"
+  },
+  {
+    "source": "Cow Female",
+    "translation": "Kuh"
+  },
+  {
+    "source": "Bat Male",
+    "translation": "Fledermaus (m)"
+  },
+  {
+    "source": "Bat Female",
+    "translation": "Fledermaus (w)"
+  },
+  {
+    "source": "Fox Male",
+    "translation": "Fuchs"
+  },
+  {
+    "source": "Fox Female",
+    "translation": "Füchsin"
+  },
+  {
+    "source": "Goat Male",
+    "translation": "Ziegenbock"
+  },
+  {
+    "source": "Goat Female",
+    "translation": "Ziege"
+  },
+  {
+    "source": "Pig Male",
+    "translation": "Eber"
+  },
+  {
+    "source": "Pig Female",
+    "translation": "Sau"
+  },
+  {
+    "source": "Raccoon Male",
+    "translation": "Waschbär (m)"
+  },
+  {
+    "source": "Raccoon Female",
+    "translation": "Waschbär (w)"
+  },
+  {
+    "source": "Turtle Male",
+    "translation": "Schildkröte (m)"
+  },
+  {
+    "source": "Turtle Female",
+    "translation": "Schildkröte (w)"
+  }
+]

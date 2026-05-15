@@ -4,10 +4,10 @@
 
 Mod de traduction française pour [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), un jeu de simulation ferroviaire indé sur Steam.
 
-**Version actuelle : 1.4.5** (15 mai 2026)
+**Version actuelle : 1.4.6** (16 mai 2026)
 **Moteur du jeu : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.5** : récupération des 62 objectifs de tâches d'Actionnaire qui étaient restés en anglais depuis v1.0 à cause du crash récursion infinie. Nouveau patcher custom `BPOffsetPatcher` qui résout deux problèmes cumulés qu'aucun outil existant ne traitait : (1) les offsets internes des statements déplacés à la fin du bytecode et (2) les `EX_IntConst` d'entry-point hardcodés dans les 47 callers internes du Blueprint. Au menu côté joueur : `Voir le coucher de soleil`, `Rester à bord jusqu'à 21h`, `Éviter le désert entre 4h et 18h`, `Récupérer du miel : 0/3`, `Visiter le grand arbre spot photo`, etc. Reformulation grammaticale des fragments fret (`Récupérer du poires` → `Récupérer des poires`). Reste 2 strings `AM`/`PM` en anglais (bug doublons mineur, non bloquant).
+> 🆕 **v1.4.6** : récupération des 62 objectifs de tâches d'Actionnaire qui étaient restés en anglais depuis v1.0 à cause du crash récursion infinie. Nouveau patcher custom `BPOffsetPatcher` qui résout deux problèmes cumulés qu'aucun outil existant ne traitait : (1) les offsets internes des statements déplacés à la fin du bytecode et (2) les `EX_IntConst` d'entry-point hardcodés dans les 47 callers internes du Blueprint. Au menu côté joueur : `Voir le coucher de soleil`, `Rester à bord jusqu'à 21h`, `Éviter le désert entre 4h et 18h`, `Récupérer du miel : 0/3`, `Visiter le grand arbre spot photo`, etc. Reformulation grammaticale des fragments fret (`Récupérer du poires` → `Récupérer des poires`). Reste 2 strings `AM`/`PM` en anglais (bug doublons mineur, non bloquant).
 
 > Ce mod n'est ni développé ni soutenu par les créateurs du jeu. C'est un travail de fan, fourni en l'état.
 
@@ -35,7 +35,7 @@ Le mod se distribue sous forme d'un zip qui contient les 3 fichiers de container
 
 ### Étapes
 
-1. Téléchargez `ABR-fr_v1.4.5.zip` (cf. [Releases](../../releases)) - depuis v1.4.3, seul le zip installer PowerShell est publié officiellement ; le zip prepatched drop-in peut être regénéré localement en lançant `install.ps1` puis en zippant les `.ucas/.utoc/.pak` produits
+1. Téléchargez `ABR-fr_v1.4.6.zip` (cf. [Releases](../../releases)) - depuis v1.4.3, seul le zip installer PowerShell est publié officiellement ; le zip prepatched drop-in peut être regénéré localement en lançant `install.ps1` puis en zippant les `.ucas/.utoc/.pak` produits
 2. **Fermez le jeu** s'il est ouvert
 3. Localisez le dossier `Paks` de votre installation A Bumpy Ride :
    - **Windows**   : `<bibliothèque Steam>\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks\`

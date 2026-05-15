@@ -1,0 +1,3620 @@
+[
+  {
+    "FileName": "Controller.uasset",
+    "Values": [
+      {
+        "Original": "New Paint Job Unlocked!",
+        "NewValue": "Neue Lackierung freigeschaltet!"
+      },
+      {
+        "Original": "Shimmer",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "BP_TrackTrigger.uasset",
+    "Values": [
+      {
+        "Original": "Hello",
+        "NewValue": "Hallo"
+      },
+      {
+        "Original": "Trigger fired by bogie ",
+        "NewValue": "Ausgelöst durch Drehgestell "
+      },
+      {
+        "Original": " from carriage: ",
+        "NewValue": " vom Wagen: "
+      },
+      {
+        "Original": " distance: ",
+        "NewValue": " Entfernung: "
+      }
+    ]
+  },
+  {
+    "FileName": "DATATABLE_Achievements.uasset",
+    "Values": [
+      {
+        "KeyValue": "NewRow_3",
+        "Original": "Newbie",
+        "NewValue": "Neuling"
+      },
+      {
+        "KeyValue": "NewRow_3",
+        "Original": "Reach Day 3",
+        "NewValue": "Erreiche Tag 3"
+      },
+      {
+        "KeyValue": "NewRow_4",
+        "Original": "Amateur",
+        "NewValue": "Amateur"
+      },
+      {
+        "KeyValue": "NewRow_4",
+        "Original": "Reach Day 10",
+        "NewValue": "Erreiche Tag 10"
+      },
+      {
+        "KeyValue": "NewRow_5",
+        "Original": "Experienced",
+        "NewValue": "Erfahren"
+      },
+      {
+        "KeyValue": "NewRow_5",
+        "Original": "Reach Day 50",
+        "NewValue": "Erreiche Tag 50"
+      },
+      {
+        "KeyValue": "NewRow_0",
+        "Original": "Centennial",
+        "NewValue": "Jahrhundert"
+      },
+      {
+        "KeyValue": "NewRow_0",
+        "Original": "Bring 100 passengers to their destination",
+        "NewValue": "Bringe 100 Passagiere ans Ziel"
+      },
+      {
+        "KeyValue": "NewRow_2",
+        "Original": "Traveler",
+        "NewValue": "Reisender"
+      },
+      {
+        "KeyValue": "NewRow_2",
+        "Original": "Travel 1000 miles",
+        "NewValue": "Lege 1000 Meilen zurück"
+      },
+      {
+        "KeyValue": "NewRow_1",
+        "Original": "Deliverer",
+        "NewValue": "Lieferant"
+      },
+      {
+        "KeyValue": "NewRow_1",
+        "Original": "Complete 20 freight jobs",
+        "NewValue": "Schließe 20 Frachtaufträge ab"
+      },
+      {
+        "KeyValue": "NewRow_15",
+        "Original": "Entrepreneur",
+        "NewValue": "Unternehmer"
+      },
+      {
+        "KeyValue": "NewRow_15",
+        "Original": "Make $25000",
+        "NewValue": "Verdiene 25.000 $"
+      },
+      {
+        "KeyValue": "NewRow_7",
+        "Original": "Explorer",
+        "NewValue": "Entdecker"
+      },
+      {
+        "KeyValue": "NewRow_7",
+        "Original": "Unlock all world regions",
+        "NewValue": "Schalte alle Regionen frei"
+      },
+      {
+        "KeyValue": "NewRow_8",
+        "Original": "Artist",
+        "NewValue": "Künstler"
+      },
+      {
+        "KeyValue": "NewRow_8",
+        "Original": "Own 15 paint schemes",
+        "NewValue": "Besitze 15 Lackierungen"
+      },
+      {
+        "KeyValue": "NewRow_9",
+        "Original": "Fully Upgraded",
+        "NewValue": "Voll aufgerüstet"
+      },
+      {
+        "KeyValue": "NewRow_9",
+        "Original": "Own every train upgrade",
+        "NewValue": "Besitze alle Zug-Upgrades"
+      },
+      {
+        "KeyValue": "NewRow",
+        "Original": "Photographer",
+        "NewValue": "Fotograf"
+      },
+      {
+        "KeyValue": "NewRow",
+        "Original": "Have a passenger take a photo at every tourist spot",
+        "NewValue": "Lass einen Passagier an jedem Foto-Spot ein Bild machen"
+      },
+      {
+        "KeyValue": "NewRow_6",
+        "Original": "Company Debt",
+        "NewValue": "Firmenschulden"
+      },
+      {
+        "KeyValue": "NewRow_6",
+        "Original": "Crash into 3 trains in the same day",
+        "NewValue": "Kollidiere mit 3 Zügen am selben Tag"
+      },
+      {
+        "KeyValue": "NewRow_12",
+        "Original": "Bad Driver",
+        "NewValue": "Schlechter Fahrer"
+      },
+      {
+        "KeyValue": "NewRow_12",
+        "Original": "Run into a buffer at full speed",
+        "NewValue": "Fahre mit Vollgas in einen Prellbock"
+      },
+      {
+        "KeyValue": "NewRow_13",
+        "Original": "Hospitalized",
+        "NewValue": "Hospitalisiert"
+      },
+      {
+        "KeyValue": "NewRow_13",
+        "Original": "Run into 10 pedestrians",
+        "NewValue": "Erfasse 10 Fußgänger"
+      },
+      {
+        "KeyValue": "NewRow_16",
+        "Original": "See Ya!",
+        "NewValue": "Tschüss!"
+      },
+      {
+        "KeyValue": "NewRow_16",
+        "Original": "Kick a passenger off at a bridge",
+        "NewValue": "Wirf einen Passagier auf einer Brücke raus"
+      },
+      {
+        "KeyValue": "NewRow_17",
+        "Original": "Personalized",
+        "NewValue": "Personalisiert"
+      },
+      {
+        "KeyValue": "NewRow_17",
+        "Original": "Place 50 stamps on the map",
+        "NewValue": "Platziere 50 Stempel auf der Karte"
+      },
+      {
+        "KeyValue": "NewRow_18",
+        "Original": "Get Rotated",
+        "NewValue": "Durchgedreht"
+      },
+      {
+        "KeyValue": "NewRow_18",
+        "Original": "Use a turntable",
+        "NewValue": "Nutze eine Drehscheibe"
+      },
+      {
+        "KeyValue": "NewRow_10",
+        "Original": "Sabotaged",
+        "NewValue": "Sabotage"
+      },
+      {
+        "KeyValue": "NewRow_10",
+        "Original": "Hire the Saboteur",
+        "NewValue": "Heuere den Saboteur an"
+      },
+      {
+        "KeyValue": "NewRow_11",
+        "Original": "Attention!",
+        "NewValue": "Achtung!"
+      },
+      {
+        "KeyValue": "NewRow_11",
+        "Original": "Whistle with the steamboat",
+        "NewValue": "Pfeife mit dem Dampfboot"
+      },
+      {
+        "KeyValue": "NewRow_14",
+        "Original": "Spooky",
+        "NewValue": "Gruselig"
+      },
+      {
+        "KeyValue": "NewRow_14",
+        "Original": "Encounter the ghost train",
+        "NewValue": "Triff den Geisterzug"
+      }
+    ]
+  },
+  {
+    "FileName": "W_Achievement.uasset",
+    "Values": [
+      {
+        "Original": "? ? ?",
+        "NewValue": "? ? ?"
+      },
+      {
+        "KeyValue": "FD0D9E0B4F1EF614859079BBE7B14DFA",
+        "Original": "Name",
+        "NewValue": "Name"
+      },
+      {
+        "KeyValue": "87A5484D4354458880FCE592F6BF03CB",
+        "Original": "Description",
+        "NewValue": "Beschreibung"
+      }
+    ]
+  },
+  {
+    "FileName": "W_AchievementList.uasset",
+    "Values": [
+      {
+        "KeyValue": "ABC3D9C74F4A3403F5C5709029BA6573",
+        "Original": "Stats",
+        "NewValue": "Stats"
+      },
+      {
+        "KeyValue": "D7FFA9B74DA89E9CA64DFC85AC4486F4",
+        "Original": "Awards",
+        "NewValue": "Trophäen"
+      }
+    ]
+  },
+  {
+    "FileName": "W_Stats.uasset",
+    "Values": [
+      {
+        "Original": "Misty Creek:",
+        "NewValue": ""
+      },
+      {
+        "Original": "Cattail: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Birchwood: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Snowball: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Aurora: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Pinecone: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Dustbowl: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Chugwater: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Bloomwater: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Colby: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Nowhere: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Pearbury: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Bumblebee: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Blowhistle: ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Current Level: ",
+        "NewValue": "Aktuelles Level: "
+      },
+      {
+        "Original": "Passengers Delivered: ",
+        "NewValue": "Passagiere geliefert: "
+      },
+      {
+        "Original": "Total money earned: ",
+        "NewValue": "Gesamt verdient: "
+      },
+      {
+        "Original": "Distance Traveled: ",
+        "NewValue": "Zurückgelegte Strecke: "
+      },
+      {
+        "Original": " Miles",
+        "NewValue": " Meilen"
+      },
+      {
+        "Original": "Freight jobs completed: ",
+        "NewValue": "Frachtaufträge erledigt: "
+      },
+      {
+        "Original": "Days played:  ",
+        "NewValue": "Spieltage:  "
+      },
+      {
+        "Original": "Pedestrians Hit: ",
+        "NewValue": "Fußgänger getroffen: "
+      },
+      {
+        "Original": "Photos Taken: ",
+        "NewValue": "Fotos gemacht: "
+      },
+      {
+        "Original": "Current Level: ",
+        "NewValue": "Aktuelles Level: "
+      },
+      {
+        "Original": "Passengers Delivered: ",
+        "NewValue": "Passagiere geliefert: "
+      },
+      {
+        "Original": "Total money earned: ",
+        "NewValue": "Gesamt verdient: "
+      },
+      {
+        "Original": "Distance Traveled: ",
+        "NewValue": "Zurückgelegte Strecke: "
+      },
+      {
+        "Original": " Miles",
+        "NewValue": " Meilen"
+      },
+      {
+        "Original": "Freight jobs completed: ",
+        "NewValue": "Frachtaufträge erledigt: "
+      },
+      {
+        "Original": "Days played:  ",
+        "NewValue": "Spieltage:  "
+      },
+      {
+        "Original": "Pedestrians Hit: ",
+        "NewValue": "Fußgänger getroffen: "
+      },
+      {
+        "Original": "Photos Taken: ",
+        "NewValue": "Fotos gemacht: "
+      },
+      {
+        "KeyValue": "EF6DB94F42BABC02F2D6FEB228555F1E",
+        "Original": "Aurora:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "59C006324671F7153FF48DAF2F04397A",
+        "Original": "Birchwood:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "EA5880BB4F6761547037EF99A3222D30",
+        "Original": "Bloomwater:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "DE2E598549E15CC3FCC1E1A5DFC1281A",
+        "Original": "Blowhistle:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "4E447E2242ADAFD3C55FA599BAF68B29",
+        "Original": "Bumblebee:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "6B19597244CB6B1C3597E5A141C020C3",
+        "Original": "Cattail:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "2179A1E84F02AF97FF552A9D56288E16",
+        "Original": "Chugwater:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "AF609FAA432589B56CE0F18F30ECD12A",
+        "Original": "Colby:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "59878D0F43D52DDDE4121DA8C3331C0A",
+        "Original": "Current Level:",
+        "NewValue": "Aktuelles Level:"
+      },
+      {
+        "KeyValue": "83482E4148FB061C6A8A978D9E7BB3CD",
+        "Original": "Days Played:",
+        "NewValue": "Spieltage:"
+      },
+      {
+        "KeyValue": "68D3A4DD44EDC8776612BE8029EB185D",
+        "Original": "Distance Traveled:",
+        "NewValue": "Zurückgelegte Strecke:"
+      },
+      {
+        "KeyValue": "61B43D824CB4EA37EB749291EA418D19",
+        "Original": "Dustbowl:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "FC9017E74B9664056D564EB5BAE55D08",
+        "Original": "Freight jobs completed:",
+        "NewValue": "Frachtaufträge erledigt:"
+      },
+      {
+        "KeyValue": "734FFFC244897C340758C4BB4E65EA79",
+        "Original": "Misty Creek:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "66F9D5DF4C543992884318B3E221A719",
+        "Original": "Money Made:",
+        "NewValue": "Verdient:"
+      },
+      {
+        "KeyValue": "304BC43D4D92DFB2B78E688C5E0D5D04",
+        "Original": "Nowhere:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "3763830645594C78249449ABE2AA8E85",
+        "Original": "Passengers Delivered:",
+        "NewValue": "Passagiere geliefert:"
+      },
+      {
+        "KeyValue": "24CA37CA43ED0B3593EFEC82D11FBFC5",
+        "Original": "Pearbury:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "470E5EF54F7445E030D9FFB460778D99",
+        "Original": "Pedestrians Hit:",
+        "NewValue": "Fußgänger getroffen:"
+      },
+      {
+        "KeyValue": "4D70A1354337DB658CBD14BD2CFB2F64",
+        "Original": "Photos Taken:",
+        "NewValue": "Fotos gemacht:"
+      },
+      {
+        "KeyValue": "BA601A75485592D24430279490DB969A",
+        "Original": "Pinecone:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "A8ED894B42E85B012C833381D4F69B8C",
+        "Original": "Snowball:",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "988F99D7432590F19D0488B21879A0B4",
+        "Original": "Station Deliveries",
+        "NewValue": "Lieferungen pro Station"
+      },
+      {
+        "KeyValue": "C89B9CF44C9AF6A26B71CBB5DCFDAAF2",
+        "Original": "Awards",
+        "NewValue": "Trophäen"
+      },
+      {
+        "KeyValue": "E1FA04DC4DCFFBCA4075EE8E59427219",
+        "Original": "Statistics",
+        "NewValue": "Statistik"
+      }
+    ]
+  },
+  {
+    "FileName": "PlayerTrain.uasset",
+    "Values": [
+      {
+        "Original": "ITEMS MISSING",
+        "NewValue": "OBJEKTE FEHLEN"
+      },
+      {
+        "Original": "It looks like you already have the needed freight from this station.",
+        "NewValue": "Du hast bereits die benötigte Fracht von dieser Station."
+      },
+      {
+        "Original": "It looks like you don't need freight from this station.",
+        "NewValue": "Du brauchst keine Fracht von dieser Station."
+      },
+      {
+        "Original": "It looks like you don't have a freight car, come back when you do!",
+        "NewValue": "Du hast keinen Frachtwagen - komm zurück, wenn du einen hast!"
+      },
+      {
+        "Original": "MultiGate Node failed! Out of bounds indexing of the out pins. There are only 5 outs available.",
+        "NewValue": ""
+      },
+      {
+        "Original": "Map.png",
+        "NewValue": ""
+      },
+      {
+        "Original": "Map.png",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "Tutorial_Table.uasset",
+    "Values": [
+      {
+        "KeyValue": "Test",
+        "Original": "Welcome to A Bumpy Ride! For the          purposes of this demo, let's start with a tutorial! Click to continue.",
+        "NewValue": "Willkommen bei A Bumpy Ride! Für diese          Demo starten wir mit einem Tutorial! Klick zum Weitermachen."
+      },
+      {
+        "KeyValue": "Test2",
+        "Original": "For this first section, play with the         controls of the train. The throttle is        located on the right side of the screen.",
+        "NewValue": "Probiere in diesem ersten Abschnitt die         Zugsteuerung aus. Der Regler ist        rechts auf dem Bildschirm."
+      },
+      {
+        "KeyValue": "NewRow",
+        "Original": "You can click and drag to interact, or      use W and S to change the speed. Right-    click and drag to move the camera.",
+        "NewValue": "Klick und zieh, um zu interagieren, oder      nutze W und S für die Geschwindigkeit. Rechts-    klick + ziehen bewegt die Kamera."
+      },
+      {
+        "KeyValue": "NewRow_2",
+        "Original": "Once you feel comfortable driving, stop      at the station to move on.",
+        "NewValue": "Wenn du dich sicher fühlst, halte       an der Station, um weiterzumachen."
+      },
+      {
+        "KeyValue": "NewRow_0",
+        "Original": "Now that you've mastered controlling the train, it's time to start making some      money!",
+        "NewValue": "Du beherrschst jetzt den Zug - Zeit, etwas      Geld zu verdienen!"
+      },
+      {
+        "KeyValue": "NewRow_1",
+        "Original": "Pull up to the upcoming station to pick     up the passenger.",
+        "NewValue": "Fahr zur nächsten Station, um den      Passagier abzuholen."
+      },
+      {
+        "KeyValue": "NewRow_5",
+        "Original": "On the left hand side, you can see where    the passenger wants to go, and by what    time.",
+        "NewValue": "Links siehst du, wohin der     Passagier will und bis wann."
+      },
+      {
+        "KeyValue": "NewRow_6",
+        "Original": "Looks like they want to go to the next     station down the line! Make sure to drop them off on time!",
+        "NewValue": "Er will zur nächsten Station auf der Linie! Setz ihn pünktlich ab!"
+      },
+      {
+        "KeyValue": "NewRow_8",
+        "Original": "Congratulations, you've just been paid!",
+        "NewValue": "Glückwunsch, du wurdest gerade bezahlt!"
+      },
+      {
+        "KeyValue": "NewRow_9",
+        "Original": "How much you get paid is based on four     criteria:",
+        "NewValue": "Die Bezahlung hängt von vier      Kriterien ab:"
+      },
+      {
+        "KeyValue": "NewRow_10",
+        "Original": "Timeliness, Comfort, Accuracy and         Attentiveness.",
+        "NewValue": "Pünktlichkeit, Komfort, Genauigkeit und          Aufmerksamkeit."
+      },
+      {
+        "KeyValue": "NewRow_11",
+        "Original": "Timeliness is most important, be sure to   be on time!",
+        "NewValue": "Pünktlichkeit ist am wichtigsten - sei    pünktlich!"
+      },
+      {
+        "KeyValue": "NewRow_12",
+        "Original": "Comfort is based on how bumpy their      ride is. Drive carefully around turns,      and don't slam on your brakes.",
+        "NewValue": "Komfort hängt davon ab, wie holprig die Fahrt ist. Fahr in Kurven vorsichtig       und brems nicht abrupt."
+      },
+      {
+        "KeyValue": "NewRow_13",
+        "Original": "Accuracy is how well you align your stop at the platform. Don't drive past their      desired station!",
+        "NewValue": "Genauigkeit misst, wie gut du am Bahnsteig hältst. Fahr nicht über die       gewünschte Station hinaus!"
+      },
+      {
+        "KeyValue": "NewRow_14",
+        "Original": "In the next lesson, we will explain          Attentiveness.",
+        "NewValue": "In der nächsten Lektion erklären wir die           Aufmerksamkeit."
+      },
+      {
+        "KeyValue": "NewRow_16",
+        "Original": "As you drive your train, you'll see signs   on either side of the track, these are        what Attentiveness is based on.",
+        "NewValue": "Beim Fahren siehst du Schilder auf    beiden Seiten der Gleise - darauf basiert         die Aufmerksamkeit."
+      },
+      {
+        "KeyValue": "NewRow_17",
+        "Original": "There are two types, Whistle signs, and     Slow zone signs!",
+        "NewValue": "Es gibt zwei Arten: Pfeif-Schilder und      Langsam-Zonen-Schilder!"
+      },
+      {
+        "KeyValue": "NewRow_30",
+        "Original": "Whistle signs are simple- as your engine   passes by these signs, make sure your     whistle is blowing!",
+        "NewValue": "Pfeif-Schilder sind einfach: wenn deine Lok    daran vorbeifährt, pfeife!"
+      },
+      {
+        "KeyValue": "NewRow_41",
+        "Original": "To blow your whistle, pull the rope or      press spacebar.",
+        "NewValue": "Zum Pfeifen zieh die Schnur oder       drück die Leertaste."
+      },
+      {
+        "KeyValue": "NewRow_18",
+        "Original": "Slow zones are just as easy- these signs     come in two colors- Red, and Yellow.",
+        "NewValue": "Langsam-Zonen sind genauso einfach: die Schilder     gibt es in zwei Farben - Rot und Gelb."
+      },
+      {
+        "KeyValue": "NewRow_31",
+        "Original": "Red is where the zone starts, and yellow   is the end. Make sure to stay at or below 50% speed while in the zone!",
+        "NewValue": "Rot markiert den Anfang, Gelb das Ende. Bleib in der Zone bei höchstens 50% Geschwindigkeit!"
+      },
+      {
+        "KeyValue": "NewRow_19",
+        "Original": "This section has a slow zone, and a         whistle sign. Go ahead and pick up your     passenger.",
+        "NewValue": "Dieser Abschnitt hat eine Langsam-Zone und ein          Pfeif-Schild. Hol jetzt deinen      Passagier ab."
+      },
+      {
+        "KeyValue": "NewRow_21",
+        "Original": "Now that you have your passenger, drop     them off at the next station while            following what the signs say.",
+        "NewValue": "Du hast den Passagier - setz ihn an der nächsten Station ab und             befolge die Schilder."
+      },
+      {
+        "KeyValue": "NewRow_22",
+        "Original": "They will indicate that they are upset if     you do not obey the signs.",
+        "NewValue": "Er zeigt seinen Unmut, wenn du dich      nicht an die Schilder hältst."
+      },
+      {
+        "KeyValue": "NewRow_24",
+        "Original": "Great job following the signs! You now      have a basic understanding of all          four payment criteria.",
+        "NewValue": "Super, du hast die Schilder beachtet! Jetzt      kennst du die Grundlagen aller           vier Bezahl-Kriterien."
+      },
+      {
+        "KeyValue": "NewRow_25",
+        "Original": "Finally, we will move on to switching        tracks and using the map.",
+        "NewValue": "Zum Schluss kommen Weichen         und die Karte dran."
+      },
+      {
+        "KeyValue": "NewRow_27",
+        "Original": "Seems like you didn't obey all the signs.    If you don't, you will get paid less!",
+        "NewValue": "Du hast nicht alle Schilder beachtet.     Sonst wirst du weniger bezahlt!"
+      },
+      {
+        "KeyValue": "NewRow_32",
+        "Original": "Switching tracks will be a crucial part of your navigation around the railroad.",
+        "NewValue": "Weichen sind entscheidend für die Navigation auf dem Schienennetz."
+      },
+      {
+        "KeyValue": "NewRow_33",
+        "Original": "As you approach a switch in the tracks, a switchstand will appear in the center    of your view.",
+        "NewValue": "Wenn du dich einer Weiche näherst, erscheint in der Mitte des Sichtfelds     ein Weichenhebel."
+      },
+      {
+        "KeyValue": "NewRow_34",
+        "Original": "Throw the switch left or right by clicking and dragging, or using A and D. ",
+        "NewValue": "Stell die Weiche per Klick und Ziehen nach links oder rechts, oder nutze A und D. "
+      },
+      {
+        "KeyValue": "NewRow_35",
+        "Original": "You might want to check which track is    the one you need to take!",
+        "NewValue": "Prüf besser, welches Gleis      du nehmen musst!"
+      },
+      {
+        "KeyValue": "NewRow_38",
+        "Original": "To do this, press the map icon in the      bottom left, or press ESC.",
+        "NewValue": "Klick dazu unten links auf das Karten-Symbol       oder drück ESC."
+      },
+      {
+        "KeyValue": "NewRow_36",
+        "Original": "Go ahead and complete this section,      using your map and new track-switching skills to get to the end!",
+        "NewValue": "Beende jetzt diesen Abschnitt mit       deiner Karte und deinen neuen Weichen-Skills bis zum Ende!"
+      },
+      {
+        "KeyValue": "NewRow_39",
+        "Original": "Congratulations! You have finished the    tutorial. Feel free to play around in the demo.",
+        "NewValue": "Glückwunsch! Du hast das     Tutorial abgeschlossen. Spiel ruhig in der Demo herum."
+      }
+    ]
+  },
+  {
+    "FileName": "IA_Esc.uasset",
+    "Values": [
+      {
+        "KeyValue": "906DE3D64D136B468295E5AB2D971AE4",
+        "Original": "Pause",
+        "NewValue": "Pause"
+      }
+    ]
+  },
+  {
+    "FileName": "IA_Map.uasset",
+    "Values": [
+      {
+        "KeyValue": "6B4BCEA14055BF351FE0508E160FB15F",
+        "Original": "Open Map",
+        "NewValue": "Karte"
+      }
+    ]
+  },
+  {
+    "FileName": "IA_SlowDown.uasset",
+    "Values": [
+      {
+        "KeyValue": "28D8E0884645D8C599E40B9673B7FC14",
+        "Original": "Slow Down",
+        "NewValue": "Bremsen"
+      }
+    ]
+  },
+  {
+    "FileName": "IA_SpeedUp.uasset",
+    "Values": [
+      {
+        "KeyValue": "0FACF3DE412D2BEE7102DEB83F3DC443",
+        "Original": "Speed Up",
+        "NewValue": "Schnell."
+      }
+    ]
+  },
+  {
+    "FileName": "IA_TurnLeft.uasset",
+    "Values": [
+      {
+        "KeyValue": "437893774DDD23D652F23B966FDEBDBF",
+        "Original": "Turn Left",
+        "NewValue": "Links"
+      }
+    ]
+  },
+  {
+    "FileName": "IA_TurnRight.uasset",
+    "Values": [
+      {
+        "KeyValue": "C18F4A6149FCD9E54E849BBEDE2F1EE0",
+        "Original": "Turn Right",
+        "NewValue": "Rechts"
+      }
+    ]
+  },
+  {
+    "FileName": "IA_Whistle.uasset",
+    "Values": [
+      {
+        "KeyValue": "FC2CCD3D45AC77F052D863904760ADB6",
+        "Original": "Whistle",
+        "NewValue": "Pfeifen"
+      }
+    ]
+  },
+  {
+    "FileName": "BP_Roundhouse_Engines.uasset",
+    "Values": [
+      {
+        "Original": "Both In And On",
+        "NewValue": ""
+      },
+      {
+        "Original": "Right Out, Left In, Both On",
+        "NewValue": ""
+      },
+      {
+        "Original": "Left out, Right In, Both On",
+        "NewValue": ""
+      },
+      {
+        "Original": "Right Out, Left Gone, Right On",
+        "NewValue": ""
+      },
+      {
+        "Original": "Left out, Right Gone, Left On",
+        "NewValue": ""
+      },
+      {
+        "Original": "Both Out And On",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "Passenger.uasset",
+    "Values": [
+      {
+        "Original": "Driving Points: ",
+        "NewValue": "Fahrpunkte: "
+      },
+      {
+        "Original": "Station Points: ",
+        "NewValue": "Stationspunkte: "
+      },
+      {
+        "Original": "Following Signs Points: ",
+        "NewValue": "Schilder-Punkte: "
+      },
+      {
+        "Original": "On-Time Points: ",
+        "NewValue": "Pünktlichkeitspunkte: "
+      },
+      {
+        "Original": "FINAL SCORE: ",
+        "NewValue": "ENDPUNKTZAHL: "
+      }
+    ]
+  },
+  {
+    "FileName": "SpecialPassenger.uasset",
+    "Values": [
+      {
+        "Original": "See the sunset",
+        "NewValue": "Den Sonnenuntergang sehen"
+      },
+      {
+        "Original": "Stay aboard until 9PM",
+        "NewValue": "Bis 21 Uhr an Bord bleiben"
+      },
+      {
+        "Original": "Don't open your map",
+        "NewValue": "Öffne die Karte nicht"
+      },
+      {
+        "Original": "AM",
+        "NewValue": "AM"
+      },
+      {
+        "Original": "PM",
+        "NewValue": "PM"
+      },
+      {
+        "Original": "AM",
+        "NewValue": "AM"
+      },
+      {
+        "Original": "PM",
+        "NewValue": "PM"
+      },
+      {
+        "Original": "Desert",
+        "NewValue": "Wüste"
+      },
+      {
+        "Original": "Prairie",
+        "NewValue": "Prärie"
+      },
+      {
+        "Original": "Mountains",
+        "NewValue": "Berge"
+      },
+      {
+        "Original": "Forest",
+        "NewValue": "Wald"
+      },
+      {
+        "Original": "Ride the train for at least ",
+        "NewValue": "Bleib mindestens "
+      },
+      {
+        "Original": "Ride the train for no more than ",
+        "NewValue": "Bleib höchstens "
+      },
+      {
+        "Original": " hours",
+        "NewValue": " Stunden"
+      },
+      {
+        "Original": " hours",
+        "NewValue": " Stunden"
+      },
+      {
+        "Original": "Avoid the ",
+        "NewValue": "Meide "
+      },
+      {
+        "Original": " between ",
+        "NewValue": " zwischen "
+      },
+      {
+        "Original": " and ",
+        "NewValue": " und "
+      },
+      {
+        "Original": "Always see the sky",
+        "NewValue": "Immer den Himmel sehen"
+      },
+      {
+        "Original": "See Lava",
+        "NewValue": "Lava sehen"
+      },
+      {
+        "Original": "Travel through ",
+        "NewValue": "Durchfahre "
+      },
+      {
+        "Original": " tunnels",
+        "NewValue": " Tunnel"
+      },
+      {
+        "Original": "Pass by ",
+        "NewValue": "Komme an "
+      },
+      {
+        "Original": " different stations",
+        "NewValue": " verschiedenen Stationen vorbei"
+      },
+      {
+        "Original": "mining facility",
+        "NewValue": "Bergwerk"
+      },
+      {
+        "Original": "rail yard",
+        "NewValue": "Rangierbahnhof"
+      },
+      {
+        "Original": "ski lodge",
+        "NewValue": "Skihütte"
+      },
+      {
+        "Original": "big tree",
+        "NewValue": "großer Baum"
+      },
+      {
+        "Original": "boat dock",
+        "NewValue": "Bootsanleger"
+      },
+      {
+        "Original": "dairy farm",
+        "NewValue": "Milchfarm"
+      },
+      {
+        "Original": "View the ",
+        "NewValue": "Sieh "
+      },
+      {
+        "Original": "Big Stack Summit",
+        "NewValue": ""
+      },
+      {
+        "Original": "Lake Polari",
+        "NewValue": ""
+      },
+      {
+        "Original": "Pleasant Pond",
+        "NewValue": ""
+      },
+      {
+        "Original": "Bayou Bel Nuit",
+        "NewValue": ""
+      },
+      {
+        "Original": "Tour the ",
+        "NewValue": "Besuche "
+      },
+      {
+        "Original": " photo spot",
+        "NewValue": " Foto-Spot an"
+      },
+      {
+        "Original": "Obey ",
+        "NewValue": "Befolge "
+      },
+      {
+        "Original": "Disobey ",
+        "NewValue": "Missachte "
+      },
+      {
+        "Original": " law signs",
+        "NewValue": " Schilder"
+      },
+      {
+        "Original": " law signs",
+        "NewValue": " Schilder"
+      },
+      {
+        "Original": "Whistle exactly ",
+        "NewValue": "Pfeife genau "
+      },
+      {
+        "Original": " times",
+        "NewValue": " Mal"
+      },
+      {
+        "Original": "Obey every law sign",
+        "NewValue": "Befolge alle Schilder"
+      },
+      {
+        "Original": "Disobey every law sign",
+        "NewValue": "Missachte alle Schilder"
+      },
+      {
+        "Original": "Whistle back with ",
+        "NewValue": "Pfeife zurück mit "
+      },
+      {
+        "Original": "See ",
+        "NewValue": "Sieh "
+      },
+      {
+        "Original": " different vehicles",
+        "NewValue": " verschiedene Fahrzeuge"
+      },
+      {
+        "Original": " different trains",
+        "NewValue": " verschiedene Züge"
+      },
+      {
+        "Original": "Spin on a turntable",
+        "NewValue": "Auf einer Drehscheibe drehen"
+      },
+      {
+        "Original": "Run into a dead end",
+        "NewValue": "In eine Sackgasse fahren"
+      },
+      {
+        "Original": "Drive through water",
+        "NewValue": "Durch Wasser fahren"
+      },
+      {
+        "Original": "Reach max speed going downhill",
+        "NewValue": "Erreiche Höchstgeschwindigkeit bergab"
+      },
+      {
+        "Original": "Avoid traveling backwards",
+        "NewValue": "Vermeide Rückwärtsfahrt"
+      },
+      {
+        "Original": "Run out of water",
+        "NewValue": "Wasser geht aus"
+      },
+      {
+        "Original": "Ride the train for ",
+        "NewValue": "Fahre den Zug "
+      },
+      {
+        "Original": " miles",
+        "NewValue": " Meilen"
+      },
+      {
+        "Original": "Lean the train ",
+        "NewValue": "Neige den Zug "
+      },
+      {
+        "Original": " times",
+        "NewValue": " Mal"
+      },
+      {
+        "Original": "pears",
+        "NewValue": "einige Birnen"
+      },
+      {
+        "Original": "honey",
+        "NewValue": "etwas Honig"
+      },
+      {
+        "Original": "dynamite",
+        "NewValue": "etwas Dynamit"
+      },
+      {
+        "Original": "hay bales",
+        "NewValue": "einige Heuballen"
+      },
+      {
+        "Original": "ice cubes",
+        "NewValue": "einige Eiswürfel"
+      },
+      {
+        "Original": "cheese",
+        "NewValue": "etwas Käse"
+      },
+      {
+        "Original": "Get close to a tornado",
+        "NewValue": "Komm einem Tornado nahe"
+      },
+      {
+        "Original": "Experience a blizzard",
+        "NewValue": "Erlebe einen Blizzard"
+      },
+      {
+        "Original": "Breathe dusty air",
+        "NewValue": "Atme staubige Luft"
+      },
+      {
+        "Original": "Reach 1000ft elevation",
+        "NewValue": "Erreiche 1000 ft Höhe"
+      },
+      {
+        "Original": "Run into ",
+        "NewValue": "Erfasse "
+      },
+      {
+        "Original": " pedestrians",
+        "NewValue": " Fußgänger"
+      },
+      {
+        "Original": "Pick up some ",
+        "NewValue": "Sammle "
+      }
+    ]
+  },
+  {
+    "FileName": "BP_StaffBoardText.uasset",
+    "Values": [
+      {
+        "Original": "MARGOT",
+        "NewValue": ""
+      },
+      {
+        "Original": "PACIFICA",
+        "NewValue": ""
+      },
+      {
+        "Original": "THEODORE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "9B168A254286E9E6BE4B66840DC7D644",
+        "Original": "Theodore",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "FreightDock.uasset",
+    "Values": [
+      {
+        "KeyValue": "A6FBEE894E9F10EA177863A9EB7C4812",
+        "Original": "STATION",
+        "NewValue": "BAHNHOF"
+      }
+    ]
+  },
+  {
+    "FileName": "Station.uasset",
+    "Values": [
+      {
+        "KeyValue": "865897D645DE092A326A8CB916BD6C81",
+        "Original": "ELEVATION:",
+        "NewValue": "HÖHE:"
+      },
+      {
+        "KeyValue": "66BA8D694E7BBE94FAEAD389F03DED40",
+        "Original": "STATION",
+        "NewValue": "BAHNHOF"
+      }
+    ]
+  },
+  {
+    "FileName": "StationSign.uasset",
+    "Values": [
+      {
+        "KeyValue": "8BD2B443429AD81E9AC730BD794220EE",
+        "Original": "ELEVATION:",
+        "NewValue": "HÖHE:"
+      },
+      {
+        "KeyValue": "165CE601449DFD31B6CB7E92DDB3E130",
+        "Original": "STATION",
+        "NewValue": "BAHNHOF"
+      }
+    ]
+  },
+  {
+    "FileName": "TypableSign.uasset",
+    "Values": [
+      {
+        "KeyValue": "58A25ADE4B120D35C64762B602CE4351",
+        "Original": "STATION",
+        "NewValue": "BAHNHOF"
+      }
+    ]
+  },
+  {
+    "FileName": "AreaDiscovered.uasset",
+    "Values": [
+      {
+        "Original": "WHISTLING PEAKS",
+        "NewValue": ""
+      },
+      {
+        "Original": "LILLI FOREST",
+        "NewValue": ""
+      },
+      {
+        "Original": "RIO FRONTERA",
+        "NewValue": ""
+      },
+      {
+        "Original": "PUT PRAIRIE",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "ForestTeleport.uasset",
+    "Values": [
+      {
+        "Original": "It's too dark to navigate...",
+        "NewValue": "Es ist zu dunkel zum Navigieren..."
+      }
+    ]
+  },
+  {
+    "FileName": "QuestPointTrigger.uasset",
+    "Values": [
+      {
+        "Original": "New car unlocked!",
+        "NewValue": "Neuer Wagen freigeschaltet!"
+      },
+      {
+        "Original": "Gondola",
+        "NewValue": "Flachwagen"
+      },
+      {
+        "Original": "New staff member!",
+        "NewValue": "Neues Personal!"
+      },
+      {
+        "Original": "Big Fella",
+        "NewValue": ""
+      },
+      {
+        "Original": "You need to have a gondola car to bring honey!",
+        "NewValue": "Du brauchst einen Flachwagen, um Honig zu transportieren!"
+      },
+      {
+        "Original": "Looks like construction will be finished by tomorrow!",
+        "NewValue": "Die Bauarbeiten sind morgen fertig!"
+      },
+      {
+        "Original": "This junction is broken.. it may take a few days to be up and running again.",
+        "NewValue": "Dieser Abzweig ist kaputt... es dauert ein paar Tage bis zur Reparatur."
+      },
+      {
+        "Original": "Bring honey back to move Big Fella out of the way!",
+        "NewValue": "Bring Honig zurück, damit Big Fella aus dem Weg geht!"
+      },
+      {
+        "Original": "Bring TNT to remove the boulder!",
+        "NewValue": "Bring TNT, um den Felsen zu sprengen!"
+      },
+      {
+        "Original": "You need to have a gondola car to bring TNT!",
+        "NewValue": "Du brauchst einen Flachwagen, um TNT zu transportieren!"
+      }
+    ]
+  },
+  {
+    "FileName": "TutorialTeleport.uasset",
+    "Values": [
+      {
+        "Original": "Do I have to tell you again?",
+        "NewValue": "Muss ich es dir nochmal sagen?"
+      },
+      {
+        "Original": "Please just pick up the passenger.",
+        "NewValue": "Bitte hol einfach den Passagier ab."
+      },
+      {
+        "Original": "Let's try this again. Pick up your passenger at the station.",
+        "NewValue": "Versuchen wir es nochmal. Hol deinen Passagier an der Station ab."
+      },
+      {
+        "Original": "Make sure to pick up your passenger at the station!",
+        "NewValue": "Vergiss nicht, deinen Passagier an der Station abzuholen!"
+      }
+    ]
+  },
+  {
+    "FileName": "WeatherToggle.uasset",
+    "Values": [
+      {
+        "Original": "on",
+        "NewValue": ""
+      },
+      {
+        "Original": "off",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "AreYouSure.uasset",
+    "Values": [
+      {
+        "KeyValue": "834F78E643FBF7328904DB886AD46137",
+        "Original": "Are you sure you want to quit?",
+        "NewValue": "Willst du wirklich beenden?"
+      },
+      {
+        "KeyValue": "4FA9A30941A4B1964C9758B550E0014B",
+        "Original": "No",
+        "NewValue": "Nein"
+      },
+      {
+        "KeyValue": "32F0FAA341473BC8C8D933AFAA657CE4",
+        "Original": "Yes",
+        "NewValue": "Ja"
+      }
+    ]
+  },
+  {
+    "FileName": "Autosavebutton.uasset",
+    "Values": [
+      {
+        "Original": "Backup ",
+        "NewValue": "Sicherung "
+      },
+      {
+        "KeyValue": "2D99402A488E6C35697C189E2CDF80E0",
+        "Original": "Backup 1",
+        "NewValue": "Sicherung 1"
+      }
+    ]
+  },
+  {
+    "FileName": "BasicMenu.uasset",
+    "Values": [
+      {
+        "KeyValue": "434163C940EA1989947129835C4AFCFD",
+        "Original": "Active Staff: ",
+        "NewValue": "Aktives Personal: "
+      },
+      {
+        "KeyValue": "9798933D4FA8E4A3102BAB9A83D988E4",
+        "Original": "Reach Level 10<cf>and then cry about it",
+        "NewValue": "Erreiche Level 10<cf>und heul dann drüber"
+      },
+      {
+        "KeyValue": "8B04C8DE460CD6C61324839573BFBF00",
+        "Original": "Awards",
+        "NewValue": "Trophäen"
+      },
+      {
+        "KeyValue": "571119FB451264C09FB4D9AD5E4C06BD",
+        "Original": "PAUSE",
+        "NewValue": "PAUSE"
+      },
+      {
+        "KeyValue": "DF5887D24559703B47FF22830B6D1CAC",
+        "Original": "Options",
+        "NewValue": "Optionen"
+      },
+      {
+        "KeyValue": "D870C6E143A0BCE4BC082AA98D586EF2",
+        "Original": "Current Task:",
+        "NewValue": "Aktuelle Aufgabe:"
+      },
+      {
+        "KeyValue": "73E2CA9D4AF8089751E62BAE5544DE65",
+        "Original": "Quit",
+        "NewValue": "Beenden"
+      }
+    ]
+  },
+  {
+    "FileName": "EndDayEarly.uasset",
+    "Values": [
+      {
+        "KeyValue": "1884CA424C5FE7DAFA7715A64FFEE457",
+        "Original": "NO",
+        "NewValue": "NEIN"
+      },
+      {
+        "KeyValue": "782ED64448C3C7F80126E6890ACF941C",
+        "Original": "Would you like to end the day?",
+        "NewValue": "Willst du den Tag beenden?"
+      },
+      {
+        "KeyValue": "F01219C040BFDCB0EAA4AC9FD2531B77",
+        "Original": "Your progress will be saved.",
+        "NewValue": "Dein Fortschritt wird gespeichert."
+      },
+      {
+        "KeyValue": "10866A664FFA7C3E348A5D93ABA968BF",
+        "Original": "YES",
+        "NewValue": "JA"
+      }
+    ]
+  },
+  {
+    "FileName": "EndOfDayScreen_BG.uasset",
+    "Values": [
+      {
+        "KeyValue": "C718208A4CCAB4A28E35DC9EC0931195",
+        "Original": "Shop",
+        "NewValue": "Shop"
+      },
+      {
+        "KeyValue": "F57878454429DBA71AED1299DA9E0FB7",
+        "Original": "Main Menu",
+        "NewValue": "Hauptmenü"
+      },
+      {
+        "KeyValue": "8C7A601E45B189B43B02D8BE12A4DA18",
+        "Original": "Next Day",
+        "NewValue": "Nächster Tag"
+      }
+    ]
+  },
+  {
+    "FileName": "EndOfDayScreen_Paper.uasset",
+    "Values": [
+      {
+        "Original": "New Staff Member Unlocked!",
+        "NewValue": "Neues Personal freigeschaltet!"
+      },
+      {
+        "Original": "New Car Unlocked!",
+        "NewValue": "Neuer Wagen freigeschaltet!"
+      },
+      {
+        "Original": "Caboose",
+        "NewValue": "Schlusswagen"
+      },
+      {
+        "Original": "New Paint Job Unlocked!",
+        "NewValue": "Neue Lackierung freigeschaltet!"
+      },
+      {
+        "Original": "Lavish",
+        "NewValue": ""
+      },
+      {
+        "Original": "Stockton",
+        "NewValue": ""
+      },
+      {
+        "Original": "Delta",
+        "NewValue": ""
+      },
+      {
+        "Original": "Movie Star",
+        "NewValue": ""
+      },
+      {
+        "Original": "Dayton",
+        "NewValue": ""
+      },
+      {
+        "Original": "Zuma",
+        "NewValue": ""
+      },
+      {
+        "Original": "Huntie",
+        "NewValue": ""
+      },
+      {
+        "Original": "Courage",
+        "NewValue": ""
+      },
+      {
+        "Original": "Forgotten",
+        "NewValue": ""
+      },
+      {
+        "Original": "Rover",
+        "NewValue": ""
+      },
+      {
+        "Original": "Hidden Rose",
+        "NewValue": ""
+      },
+      {
+        "Original": "Little Engine",
+        "NewValue": ""
+      },
+      {
+        "Original": "Bolt",
+        "NewValue": ""
+      },
+      {
+        "Original": "Bootlegger",
+        "NewValue": ""
+      },
+      {
+        "Original": "Conrad",
+        "NewValue": ""
+      },
+      {
+        "Original": "Shimmer",
+        "NewValue": ""
+      },
+      {
+        "Original": "Very Useful",
+        "NewValue": ""
+      },
+      {
+        "Original": "Jupiter",
+        "NewValue": ""
+      },
+      {
+        "Original": "Bilge Rat",
+        "NewValue": ""
+      },
+      {
+        "Original": "Voyager",
+        "NewValue": ""
+      },
+      {
+        "Original": "Lil' Belle",
+        "NewValue": ""
+      },
+      {
+        "Original": "Neko Neon",
+        "NewValue": ""
+      },
+      {
+        "Original": "Big Dipper",
+        "NewValue": ""
+      },
+      {
+        "Original": "Spirit",
+        "NewValue": ""
+      },
+      {
+        "Original": "Sweet Toot",
+        "NewValue": ""
+      },
+      {
+        "Original": "Texas",
+        "NewValue": ""
+      },
+      {
+        "Original": "General",
+        "NewValue": ""
+      },
+      {
+        "Original": "Sacramento",
+        "NewValue": ""
+      },
+      {
+        "Original": "Comet",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "0FF765F049FA8358DA8992B91066DD71",
+        "Original": "All your staff have quit since<cf>you can't pay them...",
+        "NewValue": "Dein gesamtes Personal hat gekündigt, weil<cf>du sie nicht bezahlen kannst..."
+      },
+      {
+        "KeyValue": "128FF03743EF332848F4DE8DF33447CB",
+        "Original": "Theodore",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "75B66A45467F115A126F63A9F5721050",
+        "Original": "Undelivered",
+        "NewValue": "Nicht geliefert"
+      },
+      {
+        "KeyValue": "1C25E87743FF1F9BF302139D7A958471",
+        "Original": "Comet",
+        "NewValue": ""
+      },
+      {
+        "Original": "Money made today: ",
+        "NewValue": "Heute verdient: "
+      }
+    ]
+  },
+  {
+    "FileName": "FreightTooltip.uasset",
+    "Values": [
+      {
+        "Original": "Cheese:<cf>Watch out for pesky<cf>cheese thieves!",
+        "NewValue": "Käse:<cf>Pass auf die fiesen<cf>Käsediebe auf!"
+      },
+      {
+        "Original": "Ice:<cf>Melts outside of snowy areas.<cf>Rapidly melts in the Desert.",
+        "NewValue": "Eis:<cf>Schmilzt außerhalb von Schneegebieten.<cf>In der Wüste sehr schnell."
+      },
+      {
+        "Original": "Hay:<cf>Be careful traveling<cf>too quickly!",
+        "NewValue": "Heu:<cf>Vorsicht bei zu<cf>schneller Fahrt!"
+      },
+      {
+        "Original": "TNT:<cf>Prevent sudden stops or<cf>crashes; very volatile!",
+        "NewValue": "TNT:<cf>Vermeide abrupte Stopps oder<cf>Crashs; sehr explosiv!"
+      },
+      {
+        "Original": "Honey:<cf>Avoid leaning the train<cf>too far.",
+        "NewValue": "Honig:<cf>Neige den Zug<cf>nicht zu stark."
+      },
+      {
+        "Original": "Fruit:<cf>Bruises when traveling.<cf>Lasts around 20 miles.",
+        "NewValue": "Obst:<cf>Wird beim Transport beschädigt.<cf>Hält etwa 20 Meilen."
+      },
+      {
+        "KeyValue": "55EDB4B54001F89828CF16B42E347F65",
+        "Original": "Ice:<cf>Melts outside of snowy areas.<cf>Rapidly melts in the Desert.",
+        "NewValue": "Eis:<cf>Schmilzt außerhalb von Schneegebieten.<cf>In der Wüste sehr schnell."
+      }
+    ]
+  },
+  {
+    "FileName": "GamepadKeySlot.uasset",
+    "Values": [
+      {
+        "KeyValue": "BA0B1D484582C7B1A34BE5979852BF84",
+        "Original": "Reset",
+        "NewValue": "Reset"
+      }
+    ]
+  },
+  {
+    "FileName": "KeyMappings.uasset",
+    "Values": [
+      {
+        "Original": "Change<cf>View:<cf><cf>F2",
+        "NewValue": "Ansicht<cf>ändern:<cf><cf>F2"
+      },
+      {
+        "Original": "Hide UI:<cf><cf>F1",
+        "NewValue": "UI ausblenden:<cf><cf>F1"
+      },
+      {
+        "Original": "Keyboard<cf>Bindings",
+        "NewValue": "Tastatur-<cf>Belegung"
+      },
+      {
+        "Original": "Controller Bindings",
+        "NewValue": "Controller-Belegung"
+      },
+      {
+        "Original": "Hide UI:<cf>L Stick<cf>Press",
+        "NewValue": "UI aus:<cf>L Stick<cf>drücken"
+      },
+      {
+        "Original": "Change<cf>View:<cf>R Stick<cf>Press",
+        "NewValue": "Ansicht<cf>ändern:<cf>R Stick<cf>drücken"
+      },
+      {
+        "Original": "Controller<cf>Bindings",
+        "NewValue": "Controller-<cf>Belegung"
+      },
+      {
+        "Original": "Keyboard Bindings",
+        "NewValue": "Tastatur-Belegung"
+      },
+      {
+        "KeyValue": "877F957E478F2A4F371CF88CF23436CF",
+        "Original": "Keyboard Bindings",
+        "NewValue": "Tastatur-Belegung"
+      },
+      {
+        "KeyValue": "70691ABB4BD2EE66954C4984BF22AC03",
+        "Original": "Controller<cf>Bindings",
+        "NewValue": "Controller-<cf>Belegung"
+      }
+    ]
+  },
+  {
+    "FileName": "KeySlot.uasset",
+    "Values": [
+      {
+        "KeyValue": "2E2803AA476D1EC484B6729C68F72C5B",
+        "Original": "Reset",
+        "NewValue": "Reset"
+      }
+    ]
+  },
+  {
+    "FileName": "MoneyToolTip.uasset",
+    "Values": [
+      {
+        "KeyValue": "F7C2FC5A44240E964CAA4EA477BDB520",
+        "Original": "Text",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "New_SettingsMenu.uasset",
+    "Values": [
+      {
+        "Original": "Map.png",
+        "NewValue": ""
+      },
+      {
+        "Original": "r.ScreenPercentage ",
+        "NewValue": ""
+      },
+      {
+        "Original": "Shows an icon above the tender to indicate where to fill up at a water tower if enabled.<cf><cf>If disabled, the icon will not appear.",
+        "NewValue": "Wenn aktiviert, zeigt ein Symbol über dem Wassertank, wo du am Wasserturm auftanken kannst.<cf><cf>Wenn deaktiviert, erscheint das Symbol nicht."
+      },
+      {
+        "Original": "Passengers will board the train automatically if enabled.<cf><cf>If disabled, you must blow your whistle at the station for them to board.",
+        "NewValue": "Wenn aktiviert, steigen Passagiere automatisch ein.<cf><cf>Wenn deaktiviert, musst du an der Station pfeifen, damit sie einsteigen."
+      },
+      {
+        "Original": "Passengers give cues that reflect their mood if enabled.<cf><cf>If disabled, passengers will no longer notify you of mood updates.",
+        "NewValue": "Wenn aktiviert, geben Passagiere Hinweise auf ihre Stimmung.<cf><cf>Wenn deaktiviert, melden sie ihre Stimmung nicht mehr."
+      },
+      {
+        "Original": "Confirm",
+        "NewValue": "Bestätigen"
+      },
+      {
+        "Original": "Type \"\"Confirm\"\" in the text box above this button to delete your save.<cf><cf>Deleted saves are entirely unrecoverable.",
+        "NewValue": "Tippe \"\"Bestätigen\"\" in das Feld über diesem Knopf, um deinen Spielstand zu löschen.<cf><cf>Gelöschte Spielstände sind unwiderruflich verloren."
+      },
+      {
+        "Original": "Load auto-saves or delete your save file to start over.<cf><cf>If your progress is lost, go here to activate a backup save file.",
+        "NewValue": "Lade Auto-Speicherstände oder lösche deinen Spielstand, um neu anzufangen.<cf><cf>Wenn dein Fortschritt verloren ist, aktiviere hier eine Sicherungs-Datei."
+      },
+      {
+        "Original": "On",
+        "NewValue": ""
+      },
+      {
+        "Original": "Off",
+        "NewValue": ""
+      },
+      {
+        "Original": "Off",
+        "NewValue": ""
+      },
+      {
+        "Original": "On",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "4911ED5149EEE8C2AE1F66A758B9318A",
+        "Original": " Type \"\"Confirm\"\"",
+        "NewValue": " Tippe \"\"Bestätigen\"\""
+      },
+      {
+        "KeyValue": "AA69B48B450F4238653B8E94D8F4BB33",
+        "Original": "Off",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "E176253443C77210DA69738933EE0307",
+        "Original": "Auto Board",
+        "NewValue": "Auto-Einst."
+      },
+      {
+        "KeyValue": "A4001AB64415AA6FC17672B76FFB86F1",
+        "Original": "Change<cf>View:<cf><cf>F2",
+        "NewValue": "Ansicht<cf>ändern:<cf><cf>F2"
+      },
+      {
+        "KeyValue": "D106BC1A400A446225ED4AB665B0C294",
+        "Original": "Medium",
+        "NewValue": "Mittel"
+      },
+      {
+        "KeyValue": "71BC6485462EA897C283858606E99769",
+        "Original": "FPS Cap:",
+        "NewValue": "FPS-Limit:"
+      },
+      {
+        "KeyValue": "E9FCDBB041FD8936EC0964BF2DF48993",
+        "Original": "Hide UI:<cf><cf>F1",
+        "NewValue": "UI ausblenden:<cf><cf>F1"
+      },
+      {
+        "KeyValue": "D2C73E6144B2A6F4EDEEFD90058E8DD4",
+        "Original": "Passenger Status",
+        "NewValue": "Passagier-Status"
+      },
+      {
+        "KeyValue": "DAE2334B490F517A796692BB788F5862",
+        "Original": "Smooth Movement",
+        "NewValue": "Sanfte Bewegung"
+      },
+      {
+        "KeyValue": "EFDA76134DD42BA0DE4D63B3307F3BE1",
+        "Original": "Tender Icon",
+        "NewValue": "Tank-Symbol"
+      },
+      {
+        "KeyValue": "C75622324620E9B0C7FC889F73F38A40",
+        "Original": "Audio",
+        "NewValue": "Audio"
+      },
+      {
+        "KeyValue": "EF9B58474693FCDE7747459072D775D2",
+        "Original": "Graphics",
+        "NewValue": "Grafik"
+      },
+      {
+        "KeyValue": "915DE20E4BDD8DA0CA36FA86163B3667",
+        "Original": "Reset all volumes",
+        "NewValue": "Lautstärken zurücks."
+      },
+      {
+        "KeyValue": "6B6F45154EE65E71FA900DAB706D48F2",
+        "Original": "Apply",
+        "NewValue": "Anwenden"
+      },
+      {
+        "KeyValue": "11204948464270B49110B4846930BA6A",
+        "Original": "Graphics Quality",
+        "NewValue": "Grafikqualität"
+      },
+      {
+        "KeyValue": "88E47729479CFB6753A5E29D3B9744E0",
+        "Original": "Pixelation Level",
+        "NewValue": "Pixelierung"
+      },
+      {
+        "KeyValue": "247B523A43767C23D8BEC79509A70E0D",
+        "Original": "Lightning Flash",
+        "NewValue": "Blitzeffekt"
+      },
+      {
+        "KeyValue": "D8CBA56A4EF0833FF7E97D892ADE8197",
+        "Original": "Gameplay",
+        "NewValue": "Gameplay"
+      },
+      {
+        "KeyValue": "08695BDE410E9450C6CEFC8916799E79",
+        "Original": "Delete Save",
+        "NewValue": "Spielstand löschen"
+      },
+      {
+        "KeyValue": "4E5E0AFC43B42F427A6021B0BA8FC461",
+        "Original": "May require reloading.",
+        "NewValue": "Eventuell Neuladen nötig."
+      },
+      {
+        "KeyValue": "832F5272462F1D263A157896DBB4B956",
+        "Original": "Credits",
+        "NewValue": "Credits"
+      },
+      {
+        "KeyValue": "1FD7DDEE4EBF7585ED8D90A54E52BADB",
+        "Original": "Tutorial",
+        "NewValue": "Tutorial"
+      },
+      {
+        "KeyValue": "1521A5514645895975AF6FA6EFF38EF8",
+        "Original": "Cursor<cf>Size",
+        "NewValue": "Cursor-<cf>Größe"
+      },
+      {
+        "KeyValue": "7C6008464E9D86F39A91BF8A778601F1",
+        "Original": "Close",
+        "NewValue": "Schließen"
+      },
+      {
+        "KeyValue": "811C5E7B4F45889CAC3BD188B798E538",
+        "Original": "Presets:",
+        "NewValue": "Voreinst.:"
+      },
+      {
+        "KeyValue": "AAE0795A4A2B43CBF67686B088B7E285",
+        "Original": "Textures:",
+        "NewValue": "Texturen:"
+      },
+      {
+        "KeyValue": "3789311B420677227E28DE9F45F861EE",
+        "Original": "Foliage:",
+        "NewValue": "Vegetation:"
+      },
+      {
+        "KeyValue": "DEFAABE74110620E74AA9EA5AA97359C",
+        "Original": "Lighting:",
+        "NewValue": "Licht:"
+      },
+      {
+        "KeyValue": "774B99CA4B41A3C428646B88CE1A17A0",
+        "Original": "Effects:",
+        "NewValue": "Effekte:"
+      },
+      {
+        "KeyValue": "6901EF3B4B5DC90FC4DFDF8C92AEA04F",
+        "Original": "View Distance:",
+        "NewValue": "Sichtweite:"
+      },
+      {
+        "KeyValue": "DBB7F06F48CD74B3480C6F9AFEC3C020",
+        "Original": "Camera<cf>Hotkeys",
+        "NewValue": "Kamera-<cf>Tasten"
+      },
+      {
+        "KeyValue": "F993A0624B2EE98C897FF3B8BFBB5A91",
+        "Original": "Inverted Camera",
+        "NewValue": "Kamera invert."
+      },
+      {
+        "KeyValue": "2BC31DBA46A80B65614AD3BDDEE3C8C8",
+        "Original": "Saves & Backups",
+        "NewValue": "Spielstände"
+      },
+      {
+        "KeyValue": "2CBAFC294A7821AFABD3289B2AB600EA",
+        "Original": "Return",
+        "NewValue": "Zurück"
+      },
+      {
+        "KeyValue": "D1C01E1A4D4456A6EC6258A7119CFA1B",
+        "Original": "Load",
+        "NewValue": "Laden"
+      },
+      {
+        "KeyValue": "FC429566476CC22C49DBFE8F1CD3B8ED",
+        "Original": "Controls",
+        "NewValue": "Steuerung"
+      },
+      {
+        "KeyValue": "A673A6F54ECEEB4097658DAB4A8A75D9",
+        "Original": "Camera Sensitivity",
+        "NewValue": "Kamera-Empfindl."
+      },
+      {
+        "KeyValue": "712135CA430B285348876CB66E4D50B4",
+        "Original": "Master Volume",
+        "NewValue": "Gesamtlautstärke"
+      },
+      {
+        "KeyValue": "E9D82AE94F95F265D3FD38A4DA5529DF",
+        "Original": "Sound Effects",
+        "NewValue": "Soundeffekte"
+      },
+      {
+        "KeyValue": "F6BBF3E643822B7D40F4F9ACBB43558A",
+        "Original": "User Interface",
+        "NewValue": "Benutzeroberfl."
+      },
+      {
+        "KeyValue": "5519AF4648401D29DCB850BBE9A083ED",
+        "Original": "Music",
+        "NewValue": "Musik"
+      },
+      {
+        "KeyValue": "F3AF31A84ABD61BD2225BA9442EA341B",
+        "Original": "Reset",
+        "NewValue": "Reset"
+      },
+      {
+        "KeyValue": "29B2057742986000C9E31DA7862613EE",
+        "Original": "Open Menu",
+        "NewValue": "Menü öffnen"
+      },
+      {
+        "KeyValue": "6F2F8BDD480A2EF6DF0F29A4F7304804",
+        "Original": "Low",
+        "NewValue": "Niedrig"
+      },
+      {
+        "KeyValue": "A46C90334F26420D9F0080B5B1EAAC32",
+        "Original": "High",
+        "NewValue": "Hoch"
+      },
+      {
+        "KeyValue": "CD1839C245DC55EE63A84EBBA1B16B59",
+        "Original": "Potato",
+        "NewValue": "Kartoffel"
+      },
+      {
+        "KeyValue": "08A1B6A04289AF9EC195E8A6DC101679",
+        "Original": "Back",
+        "NewValue": "Zurück"
+      }
+    ]
+  },
+  {
+    "FileName": "ReallySure.uasset",
+    "Values": [
+      {
+        "KeyValue": "89F7C59E4116C553CC15588386FF3442",
+        "Original": "Proceed?",
+        "NewValue": "Fortfahren?"
+      },
+      {
+        "KeyValue": "2F7FA39440C34C4577CE3398717C001C",
+        "Original": "All of today's progress will be lost. ",
+        "NewValue": "Der heutige Fortschritt geht verloren. "
+      },
+      {
+        "KeyValue": "F4320125439A2599AD7FDD9AD5DC9AF6",
+        "Original": "NO",
+        "NewValue": "NEIN"
+      },
+      {
+        "KeyValue": "86F733F54066545BDA37CC8C003BC7B3",
+        "Original": "YES",
+        "NewValue": "JA"
+      }
+    ]
+  },
+  {
+    "FileName": "Settings.uasset",
+    "Values": [
+      {
+        "Original": "Gameplay<cf> Options",
+        "NewValue": "Gameplay-<cf>Optionen"
+      },
+      {
+        "Original": " Graphics <cf> Settings",
+        "NewValue": " Grafik-<cf> Einst."
+      },
+      {
+        "Original": "Low",
+        "NewValue": "Niedrig"
+      },
+      {
+        "Original": "Standard",
+        "NewValue": "Standard"
+      },
+      {
+        "Original": "High",
+        "NewValue": "Hoch"
+      },
+      {
+        "Original": "r.ScreenPercentage ",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "D4EE71AC418EFBB57EA6C0B4D8942E40",
+        "Original": "Standard",
+        "NewValue": "Standard"
+      },
+      {
+        "KeyValue": "4EF1B2E241C8BCDA1EC912B9A67692DF",
+        "Original": " Graphics <cf> Settings",
+        "NewValue": " Grafik-<cf> Einst."
+      },
+      {
+        "KeyValue": "332F9F9C45E99731E02ECCAD8F4A965F",
+        "Original": "Master Volume",
+        "NewValue": "Gesamtlautstärke"
+      },
+      {
+        "KeyValue": "0D5113BF4AA59FBF502907B69962CBEB",
+        "Original": "SFX Volume",
+        "NewValue": "Effekt-Lautst."
+      },
+      {
+        "KeyValue": "635513D3453603323D5E81A99566BECA",
+        "Original": "Options",
+        "NewValue": "Optionen"
+      },
+      {
+        "KeyValue": "C266BD3F4F250611BD43FFAF946851A6",
+        "Original": "Camera",
+        "NewValue": "Kamera"
+      },
+      {
+        "KeyValue": "16024507458D9AD6D84C2E89AA4E6950",
+        "Original": "Inverse Camera",
+        "NewValue": "Kamera invert."
+      },
+      {
+        "KeyValue": "4C6BC3A5440B4C30226027A31B7B6395",
+        "Original": "(for controller)",
+        "NewValue": "(Controller)"
+      },
+      {
+        "KeyValue": "3B6CC4F142B9FA46C8086BA4FAD63004",
+        "Original": "Graphics",
+        "NewValue": "Grafik"
+      },
+      {
+        "KeyValue": "CCD9FB984AE2C5DFEE1E62878FB4A7EF",
+        "Original": "Pixelation Strength",
+        "NewValue": "Pixel-Stärke"
+      },
+      {
+        "KeyValue": "E152622E4A0F47C5BF519D8677E77E45",
+        "Original": "Apply",
+        "NewValue": "Anwenden"
+      },
+      {
+        "KeyValue": "0C5DEC2842892CF164C862AF90731C78",
+        "Original": "UI Volume",
+        "NewValue": "UI-Lautstärke"
+      },
+      {
+        "KeyValue": "52599F9446FA996D2445F2846FB8486C",
+        "Original": "Music Volume",
+        "NewValue": "Musik-Lautst."
+      },
+      {
+        "KeyValue": "86F8CD6047AD7E133A3DE0AFAEF4C6AD",
+        "Original": "Medium",
+        "NewValue": "Mittel"
+      },
+      {
+        "KeyValue": "B261752E424CB7572E7DB3AE30AEE12C",
+        "Original": "Graphics Quality",
+        "NewValue": "Grafikqualität"
+      },
+      {
+        "KeyValue": "7FA6B4A848D30CE95ED07D9C8C5E8D3D",
+        "Original": "Key Binds",
+        "NewValue": "Tastenbel."
+      },
+      {
+        "KeyValue": "BA3630F64B80F87526B49BBD4EB0A69C",
+        "Original": "Modify",
+        "NewValue": "Ändern"
+      },
+      {
+        "KeyValue": "870AA8E146905163065F51B748E3C1F7",
+        "Original": "Sensitivity",
+        "NewValue": "Empfindl."
+      }
+    ]
+  },
+  {
+    "FileName": "Stats.uasset",
+    "Values": [
+      {
+        "KeyValue": "F70FB30540A490E903F199B3D9ED6CAC",
+        "Original": "Stat: ",
+        "NewValue": "Stat: "
+      },
+      {
+        "KeyValue": "B5E4024847D2AB0AA1421683EE191650",
+        "Original": "Player Statistics",
+        "NewValue": "Spieler-Statistik"
+      },
+      {
+        "KeyValue": "816E6B0143446BCBE92DAA9E216BBD62",
+        "Original": "OK",
+        "NewValue": "OK"
+      }
+    ]
+  },
+  {
+    "FileName": "ToolTip.uasset",
+    "Values": [
+      {
+        "KeyValue": "F7C2FC5A44240E964CAA4EA477BDB520",
+        "Original": "Text",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "AddMoney.uasset",
+    "Values": [
+      {
+        "Original": "</>",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "AreaDiscoveredWidget.uasset",
+    "Values": [
+      {
+        "KeyValue": "5FAE0D334DBEA64D4EA67A8808A5F16D",
+        "Original": "Day 0",
+        "NewValue": "Tag 0"
+      },
+      {
+        "Original": "Rio Frontera",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "BeginDay.uasset",
+    "Values": [
+      {
+        "Original": "Day ",
+        "NewValue": "Tag "
+      },
+      {
+        "KeyValue": "137A2C154160FE34C644339864F27466",
+        "Original": "Day 0",
+        "NewValue": "Tag 0"
+      }
+    ]
+  },
+  {
+    "FileName": "Bridge_and_track_repair.uasset",
+    "Values": [
+      {
+        "Original": "Restore rail service<cf>to Put Prairie?",
+        "NewValue": "Zugverkehr<cf>nach Put Prairie wiederherstellen?"
+      },
+      {
+        "KeyValue": "BB1C290A4E7BB70500C803B0903B137E",
+        "Original": "Restore rail service<cf>to Put Prairie?",
+        "NewValue": "Zugverkehr<cf>nach Put Prairie wiederherstellen?"
+      },
+      {
+        "KeyValue": "D03C277C4CCCD0233C6B1C9EFE23B6AD",
+        "Original": "Decline",
+        "NewValue": "Ablehnen"
+      },
+      {
+        "KeyValue": "C66AC66F468FCAAAAFB359BD4194204E",
+        "Original": "Confirm",
+        "NewValue": "Bestätigen"
+      }
+    ]
+  },
+  {
+    "FileName": "FreightTicket.uasset",
+    "Values": [
+      {
+        "KeyValue": "3C346C6F4065CAAB468AAD8DBBBBC76D",
+        "Original": "Bloomwater",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "ImportExport.uasset",
+    "Values": [
+      {
+        "Original": "Bruises easily. Can travel up to 20 miles.",
+        "NewValue": "Empfindlich. Hält bis zu 20 Meilen."
+      },
+      {
+        "Original": "Blows away when traveling at top speeds.",
+        "NewValue": "Wird bei Höchstgeschwindigkeit weggeweht."
+      },
+      {
+        "Original": "Watch out for thieves! Keep moving!",
+        "NewValue": "Vorsicht vor Dieben! Bleib in Bewegung!"
+      },
+      {
+        "Original": "Very volatile. Avoid sudden stops.",
+        "NewValue": "Sehr explosiv. Vermeide abrupte Stopps."
+      },
+      {
+        "Original": "Fragile jar can break if train leans too far.",
+        "NewValue": "Das fragile Glas zerbricht, wenn der Zug zu stark neigt."
+      },
+      {
+        "Original": "Melts in warm climates. Avoid deserts!",
+        "NewValue": "Schmilzt in warmen Gebieten. Meide Wüsten!"
+      },
+      {
+        "Original": "Hover over a freight type to learn more.",
+        "NewValue": "Bewege den Mauszeiger über einen Frachttyp für mehr Infos."
+      },
+      {
+        "KeyValue": "FD6262734ADA88BD6988D2A07883B2C2",
+        "Original": "Bloomwater",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "29DDF97345CC2DDA3FCDEFB31741E784",
+        "Original": "Cheese",
+        "NewValue": "Käse"
+      },
+      {
+        "KeyValue": "ED2B20704FD241BE28B200AACB71E11A",
+        "Original": "Accept",
+        "NewValue": "Annehmen"
+      },
+      {
+        "KeyValue": "02C912AB40D8E39AD22E148814302F6E",
+        "Original": "Reroll",
+        "NewValue": "Neu würfeln"
+      },
+      {
+        "KeyValue": "63A11E754DFC9A5115009A9C9F204F26",
+        "Original": "Melts in warm climates. Avoid deserts!",
+        "NewValue": "Schmilzt in warmen Gebieten. Meide Wüsten!"
+      },
+      {
+        "KeyValue": "0143246840AEB12D971F369838A5D2AB",
+        "Original": "Close",
+        "NewValue": "Schließen"
+      },
+      {
+        "KeyValue": "B0A286554856BBA4DDD8A393525F15CC",
+        "Original": "FREIGHT INFO",
+        "NewValue": "FRACHT-INFO"
+      }
+    ]
+  },
+  {
+    "FileName": "QuestBoard.uasset",
+    "Values": [
+      {
+        "Original": "Look for a Shareholder to earn stocks!",
+        "NewValue": "Such einen Aktionär, um Aktien zu verdienen!"
+      },
+      {
+        "Original": "/5",
+        "NewValue": "/5"
+      },
+      {
+        "KeyValue": "71071D0C4A48C17C84215E87B2F895E4",
+        "Original": "Finished all tasks, happy driving!",
+        "NewValue": "Alle Aufgaben erledigt, gute Fahrt!"
+      },
+      {
+        "KeyValue": "9798933D4FA8E4A3102BAB9A83D988E4",
+        "Original": "Reach Level 10<cf>and then cry about it",
+        "NewValue": "Erreiche Level 10<cf>und heul dann drüber"
+      },
+      {
+        "KeyValue": "D870C6E143A0BCE4BC082AA98D586EF2",
+        "Original": "Current Task:",
+        "NewValue": "Aktuelle Aufgabe:"
+      },
+      {
+        "KeyValue": "77F202564B54D237E282F49B353D3392",
+        "Original": "Click to lock",
+        "NewValue": "Klicken zum Sperren"
+      },
+      {
+        "KeyValue": "FD84458A44D55803DAB174B508059B9F",
+        "Original": "Click to unlock",
+        "NewValue": "Klicken zum Entsperren"
+      }
+    ]
+  },
+  {
+    "FileName": "QuestTicket.uasset",
+    "Values": [
+      {
+        "Original": "Misty Creek",
+        "NewValue": ""
+      },
+      {
+        "Original": "Cattail",
+        "NewValue": ""
+      },
+      {
+        "Original": "Birchwood",
+        "NewValue": ""
+      },
+      {
+        "Original": "Snowball",
+        "NewValue": ""
+      },
+      {
+        "Original": "Aurora",
+        "NewValue": ""
+      },
+      {
+        "Original": "Pinecone",
+        "NewValue": ""
+      },
+      {
+        "Original": "Dustbowl",
+        "NewValue": ""
+      },
+      {
+        "Original": "Chugwater",
+        "NewValue": ""
+      },
+      {
+        "Original": "Bloomwater",
+        "NewValue": ""
+      },
+      {
+        "Original": "Colby",
+        "NewValue": ""
+      },
+      {
+        "Original": "Nowhere",
+        "NewValue": ""
+      },
+      {
+        "Original": "Pearbury",
+        "NewValue": ""
+      },
+      {
+        "Original": "Bumblebee",
+        "NewValue": ""
+      },
+      {
+        "Original": "Blowhistle",
+        "NewValue": ""
+      },
+      {
+        "Original": "DESTINATION: ",
+        "NewValue": "ZIEL: "
+      },
+      {
+        "Original": "Destination: Nearest Station",
+        "NewValue": "Ziel: Nächste Station"
+      },
+      {
+        "KeyValue": "DDB5F425430644EF4EBCB7967EF5983E",
+        "Original": "DESTINATION:",
+        "NewValue": "ZIEL:"
+      }
+    ]
+  },
+  {
+    "FileName": "SkipTutorial.uasset",
+    "Values": [
+      {
+        "KeyValue": "2831DF2C4F4A22CA4DE59A82C5277401",
+        "Original": "Skip",
+        "NewValue": "Überspringen"
+      }
+    ]
+  },
+  {
+    "FileName": "Ticket.uasset",
+    "Values": [
+      {
+        "KeyValue": "131A413B4E5F12EC9EEA0297BA3B70A0",
+        "Original": "BY<cf>",
+        "NewValue": "VON<cf>"
+      },
+      {
+        "KeyValue": "FC0558A34F39C4FACCB2B0BA5F51CF6A",
+        "Original": "Station 0",
+        "NewValue": "Station 0"
+      },
+      {
+        "KeyValue": "C519402349E6F8BBE34BCB8219FAB7D9",
+        "Original": "STATION<cf>",
+        "NewValue": "STATION<cf>"
+      },
+      {
+        "KeyValue": "77BD5E4E48C0850437C823A95D1423A6",
+        "Original": "No",
+        "NewValue": "Nein"
+      },
+      {
+        "KeyValue": "FF5BC0E84241E199C042EDB789BF2947",
+        "Original": "Abandon?",
+        "NewValue": "Abbrechen?"
+      },
+      {
+        "KeyValue": "066EC86F44B7F6575482F19BDD0764E7",
+        "Original": "Yes",
+        "NewValue": "Ja"
+      }
+    ]
+  },
+  {
+    "FileName": "TNT_and_Honey_Dropoff.uasset",
+    "Values": [
+      {
+        "Original": "Drop the TNT?",
+        "NewValue": "TNT abwerfen?"
+      },
+      {
+        "KeyValue": "8424AE1441AE67D51355E18AA24EC6C5",
+        "Original": "Feed the bear?",
+        "NewValue": "Den Bären füttern?"
+      },
+      {
+        "KeyValue": "D03C277C4CCCD0233C6B1C9EFE23B6AD",
+        "Original": "Decline",
+        "NewValue": "Ablehnen"
+      },
+      {
+        "KeyValue": "C66AC66F468FCAAAAFB359BD4194204E",
+        "Original": "Confirm",
+        "NewValue": "Bestätigen"
+      }
+    ]
+  },
+  {
+    "FileName": "TouristPhoto.uasset",
+    "Values": [
+      {
+        "KeyValue": "9ABCD6894614536ED836238010F45F86",
+        "Original": "Click to save",
+        "NewValue": "Zum Speichern klicken"
+      },
+      {
+        "KeyValue": "2123B6C04B56AC41AD5C678E2FE63D66",
+        "Original": "Saved!",
+        "NewValue": "Gespeichert!"
+      }
+    ]
+  },
+  {
+    "FileName": "TrainScreen.uasset",
+    "Values": [
+      {
+        "Original": "<Shakey>??:??</>",
+        "NewValue": ""
+      },
+      {
+        "Original": "<Shakey>",
+        "NewValue": ""
+      },
+      {
+        "Original": "</>",
+        "NewValue": ""
+      },
+      {
+        "Original": "MultiGate Node failed! Out of bounds indexing of the out pins. There are only 6 outs available.",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "4542F11D4863AC3221A421B498E5F2EF",
+        "Original": "Text Block",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "962A5F5F417E58C915EF16A671064F3C",
+        "Original": " Click to drop!",
+        "NewValue": " Klicken zum Abwerfen!"
+      },
+      {
+        "Original": "TNTShake",
+        "NewValue": ""
+      },
+      {
+        "Original": "Water usage is twice as fast!",
+        "NewValue": "Wasserverbrauch verdoppelt!"
+      },
+      {
+        "KeyValue": "B7F56CCE4C265DB88A61F8867346FC63",
+        "Original": "Watch out for tornadoes!",
+        "NewValue": "Achtung, Tornados!"
+      },
+      {
+        "KeyValue": "A27711E2420BBFBEE1AFD58B180EA828",
+        "Original": "You are lost!",
+        "NewValue": "Du hast dich verirrt!"
+      },
+      {
+        "KeyValue": "3125262144743F4EC04555832F4E999D",
+        "Original": "Tracks may be slippery!",
+        "NewValue": "Rutschige Schienen!"
+      },
+      {
+        "KeyValue": "57D93A644B4A77789D91ADAACB860FDB",
+        "Original": "Click to drop explosives",
+        "NewValue": "Klicken zum Abwerfen der TNT"
+      }
+    ]
+  },
+  {
+    "FileName": "GauntletTrain_BP.uasset",
+    "Values": [
+      {
+        "Original": "Hello",
+        "NewValue": "Hallo"
+      }
+    ]
+  },
+  {
+    "FileName": "Basic_Credits.uasset",
+    "Values": [
+      {
+        "KeyValue": "40D702F44CE714339985F9A5E616CE83",
+        "Original": "You can now earn stocks by picking<cf> up Shareholders! Find them at circled<cf>stations on the map for a new challenge.",
+        "NewValue": "Du kannst jetzt Aktien verdienen, indem<cf> du Aktionäre einsammelst! Sie warten an<cf>eingekreisten Stationen auf der Karte."
+      },
+      {
+        "KeyValue": "5DD83954471FE341D70B89A3C4E87B51",
+        "Original": "Our Friends, Families, & Loved Ones,<cf><cf>Our Patreon Supporters,<cf><cf>RWD, Parker B., Astra, <cf>JohnTheSeriousMan, Kubixon<cf><cf>Sam, Ethan, Barrett, Harrison,<cf>Denver, Tom Coletti,<cf><cf>And our players!",
+        "NewValue": "Unsere Freunde, Familien und Liebsten,<cf><cf>Unsere Patreon-Unterstützer,<cf><cf>RWD, Parker B., Astra, <cf>JohnTheSeriousMan, Kubixon<cf><cf>Sam, Ethan, Barrett, Harrison,<cf>Denver, Tom Coletti,<cf><cf>Und unsere Spieler!"
+      },
+      {
+        "KeyValue": "545CE0424D3AF361F0B5558B231542DA",
+        "Original": "Nathaniel Onandia",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "12AEC81E4A22A4206448828553388BEA",
+        "Original": "Foliage and Character Artist",
+        "NewValue": "Vegetation- & Charakter-Artist"
+      },
+      {
+        "KeyValue": "9B26A44E4E6962EB00EF549820639E86",
+        "Original": "Harrison Hudson",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "AF551EAC4FC639A6C0A4F2A665E1E3D4",
+        "Original": "Additional Contributors",
+        "NewValue": "Weitere Mitwirkende"
+      },
+      {
+        "KeyValue": "F96BCE9D41F8CF9DB4E7D1BA3012CBC9",
+        "Original": "Jessica Armstrong<cf><cf>Kyle Gabba",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "74A3693441E79B89A838AEBD902C4F87",
+        "Original": "Train Livery<cf>Contest Winners",
+        "NewValue": "Gewinner des<cf>Lackier-Wettbewerbs"
+      },
+      {
+        "KeyValue": "2D44E01345A02DA1FFB116BEB0A16085",
+        "Original": "Bobenny",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "3592604F42AE7AF93A6D9D8EDF70CDC3",
+        "Original": "Kobold",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "4F9ED8FE45730941FD762693BDD0B2F6",
+        "Original": "Beta Testers",
+        "NewValue": "Beta-Tester"
+      },
+      {
+        "KeyValue": "DDA958884495C3137ABBC28E5D2EC94D",
+        "Original": "Eddie Sand",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "C02105A848BA11B98D470694E8AB0A8C",
+        "Original": "Joshua Baechle",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "1BEEE28544CCB5EF569F79A29FF2432A",
+        "Original": "Feedwater",
+        "NewValue": "Speisewasser"
+      },
+      {
+        "KeyValue": "904482444B691F4140814E848E6AFC49",
+        "Original": "RWD",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "49C894C746426EB72DFF7CAD5A9082CA",
+        "Original": "Thesteelmann",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "2251BA784AD4CD08BEBE2CA8BFB221CF",
+        "Original": "Madjames",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "D013DA1E43A7036582C371926FCAAE1E",
+        "Original": "Latitudefiction",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "04F2F1C44C0D06D4E6DBEAB1F9D00DDD",
+        "Original": "Embervibes",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "D8B583FA44960E47A607B7A122868A46",
+        "Original": "Mauripichi",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "E2A3C71646953E5503F042BB618919C5",
+        "Original": "Game Design and Programming",
+        "NewValue": "Game Design und Programmierung"
+      },
+      {
+        "KeyValue": "15919B7845CF6313353871AE7D479D36",
+        "Original": "Tincantrain",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "19DBE5C54C1DDD3A42506BB5BB69B630",
+        "Original": "Johntheseriousman",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "1947E23C4B9006A9FACEE298AAA6F24B",
+        "Original": "Maecadmia",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "995CE8B24DFDE942A2B643ACF6D899A4",
+        "Original": "Astra",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "69C867C64382FD40B0CCA0BB20F7375A",
+        "Original": "Parker B.",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "CDF16AEF42487B56527258A216A5A9AA",
+        "Original": "Djitas",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "654B494B4B484B28D003B9890A45CC0A",
+        "Original": "Sabrynna Pleasant",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "F5336E54435B445A1B017F8ACB216A27",
+        "Original": "Soulashes",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "78B6F5BD4FABAA072DB3C4A2CFCD4184",
+        "Original": "Blacksmeim",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "9796E531443D29F47BDDBDAE64F268E3",
+        "Original": "Goddessselene",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "0173067C43395FDC2575889EBBDBEF65",
+        "Original": "Music and Sound Design",
+        "NewValue": "Musik & Sounddesign"
+      },
+      {
+        "KeyValue": "450C96264FBCB3641621C8806C8EA4DD",
+        "Original": "Pdawgwoolf",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "A35FDC76497D084A326B0EA55DF1BEAE",
+        "Original": "Fliggityflanders",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "A378B1DA409BFB041B781A9ACACBA1BB",
+        "Original": "Walkercolt",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "4F2B41A24836E69920D8668B83A77112",
+        "Original": "Thank you for playing!",
+        "NewValue": "Danke fürs Spielen!"
+      },
+      {
+        "KeyValue": "A5D2E9F74907A6639EBA91B5C403248A",
+        "Original": "Pete TrinityJayOne",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "90BFA1FD4563A1790101A7A2F2025EE6",
+        "Original": "Happylittlechoochoos",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "84D0C09443EE156B09FCC49964C77C9D",
+        "Original": "Cynthia Love",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "E0BB060C4891EAB28C8F69B4CC91BAEC",
+        "Original": "Shinonogi",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "2C143E8D41B32F473D2F64B7EB22F7E1",
+        "Original": "The Creative Type",
+        "NewValue": "Der Kreative"
+      },
+      {
+        "KeyValue": "7D03E35F4908482A78189885CFD01AD5",
+        "Original": "bimbofurnunculus",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "C4679B0C42798E4B3DEA448582A4186A",
+        "Original": "Niccolò",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "EDB2BC0C4E96F852F31FED9489948F3B",
+        "Original": "Director & Lead Artist",
+        "NewValue": "Director & Lead Artist"
+      },
+      {
+        "KeyValue": "F9D175914B606DF055F6D782634866A8",
+        "Original": "Aaran Lambourn",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "314EB2CB49FC9F5F795342810563EE2F",
+        "Original": "Luis Waldinger",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "467E95FC490E75F45E80A9B2A37D34A1",
+        "Original": "Environment and Prop Artists",
+        "NewValue": "Umgebungs- & Requisiten-Artists"
+      },
+      {
+        "KeyValue": "20D558B64D1EDBA9B36B3D9DFDECC574",
+        "Original": "Barple Bapkins",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "F725C93E47E2D97097EB758934A7D718",
+        "Original": "Simon Brignell",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "3D6F52CC44E40AD50B31AB839E376601",
+        "Original": "Im Da Mario",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "2335B37749388F01CD9B8F80CDB6197D",
+        "Original": "Shane Olson",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "8DD0F50E48489CFC4612109C29A66AF5",
+        "Original": "Noah Shepherd",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "5999AB4348B46B5BD23C36B8C67F81C4",
+        "Original": "Hunter Shaffer",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "068196044C5F5F18734A04AFD0383E44",
+        "Original": "Additional sounds licensed via Attributions 4.0:<cf><cf>\"\"Earthquake 1 - Big\"\" by OGsoundFX<cf><cf>\"\"Inside a Tornado\"\" by RogerBoyX69<cf><cf>\"\"Tornado\"\" by CGEffex",
+        "NewValue": "Zusätzliche Sounds unter Attributions 4.0:<cf><cf>\"\"Earthquake 1 - Big\"\" von OGsoundFX<cf><cf>\"\"Inside a Tornado\"\" von RogerBoyX69<cf><cf>\"\"Tornado\"\" von CGEffex"
+      },
+      {
+        "KeyValue": "E2BFEF0B4576828858A52F8A3FB722DD",
+        "Original": "With Special Thanks To...",
+        "NewValue": "Mit besonderem Dank an..."
+      },
+      {
+        "KeyValue": "D6BDA94342411D08F533B1A74DD00FB2",
+        "Original": "Ashley Miller",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "FA4F832D439F21B84D70CC8427901F6D",
+        "Original": "Close",
+        "NewValue": "Schließen"
+      }
+    ]
+  },
+  {
+    "FileName": "CheatsMenu.uasset",
+    "Values": [
+      {
+        "Original": "Map.png",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "MainMenu.uasset",
+    "Values": [
+      {
+        "KeyValue": "DD98A83C4E834D2F27F679ABB4AF77BA",
+        "Original": "Press any key to continue.",
+        "NewValue": "Drücke eine beliebige Taste."
+      },
+      {
+        "KeyValue": "9FD5D1F547086357238D17AD2421E00D",
+        "Original": "Awards",
+        "NewValue": "Trophäen"
+      },
+      {
+        "KeyValue": "C516C1D14873620F5C5DE09461789F99",
+        "Original": "©2024-2026  Cosmoporium Games LLC",
+        "NewValue": "©2024-2026  Cosmoporium Games LLC"
+      },
+      {
+        "KeyValue": "8D1E5E154FA014855D83E283DC907F8F",
+        "Original": "Options",
+        "NewValue": "Optionen"
+      },
+      {
+        "KeyValue": "2589E18145F6DEC393A7D998214C8482",
+        "Original": "Start",
+        "NewValue": "Start"
+      },
+      {
+        "KeyValue": "BC935A2443AE9DDC93076DABE6280EC4",
+        "Original": "End Game",
+        "NewValue": "Beenden"
+      }
+    ]
+  },
+  {
+    "FileName": "ActiveStaffIcon.uasset",
+    "Values": [
+      {
+        "Original": "Pyrotechnist",
+        "NewValue": "Pyrotechniker"
+      },
+      {
+        "Original": "Bouncer",
+        "NewValue": "Türsteher"
+      },
+      {
+        "Original": "Freight Agent",
+        "NewValue": "Frachtagent"
+      },
+      {
+        "Original": "Conductor",
+        "NewValue": "Schaffner"
+      },
+      {
+        "Original": "Big 'Fella",
+        "NewValue": "Big 'Fella"
+      },
+      {
+        "Original": "Fireman",
+        "NewValue": "Heizer"
+      },
+      {
+        "Original": "Brakeman",
+        "NewValue": "Bremser"
+      },
+      {
+        "Original": "Bartender",
+        "NewValue": "Barkeeper"
+      },
+      {
+        "Original": "Early Bird",
+        "NewValue": "Frühaufsteher"
+      },
+      {
+        "Original": "Grants access to placing<cf>   an explosive on tracks",
+        "NewValue": "Erlaubt das Platzieren<cf>   von Sprengstoff auf den Gleisen"
+      },
+      {
+        "Original": "Kick passengers off the train<cf>   by clicking on their ticket",
+        "NewValue": "Wirf Passagiere aus dem Zug,<cf>   indem du auf ihr Ticket klickst"
+      },
+      {
+        "Original": "Freight stations provide twice<cf>  as many contract options",
+        "NewValue": "Frachtstationen bieten doppelt<cf>  so viele Vertragsoptionen"
+      },
+      {
+        "Original": " Passengers can upgrade to a<cf>first class ticket after boarding",
+        "NewValue": " Passagiere können nach dem<cf>Einsteigen auf 1. Klasse upgraden"
+      },
+      {
+        "Original": "    Prevents the train<cf>from leaning on curves",
+        "NewValue": "    Verhindert, dass der Zug<cf>in Kurven neigt"
+      },
+      {
+        "Original": "Overall speed increased by 50%",
+        "NewValue": "Gesamtgeschwindigkeit +50%"
+      },
+      {
+        "Original": "Easily slow down the train<cf>and slam breaks smoothly",
+        "NewValue": "Bremst den Zug leicht<cf>und sanft ab"
+      },
+      {
+        "Original": "Passengers ignore law signs <cf>       and mood is boosted",
+        "NewValue": "Passagiere ignorieren Schilder <cf>       und ihre Stimmung steigt"
+      },
+      {
+        "Original": "Provides 2 extra hours<cf>       in the morning",
+        "NewValue": "Gibt 2 zusätzliche<cf>       Stunden am Morgen"
+      }
+    ]
+  },
+  {
+    "FileName": "Enhancements.uasset",
+    "Values": [
+      {
+        "KeyValue": "A98049A24121D1C0F7CC0084694AE8FF",
+        "Original": "Need more time?",
+        "NewValue": "Mehr Zeit nötig?"
+      },
+      {
+        "KeyValue": "C6AEAD7D4658D0ACC75C7CAA81CDB3F6",
+        "Original": "Cha-ching!",
+        "NewValue": "Ka-ching!"
+      },
+      {
+        "KeyValue": "38A5F1304A7878863E32529C642EB216",
+        "Original": "Be careful...",
+        "NewValue": "Vorsichtig..."
+      },
+      {
+        "KeyValue": "A0F6B03349B2BC1BA7F08392545D17F7",
+        "Original": "Room for more?",
+        "NewValue": "Platz für mehr?"
+      },
+      {
+        "KeyValue": "E67B6F8A48516E30AAF03FA3FDC86C4B",
+        "Original": "Increase by 0.5",
+        "NewValue": "Um 0,5 erhöhen"
+      },
+      {
+        "KeyValue": "4B35D28F41311351709450B5DE418E7F",
+        "Original": "Extra Hours",
+        "NewValue": "Bonus-Std."
+      },
+      {
+        "KeyValue": "41D4085E4AADB57310F6C9BB10C13A8F",
+        "Original": "Money Multiplier",
+        "NewValue": "Geld-Multipl."
+      },
+      {
+        "KeyValue": "BD491D6F4D4A44E1AB4CF2AA04B35F62",
+        "Original": "Speed Multiplier",
+        "NewValue": "Tempo-Multipl."
+      },
+      {
+        "KeyValue": "A7FF5A4E4282932233FA99B1EF2C418D",
+        "Original": "Staff Limit",
+        "NewValue": "Personal-Limit"
+      },
+      {
+        "KeyValue": "CAEB292C410B055E031917AD6D73215A",
+        "Original": "Increase by 0.1",
+        "NewValue": "Um 0,1 erhöhen"
+      },
+      {
+        "KeyValue": "59109B094A5A3F084966BC9CFB999E86",
+        "Original": "Increase by 1",
+        "NewValue": "Um 1 erhöhen"
+      },
+      {
+        "KeyValue": "3CA584BE43E634913F309694F8AADDA4",
+        "Original": "*  Valid for one business day  *",
+        "NewValue": "*  Gilt für einen Arbeitstag  *"
+      },
+      {
+        "KeyValue": "F37CA9D64111E4AFEE5D04B4DD996D16",
+        "Original": "Enhancements",
+        "NewValue": "Upgrades"
+      },
+      {
+        "KeyValue": "F25492C34E7124C0FC5DB995C2717B99",
+        "Original": "Increase by 1 hour",
+        "NewValue": "Um 1 Stunde erhöhen"
+      }
+    ]
+  },
+  {
+    "FileName": "NewShopMenu.uasset",
+    "Values": [
+      {
+        "Original": "New Car Unlocked!",
+        "NewValue": "Neuer Wagen freigeschaltet!"
+      },
+      {
+        "Original": "First Class Car",
+        "NewValue": "1.-Klasse-Wagen"
+      },
+      {
+        "Original": "New Staff Member Unlocked!",
+        "NewValue": "Neues Personal freigeschaltet!"
+      },
+      {
+        "Original": "Freight Agent",
+        "NewValue": "Frachtagent"
+      },
+      {
+        "Original": "New Staff Member Unlocked!",
+        "NewValue": "Neues Personal freigeschaltet!"
+      },
+      {
+        "Original": "Conductor",
+        "NewValue": "Schaffner"
+      },
+      {
+        "Original": "New Upgrade Unlocked!",
+        "NewValue": "Upgrade freigeschaltet!"
+      },
+      {
+        "Original": "Cupola",
+        "NewValue": "Kuppel"
+      },
+      {
+        "KeyValue": "CD338E194059FD785D1429A097B1E027",
+        "Original": "Braking with these is much more efficient.",
+        "NewValue": "Bremsen ist damit viel effektiver."
+      },
+      {
+        "KeyValue": "936595D543F56DC32AC112B75D9E7FBB",
+        "Original": "Need a brake?",
+        "NewValue": "Brauchst du eine Bremse?"
+      },
+      {
+        "KeyValue": "1A1887B8493F431C93E373A572025076",
+        "Original": "Thirsty?",
+        "NewValue": "Durstig?"
+      },
+      {
+        "KeyValue": "CC1492EF4E02FFD3C76AADA233AB03EE",
+        "Original": "The more the merrier!",
+        "NewValue": "Je mehr, desto besser!"
+      },
+      {
+        "KeyValue": "1F2ECC5A45853DE99ADC18814B512CBB",
+        "Original": "You want more money, right?",
+        "NewValue": "Du willst mehr Geld, oder?"
+      },
+      {
+        "KeyValue": "99698C414C96805ADD9E73ACB083AF5A",
+        "Original": "BUY",
+        "NewValue": "KAUFEN"
+      },
+      {
+        "KeyValue": "7111EBBE413A18622279D48EBEE6DEC4",
+        "Original": "The caboose provides<cf>you with space for one <cf>additional crew member.",
+        "NewValue": "Der Schlusswagen bietet<cf>Platz für ein zusätzliches<cf>Crew-Mitglied."
+      },
+      {
+        "KeyValue": "8CE41C9245A80B44A6952184B12784B6",
+        "Original": "Unlocks at level 10",
+        "NewValue": "Freischalt bei Level 10"
+      },
+      {
+        "KeyValue": "5ABAAD0A45C8E233282C6CBC6011EAB1",
+        "Original": "Expand your caboose!<cf>Provides space for one<cf>additional crew member.",
+        "NewValue": "Erweitere deinen Schlusswagen!<cf>Platz für ein zusätzliches<cf>Crew-Mitglied."
+      },
+      {
+        "KeyValue": "0C95200F4B5B16D473C79C946CF7B5B9",
+        "Original": "? ? ?",
+        "NewValue": "? ? ?"
+      },
+      {
+        "KeyValue": "1A092F254B04A4DA4B02738EED54AE15",
+        "Original": "The first class car<cf>allows you to pick up<cf>first class tickets. ",
+        "NewValue": "Der 1.-Klasse-Wagen<cf>ermöglicht 1.-Klasse-<cf>Tickets. "
+      },
+      {
+        "KeyValue": "B60B5C7543D4AB04D3DC60B41CD7C113",
+        "Original": "Requires capacity of 4",
+        "NewValue": "Kapazität 4 erforderlich"
+      },
+      {
+        "KeyValue": "912E9D6C463FDBA2D35AA8A1CA08D78A",
+        "Original": "The gondola allows<cf>you to perform<cf> freight jobs.",
+        "NewValue": "Der Flachwagen erlaubt<cf>Frachtaufträge."
+      },
+      {
+        "KeyValue": "2C17C61B40494EEF9AFC84934027B6F1",
+        "Original": "Lost in the Lilli Forest",
+        "NewValue": "Verloren im Lilli-Wald"
+      },
+      {
+        "KeyValue": "65E3C1FD4700C721E082658E91518DCE",
+        "Original": "The more seats you<cf>have, the more<cf>tickets you get.",
+        "NewValue": "Mehr Sitze =<cf>mehr Tickets."
+      },
+      {
+        "KeyValue": "5BE4B8F843E0FE8895382785422C5723",
+        "Original": "Air Brakes",
+        "NewValue": "Druckluftbremsen"
+      },
+      {
+        "KeyValue": "E6177C4B47DDB5C7E8146685F1110A9D",
+        "Original": "Water Tank",
+        "NewValue": "Wassertank"
+      },
+      {
+        "KeyValue": "F916F9B5409C16D101E5D1B0A9B02C83",
+        "Original": "Capacity",
+        "NewValue": "Kapazität"
+      },
+      {
+        "KeyValue": "864335B44543CE81BFE020B609F826C7",
+        "Original": "First Class",
+        "NewValue": "Erste Klasse"
+      },
+      {
+        "KeyValue": "6DBE942D41DCC70A797741BB5A6F285D",
+        "Original": "Caboose",
+        "NewValue": "Schlusswagen"
+      },
+      {
+        "KeyValue": "123F32EE484818B234B502B0EC0D0D79",
+        "Original": "Cupola",
+        "NewValue": "Kuppel"
+      },
+      {
+        "KeyValue": "C8DFE6EB48303A7543F8228371552498",
+        "Original": "Gondola",
+        "NewValue": "Flachwagen"
+      },
+      {
+        "KeyValue": "06CFBB554E26A61425536CB551E0FEB5",
+        "Original": "Pop up text",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "1628A5F24F85F7D3754298BD9BC0662E",
+        "Original": "UPGRADES",
+        "NewValue": "UPGRADES"
+      },
+      {
+        "KeyValue": "C40BFA7740AA49DB03D1ECA22270EA74",
+        "Original": "Room for two?",
+        "NewValue": "Platz für zwei?"
+      },
+      {
+        "KeyValue": "28A00A7F4853CA9CE12150B56CC47F1A",
+        "Original": "Even more room!",
+        "NewValue": "Noch mehr Platz!"
+      },
+      {
+        "KeyValue": "B1D1B4124465F84597131CB5E383E6B3",
+        "Original": "How freightening!",
+        "NewValue": "Frachtastisch!"
+      },
+      {
+        "KeyValue": "DA33B4CA4AAE4C0634CD38B29651508E",
+        "Original": "Exit",
+        "NewValue": "Beenden"
+      },
+      {
+        "KeyValue": "CE0406B74B51BB85426A73AD6A58710B",
+        "Original": "Staff:",
+        "NewValue": "Personal:"
+      },
+      {
+        "KeyValue": "BA5899F747E17B146B57C6AE3340E8F1",
+        "Original": "COST",
+        "NewValue": "KOSTEN"
+      },
+      {
+        "KeyValue": "8AC2CC0C4F00352D33F165B5BB7B2D48",
+        "Original": "Go!",
+        "NewValue": "Los!"
+      },
+      {
+        "KeyValue": "9D898A8743E440A7D18534849A8E2B68",
+        "Original": "Level: 0",
+        "NewValue": "Level: 0"
+      },
+      {
+        "KeyValue": "A8334D964669541DA8DE468D914B8F2A",
+        "Original": "FLAGS",
+        "NewValue": "FLAGGEN"
+      },
+      {
+        "KeyValue": "6BFCC069432C4CA428C66E9F19C2CB49",
+        "Original": "Larger water tank means filling up less often.",
+        "NewValue": "Größerer Tank = weniger oft auftanken."
+      },
+      {
+        "Original": "PAINT",
+        "NewValue": "FARBEN"
+      },
+      {
+        "Original": "OWNED",
+        "NewValue": "BESITZT"
+      }
+    ]
+  },
+  {
+    "FileName": "SaboteurToolTip.uasset",
+    "Values": [
+      {
+        "Original": "Sabotage the Mountain Train for 50",
+        "NewValue": "Berg-Zug für 50 sabotieren"
+      },
+      {
+        "Original": "Sabotage the Forest Train for 25",
+        "NewValue": "Wald-Zug für 25 sabotieren"
+      },
+      {
+        "Original": "Sabotage the Desert Train for 35",
+        "NewValue": "Wüsten-Zug für 35 sabotieren"
+      },
+      {
+        "KeyValue": "A7398299464A357877353EB3B0D4501D",
+        "Original": "Sabotage the Mountain Train for 250",
+        "NewValue": "Berg-Zug für 250 sabotieren"
+      }
+    ]
+  },
+  {
+    "FileName": "SkinButton.uasset",
+    "Values": [
+      {
+        "KeyValue": "E9B0132A49213CB02F51F7A21C190B3F",
+        "Original": "If it ain't broke, don't fix it!",
+        "NewValue": "Was nicht kaputt ist, repariert man nicht!"
+      },
+      {
+        "KeyValue": "C49F73A44D120A22E39C2183D81A3ADC",
+        "Original": "Unlocks at LVL 0",
+        "NewValue": "Freischalt LVL 0"
+      },
+      {
+        "KeyValue": "27E95D484D6BCCC3091623BBA4F34E9E",
+        "Original": "Comet",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "StaffBoard.uasset",
+    "Values": [
+      {
+        "Original": "There's no more <cf>room on the train!",
+        "NewValue": "Kein Platz mehr <cf>im Zug!"
+      },
+      {
+        "Original": "You can't afford that!",
+        "NewValue": "Das kannst du dir nicht leisten!"
+      },
+      {
+        "KeyValue": "67E9233C4326B503D089AAAA7638C553",
+        "Original": "Gives you an<cf>extra two hours!",
+        "NewValue": "Gibt dir zwei<cf>extra Stunden!"
+      },
+      {
+        "KeyValue": "0EEEBF014C37E8FC59625A89187B3668",
+        "Original": "Raises your passengers'<cf>spirits! They will also <cf>ignore law signs.",
+        "NewValue": "Hebt die Stimmung der<cf>Passagiere! Sie ignorieren <cf>auch die Schilder."
+      },
+      {
+        "KeyValue": "DC0C3914427E81A97BC51DACBB0E0FC6",
+        "Original": "Emergency brake <cf>with no <cf>consequences!",
+        "NewValue": "Notbremse <cf>ohne <cf>Folgen!"
+      },
+      {
+        "KeyValue": "874585564807C89A909465BFA383BC8B",
+        "Original": "Train speed<cf>increases by<cf>50%. Be careful!",
+        "NewValue": "Zug-Tempo<cf>+50%.<cf>Vorsicht!"
+      },
+      {
+        "KeyValue": "8FE3BD0B49B592DBF1BA36B8E1F31D03",
+        "Original": "Weighs down the <cf>train, no leaning! <cf>25% speed decrease",
+        "NewValue": "Beschwert den <cf>Zug, kein Neigen! <cf>-25% Tempo"
+      },
+      {
+        "KeyValue": "214FF15F4767B3BCFB81A097F3B18B88",
+        "Original": "Passengers will have<cf>a 30% chance to<cf>upgrade to 1st class.",
+        "NewValue": "Passagiere haben 30%<cf>Chance, in die<cf>1. Klasse zu wechseln."
+      },
+      {
+        "KeyValue": "F45CA10F4FDC919B87A40CB7A785D21C",
+        "Original": "Two freight contracts<cf>available at every <cf>depot. Grants a reroll.",
+        "NewValue": "Zwei Frachtaufträge<cf>pro Depot verfügbar. <cf>Plus ein Neuwürfeln."
+      },
+      {
+        "KeyValue": "185E2E2B4C775321FC4C5388862F5E55",
+        "Original": "Kick off  passengers by clicking on their tickets! See ya!",
+        "NewValue": "Wirf Passagiere raus, indem du auf ihre Tickets klickst! Tschüss!"
+      },
+      {
+        "KeyValue": "BD99312848943561392F4D8CA6D5C620",
+        "Original": "Allows you to place explosives on the track once a day - careful!",
+        "NewValue": "Erlaubt einmal täglich Sprengstoff auf den Gleisen - Vorsicht!"
+      },
+      {
+        "KeyValue": "17CA08784420E0064C4240AC77768ABB",
+        "Original": "Bouncer",
+        "NewValue": "Türsteher"
+      },
+      {
+        "KeyValue": "EF049216417D68C2C9C76E86B37EC1E5",
+        "Original": "Early Bird",
+        "NewValue": "Frühaufsteher"
+      },
+      {
+        "KeyValue": "9F08D7794D4216A8FC0052BAC49D4BBC",
+        "Original": "Bartender",
+        "NewValue": "Barkeeper"
+      },
+      {
+        "KeyValue": "676D13F54D0FB5EB3B741D97E0D0B1AD",
+        "Original": "Brakeman",
+        "NewValue": "Bremser"
+      },
+      {
+        "KeyValue": "4D9FB4B142C4676231CBBAA478F49FF4",
+        "Original": "Fireman",
+        "NewValue": "Heizer"
+      },
+      {
+        "KeyValue": "22CF39164ADF9DF9EFC146A6DE68E3B4",
+        "Original": "Big 'Fella",
+        "NewValue": "Big 'Fella"
+      },
+      {
+        "KeyValue": "22C10F444C5F0CDA0DF7D4B76F18E0AA",
+        "Original": "Conductor",
+        "NewValue": "Schaffner"
+      },
+      {
+        "KeyValue": "3F1F48D749FD7A3B5AED8E8670AC08B8",
+        "Original": "Freight Agent",
+        "NewValue": "Frachtagent"
+      },
+      {
+        "KeyValue": "CB6A4A21453D5A8D10572C85F2D0EAE8",
+        "Original": "Pyrotechnist",
+        "NewValue": "Pyrotechniker"
+      },
+      {
+        "KeyValue": "DAFD13AB45FC24A20C39DA94023CBC4B",
+        "Original": "Staff Available:",
+        "NewValue": "Personal verfügb.:"
+      },
+      {
+        "KeyValue": "9A50F5E34AFDA5C20BFF5B8CE0DE63CA",
+        "Original": "Daily Cost:",
+        "NewValue": "Tageskosten:"
+      }
+    ]
+  },
+  {
+    "FileName": "SwitchCameraButton.uasset",
+    "Values": [
+      {
+        "KeyValue": "5AD562E84CF4A1C7CD3A7F87A899D0FA",
+        "Original": "Choose your Engineer!",
+        "NewValue": "Wähle deinen Lokführer!"
+      }
+    ]
+  },
+  {
+    "FileName": "MiniMap.uasset",
+    "Values": [
+      {
+        "KeyValue": "431EE0314D41B15E102B928B68047C18",
+        "Original": "Stats",
+        "NewValue": "Stats"
+      },
+      {
+        "KeyValue": "4A2C932246508C9C21D4EEBD11788DD1",
+        "Original": "Quit",
+        "NewValue": "Beenden"
+      },
+      {
+        "KeyValue": "3DD596324A6FDC636D88B8A290ABA07C",
+        "Original": "Settings",
+        "NewValue": "Einstellungen"
+      },
+      {
+        "KeyValue": "E5E5C95D4B4530C8ED2595A97397F159",
+        "Original": "Map is not available in this area",
+        "NewValue": "Die Karte ist in dieser Zone nicht verfügbar"
+      }
+    ]
+  },
+  {
+    "FileName": "Rubble.uasset",
+    "Values": [
+      {
+        "Original": "If only you had help to go faster...",
+        "NewValue": "Wenn du nur Hilfe hättest, schneller zu fahren..."
+      },
+      {
+        "Original": "You need to be going faster to break through!",
+        "NewValue": "Du musst schneller fahren, um durchzubrechen!"
+      },
+      {
+        "Original": "There must be a staff member that can increase your speed.",
+        "NewValue": "Es gibt sicher Personal, das dein Tempo erhöht."
+      },
+      {
+        "Original": "Reach level 3 to get help going faster.",
+        "NewValue": "Erreiche Level 3 für Hilfe beim Schnellerfahren."
+      }
+    ]
+  },
+  {
+    "FileName": "TreeBranch.uasset",
+    "Values": [
+      {
+        "Original": "You need to be going faster to break through!",
+        "NewValue": "Du musst schneller fahren, um durchzubrechen!"
+      }
+    ]
+  },
+  {
+    "FileName": "Tornado.uasset",
+    "Values": [
+      {
+        "Original": "Triggered",
+        "NewValue": "Ausgelöst"
+      }
+    ]
+  },
+  {
+    "FileName": "wMap.uasset",
+    "Values": [
+      {
+        "Original": "Blowhistle",
+        "NewValue": ""
+      },
+      {
+        "Original": "Bumblebee",
+        "NewValue": ""
+      },
+      {
+        "Original": "Sugarcube",
+        "NewValue": ""
+      },
+      {
+        "Original": "Pearbury",
+        "NewValue": ""
+      },
+      {
+        "Original": "Nowhere",
+        "NewValue": ""
+      },
+      {
+        "Original": "Colby",
+        "NewValue": ""
+      },
+      {
+        "Original": "Bloomwater",
+        "NewValue": ""
+      },
+      {
+        "Original": "Chugwater",
+        "NewValue": ""
+      },
+      {
+        "Original": "Dustbowl",
+        "NewValue": ""
+      },
+      {
+        "Original": "Pinecone",
+        "NewValue": ""
+      },
+      {
+        "Original": "Aurora",
+        "NewValue": ""
+      },
+      {
+        "Original": "Snowball",
+        "NewValue": ""
+      },
+      {
+        "Original": "Birchwood",
+        "NewValue": ""
+      },
+      {
+        "Original": "Cattail",
+        "NewValue": ""
+      },
+      {
+        "Original": "Misty Creek",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "80DD73AA49429DE81A0D0487EF658F12",
+        "Original": "INK",
+        "NewValue": "TINTE"
+      },
+      {
+        "KeyValue": "694915FB43EE7466660FAEB053163E3D",
+        "Original": "Close",
+        "NewValue": "Schließen"
+      },
+      {
+        "KeyValue": "0440F13E472FBD9B0F8B2E83CB293922",
+        "Original": "Clear Stamp",
+        "NewValue": "Stempel löschen"
+      },
+      {
+        "KeyValue": "F335B4504BF554B5032149885734095C",
+        "Original": "STAMPS",
+        "NewValue": "STEMPEL"
+      }
+    ]
+  },
+  {
+    "FileName": "wStationMarker.uasset",
+    "Values": [
+      {
+        "KeyValue": "596F657A49323B42ECC6E4A8515BCD89",
+        "Original": "Station Name",
+        "NewValue": "Stationsname"
+      }
+    ]
+  }
+]

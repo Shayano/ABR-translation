@@ -1,8 +1,8 @@
 {
   "mod_name": "A Bumpy Ride - Deutsche Übersetzung",
-  "mod_version": "1.4.5",
+  "mod_version": "1.4.6",
   "mod_author": "Shayano",
-  "mod_date": "2026-05-15",
+  "mod_date": "2026-05-16",
   "engine_version": "UE5_3",
   "language": "de",
   "language_register": "du",
@@ -25,24 +25,24 @@
     }
   },
   "bundle": {
-    "patched_uasset_count": 76,
+    "patched_uasset_count": 72,
     "patched_umap_count": 4,
-    "patched_uexp_count": 74,
-    "total_files": 154,
-    "approx_size_mb": 90.3
+    "patched_uexp_count": 70,
+    "total_files": 146,
+    "approx_size_mb": 90.2
   },
   "install_requirements": {
     "free_disk_space_gb": 12,
     "approx_install_time_minutes": 4
   },
   "changelog": {
-    "1.4.5": "Wiederherstellung der 62 Aktionär-Aufgabenbeschreibungen (SpecialPassenger.uexp), die seit v1.0 auf Englisch geblieben waren wegen eines Absturzes durch unendliche Rekursion. Neuer Custom-Patcher 'BPOffsetPatcher' (tools/bp_offset_patcher/), der Edit-in-place + globale Shift-Map auf den absoluten Bytecode-Offsets (EX_Jump, EX_JumpIfNot, EX_PushExecutionFlow, EX_SwitchValue.EndGotoOffset + Cases.NextOffset) kombiniert mit der erneuten Serialisierung der 47 internen Caller, um deren hartcodierte EX_IntConst-Entrypoints zu verschieben. Der Absturz kam von zwei kumulierten Problemen, die kein bestehender Patcher (KissE, BPStringPatcher) behandelt hat: (1) die internen Offsets der ans Ende des Bytecodes verschobenen modifiedTopExpr wurden ungültig (bestätigt bei 4 EX_SwitchValue.EndGotoOffset), (2) die Stub-Funktionen des BP (Despawn, Timeline_5__UpdateFunc, etc.) rufen ExecuteUbergraph_SpecialPassenger mit einem hartcodierten Entrypoint-Offset als EX_IntConst auf, und diese Offsets wurden im Edit-in-place ungültig. Sichtbare Folge: 'Sonnenuntergang sehen', 'Bis 21 Uhr an Bord bleiben', 'Wüste zwischen 4 und 18 Uhr meiden', 'Sammle einige Birnen: 0/3', etc. erscheinen jetzt auf Deutsch. Grammatische Umformulierung der konkatenierten Fracht-Fragmente: 'Pick up some ' + 'pears' wird zu 'Sammle ' + 'einige Birnen' (statt des fehlerhaften 'Sammle etwas Birnen'), ebenso für 'etwas Honig' / 'etwas Dynamit' / 'einige Heuballen' / 'etwas Käse' / 'einige Eiswürfel'. 2 Strings 'AM'/'PM' bleiben auf Englisch (Dubletten-Bug im Patcher, nicht blockierend). In-Game-Validierung: Aktionär-Aufnahme bei mehreren Aufgaben ohne Absturz.",
     "1.4.4": "Hotfix für einen Absturz durch unendliche Rekursion beim Aufnehmen eines Aktionärs (Shareholder). Komplette Diagnose über vollständigen Minidump (9 GB) : ProcessInternal-Rekursion bei 90 Frames = UE5-Grenze 'Infinite script recursion'. Strenge Bissektion : Schuldiger identifiziert = SpecialPassenger.uexp, dessen Patch durch KissE in v1.4.0 (62 übersetzte Strings) einen kaputten EX_Jump in einem Bedingungszweig der Aktionär-Aufgaben einführte (= nur bestimmte Aufgaben lösten den Absturz aus, daher die nicht-deterministische Natur). Versuch des Neu-Patchens über BPStringPatcher (normalerweise sichere placeholder+branch-Technik, validiert für PlayerTrain in v1.3.3) scheiterte auch bei diesem BP - vermutlich wegen der Bytecode-Komplexität (62 Strings verteilt auf zahlreiche Bedingungszweige zur Auswertung des Aufgabentyps). Entscheidung : SpecialPassenger bleibt in dieser Release Vanilla. Sichtbare Folge : die 62 Aktionär-Aufgaben bleiben auf Englisch ('See the sunset', 'Stay aboard until 9PM', 'Avoid the desert between X and Y', 'Obey every law sign', 'View the Big Stack Summit photo spot', usw.). Der Rest des Mods bleibt auf Deutsch : UI, Dialoge, Hauptquests, Shop, Einstellungen, Tagesabschluss, Erfolge, Zug-Warnungen. Keine andere Übersetzung verloren.",
     "1.4.3": "Übersetzung von 6 bisher nicht übersetzten Strings (im Binär vorhanden, im Original-JSON aber nicht). QuestBoard: 'Click to lock' -> 'Klicken zum Sperren', 'Click to unlock' -> 'Klicken zum Entsperren' (Schloss-Button der Quests). TrainScreen: 'Watch out for tornadoes!' -> 'Achtung, Tornados!', 'You are lost!' -> 'Du hast dich verirrt!', 'Tracks may be slippery!' -> 'Rutschige Schienen!' (Wetter/Schienen-Warnungen), 'Click to drop explosives' -> 'Klicken zum Abwerfen der TNT' (TNT-Button). Die 6 Strings sind FText mit KeyValue, über KissE im Bytecode .uexp gepatcht ohne Anfassen der NameMap.",
     "1.4.2": "Rückgewinnung der 4 in v1.4.1 verlorenen QuestBoard-Strings. Die Quest-Tafel zeigt wieder 'Aktuelle Aufgabe:', 'Such einen Aktionär, um Aktien zu verdienen!', 'Alle Aufgaben erledigt, gute Fahrt!' und 'Erreiche Level 10 und heul dann drüber' auf Deutsch. KissE auf QuestBoard.uasset Vanilla mit bereinigtem JSON (ohne den String 'Lock') erneut ausgeführt: die UMG-Bezeichner 'Lock_Panel', 'Lock_INST', 'LockIcon_Locked/Unlocked' bleiben unversehrt in der NameMap, der Schloss-Button behält sein englisches 'Lock' (geringfügig). QuestTicket bleibt Vanilla: der Versuch der Neupatchung führte zu Spielabstürzen (vermutlich EX_Jump-Offset-Korruption bei 'Destination: Nearest Station' → 'Destination : Gare la plus proche', Längenänderung +5 Zeichen), gegebenenfalls in v1.4.3 über BPStringPatcher zu beheben. NPCPointer, W_WonStocks und PopUp bleiben Vanilla (keine Nutzer-Strings zu retten).",
     "1.4.1": "Hotfix Absturz beim Aufnehmen des Aktionärs (Shareholder-Quest). 5 Blueprints zurück auf Vanilla gesetzt: W_WonStocks, NPCPointer, QuestBoard, QuestTicket, PopUp. Diese Widgets enthielten in ihrer NameMap UMG-interne Bezeichner ('Float', 'Pulsate', 'Lock', 'Quest 1/2/3', 'Unlocked Item/Text'), die KissE versehentlich als Anzeigetexte übersetzt hatte. Folge: 'FindChildWidget'/'PlayAnimation'-Aufrufe lieferten null und führten zu EXCEPTION_ACCESS_VIOLATION beim Trigger der Aktionär-Begegnung. Der zugehörige sichtbare Text bleibt zu 99 % unverändert (Bezeichner werden nicht auf dem Bildschirm angezeigt). Die 8 betroffenen Einträge wurden aus translations/de/strings_BP.json entfernt, damit zukünftige Pipeline-Läufe den Fehler nicht erneut erzeugen.",
     "1.4.0": "Angleichung der Versionsnummerierung mit FR im Multi-Sprachen-Repo. Funktional identisch zur v1.1.0 (gleiche 154 Patches, gleicher Vanilla-Hash). Erste DE-Veröffentlichung über das gemeinsame GitHub-Tag v1.4.0.",
     "1.0.0": "🇩🇪 Initiale Veröffentlichung der deutschen Übersetzung. ~934 Strings übersetzt (UI, Tutorial, Achievements, Shop, Quests, Skin-Beschreibungen, Titelbildschirm-Sprüche). Registre `du` (informell). Konventionen erhalten: Eigennamen (Skins, Stationen, Regionen) auf EN, Ladenschilder auf EN (Western-Atmosphäre), On/Off auf EN (UI-Platz), kaiserliche Maßeinheiten beibehalten (FT, Meilen).",
-    "1.1.0": "Anpassung an Spiel-Update vom 07.05.2026 + Parität mit FR v1.3.4. Tutorial_Table erstmals übersetzt (33 Strings des Spiel-Tutorials). QuestLine: 3 von Entwicklern umformulierte Questbeschreibungen übersetzt (Prärie, Minen und Schluchten, Tiefen des Lilli-Walds). Vanilla-Baseline auf das Post-Update-Spiel neu kalibriert. Alle Gedankenstriche durch klassische Bindestriche ersetzt."
+    "1.1.0": "Anpassung an Spiel-Update vom 07.05.2026 + Parität mit FR v1.3.4. Tutorial_Table erstmals übersetzt (33 Strings des Spiel-Tutorials). QuestLine: 3 von Entwicklern umformulierte Questbeschreibungen übersetzt (Prärie, Minen und Schluchten, Tiefen des Lilli-Walds). Vanilla-Baseline auf das Post-Update-Spiel neu kalibriert. Alle Gedankenstriche durch klassische Bindestriche ersetzt.",
+    "1.4.6": "Mehrsprachen-Angleichung. Zwei Strings hinzugefügt: 'OWNED' -> 'BESITZT' (Shop-UI) und 'Tour the ' -> 'Besuche ' (Aktionär-Aufgaben in SpecialPassenger). Parität mit FR und ES erreicht."
   }
 }

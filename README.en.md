@@ -4,10 +4,10 @@
 
 Unofficial translation mods for [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), an indie railroad-simulation game on Steam.
 
-**Current version : 1.4.5** (May 15, 2026)
+**Current version : 1.4.6** (May 16, 2026)
 **Game engine : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.5** : recovers the 62 Shareholder task objectives that had been stuck in English since v1.0 due to the infinite-recursion crash. New custom patcher `BPOffsetPatcher` that solves two cumulated problems no existing tool handled : (1) internal offsets of statements relocated to the end of the bytecode, and (2) hardcoded `EX_IntConst` entry-points in the Blueprint's 47 internal callers. In-game : `See the sunset`, `Stay aboard until 9PM`, `Avoid the desert between 4AM and 6PM`, `Pick up some honey: 0/3`, `Tour the big tree photo spot`, etc. are now translated. Grammar fix on concatenated cargo fragments (e.g. FR `Récupérer du poires` → `Récupérer des poires`, DE `Sammle etwas Birnen` → `Sammle einige Birnen`). 2 `AM`/`PM` strings remain in English (minor duplicate-handling bug in the patcher, non-blocking).
+> 🆕 **v1.4.6** : recovers the 62 Shareholder task objectives that had been stuck in English since v1.0 due to the infinite-recursion crash. New custom patcher `BPOffsetPatcher` that solves two cumulated problems no existing tool handled : (1) internal offsets of statements relocated to the end of the bytecode, and (2) hardcoded `EX_IntConst` entry-points in the Blueprint's 47 internal callers. In-game : `See the sunset`, `Stay aboard until 9PM`, `Avoid the desert between 4AM and 6PM`, `Pick up some honey: 0/3`, `Tour the big tree photo spot`, etc. are now translated. Grammar fix on concatenated cargo fragments (e.g. FR `Récupérer du poires` → `Récupérer des poires`, DE `Sammle etwas Birnen` → `Sammle einige Birnen`). 2 `AM`/`PM` strings remain in English (minor duplicate-handling bug in the patcher, non-blocking).
 
 > This mod is neither developed nor endorsed by the game's creators. It's a fan project, provided as is.
 
@@ -44,7 +44,7 @@ Both translations share these conventions :
 
 Each language ships in two formats :
 
-1. **Installer zip** (`ABR-fr_v1.4.5.zip` / `ABR-de_v1.4.5.zip`, ~35-70 MB) : PowerShell installer for Windows, auto-detects Steam, ~3-5 min install
+1. **Installer zip** (`ABR-fr_v1.4.6.zip` / `ABR-de_v1.4.6.zip`, ~35-70 MB) : PowerShell installer for Windows, auto-detects Steam, ~3-5 min install
 2. **Prepatched zip** (drop-in, ~2 GB) : not published officially since v1.4.3 - regenerate locally by running `install.ps1` and zipping the produced `.ucas/.utoc/.pak`
 
 ### Drop-in steps

@@ -2,10 +2,10 @@
 
 Unofficial translation mods for [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), an indie railroad-simulation game on Steam.
 
-**Current version : 1.4.5** (May 15, 2026)
+**Current version : 1.4.6** (May 16, 2026)
 **Game engine : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.5 highlights** : recovers the 62 Shareholder task objectives that had been stuck in English since v1.0 due to the infinite-recursion crash. New custom patcher `BPOffsetPatcher` solves two cumulated problems no existing tool handled : (1) internal offsets of statements relocated to the end of the bytecode, and (2) hardcoded `EX_IntConst` entry-points in the Blueprint's 47 internal callers. In-game : "See the sunset", "Stay aboard until 9PM", "Pick up some honey: 0/3", "Tour the big tree photo spot", etc. are now translated. Grammar fix on concatenated cargo fragments. 2 `AM`/`PM` strings remain in English (minor non-blocking duplicate-handling bug).
+> 🆕 **v1.4.6 highlights** : recovers the 62 Shareholder task objectives that had been stuck in English since v1.0 due to the infinite-recursion crash. New custom patcher `BPOffsetPatcher` solves two cumulated problems no existing tool handled : (1) internal offsets of statements relocated to the end of the bytecode, and (2) hardcoded `EX_IntConst` entry-points in the Blueprint's 47 internal callers. In-game : "See the sunset", "Stay aboard until 9PM", "Pick up some honey: 0/3", "Tour the big tree photo spot", etc. are now translated. Grammar fix on concatenated cargo fragments. 2 `AM`/`PM` strings remain in English (minor non-blocking duplicate-handling bug).
 
 > Not developed or endorsed by the game's creators. Fan project, provided as is.
 
@@ -15,8 +15,9 @@ Unofficial translation mods for [A Bumpy Ride](https://store.steampowered.com/ap
 
 | Language | README | Installer | Drop-in |
 |---|---|---|---|
-| 🇫🇷 **Français** | [README.fr.md](README.fr.md) | `ABR-fr_v1.4.5.zip` | (regenerate locally via install.ps1) |
-| 🇩🇪 **Deutsch** | [README.de.md](README.de.md) | `ABR-de_v1.4.5.zip` | (regenerate locally via install.ps1) |
+| 🇫🇷 **Français** | [README.fr.md](README.fr.md) | `ABR-fr_v1.4.6.zip` | (regenerate locally via install.ps1) |
+| 🇩🇪 **Deutsch** | [README.de.md](README.de.md) | `ABR-de_v1.4.6.zip` | (regenerate locally via install.ps1) |
+| 🇪🇸 **Español** | [README.es.md](README.es.md) | `ABR-es_v1.4.6.zip` | (regenerate locally via install.ps1) |
 | 🇬🇧 English (overview only) | [README.en.md](README.en.md) | - | - |
 
 Downloads are available in [Releases](../../releases).

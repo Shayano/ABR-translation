@@ -991,19 +991,19 @@
       },
       {
         "Original": "Big Stack Summit",
-        "NewValue": "Big Stack Summit"
+        "NewValue": ""
       },
       {
         "Original": "Lake Polari",
-        "NewValue": "Lac Polari"
+        "NewValue": ""
       },
       {
         "Original": "Pleasant Pond",
-        "NewValue": "Étang Pleasant"
+        "NewValue": ""
       },
       {
         "Original": "Bayou Bel Nuit",
-        "NewValue": "Bayou Bel Nuit"
+        "NewValue": ""
       },
       {
         "Original": "Tour the ",
@@ -1103,27 +1103,27 @@
       },
       {
         "Original": "pears",
-        "NewValue": "poires"
+        "NewValue": "des poires"
       },
       {
         "Original": "honey",
-        "NewValue": "miel"
+        "NewValue": "du miel"
       },
       {
         "Original": "dynamite",
-        "NewValue": "dynamite"
+        "NewValue": "de la dynamite"
       },
       {
         "Original": "hay bales",
-        "NewValue": "bottes de foin"
+        "NewValue": "des bottes de foin"
       },
       {
         "Original": "ice cubes",
-        "NewValue": "cubes de glace"
+        "NewValue": "des cubes de glace"
       },
       {
         "Original": "cheese",
-        "NewValue": "fromage"
+        "NewValue": "du fromage"
       },
       {
         "Original": "Get close to a tornado",
@@ -1151,7 +1151,7 @@
       },
       {
         "Original": "Pick up some ",
-        "NewValue": "Récupérer du "
+        "NewValue": "Récupérer "
       }
     ]
   },
@@ -1274,7 +1274,7 @@
       },
       {
         "Original": "Big Fella",
-        "NewValue": "Big Fella"
+        "NewValue": ""
       },
       {
         "Original": "You need to have a gondola car to bring honey!",
@@ -2329,30 +2329,6 @@
     ]
   },
   {
-    "FileName": "NPCPointer.uasset",
-    "Values": [
-      {
-        "Original": "Pulsate",
-        "NewValue": "Pulsation"
-      }
-    ]
-  },
-  {
-    "FileName": "PopUp.uasset",
-    "Values": [
-      {
-        "KeyValue": "461598B541DD89BD605C1785219985DB",
-        "Original": "Unlocked Item",
-        "NewValue": "Objet débloqué"
-      },
-      {
-        "KeyValue": "CFEF1674451E7AEFCA4C458BE97B7306",
-        "Original": "Unlocked Text",
-        "NewValue": "Texte débloqué"
-      }
-    ]
-  },
-  {
     "FileName": "QuestBoard.uasset",
     "Values": [
       {
@@ -2379,8 +2355,14 @@
         "NewValue": "Tâche actuelle :"
       },
       {
-        "Original": "Lock",
-        "NewValue": "Verrouiller"
+        "KeyValue": "77F202564B54D237E282F49B353D3392",
+        "Original": "Click to lock",
+        "NewValue": "Clique pour verrouiller"
+      },
+      {
+        "KeyValue": "FD84458A44D55803DAB174B508059B9F",
+        "Original": "Click to unlock",
+        "NewValue": "Clique pour déverrouiller"
       }
     ]
   },
@@ -2455,21 +2437,6 @@
         "KeyValue": "DDB5F425430644EF4EBCB7967EF5983E",
         "Original": "DESTINATION:",
         "NewValue": "DESTINATION :"
-      },
-      {
-        "KeyValue": "CFF2A04948601247323485A1064CA009",
-        "Original": "Quest 1",
-        "NewValue": "Quête 1"
-      },
-      {
-        "KeyValue": "9EB6204544DDF631125EB7972EF7B330",
-        "Original": "Quest 2",
-        "NewValue": "Quête 2"
-      },
-      {
-        "KeyValue": "EBC328E640580D3128E1CBBBDE17E9DC",
-        "Original": "Quest 3",
-        "NewValue": "Quête 3"
       }
     ]
   },
@@ -2593,6 +2560,26 @@
       {
         "Original": "Water usage is twice as fast!",
         "NewValue": "Consommation d'eau doublée !"
+      },
+      {
+        "KeyValue": "B7F56CCE4C265DB88A61F8867346FC63",
+        "Original": "Watch out for tornadoes!",
+        "NewValue": "Attention aux tornades !"
+      },
+      {
+        "KeyValue": "A27711E2420BBFBEE1AFD58B180EA828",
+        "Original": "You are lost!",
+        "NewValue": "Tu es perdu !"
+      },
+      {
+        "KeyValue": "3125262144743F4EC04555832F4E999D",
+        "Original": "Tracks may be slippery!",
+        "NewValue": "Rails glissants !"
+      },
+      {
+        "KeyValue": "57D93A644B4A77789D91ADAACB860FDB",
+        "Original": "Click to drop explosives",
+        "NewValue": "Clique pour larguer la TNT"
       }
     ]
   },
@@ -2641,7 +2628,7 @@
       {
         "KeyValue": "F96BCE9D41F8CF9DB4E7D1BA3012CBC9",
         "Original": "Jessica Armstrong<cf><cf>Kyle Gabba",
-        "NewValue": "Jessica Armstrong<cf><cf>Kyle Gabba"
+        "NewValue": ""
       },
       {
         "KeyValue": "74A3693441E79B89A838AEBD902C4F87",
@@ -3306,7 +3293,7 @@
       },
       {
         "Original": "AMÉLIORATIONS",
-        "NewValue": "AMÉLIO."
+        "NewValue": ""
       }
     ]
   },
@@ -3472,15 +3459,6 @@
         "KeyValue": "5AD562E84CF4A1C7CD3A7F87A899D0FA",
         "Original": "Choose your Engineer!",
         "NewValue": "Choisis ton mécanicien !"
-      }
-    ]
-  },
-  {
-    "FileName": "W_WonStocks.uasset",
-    "Values": [
-      {
-        "Original": "Float",
-        "NewValue": "Plate-forme"
       }
     ]
   },

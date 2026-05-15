@@ -1,0 +1,202 @@
+[
+  {
+    "source": "Baby doggy",
+    "translation": "Cachorro"
+  },
+  {
+    "source": "Crow lady",
+    "translation": "Señora Cuervo"
+  },
+  {
+    "source": "Trans duck",
+    "translation": "Pato trans"
+  },
+  {
+    "source": "Handsome bear man",
+    "translation": "Oso galán"
+  },
+  {
+    "source": "Dog Male",
+    "translation": "Perro"
+  },
+  {
+    "source": "Dog Female",
+    "translation": "Perra"
+  },
+  {
+    "source": "Cat Male",
+    "translation": "Gato"
+  },
+  {
+    "source": "Cat Female",
+    "translation": "Gata"
+  },
+  {
+    "source": "Rabbit-Up Female",
+    "translation": "Conejo orejas erguidas (F)"
+  },
+  {
+    "source": "Rabbit-Up Male",
+    "translation": "Conejo orejas erguidas (M)"
+  },
+  {
+    "source": "Rabbit-Flop Female",
+    "translation": "Conejo orejas caídas (F)"
+  },
+  {
+    "source": "Rabbit-Flop Male",
+    "translation": "Conejo orejas caídas (M)"
+  },
+  {
+    "source": "Bird Female",
+    "translation": "Pájaro (F)"
+  },
+  {
+    "source": "Bird Male",
+    "translation": "Pájaro (M)"
+  },
+  {
+    "source": "Deer Female",
+    "translation": "Cierva"
+  },
+  {
+    "source": "Deer Male",
+    "translation": "Ciervo"
+  },
+  {
+    "source": "Lizard Male",
+    "translation": "Lagartija (M)"
+  },
+  {
+    "source": "Lizard Female",
+    "translation": "Lagartija (F)"
+  },
+  {
+    "source": "RoadRunner Male",
+    "translation": "Correcaminos (M)"
+  },
+  {
+    "source": "RoadRunner Female",
+    "translation": "Correcaminos (F)"
+  },
+  {
+    "source": "Gorilla dude",
+    "translation": "Tío gorila"
+  },
+  {
+    "source": "Bear Male",
+    "translation": "Oso"
+  },
+  {
+    "source": "Bear Female",
+    "translation": "Osa"
+  },
+  {
+    "source": "Catfish Male",
+    "translation": "Bagre (M)"
+  },
+  {
+    "source": "Catfish Female",
+    "translation": "Bagre (F)"
+  },
+  {
+    "source": "Gator Male",
+    "translation": "Caimán (M)"
+  },
+  {
+    "source": "Gator Female",
+    "translation": "Caimán (F)"
+  },
+  {
+    "source": "Horse Male",
+    "translation": "Caballo"
+  },
+  {
+    "source": "Horse Female",
+    "translation": "Yegua"
+  },
+  {
+    "source": "Mouse Male",
+    "translation": "Ratón (M)"
+  },
+  {
+    "source": "Mouse Female",
+    "translation": "Ratón (F)"
+  },
+  {
+    "source": "Panda Male",
+    "translation": "Panda (M)"
+  },
+  {
+    "source": "Panda Female",
+    "translation": "Panda (F)"
+  },
+  {
+    "source": "Bison Male",
+    "translation": "Bisonte (M)"
+  },
+  {
+    "source": "Bison Female",
+    "translation": "Bisonte (F)"
+  },
+  {
+    "source": "MinerCanary",
+    "translation": "Canario minero"
+  },
+  {
+    "source": "Cow Male",
+    "translation": "Toro"
+  },
+  {
+    "source": "Cow Female",
+    "translation": "Vaca"
+  },
+  {
+    "source": "Bat Male",
+    "translation": "Murciélago (M)"
+  },
+  {
+    "source": "Bat Female",
+    "translation": "Murciélago (F)"
+  },
+  {
+    "source": "Fox Male",
+    "translation": "Zorro"
+  },
+  {
+    "source": "Fox Female",
+    "translation": "Zorra"
+  },
+  {
+    "source": "Goat Male",
+    "translation": "Cabra (M)"
+  },
+  {
+    "source": "Goat Female",
+    "translation": "Cabra (F)"
+  },
+  {
+    "source": "Pig Male",
+    "translation": "Cerdo"
+  },
+  {
+    "source": "Pig Female",
+    "translation": "Cerda"
+  },
+  {
+    "source": "Raccoon Male",
+    "translation": "Mapache (M)"
+  },
+  {
+    "source": "Raccoon Female",
+    "translation": "Mapache (F)"
+  },
+  {
+    "source": "Turtle Male",
+    "translation": "Tortuga (M)"
+  },
+  {
+    "source": "Turtle Female",
+    "translation": "Tortuga (F)"
+  }
+]

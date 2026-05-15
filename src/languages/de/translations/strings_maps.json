@@ -1,0 +1,560 @@
+[
+  {
+    "FileName": "HomeScreen.umap",
+    "Values": [
+      {
+        "Original": "r.ScreenPercentage ",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "NewTutorialLevel.umap",
+    "Values": [
+      {
+        "Original": "Pick up passengers by stopping at their station and blowing your whistle!^The tickets they give you will tell you   where they want to go.",
+        "NewValue": "Halte an der Station und pfeife, um Passagiere abzuholen!^Ihre Tickets zeigen dir,   wohin sie wollen."
+      },
+      {
+        "Original": "It looks like they want to go to Eagle   Nest station at the top of the mountain, let's go!",
+        "NewValue": "Er will zur Station Eagle   Nest oben auf dem Berg - auf geht's!"
+      },
+      {
+        "Original": "Also, you can right-click and drag to     rotate your camera!^Now, let's go get that passenger.",
+        "NewValue": "Du kannst auch mit Rechtsklick + Ziehen     deine Kamera drehen!^Jetzt holen wir den Passagier."
+      },
+      {
+        "Original": "Keep an eye on trackside signals that   may indicate another train is coming!",
+        "NewValue": "Achte auf die Gleis-Signale, die   einen anderen Zug ankündigen können!"
+      },
+      {
+        "Original": "These are law signs. This type indicates that you need to blow your whistle as you drive by.^Following laws is crucial to keeping passengers happy!",
+        "NewValue": "Das sind die Schilder. Dieser Typ bedeutet, dass du beim Vorbeifahren pfeifen musst.^Die Schilder zu befolgen ist entscheidend für zufriedene Passagiere!"
+      },
+      {
+        "Original": "Left-click and drag the switch paddle to choose a direction at a junction.^Either direction is fine this time!",
+        "NewValue": "Linksklick + Ziehen am Weichenhebel wählt die Richtung an einer Weiche.^Diesmal ist beide Richtungen okay!"
+      },
+      {
+        "Original": "This law sign indicates a slow zone.^Make sure to be at the first speed step at all times inside the zone.",
+        "NewValue": "Dieses Schild markiert eine Langsam-Zone.^Bleib in der Zone immer auf der ersten Geschwindigkeitsstufe."
+      },
+      {
+        "Original": "Slow zones end once you pass this sign.",
+        "NewValue": "Die Langsam-Zone endet, sobald du dieses Schild passierst."
+      },
+      {
+        "Original": "Blow the whistle to pick them up!",
+        "NewValue": "Pfeife, um sie aufzunehmen!"
+      },
+      {
+        "Original": "Be careful not to run into other trains! You will lose time and profits!",
+        "NewValue": "Pass auf, dass du nicht in andere Züge fährst! Du verlierst Zeit und Geld!"
+      },
+      {
+        "Original": "Great job on your driving! The passenger made it happily.^Now pick up these two and head back to Seaside.^If your water gauge is looking low, fill up at the water tower nextdoor before you go!",
+        "NewValue": "Super gefahren! Der Passagier ist zufrieden angekommen.^Hol jetzt diese zwei ab und fahr zurück nach Seaside.^Wenn dein Wasserstand niedrig ist, tanke vorher am Wasserturm nebenan!"
+      },
+      {
+        "Original": "Looks like your passenger wasn't too happy, be more careful driving!^Now pick up these two and head back to Seaside.^If your water gauge is looking low, fill up at the water tower nextdoor before you go!",
+        "NewValue": "Dein Passagier sah nicht zufrieden aus - fahr vorsichtiger!^Hol jetzt diese zwei ab und fahr zurück nach Seaside.^Wenn dein Wasserstand niedrig ist, tanke vorher am Wasserturm nebenan!"
+      },
+      {
+        "Original": "Great job, the passengers made it happily.^That wraps up your training! Time to face the real world!",
+        "NewValue": "Super, die Passagiere sind zufrieden angekommen.^Damit ist deine Ausbildung beendet! Auf in die echte Welt!"
+      },
+      {
+        "Original": "Looks like your passengers weren't too happy, be more careful driving!^You're headed to the real world now, so good luck!",
+        "NewValue": "Deine Passagiere waren nicht so zufrieden - fahr vorsichtiger!^Jetzt geht's in die echte Welt - viel Glück!"
+      },
+      {
+        "Original": "Be careful! Stopping too abruptly will   upset passengers.",
+        "NewValue": "Vorsicht! Zu abruptes Anhalten   verärgert die Passagiere."
+      },
+      {
+        "Original": "Welcome to your Engineer Training, let's get started!^Left-click and drag the controls on the right side of your screen to control      the engine.^The throttle has two forward speeds,      plus stop and reverse!",
+        "NewValue": "Willkommen zur Lokführer-Ausbildung, los geht's!^Linksklick + Ziehen an den Reglern rechts steuert      die Lok.^Der Regler hat zwei Vorwärtsgänge,      plus Stopp und Rückwärts!"
+      },
+      {
+        "KeyValue": "",
+        "Original": "ELEVATION: 624 FT",
+        "NewValue": "HÖHE: 624 FT"
+      },
+      {
+        "KeyValue": "",
+        "Original": "EAGLE NEST",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "ELEVATION: 45 FT",
+        "NewValue": "HÖHE: 45 FT"
+      },
+      {
+        "KeyValue": "",
+        "Original": "SEASIDE",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "Dsrt_Chugwater_SubLvl.umap",
+    "Values": [
+      {
+        "KeyValue": "",
+        "Original": "ASSAY OFFICE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "CHUGWATER MINING CO.",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "POSTAL SERVICE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "RIVER IRONWORKS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "CANYON LUMBER CO.",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "LYTUM & HYDE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "TURNING AND PLANING",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "SMOKESTACK SALOON",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "MUSIC, DANCING & FOOD",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "Dsrt_Dustbowl_SubLvl.umap",
+    "Values": [
+      {
+        "KeyValue": "",
+        "Original": "DUSTBOWL MINING CO.",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "Dsrt_MineTower_SubLvl.umap",
+    "Values": [
+      {
+        "KeyValue": "",
+        "Original": "CHUGWATER MINING CO.",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "Dsrt_RioFrontera_SubLvl.umap",
+    "Values": [
+      {
+        "KeyValue": "",
+        "Original": "WILKE RANCH",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "Frst_Blowhistle_SubLvl.umap",
+    "Values": [
+      {
+        "KeyValue": "",
+        "Original": "FLOWERS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "KIMBALL FIRE CO.",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "GROCERY",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "MEAT & CHEESE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "VEGETABLES",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "BAKED GOODS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "DRY GOODS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "MILLINERY",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "MAXIMILLIAN'S",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "HARDWARE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "STEVENS & SONS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "HABERDASHERY, TAILOR, HAT MAKERS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "HUDSON ENGINE CO.",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "INSURANCE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "POST OFFICE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "HUNTINGTON & HOPKINS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "ROOM & BOARD",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "HOTEL & RESTAURANT",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "A BUMPY RIDE",
+        "NewValue": "A BUMPY RIDE"
+      },
+      {
+        "KeyValue": "",
+        "Original": "NOW PLAYING",
+        "NewValue": "JETZT IM KINO"
+      },
+      {
+        "KeyValue": "",
+        "Original": "FINANCIERS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "CREDIT MOBILIER",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "TRAVEL AGENTS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "C. LOVE MUSIC",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "MAMA'S PLACE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "PLAYHOUSE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "HUDSON",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "ENGINE CO.",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "J. ARMSTRONG",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "L. GULLIVER",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "PRINTERS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "BLOWHISTLE STREET RAILWAY Co.",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "LILLI & PUT RAILROAD FREIGHT DEPOT",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "NATHANIEL'S",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "MODEL TRAINS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "KE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "ba",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "ry",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "MALACHITE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "RESTAURANT",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "J.S. BAECHLE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "ARCADE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "DRESSMAKER",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "S. PLEASANT",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "CONFECTIONARY",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "LILLI & PUT R.R.",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "MILLER & MCCANTS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "ARCHITECTURE & CONSTRUCTION",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "BOILERMAKER & MACHINIST",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "HARVEY'S",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "Plns_Cattail_SubLvl.umap",
+    "Values": [
+      {
+        "KeyValue": "",
+        "Original": "ELEVATION: 1 FT",
+        "NewValue": "HÖHE: 1 FT"
+      },
+      {
+        "KeyValue": "",
+        "Original": "CATTAIL",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "Plns_Colby_SubLvl.umap",
+    "Values": [
+      {
+        "KeyValue": "",
+        "Original": "RESTAURANT & HOTEL",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "KURDSENWAY",
+        "NewValue": ""
+      }
+    ]
+  },
+  {
+    "FileName": "Snw_Aurora_SubLvl.umap",
+    "Values": [
+      {
+        "KeyValue": "",
+        "Original": "ELEVATION: 5524 FT",
+        "NewValue": "HÖHE: 5524 FT"
+      },
+      {
+        "KeyValue": "",
+        "Original": "AURORA",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "WHISTLING PEAKS & RIO FRONTERA",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "LILLI & PUT RAILROAD",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "REHONIC & HAYES",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "TAILOR & LAUNDRY",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "MT. APOLLO SKI SUPPLY",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "APOTHECARY",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "HARDWARE SUPPLY",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "THE APOLLO",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "J. WHITE & SON",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "BAKERY",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "NORTHSTAR OIL",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "ONANDIA & BAECHLE",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "HUDSON MFG. ASSOCIATES",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "MILLER & MCCANTS",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "AURORA FIRE COMPANY",
+        "NewValue": ""
+      },
+      {
+        "KeyValue": "",
+        "Original": "AURORA STABLES",
+        "NewValue": ""
+      }
+    ]
+  }
+]

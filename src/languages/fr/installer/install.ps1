@@ -27,6 +27,11 @@ $AssetsDir          = Join-Path $ScriptDir 'patched_assets'
 $MainMapPatcherExe  = Join-Path $ScriptDir 'MainMapPatcher.exe'
 $UsmapPath          = Join-Path $ScriptDir 'ABumpyRide.usmap'
 
+# TEST FLAG : passer à $true pour bypass MainMapPatcher et garder MainMap vanilla.
+# Sert à confirmer si MainMapPatcher est responsable du crash récursion Actionnaire.
+# Perd seulement 2 traductions (intro "Oh no!..." + notif "New Staff Member!") si activé.
+$SkipMainMapPatcher = $false
+
 # ----------------------------------------------------------------------------
 # Helpers
 # ----------------------------------------------------------------------------
@@ -278,19 +283,23 @@ function Invoke-MainMapPatcher {
     }
 }
 
-# Pass 1: intro string
-Invoke-MainMapPatcher -InUmap $mainmapInput -OutDir $mainmapIntroOut -Target 'intro'
-# Pass 2: "New Staff Member Unlocked!" — chaîne the intro pass output as input
-$introResult = Join-Path $mainmapIntroOut 'MainMap.umap'
-Invoke-MainMapPatcher -InUmap $introResult -OutDir $mainmapStaffOut -Target 'staff'
+if ($SkipMainMapPatcher) {
+    Write-Warn "SKIP MainMapPatcher (test confirmation crash). MainMap reste vanilla = intro 'Oh no!...' et notif 'New Staff Member!' en EN."
+} else {
+    # Pass 1: intro string
+    Invoke-MainMapPatcher -InUmap $mainmapInput -OutDir $mainmapIntroOut -Target 'intro'
+    # Pass 2: "New Staff Member Unlocked!" — chaîne the intro pass output as input
+    $introResult = Join-Path $mainmapIntroOut 'MainMap.umap'
+    Invoke-MainMapPatcher -InUmap $introResult -OutDir $mainmapStaffOut -Target 'staff'
 
-# Final pass output → overlay sur le legacy dir
-foreach ($ext in 'umap','uexp','ubulk') {
-    $patched = Join-Path $mainmapStaffOut "MainMap.$ext"
-    $target  = Join-Path $LegacyDir "ABumpyRide\Content\MainMap.$ext"
-    Copy-Item $patched $target -Force
+    # Final pass output → overlay sur le legacy dir
+    foreach ($ext in 'umap','uexp','ubulk') {
+        $patched = Join-Path $mainmapStaffOut "MainMap.$ext"
+        $target  = Join-Path $LegacyDir "ABumpyRide\Content\MainMap.$ext"
+        Copy-Item $patched $target -Force
+    }
+    Write-OK "Intro et notification staff de MainMap traduites et superposées."
 }
-Write-OK "Intro et notification staff de MainMap traduites et superposées."
 
 Write-Info "5/4 — Reconversion en format Zen..."
 $null = Invoke-Retoc @('to-zen', $LegacyDir, $ZenUtoc, '--version', 'UE5_3')

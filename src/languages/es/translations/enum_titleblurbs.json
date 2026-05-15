@@ -1,0 +1,982 @@
+[
+  {
+    "source": "The wildest ride!",
+    "translation": "¡La aventura más alocada!"
+  },
+  {
+    "source": "All aboard!",
+    "translation": "¡Todos a bordo!"
+  },
+  {
+    "source": "On time, almost. . .",
+    "translation": "Puntual, casi..."
+  },
+  {
+    "source": "EGAD! It IS a train!",
+    "translation": "¡CARAMBA! ¡SÍ es un tren!"
+  },
+  {
+    "source": "They're off!",
+    "translation": "¡Y arrancan!"
+  },
+  {
+    "source": "I think I can!",
+    "translation": "¡Creo que puedo!"
+  },
+  {
+    "source": "Too ripe. . .",
+    "translation": "Muy maduro..."
+  },
+  {
+    "source": "We've got the right-of-way!",
+    "translation": "¡Tenemos preferencia de paso!"
+  },
+  {
+    "source": "Somebody's on the wrong track!",
+    "translation": "¡Alguien va por mal camino!"
+  },
+  {
+    "source": "Curses, foiled again!",
+    "translation": "¡Maldición, fracaso otra vez!"
+  },
+  {
+    "source": "Hi-yo, silverware!",
+    "translation": "¡Arre, cubertería!"
+  },
+  {
+    "source": "Gotta keep schedule!",
+    "translation": "¡Hay que cumplir el horario!"
+  },
+  {
+    "source": "I thought I could!",
+    "translation": "¡Sabía que podía!"
+  },
+  {
+    "source": "Chugga chugga!",
+    "translation": "¡Chaca chaca!"
+  },
+  {
+    "source": "Choo choo!",
+    "translation": "¡Chu chu!"
+  },
+  {
+    "source": "Protect the dolls!",
+    "translation": "¡Proteged las muñecas!"
+  },
+  {
+    "source": "Tickets, please?",
+    "translation": "¿Sus billetes, por favor?"
+  },
+  {
+    "source": "Five Hundred Miles!",
+    "translation": "¡Quinientas millas!"
+  },
+  {
+    "source": "Let's get rolling!",
+    "translation": "¡En marcha!"
+  },
+  {
+    "source": "Full steam ahead!",
+    "translation": "¡A todo vapor!"
+  },
+  {
+    "source": "Highball!",
+    "translation": "¡Vía libre!"
+  },
+  {
+    "source": "This was railroading!",
+    "translation": "¡Esto sí era ferrocarril!"
+  },
+  {
+    "source": "Prince of the Shortlines!",
+    "translation": "¡Príncipe de los ramales!"
+  },
+  {
+    "source": "a smooth ride?? never",
+    "translation": "¿¿un viaje suave?? jamás"
+  },
+  {
+    "source": "i'm running out of ideas",
+    "translation": "se me acaban las ideas"
+  },
+  {
+    "source": "uhhhh",
+    "translation": "ehhhh"
+  },
+  {
+    "source": ". . . . .",
+    "translation": ". . . . ."
+  },
+  {
+    "source": "i got nothin'",
+    "translation": "no tengo nada"
+  },
+  {
+    "source": "We're friends of Dorothy!",
+    "translation": "¡Somos amigos de Dorothy!"
+  },
+  {
+    "source": "WANTED!",
+    "translation": "¡SE BUSCA!"
+  },
+  {
+    "source": "Doin' good, kid.",
+    "translation": "Lo haces bien, chaval."
+  },
+  {
+    "source": "Playing with trains?",
+    "translation": "¿Jugando con trenes?"
+  },
+  {
+    "source": "I missed you!",
+    "translation": "¡Te he echado de menos!"
+  },
+  {
+    "source": "i miss my dog",
+    "translation": "echo de menos a mi perro"
+  },
+  {
+    "source": "i miss my cat",
+    "translation": "echo de menos a mi gato"
+  },
+  {
+    "source": "nice.",
+    "translation": "guay."
+  },
+  {
+    "source": "What in tarnation?!",
+    "translation": "¡¿Qué demonios?!"
+  },
+  {
+    "source": "is this minecraft?",
+    "translation": "¿esto es minecraft?"
+  },
+  {
+    "source": "I'm making pizza!",
+    "translation": "¡Estoy haciendo pizza!"
+  },
+  {
+    "source": "We're having soft tacos later!",
+    "translation": "¡Cenamos tacos blandos luego!"
+  },
+  {
+    "source": "One spike to rule them all!",
+    "translation": "¡Un clavo para gobernarlos a todos!"
+  },
+  {
+    "source": "Now boarding for. . .",
+    "translation": "Embarque para..."
+  },
+  {
+    "source": "BIG IRON, BIG IRON",
+    "translation": "BIG IRON, BIG IRON"
+  },
+  {
+    "source": "Pardon me boy!",
+    "translation": "¡Perdona, chico!"
+  },
+  {
+    "source": "The Chattanooga choo choo?!",
+    "translation": "¿¡El Chattanooga choo choo!?"
+  },
+  {
+    "source": "Train's a Comin'",
+    "translation": "El tren se acerca"
+  },
+  {
+    "source": "Oo-De-Lally!",
+    "translation": "¡Oo-De-Lally!"
+  },
+  {
+    "source": "Hello, dolly!",
+    "translation": "¡Hello, Dolly!"
+  },
+  {
+    "source": "Lightning Express!",
+    "translation": "¡Expreso Relámpago!"
+  },
+  {
+    "source": "Made in the USA!",
+    "translation": "¡Made in USA!"
+  },
+  {
+    "source": "Dump the air!",
+    "translation": "¡Freno de emergencia!"
+  },
+  {
+    "source": "Not a train sim!",
+    "translation": "¡No es un simulador de trenes!"
+  },
+  {
+    "source": "Good? Good.",
+    "translation": "¿Bien? Bien."
+  },
+  {
+    "source": "Join our Discord!",
+    "translation": "¡Únete a nuestro Discord!"
+  },
+  {
+    "source": "Thanks for riding with us!",
+    "translation": "¡Gracias por viajar con nosotros!"
+  },
+  {
+    "source": "It's ok to not be ok!",
+    "translation": "¡Está bien no estar bien!"
+  },
+  {
+    "source": "We listen and we don't judge.",
+    "translation": "Escuchamos y no juzgamos."
+  },
+  {
+    "source": "Hear me out. . .",
+    "translation": "Escúchame..."
+  },
+  {
+    "source": "Little engines, littler men",
+    "translation": "Locomotoras pequeñas, hombres más pequeños"
+  },
+  {
+    "source": "Track-work ahead?^I sure hope it does!",
+    "translation": "¿Obras en la vía?^¡Eso espero!"
+  },
+  {
+    "source": "I want to see how small this text can possibly get so^I'm making this unreasonably long I hope you can still read it!",
+    "translation": "Quiero ver lo pequeño que puede llegar a ser este texto, así que^lo hago absurdamente largo, ¡espero que aún puedas leerlo!"
+  },
+  {
+    "source": "I HAVE A PLAN!!",
+    "translation": "¡¡TENGO UN PLAN!!"
+  },
+  {
+    "source": "LENNY!",
+    "translation": "¡LENNY!"
+  },
+  {
+    "source": "You'll never catch me!",
+    "translation": "¡Nunca me atraparás!"
+  },
+  {
+    "source": "They'll never catch us!",
+    "translation": "¡Nunca nos atraparán!"
+  },
+  {
+    "source": "That's rough, buddy.",
+    "translation": "Qué duro, colega."
+  },
+  {
+    "source": "JokeBlurb.exe has stopped.",
+    "translation": "JokeBlurb.exe ha dejado de funcionar."
+  },
+  {
+    "source": "Rebooting joke blurb.exe. . .",
+    "translation": "Reiniciando joke blurb.exe..."
+  },
+  {
+    "source": "Gone fishin'",
+    "translation": "Me he ido de pesca"
+  },
+  {
+    "source": "No AI here!",
+    "translation": "¡Aquí nada de IA!"
+  },
+  {
+    "source": "Chooch!!",
+    "translation": "¡¡Chu chu!!"
+  },
+  {
+    "source": "Chooch2??!",
+    "translation": "¿¡Chu chu 2!?"
+  },
+  {
+    "source": "Theodore is the best!",
+    "translation": "¡Theodore es el mejor!"
+  },
+  {
+    "source": "Pacifica is so pretty!",
+    "translation": "¡Pacifica es preciosa!"
+  },
+  {
+    "source": "Margot is a little lady!",
+    "translation": "¡Margot es toda una señorita!"
+  },
+  {
+    "source": "What in taxation^without representation?!",
+    "translation": "¿¡Qué impuesto^sin representación es ese!?"
+  },
+  {
+    "source": "Thank you to our testers!",
+    "translation": "¡Gracias a nuestros testers!"
+  },
+  {
+    "source": "Thank you to our Patrons!",
+    "translation": "¡Gracias a nuestros mecenas!"
+  },
+  {
+    "source": "I GOT LUMBAGO",
+    "translation": "TENGO LUMBAGO"
+  },
+  {
+    "source": "On the L&PRR!",
+    "translation": "¡En la L&PRR!"
+  },
+  {
+    "source": "Don't mind Chompy. . .",
+    "translation": "No le hagas caso a Chompy..."
+  },
+  {
+    "source": "just a little guy!",
+    "translation": "¡es solo un chiquitín!"
+  },
+  {
+    "source": "I choo-choo choose you!",
+    "translation": "¡Yo chu-chu te elijo a ti!"
+  },
+  {
+    "source": "Need an engineer here!",
+    "translation": "¡Hace falta un maquinista aquí!"
+  },
+  {
+    "source": "You're already behind schedule.",
+    "translation": "Ya llevas retraso."
+  },
+  {
+    "source": "Regular law breaker.",
+    "translation": "Infractor habitual."
+  },
+  {
+    "source": "NOBODY likes ya', tea kettle.",
+    "translation": "NADIE te quiere, tetera."
+  },
+  {
+    "source": "We don't need no stinkin' brakes!",
+    "translation": "¡No nos hacen falta esos malditos frenos!"
+  },
+  {
+    "source": "You're back already?!",
+    "translation": "¿¡Ya estás de vuelta!?"
+  },
+  {
+    "source": "Huh, deja-choo.",
+    "translation": "Anda, déjà-chú."
+  },
+  {
+    "source": "Watch the rails, traveler.",
+    "translation": "Vigila las vías, viajero."
+  },
+  {
+    "source": "Free pizza at the yard!",
+    "translation": "¡Pizza gratis en el depósito!"
+  },
+  {
+    "source": "DISPATCH, WE^ HAVE A PROBLEM",
+    "translation": "CENTRAL, TENEMOS^ UN PROBLEMA"
+  },
+  {
+    "source": "Free prize with every engine!",
+    "translation": "¡Regalo gratis con cada locomotora!"
+  },
+  {
+    "source": "Speed limits are for chumps!",
+    "translation": "¡Los límites de velocidad son para pringados!"
+  },
+  {
+    "source": "Catch ABR weekdays at 5!",
+    "translation": "¡Sigue ABR entre semana a las 5!"
+  },
+  {
+    "source": "Training montage, coming up",
+    "translation": "Montaje de entrenamiento en camino"
+  },
+  {
+    "source": "Training since day 1",
+    "translation": "Entrenando desde el día 1"
+  },
+  {
+    "source": "On the right track!",
+    "translation": "¡Por el buen camino!"
+  },
+  {
+    "source": "Definitely OSHA compliant!",
+    "translation": "¡Totalmente conforme a normativa!"
+  },
+  {
+    "source": "Rivet counters beware!",
+    "translation": "¡Cuentaclavos, cuidado!"
+  },
+  {
+    "source": "Steamy!",
+    "translation": "¡Vaporoso!"
+  },
+  {
+    "source": "Chug! Chug! Chug!",
+    "translation": "¡Chuf! ¡Chuf! ¡Chuf!"
+  },
+  {
+    "source": "Watch yer' caboose!",
+    "translation": "¡Cuida tus espaldas!"
+  },
+  {
+    "source": "Hold my oil can.",
+    "translation": "Sujétame la aceitera."
+  },
+  {
+    "source": "#trainsrule4ever",
+    "translation": "#trenesporsiempre"
+  },
+  {
+    "source": "They see me chuggin'",
+    "translation": "Me ven chufar"
+  },
+  {
+    "source": "Smokestacks & rough tracks!",
+    "translation": "¡Chimeneas y vías bacheadas!"
+  },
+  {
+    "source": "The Crash of '87- wait. . .",
+    "translation": "El crac del 87... espera..."
+  },
+  {
+    "source": "The name's Choo. Choo Choo.",
+    "translation": "Mi nombre es Choo. Choo Choo."
+  },
+  {
+    "source": "Now with 50% more train!",
+    "translation": "¡Ahora con un 50 % más de tren!"
+  },
+  {
+    "source": "Safety not included.",
+    "translation": "Seguridad no incluida."
+  },
+  {
+    "source": "What matters is^deciding to get on!",
+    "translation": "Lo importante es^decidir subirse."
+  },
+  {
+    "source": "Well? You comin'?",
+    "translation": "¿Entonces? ¿Vienes?"
+  },
+  {
+    "source": "Let's make tracks!",
+    "translation": "¡Larguémonos!"
+  },
+  {
+    "source": "Should've taken the train!",
+    "translation": "¡Tendrías que haber cogido el tren!"
+  },
+  {
+    "source": "Roundtrip!",
+    "translation": "¡Ida y vuelta!"
+  },
+  {
+    "source": "One way journey!",
+    "translation": "¡Solo ida!"
+  },
+  {
+    "source": "Unstoppable!",
+    "translation": "¡Imparable!"
+  },
+  {
+    "source": "Trains are wonderful.",
+    "translation": "Los trenes son maravillosos."
+  },
+  {
+    "source": "Trains, like time and tide,^stop for no one.",
+    "translation": "Los trenes, como el tiempo y la marea,^no esperan a nadie."
+  },
+  {
+    "source": "don't be a slowcomotive!",
+    "translation": "¡no seas una lentomotora!"
+  },
+  {
+    "source": "Cover your tracks!",
+    "translation": "¡Borra tus huellas!"
+  },
+  {
+    "source": "All steamed up and^nowhere to go.",
+    "translation": "A toda presión^y sin rumbo."
+  },
+  {
+    "source": "This is how I roll!",
+    "translation": "¡Así es como ruedo!"
+  },
+  {
+    "source": "Let off some steam!",
+    "translation": "¡Suelta vapor!"
+  },
+  {
+    "source": "What's a crown sheet?",
+    "translation": "¿Qué es una placa de hogar?"
+  },
+  {
+    "source": "Your attention please. . .",
+    "translation": "Su atención, por favor..."
+  },
+  {
+    "source": "I can't believe it's not butter!",
+    "translation": "¡No puedo creer que no sea mantequilla!"
+  },
+  {
+    "source": "no thoughts, just vibes",
+    "translation": "sin pensar, solo vibes"
+  },
+  {
+    "source": "Roll for initiative!",
+    "translation": "¡Tira iniciativa!"
+  },
+  {
+    "source": "Beebe & Clegg could never.",
+    "translation": "Beebe & Clegg nunca podrían."
+  },
+  {
+    "source": "Engine of Love!",
+    "translation": "¡Locomotora del Amor!"
+  },
+  {
+    "source": "Gotta Drive 'Em All!",
+    "translation": "¡Hay que conducirlos a todos!"
+  },
+  {
+    "source": "Now with more fraud!",
+    "translation": "¡Ahora con más fraude!"
+  },
+  {
+    "source": "ft. Comet, the Engine!",
+    "translation": "feat. Comet, ¡la locomotora!"
+  },
+  {
+    "source": "ft. You, our Engineer!",
+    "translation": "feat. tú, ¡nuestro maquinista!"
+  },
+  {
+    "source": "i have loco motives",
+    "translation": "tengo loco-motivos"
+  },
+  {
+    "source": "Tickets not included!",
+    "translation": "¡Billetes no incluidos!"
+  },
+  {
+    "source": "Use the brakes, driver!",
+    "translation": "¡Usa los frenos, conductor!"
+  },
+  {
+    "source": "Sure hope this game does well. . .",
+    "translation": "Ojalá este juego funcione bien..."
+  },
+  {
+    "source": "AH! How did you find me?!",
+    "translation": "¡AH! ¿¡Cómo me has encontrado!?"
+  },
+  {
+    "source": "Have a great run!",
+    "translation": "¡Que tengas un buen viaje!"
+  },
+  {
+    "source": "Good luck!",
+    "translation": "¡Buena suerte!"
+  },
+  {
+    "source": "Good luck, you need it!",
+    "translation": "¡Buena suerte, la vas a necesitar!"
+  },
+  {
+    "source": "Yikes!",
+    "translation": "¡Ay!"
+  },
+  {
+    "source": "oof.",
+    "translation": "uf."
+  },
+  {
+    "source": "Holiday who-be-what-ey?!",
+    "translation": "¿¡Vaca-qué-de-qué!?"
+  },
+  {
+    "source": "Now with more bump!",
+    "translation": "¡Ahora con más baches!"
+  },
+  {
+    "source": "please i need to sleep",
+    "translation": "por favor necesito dormir"
+  },
+  {
+    "source": "hydrate!!!!",
+    "translation": "¡¡¡¡bebe agua!!!!"
+  },
+  {
+    "source": "Posture check!",
+    "translation": "¡Revisa tu postura!"
+  },
+  {
+    "source": "Focus!",
+    "translation": "¡Concéntrate!"
+  },
+  {
+    "source": "You've got this!",
+    "translation": "¡Tú puedes!"
+  },
+  {
+    "source": "Beware of ghost trains!",
+    "translation": "¡Cuidado con los trenes fantasma!"
+  },
+  {
+    "source": "Thunderstorms bring ghosts.",
+    "translation": "Las tormentas traen fantasmas."
+  },
+  {
+    "source": ". . . .oh, hi",
+    "translation": ". . . .ah, hola"
+  },
+  {
+    "source": "Didn't see you there!",
+    "translation": "¡No te había visto!"
+  },
+  {
+    "source": "Have we met?",
+    "translation": "¿Nos conocemos?"
+  },
+  {
+    "source": "You whistled at me!",
+    "translation": "¡Me silbaste!"
+  },
+  {
+    "source": "You're good at this!",
+    "translation": "¡Se te da bien esto!"
+  },
+  {
+    "source": "Holy cabooses!!",
+    "translation": "¡¡Santos furgones!!"
+  },
+  {
+    "source": "i miss my son",
+    "translation": "echo de menos a mi hijo"
+  },
+  {
+    "source": "Ice-drifting pros!",
+    "translation": "¡Pros del derrape sobre hielo!"
+  },
+  {
+    "source": "0 Days since last derailment",
+    "translation": "0 días desde el último descarrilamiento"
+  },
+  {
+    "source": "Locomotive? You mean engine car?",
+    "translation": "¿Locomotora? ¿Querrás decir la máquina?"
+  },
+  {
+    "source": "Tender? You mean coal car?",
+    "translation": "¿Tender? ¿Querrás decir el vagón del carbón?"
+  },
+  {
+    "source": "Hoho! You found me!",
+    "translation": "¡Jojo! ¡Me has encontrado!"
+  },
+  {
+    "source": "10 past and 30 late. . .",
+    "translation": "10 minutos y 30 de retraso..."
+  },
+  {
+    "source": "100mph? Easy.",
+    "translation": "¿100 mph? Fácil."
+  },
+  {
+    "source": "Lost on my train of thought. . .",
+    "translation": "Perdido en mi tren de pensamientos..."
+  },
+  {
+    "source": "Derailing discussions!",
+    "translation": "¡Discusiones que descarrilan!"
+  },
+  {
+    "source": "Sidetracked as always.",
+    "translation": "Distraído como siempre."
+  },
+  {
+    "source": "Running on fumes!",
+    "translation": "¡En la reserva!"
+  },
+  {
+    "source": "You're the whistleblower?!",
+    "translation": "¿¡Tú eres el chivato!?"
+  },
+  {
+    "source": "My kind of wheelhouse.",
+    "translation": "Justo mi terreno."
+  },
+  {
+    "source": "Full throttle!",
+    "translation": "¡A tope!"
+  },
+  {
+    "source": "Swing that Johnson bar!",
+    "translation": "¡Mueve esa palanca!"
+  },
+  {
+    "source": "Runaway with me!",
+    "translation": "¡Fúgate conmigo!"
+  },
+  {
+    "source": "Cinders and ashes!",
+    "translation": "¡Cenizas y carbonilla!"
+  },
+  {
+    "source": "GREAT SCOTT!",
+    "translation": "¡SANTO CIELO!"
+  },
+  {
+    "source": "Shiver with antici. . . ",
+    "translation": "Estremécete de antici... "
+  },
+  {
+    "source": ". . .pation.",
+    "translation": "...pación."
+  },
+  {
+    "source": "Go to your room!",
+    "translation": "¡A tu cuarto!"
+  },
+  {
+    "source": "BE A BIG SHOT!",
+    "translation": "¡SÉ ALGUIEN IMPORTANTE!"
+  },
+  {
+    "source": "When this baby hits 88 mph. . .",
+    "translation": "Cuando esta belleza llegue a 88 mph..."
+  },
+  {
+    "source": "Where we're going,^we don't need roads!",
+    "translation": "Adonde vamos,^¡no necesitamos carreteras!"
+  },
+  {
+    "source": "Express yourself!",
+    "translation": "¡Exprésate!"
+  },
+  {
+    "source": "I'm proud of you.",
+    "translation": "Estoy orgulloso de ti."
+  },
+  {
+    "source": "We're proud of you.",
+    "translation": "Estamos orgullosos de ti."
+  },
+  {
+    "source": "Wait a minute, who are you?",
+    "translation": "Un momento, ¿tú quién eres?"
+  },
+  {
+    "source": "Han shot first!",
+    "translation": "¡Han disparó primero!"
+  },
+  {
+    "source": "This train ain't big^enough for the two of us.",
+    "translation": "Este tren no es lo bastante grande^para los dos."
+  },
+  {
+    "source": "What a wonderful world!",
+    "translation": "¡Qué mundo tan maravilloso!"
+  },
+  {
+    "source": "Am I real?",
+    "translation": "¿Soy real?"
+  },
+  {
+    "source": "Escape your responsibilities!",
+    "translation": "¡Escapa de tus responsabilidades!"
+  },
+  {
+    "source": "Procrastination Station!",
+    "translation": "¡Estación Procrastinación!"
+  },
+  {
+    "source": "One short day. . .",
+    "translation": "Un día corto..."
+  },
+  {
+    "source": "You're never gonna bring me^DOOOOOOOOWN!!!",
+    "translation": "¡¡¡Nunca conseguirás^HUNDIRMEEEEEEE!!!"
+  },
+  {
+    "source": "Supercalifragilisticexpealidocious!",
+    "translation": "¡Supercalifragilisticoespialidoso!"
+  },
+  {
+    "source": "Go ahead, make my day.",
+    "translation": "Adelante, alégrame el día."
+  },
+  {
+    "source": "There's a great big^beautiful tomorrow!",
+    "translation": "¡Hay un gran y hermoso^mañana esperándonos!"
+  },
+  {
+    "source": "FOOLISH MORTAL.",
+    "translation": "NECIO MORTAL."
+  },
+  {
+    "source": "Did you hear that?",
+    "translation": "¿Has oído eso?"
+  },
+  {
+    "source": "Did you see that?",
+    "translation": "¿Has visto eso?"
+  },
+  {
+    "source": "What was that?",
+    "translation": "¿Qué ha sido eso?"
+  },
+  {
+    "source": "Were those eyes in the woods?",
+    "translation": "¿Eran ojos en el bosque?"
+  },
+  {
+    "source": "Definitely not haunted!",
+    "translation": "¡Para nada encantado!"
+  },
+  {
+    "source": "THE GAME",
+    "translation": "EL JUEGO"
+  },
+  {
+    "source": "Vibing!",
+    "translation": "¡Vibrando!"
+  },
+  {
+    "source": "To Infinity!",
+    "translation": "¡Hasta el infinito!"
+  },
+  {
+    "source": "Fruity.",
+    "translation": "Afrutado."
+  },
+  {
+    "source": "Unshaken!",
+    "translation": "¡Inquebrantable!"
+  },
+  {
+    "source": "It's a beautiful day^in the neighborhood!",
+    "translation": "¡Es un día precioso^en el vecindario!"
+  },
+  {
+    "source": "Timeless. . .",
+    "translation": "Atemporal..."
+  },
+  {
+    "source": "I have no memory of this place.",
+    "translation": "No tengo recuerdos de este lugar."
+  },
+  {
+    "source": "YOU. SHALL NOT. PASS!!",
+    "translation": "¡¡NO. PUEDES. PASAR!!"
+  },
+  {
+    "source": "Fly, you fools!",
+    "translation": "¡Volad, insensatos!"
+  },
+  {
+    "source": "Not in Kansas anymore. . .",
+    "translation": "Ya no estamos en Kansas..."
+  },
+  {
+    "source": "Fasten your seatbelts.",
+    "translation": "Abróchate el cinturón."
+  },
+  {
+    "source": "I'm ready for my close-up.",
+    "translation": "Estoy lista para mi primer plano."
+  },
+  {
+    "source": "Say \"hello\" to my little train!",
+    "translation": "¡Saluda a mi trencito!"
+  },
+  {
+    "source": "Hasta la vista, baby.",
+    "translation": "Hasta la vista, baby."
+  },
+  {
+    "source": "I feel the need for speed!",
+    "translation": "¡Necesito velocidad!"
+  },
+  {
+    "source": "Ain't it a sight for sore eyes?",
+    "translation": "Un placer para la vista, ¿verdad?"
+  },
+  {
+    "source": "I've seen a polka-dot railroad tie!",
+    "translation": "¡He visto una traviesa de lunares!"
+  },
+  {
+    "source": "Visit Rio Frontera!",
+    "translation": "¡Visita Rio Frontera!"
+  },
+  {
+    "source": "Visit the Whistling Peaks!",
+    "translation": "¡Visita Whistling Peaks!"
+  },
+  {
+    "source": "Visit the Lilli Woodlands!",
+    "translation": "¡Visita Lilli Woodlands!"
+  },
+  {
+    "source": "Visit the Put Prairie!",
+    "translation": "¡Visita Put Prairie!"
+  },
+  {
+    "source": "See Big Stack Summit!",
+    "translation": "¡Descubre Big Stack Summit!"
+  },
+  {
+    "source": "See Bayou Bél Nuit!",
+    "translation": "¡Descubre Bayou Bél Nuit!"
+  },
+  {
+    "source": "Catch the Cattail Queen!",
+    "translation": "¡Atrapa a la Cattail Queen!"
+  },
+  {
+    "source": "Definitely no saboteurs here!",
+    "translation": "¡Aquí ningún saboteador, palabra!"
+  },
+  {
+    "source": "Tastes just like candy, honest!",
+    "translation": "¡Sabe a caramelo, en serio!"
+  },
+  {
+    "source": "Red, or blue?",
+    "translation": "¿Roja o azul?"
+  },
+  {
+    "source": "Are you not into trains?!",
+    "translation": "¿¡No te van los trenes!?"
+  },
+  {
+    "source": "Can you do a wheelie?",
+    "translation": "¿Sabes hacer un caballito?"
+  },
+  {
+    "source": "I'm hungry",
+    "translation": "tengo hambre"
+  },
+  {
+    "source": "This game took 2 years to make!",
+    "translation": "¡Hacer este juego ha llevado 2 años!"
+  },
+  {
+    "source": "Welcome!!!",
+    "translation": "¡¡¡Bienvenido!!!"
+  },
+  {
+    "source": "by Cosmoporium Games",
+    "translation": "por Cosmoporium Games"
+  },
+  {
+    "source": "YAS QUEEN!",
+    "translation": "¡YAS QUEEN!"
+  },
+  {
+    "source": "Honestly? Valid crashout.",
+    "translation": "¿Honestamente? Brote válido."
+  },
+  {
+    "source": "Easy on the curves!",
+    "translation": "¡Despacio en las curvas!"
+  }
+]
