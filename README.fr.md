@@ -4,8 +4,10 @@
 
 Mod de traduction française pour [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), un jeu de simulation ferroviaire indé sur Steam.
 
-**Version actuelle : 1.4.0** (12 mai 2026)
+**Version actuelle : 1.4.3** (15 mai 2026)
 **Moteur du jeu : Unreal Engine 5.3.2 (IoStore)**
+
+> 🆕 **v1.4.3** : correctif critique pour un crash bloquant lors du pickup d'un Actionnaire (quête Shareholder) - sans le fix, la quête principale se gèle. La release ajoute aussi 10 traductions manquantes : objectifs du QuestBoard (Cherchez un Actionnaire, Tâche actuelle, etc.), alertes du train (Attention aux tornades, Tu es perdu, Rails glissants, Clique pour larguer la TNT), boutons cadenas (Clique pour verrouiller/déverrouiller).
 
 > Ce mod n'est ni développé ni soutenu par les créateurs du jeu. C'est un travail de fan, fourni en l'état.
 
@@ -33,7 +35,7 @@ Le mod se distribue sous forme d'un zip qui contient les 3 fichiers de container
 
 ### Étapes
 
-1. Téléchargez `ABR-fr_v1.4.0_prepatched.zip` (cf. [Releases](../../releases))
+1. Téléchargez `ABR-fr_v1.4.3.zip` (cf. [Releases](../../releases)) - depuis v1.4.3, seul le zip installer PowerShell est publié officiellement ; le zip prepatched drop-in peut être regénéré localement en lançant `install.ps1` puis en zippant les `.ucas/.utoc/.pak` produits
 2. **Fermez le jeu** s'il est ouvert
 3. Localisez le dossier `Paks` de votre installation A Bumpy Ride :
    - **Windows**   : `<bibliothèque Steam>\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks\`
@@ -69,7 +71,7 @@ Cette même méthode fonctionne en cas de problème : si le mod casse quelque ch
 
 | Aspect | Statut |
 |---|---|
-| Version du jeu | A Bumpy Ride au 12 mai 2026 (Steam app id `2540610`) |
+| Version du jeu | A Bumpy Ride au 12 mai 2026 - dernière mise à jour Steam ciblée (Steam app id `2540610`) |
 | Sauvegardes | Compatibles, le mod ne touche à aucun fichier de save |
 | Multijoueur | Pas de multi dans ABR - non concerné |
 | Mise à jour du jeu | À chaque patch officiel du jeu, il faudra réinstaller la version à jour du mod (sinon le jeu peut crasher au lancement) |
@@ -82,6 +84,7 @@ Cette même méthode fonctionne en cas de problème : si le mod casse quelque ch
 - **Le jeu crashe au lancement après l'install** : votre version du jeu est probablement plus récente que celle ciblée par le mod. Lancez une vérification d'intégrité Steam pour revenir au vanilla, et attendez une mise à jour du mod.
 - **Certains textes restent en anglais** : ce sont probablement des noms propres conservés volontairement (skins, stations, régions). Si c'est un texte d'interface non traduit, [ouvrez une issue](../../issues) avec une capture d'écran.
 - **Caractères bizarres (ä, õ, etc.) au lieu d'accents corrects** : signe d'une corruption à l'extraction du zip. Re-téléchargez et ré-extrayez avec un outil qui gère bien les fichiers volumineux (7-Zip, l'outil intégré Windows 10/11, Ark sur Steam Deck).
+- **Quelques mots restent en anglais sur le QuestBoard et le ticket de quête** : `Lock` sur le bouton cadenas en haut du tableau, `DESTINATION:` sur le ticket de quête latéral. Ce sont des identifiants internes UMG (les sous-composants graphiques du widget) qui causaient un crash s'ils étaient traduits. Limitation acceptée pour la v1.4.3 ; à corriger dans une future version via une approche alternative.
 
 ---
 

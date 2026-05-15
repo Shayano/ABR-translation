@@ -2,8 +2,10 @@
 
 Unofficial translation mods for [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), an indie railroad-simulation game on Steam.
 
-**Current version : 1.4.0** (May 12, 2026)
+**Current version : 1.4.3** (May 15, 2026)
 **Game engine : Unreal Engine 5.3.2 (IoStore)**
+
+> 🆕 **v1.4.3 highlights** : critical fix for a crash at Shareholder pickup (main-quest blocker), plus 10 additional strings translated (QuestBoard task labels + on-train weather/TNT warnings). See language READMEs for details.
 
 > Not developed or endorsed by the game's creators. Fan project, provided as is.
 
@@ -13,8 +15,8 @@ Unofficial translation mods for [A Bumpy Ride](https://store.steampowered.com/ap
 
 | Language | README | Installer | Drop-in |
 |---|---|---|---|
-| 🇫🇷 **Français** | [README.fr.md](README.fr.md) | `ABR-fr_v1.4.0.zip` | `ABR-fr_v1.4.0_prepatched.zip` |
-| 🇩🇪 **Deutsch** | [README.de.md](README.de.md) | `ABR-de_v1.4.0.zip` | `ABR-de_v1.4.0_prepatched.zip` |
+| 🇫🇷 **Français** | [README.fr.md](README.fr.md) | `ABR-fr_v1.4.3.zip` | (regenerate locally via install.ps1) |
+| 🇩🇪 **Deutsch** | [README.de.md](README.de.md) | `ABR-de_v1.4.3.zip` | (regenerate locally via install.ps1) |
 | 🇬🇧 English (overview only) | [README.en.md](README.en.md) | - | - |
 
 Downloads are available in [Releases](../../releases).

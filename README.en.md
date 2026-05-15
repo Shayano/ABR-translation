@@ -4,8 +4,10 @@
 
 Unofficial translation mods for [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), an indie railroad-simulation game on Steam.
 
-**Current version : 1.4.0** (May 12, 2026)
+**Current version : 1.4.3** (May 15, 2026)
 **Game engine : Unreal Engine 5.3.2 (IoStore)**
+
+> 🆕 **v1.4.3** : critical fix for a crash at Shareholder pickup (blocks main-quest progression). Also adds 10 missing translations : QuestBoard objectives (Look for a Shareholder, Current Task, etc.), on-train alerts (Watch out for tornadoes, You are lost, Tracks may be slippery, Click to drop explosives), lock buttons (Click to lock/unlock). Both FR and DE.
 
 > This mod is neither developed nor endorsed by the game's creators. It's a fan project, provided as is.
 
@@ -42,8 +44,8 @@ Both translations share these conventions :
 
 Each language ships in two formats :
 
-1. **Installer zip** (`ABR-fr_v1.4.0.zip` / `ABR-de_v1.4.0.zip`, ~70-90 MB) : PowerShell installer for Windows, auto-detects Steam, ~3-5 min install
-2. **Prepatched zip** (`ABR-fr_v1.4.0_prepatched.zip` / `ABR-de_v1.4.0_prepatched.zip`, ~2 GB) : drop-in for any OS, no installer
+1. **Installer zip** (`ABR-fr_v1.4.3.zip` / `ABR-de_v1.4.3.zip`, ~35-70 MB) : PowerShell installer for Windows, auto-detects Steam, ~3-5 min install
+2. **Prepatched zip** (drop-in, ~2 GB) : not published officially for v1.4.3 - regenerate locally by running `install.ps1` and zipping the produced `.ucas/.utoc/.pak`
 
 ### Drop-in steps
 
@@ -89,7 +91,7 @@ Only one `.ucas` container can be active at a time. To switch from FR to DE (or 
 
 | Aspect | Status |
 |---|---|
-| Game version | A Bumpy Ride as of May 12, 2026 (Steam app id `2540610`) |
+| Game version | A Bumpy Ride as of May 12, 2026 - last targeted Steam update (Steam app id `2540610`) |
 | Save files | Compatible - the mod doesn't touch any save data |
 | Multiplayer | ABR has no multiplayer - N/A |
 | Game updates | After every official game patch, you'll need to reinstall the latest mod build (otherwise the game can crash on startup) |
@@ -101,6 +103,7 @@ Only one `.ucas` container can be active at a time. To switch from FR to DE (or 
 - **Game crashes on launch after install** : your installed game version is likely newer than the one this mod targets. Run a Steam integrity check to revert to vanilla and wait for an updated mod build.
 - **Some text stays in English** : most likely a proper noun deliberately preserved (skins, stations, regions). If it's an actual UI string that's missing a translation, please [open an issue](../../issues) with a screenshot.
 - **Garbled characters (ä, é, ö, etc.) instead of proper accents** : a sign of zip-extraction corruption. Re-download and re-extract with a tool that handles large files cleanly (7-Zip, Windows 10/11 built-in extractor, Ark on Steam Deck).
+- **A few words stay in English on the QuestBoard and quest ticket** : `Lock` on the lock button above the quest tray, `DESTINATION:` on the side quest ticket. These are internal UMG identifiers (the widget sub-components) that caused a crash when translated. Known limitation in v1.4.3 - to be addressed in a future release via an alternative patching approach.
 
 ---
 
