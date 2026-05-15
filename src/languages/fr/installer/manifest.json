@@ -1,6 +1,6 @@
 {
   "mod_name": "A Bumpy Ride - Traduction française",
-  "mod_version": "1.4.2",
+  "mod_version": "1.4.3",
   "mod_author": "Shayano",
   "mod_date": "2026-05-15",
   "engine_version": "UE5_3",
@@ -37,6 +37,7 @@
     "additional_runtime": ".NET 8 (inclus dans MainMapPatcher.exe via single-file self-contained, ~38 Mo)"
   },
   "changelog": {
+    "1.4.3": "Ajout de 6 strings non encore traduites (présentes dans le binaire mais absentes du JSON d'origine). QuestBoard : 'Click to lock' -> 'Clique pour verrouiller', 'Click to unlock' -> 'Clique pour déverrouiller' (bouton cadenas des quêtes). TrainScreen : 'Watch out for tornadoes!' -> 'Attention aux tornades !', 'You are lost!' -> 'Tu es perdu !', 'Tracks may be slippery!' -> 'Rails glissants !' (alertes météo/voie), 'Click to drop explosives' -> 'Clique pour larguer la TNT' (bouton TNT). Les 6 strings sont des FText avec KeyValue, patchées via KissE sur le bytecode .uexp sans toucher à la NameMap.",
     "1.4.2": "Récupération des 4 strings de QuestBoard perdues en v1.4.1. Le tableau de quêtes affiche à nouveau 'Tâche actuelle :', 'Cherchez un Actionnaire pour gagner des actions !', 'Toutes les tâches sont terminées, bonne route !' et 'Atteindre le niveau 10 puis pleurer dessus' en français. KissE relancé sur QuestBoard.uasset vanilla avec le JSON nettoyé (sans la string 'Lock') : les identifiants UMG 'Lock_Panel', 'Lock_INST', 'LockIcon_Locked/Unlocked' restent intacts dans la NameMap, le bouton cadenas conserve son anglais 'Lock' (mineur). QuestTicket reste vanilla : tentative de re-patche a fait crasher le jeu (probablement EX_Jump offset corruption sur 'Destination: Nearest Station' → 'Destination : Gare la plus proche', change-of-length de +5 caractères), à corriger en v1.4.3 via BPStringPatcher si besoin. NPCPointer, W_WonStocks et PopUp restent vanilla (aucune string utilisateur à récupérer).",
     "1.4.1": "Hotfix crash au pickup de l'Actionnaire (quête Shareholder). 5 Blueprints remis vanilla : W_WonStocks, NPCPointer, QuestBoard, QuestTicket, PopUp. Ces widgets contenaient dans leur NameMap des identifiants internes UMG ('Float', 'Pulsate', 'Lock', 'Quest 1/2/3', 'Unlocked Item/Text') que KissE avait traduits par erreur en pensant que c'étaient des textes d'affichage. Conséquence : les appels FindChildWidget/PlayAnimation retournaient null et déclenchaient EXCEPTION_ACCESS_VIOLATION au moment de l'Actionnaire. Le texte visible utilisateur reste à 99 % inchangé (ces identifiants ne sont jamais affichés à l'écran). Les 8 entrées concernées ont été retirées de staging/fr_strings_BP_translated.json pour que les futurs runs du pipeline ne recréent pas le bug.",
     "1.4.0": "Bump cosmétique pour aligner la numérotation FR/DE dans le repo multi-langue. Aucun changement fonctionnel par rapport à v1.3.4 (même 157 fichiers patchés, même contenu, même hash vanilla cible). Cette release accompagne l'arrivée du mod allemand v1.4.0 sur le même tag GitHub.",
