@@ -4,10 +4,10 @@
 
 Inoffizieller Übersetzungs-Mod für [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), ein indie Eisenbahn-Simulationsspiel auf Steam.
 
-**Aktuelle Version : 1.4.4** (15. Mai 2026)
+**Aktuelle Version : 1.4.5** (15. Mai 2026)
 **Spiel-Engine : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.4** : Behebung des verbleibenden sporadischen Absturzes beim Aufnehmen eines Aktionärs (Shareholder-Quest). Diagnose über vollständigen Crashdump (9 GB) : unendliche Rekursion in UE5 im Blueprint `SpecialPassenger` (definiert die Aufgabenziele der Aktionäre), verursacht durch einen kaputten `EX_Jump`-Offset im gepatchten Bytecode. Versuch des Neu-Patches über das sichere Tool `BPStringPatcher` reichte nicht aus (wahrscheinlich wegen der Bytecode-Komplexität : 62 Strings verteilt auf zahlreiche Bedingungszweige). Entscheidung : `SpecialPassenger` kehrt in dieser Release zu Vanilla zurück. Die 62 Aktionär-Aufgabenziele bleiben auf Englisch (`See the sunset`, `Stay aboard until 9PM`, `Avoid the desert between X and Y`, `Obey every law sign`, usw.). Der Rest des Spiels bleibt auf Deutsch.
+> 🆕 **v1.4.5** : Wiederherstellung der 62 Aktionär-Aufgabenbeschreibungen, die seit v1.0 wegen des Absturzes durch unendliche Rekursion auf Englisch geblieben waren. Neuer Custom-Patcher `BPOffsetPatcher`, der zwei kumulierte Probleme löst, die kein bestehendes Tool behandelt hat : (1) die internen Offsets der ans Ende des Bytecodes verschobenen Statements und (2) die hartcodierten `EX_IntConst`-Entrypoints in den 47 internen Callern des Blueprints. Im Spiel : `Sonnenuntergang sehen`, `Bis 21 Uhr an Bord bleiben`, `Wüste zwischen 4 und 18 Uhr meiden`, `Sammle etwas Honig: 0/3`, `Großen Baum-Fotopunkt besuchen`, usw. Grammatische Umformulierung der Fracht-Fragmente (`Sammle etwas Birnen` → `Sammle einige Birnen`). Es bleiben 2 Strings `AM`/`PM` auf Englisch (Dubletten-Bug im Patcher, nicht blockierend).
 
 > Dieser Mod wird weder von den Entwicklern des Spiels entwickelt noch unterstützt. Es ist ein Fan-Projekt, ohne Gewähr.
 
@@ -36,7 +36,7 @@ Der Mod wird als Zip-Archiv ausgeliefert, das die 3 bereits gepatchten Spiel-Con
 
 ### Schritte
 
-1. Lade `ABR-de_v1.4.4.zip` herunter (siehe [Releases](../../releases)) - ab v1.4.3 wird offiziell nur das PowerShell-Installer-Zip veröffentlicht ; das Drop-in-Prepatched-Zip kann lokal regeneriert werden, indem du `install.ps1` ausführst und dann die erzeugten `.ucas/.utoc/.pak`-Dateien zippst
+1. Lade `ABR-de_v1.4.5.zip` herunter (siehe [Releases](../../releases)) - ab v1.4.3 wird offiziell nur das PowerShell-Installer-Zip veröffentlicht ; das Drop-in-Prepatched-Zip kann lokal regeneriert werden, indem du `install.ps1` ausführst und dann die erzeugten `.ucas/.utoc/.pak`-Dateien zippst
 2. **Schließe das Spiel**, falls es läuft
 3. Suche den Ordner `Paks` deiner A Bumpy Ride Installation :
    - **Windows**   : `<Steam-Bibliothek>\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks\`
@@ -86,7 +86,7 @@ Diese Methode ist auch dein Sicherheitsnetz : falls der Mod etwas kaputt macht, 
 - **Einige Texte bleiben auf Englisch** : Wahrscheinlich Eigennamen, die bewusst beibehalten wurden (Skins, Stationen, Regionen). Falls es ein tatsächlicher UI-String ohne Übersetzung ist, [öffne ein Issue](../../issues) mit einem Screenshot.
 - **Verstümmelte Zeichen (ä, õ, etc.) statt korrekter Umlaute** : Zeichen einer Zip-Extraktions-Korruption. Lade erneut herunter und entpacke mit einem Tool, das große Dateien korrekt verarbeitet (7-Zip, Windows 10/11 Bordmittel, Ark auf Steam Deck).
 - **Einige Wörter bleiben auf Englisch im QuestBoard und im Quest-Ticket** : `Lock` auf dem Schloss-Button oben in der Quest-Tafel, `DESTINATION:` auf dem seitlichen Quest-Ticket. Dies sind interne UMG-Bezeichner (die Sub-Komponenten der Widgets), die einen Absturz verursachten, wenn sie übersetzt wurden. Akzeptierte Einschränkung für v1.4.3 ; soll in einer zukünftigen Version über einen alternativen Ansatz korrigiert werden.
-- **Die 62 Aktionär-Aufgabenziele bleiben auf Englisch** (`See the sunset`, `Stay aboard until 9PM`, `Don't open your map`, `Avoid the [biome] between X and Y`, `Obey every law sign`, `View the [scenic spot]`, usw.). Der Blueprint `SpecialPassenger` (der diese 62 Strings in seinem Bytecode enthält) verweigert ein crashfreies Patchen wegen der Komplexität seiner Bedingungszweige. Akzeptierte Einschränkung für v1.4.4. Der Rest des Aktionär-Flows (Quest-Bezeichnung, Markierungen auf der Karte, Validierung der Ziele) bleibt auf Deutsch.
+- **2 Strings `AM`/`PM` (im 9PM / 9AM der Aktionär-Aufgaben) bleiben auf Englisch** : Dubletten-Bug im neuen Patcher (die 2. Vorkommen jeder Dublette wird ignoriert). Nicht blockierend - "Bis 21 Uhr an Bord bleiben" bleibt lesbar mit einem englischen "AM" daneben. Wird in einer zukünftigen Minor-Version behoben.
 
 ---
 

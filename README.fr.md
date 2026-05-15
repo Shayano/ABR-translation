@@ -4,10 +4,10 @@
 
 Mod de traduction française pour [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), un jeu de simulation ferroviaire indé sur Steam.
 
-**Version actuelle : 1.4.4** (15 mai 2026)
+**Version actuelle : 1.4.5** (15 mai 2026)
 **Moteur du jeu : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.4** : correctif du crash intermittent restant au pickup d'Actionnaire (quête Shareholder). Diagnostic via dump complet du crash (9 Go) : récursion infinie côté UE5 dans le Blueprint `SpecialPassenger` (celui qui définit les objectifs des tâches Actionnaire), provoquée par un offset `EX_Jump` corrompu dans le bytecode patché. Tentative de re-patche via l'outil safe `BPStringPatcher` n'a pas suffi (probablement à cause de la complexité du bytecode : 62 strings réparties dans de nombreuses branches conditionnelles). Décision : `SpecialPassenger` retourne en vanilla dans cette release. Les 62 objectifs de tâches Actionnaire restent en anglais (`See the sunset`, `Stay aboard until 9PM`, `Avoid the desert between X and Y`, `Obey every law sign`, etc.). Tout le reste du jeu reste en français.
+> 🆕 **v1.4.5** : récupération des 62 objectifs de tâches d'Actionnaire qui étaient restés en anglais depuis v1.0 à cause du crash récursion infinie. Nouveau patcher custom `BPOffsetPatcher` qui résout deux problèmes cumulés qu'aucun outil existant ne traitait : (1) les offsets internes des statements déplacés à la fin du bytecode et (2) les `EX_IntConst` d'entry-point hardcodés dans les 47 callers internes du Blueprint. Au menu côté joueur : `Voir le coucher de soleil`, `Rester à bord jusqu'à 21h`, `Éviter le désert entre 4h et 18h`, `Récupérer du miel : 0/3`, `Visiter le grand arbre spot photo`, etc. Reformulation grammaticale des fragments fret (`Récupérer du poires` → `Récupérer des poires`). Reste 2 strings `AM`/`PM` en anglais (bug doublons mineur, non bloquant).
 
 > Ce mod n'est ni développé ni soutenu par les créateurs du jeu. C'est un travail de fan, fourni en l'état.
 
@@ -35,7 +35,7 @@ Le mod se distribue sous forme d'un zip qui contient les 3 fichiers de container
 
 ### Étapes
 
-1. Téléchargez `ABR-fr_v1.4.4.zip` (cf. [Releases](../../releases)) - depuis v1.4.3, seul le zip installer PowerShell est publié officiellement ; le zip prepatched drop-in peut être regénéré localement en lançant `install.ps1` puis en zippant les `.ucas/.utoc/.pak` produits
+1. Téléchargez `ABR-fr_v1.4.5.zip` (cf. [Releases](../../releases)) - depuis v1.4.3, seul le zip installer PowerShell est publié officiellement ; le zip prepatched drop-in peut être regénéré localement en lançant `install.ps1` puis en zippant les `.ucas/.utoc/.pak` produits
 2. **Fermez le jeu** s'il est ouvert
 3. Localisez le dossier `Paks` de votre installation A Bumpy Ride :
    - **Windows**   : `<bibliothèque Steam>\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks\`
@@ -85,7 +85,7 @@ Cette même méthode fonctionne en cas de problème : si le mod casse quelque ch
 - **Certains textes restent en anglais** : ce sont probablement des noms propres conservés volontairement (skins, stations, régions). Si c'est un texte d'interface non traduit, [ouvrez une issue](../../issues) avec une capture d'écran.
 - **Caractères bizarres (ä, õ, etc.) au lieu d'accents corrects** : signe d'une corruption à l'extraction du zip. Re-téléchargez et ré-extrayez avec un outil qui gère bien les fichiers volumineux (7-Zip, l'outil intégré Windows 10/11, Ark sur Steam Deck).
 - **Quelques mots restent en anglais sur le QuestBoard et le ticket de quête** : `Lock` sur le bouton cadenas en haut du tableau, `DESTINATION:` sur le ticket de quête latéral. Ce sont des identifiants internes UMG (les sous-composants graphiques du widget) qui causaient un crash s'ils étaient traduits. Limitation acceptée pour la v1.4.3 ; à corriger dans une future version via une approche alternative.
-- **Les 62 objectifs de tâches d'Actionnaire restent en anglais** (`See the sunset`, `Stay aboard until 9PM`, `Don't open your map`, `Avoid the [biome] between X and Y`, `Obey every law sign`, `View the [scenic spot]`, etc.). Le Blueprint `SpecialPassenger` (qui contient ces 62 strings dans son bytecode) refuse d'être patché sans crash à cause de la complexité de ses branches conditionnelles. Limitation acceptée pour la v1.4.4. Tout le reste du flow Actionnaire (libellé de quête, points marqués sur la carte, validation des objectifs) reste en français.
+- **2 strings `AM`/`PM` (sur le 9PM / 9AM des tâches Actionnaire) restent en anglais** : bug doublons dans le nouveau patcher (la 2e occurrence de chaque doublon est ignorée). Non bloquant - "Rester à bord jusqu'à 21h" reste lisible avec un "AM" anglais à côté du compteur. Sera corrigé dans une future version mineure.
 
 ---
 

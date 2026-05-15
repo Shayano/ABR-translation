@@ -4,10 +4,10 @@
 
 Unofficial translation mods for [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), an indie railroad-simulation game on Steam.
 
-**Current version : 1.4.4** (May 15, 2026)
+**Current version : 1.4.5** (May 15, 2026)
 **Game engine : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.4** : fixes the remaining intermittent crash at Shareholder pickup. Diagnosis via full crashdump (9 GB) : UE5 infinite recursion in the `SpecialPassenger` Blueprint (defines task objectives shown above each Shareholder), caused by a corrupted `EX_Jump` offset in the patched bytecode. Attempt to re-patch via the safe `BPStringPatcher` tool also failed (likely due to bytecode complexity : 62 strings spread across many conditional branches). Decision : `SpecialPassenger` reverts to vanilla in this release. The 62 task objectives stay in English (`See the sunset`, `Stay aboard until 9PM`, `Avoid the desert between X and Y`, `Obey every law sign`, etc.). The rest of the game stays fully translated.
+> 🆕 **v1.4.5** : recovers the 62 Shareholder task objectives that had been stuck in English since v1.0 due to the infinite-recursion crash. New custom patcher `BPOffsetPatcher` that solves two cumulated problems no existing tool handled : (1) internal offsets of statements relocated to the end of the bytecode, and (2) hardcoded `EX_IntConst` entry-points in the Blueprint's 47 internal callers. In-game : `See the sunset`, `Stay aboard until 9PM`, `Avoid the desert between 4AM and 6PM`, `Pick up some honey: 0/3`, `Tour the big tree photo spot`, etc. are now translated. Grammar fix on concatenated cargo fragments (e.g. FR `Récupérer du poires` → `Récupérer des poires`, DE `Sammle etwas Birnen` → `Sammle einige Birnen`). 2 `AM`/`PM` strings remain in English (minor duplicate-handling bug in the patcher, non-blocking).
 
 > This mod is neither developed nor endorsed by the game's creators. It's a fan project, provided as is.
 
@@ -44,7 +44,7 @@ Both translations share these conventions :
 
 Each language ships in two formats :
 
-1. **Installer zip** (`ABR-fr_v1.4.4.zip` / `ABR-de_v1.4.4.zip`, ~35-70 MB) : PowerShell installer for Windows, auto-detects Steam, ~3-5 min install
+1. **Installer zip** (`ABR-fr_v1.4.5.zip` / `ABR-de_v1.4.5.zip`, ~35-70 MB) : PowerShell installer for Windows, auto-detects Steam, ~3-5 min install
 2. **Prepatched zip** (drop-in, ~2 GB) : not published officially since v1.4.3 - regenerate locally by running `install.ps1` and zipping the produced `.ucas/.utoc/.pak`
 
 ### Drop-in steps
@@ -104,7 +104,7 @@ Only one `.ucas` container can be active at a time. To switch from FR to DE (or 
 - **Some text stays in English** : most likely a proper noun deliberately preserved (skins, stations, regions). If it's an actual UI string that's missing a translation, please [open an issue](../../issues) with a screenshot.
 - **Garbled characters (ä, é, ö, etc.) instead of proper accents** : a sign of zip-extraction corruption. Re-download and re-extract with a tool that handles large files cleanly (7-Zip, Windows 10/11 built-in extractor, Ark on Steam Deck).
 - **A few words stay in English on the QuestBoard and quest ticket** : `Lock` on the lock button above the quest tray, `DESTINATION:` on the side quest ticket. These are internal UMG identifiers (the widget sub-components) that caused a crash when translated. Known limitation in v1.4.3 - to be addressed in a future release via an alternative patching approach.
-- **The 62 Shareholder task objectives stay in English** (`See the sunset`, `Stay aboard until 9PM`, `Don't open your map`, `Avoid the [biome] between X and Y`, `Obey every law sign`, `View the [scenic spot]`, etc.). The `SpecialPassenger` Blueprint (containing those 62 strings in its bytecode) refuses to be patched without crashing - likely due to the complexity of its conditional branches. Known limitation in v1.4.4. The rest of the Shareholder flow (quest title, map markers, objective validation) is translated.
+- **2 `AM`/`PM` strings (in the 9PM / 9AM Shareholder objectives) stay in English** : duplicate-handling bug in the new patcher (the 2nd occurrence of each duplicate is skipped). Non-blocking - "Stay aboard until 9PM" remains readable with an English `AM` next to the counter. Will be fixed in a future minor version.
 
 ---
 
