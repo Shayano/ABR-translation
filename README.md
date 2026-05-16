@@ -56,5 +56,5 @@ Free for personal use. No commercial redistribution. Translated assets derive fr
 
 ## Translation credits
 
-- **Français** and **Deutsch** : human translation, manually proofread.
-- **Español** : AI-assisted translation produced with Claude Code (Anthropic). Not human-proofread by a native Spanish speaker. Feedback and corrections welcome via GitHub issues.
+- **Français** : human translation, manually proofread by the author (native speaker).
+- **Deutsch** and **Español** : AI-assisted translation produced with Claude Code (Anthropic). Not human-proofread by a native speaker. Feedback and corrections welcome via GitHub issues.
