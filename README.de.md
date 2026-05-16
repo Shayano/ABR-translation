@@ -32,11 +32,13 @@ Inoffizieller Übersetzungs-Mod für [A Bumpy Ride](https://store.steampowered.c
 
 ## Installation
 
-Der Mod wird als Zip-Archiv ausgeliefert, das die 3 bereits gepatchten Spiel-Container-Dateien enthält. Es ist ein direkter Dateiaustausch ohne Installer.
+Der Mod wird in zwei Formaten zur Auswahl verteilt :
+- **Windows-Installer** (`ABR-de_v1.4.6.zip`, ~30-100 MB) : PowerShell-Installer, erkennt Steam automatisch, ~3-5 Min
+- **Drop-in Prepatched** (`ABR-de_v1.4.6_prepatched.zip`, ~1,9 GB) : direkter Dateiaustausch der Container-Dateien, jedes OS (Windows / Linux / Steam Deck / macOS), ohne Installer
 
-### Schritte
+### Schritte (Drop-in Prepatched)
 
-1. Lade `ABR-de_v1.4.6.zip` herunter (siehe [Releases](../../releases)) - ab v1.4.3 wird offiziell nur das PowerShell-Installer-Zip veröffentlicht ; das Drop-in-Prepatched-Zip kann lokal regeneriert werden, indem du `install.ps1` ausführst und dann die erzeugten `.ucas/.utoc/.pak`-Dateien zippst
+1. Lade `ABR-de_v1.4.6_prepatched.zip` herunter (siehe [Releases](../../releases))
 2. **Schließe das Spiel**, falls es läuft
 3. Suche den Ordner `Paks` deiner A Bumpy Ride Installation :
    - **Windows**   : `<Steam-Bibliothek>\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks\`
@@ -76,7 +78,7 @@ Diese Methode ist auch dein Sicherheitsnetz : falls der Mod etwas kaputt macht, 
 | Spielstände | Kompatibel, der Mod berührt keine Save-Dateien |
 | Multiplayer | Kein Multiplayer in ABR - irrelevant |
 | Spiel-Updates | Bei jedem offiziellen Spielpatch musst du die aktuelle Mod-Version neu installieren (sonst kann das Spiel beim Start abstürzen) |
-| Koexistenz FR/DE | Nur ein `.ucas`-Container aktiv gleichzeitig - um die Sprache zu wechseln, deinstalliere die eine (Steam-Integritätsprüfung) und installiere die andere |
+| Koexistenz FR/DE/ES | Nur ein `.ucas`-Container aktiv gleichzeitig - um die Sprache zu wechseln, deinstalliere die eine (Steam-Integritätsprüfung) und installiere die andere |
 
 ---
 
@@ -85,7 +87,7 @@ Diese Methode ist auch dein Sicherheitsnetz : falls der Mod etwas kaputt macht, 
 - **Spiel stürzt beim Start nach Installation ab** : Deine installierte Spielversion ist wahrscheinlich neuer als die, auf die dieser Mod abzielt. Führe eine Steam-Integritätsprüfung durch, um zur Vanilla-Version zurückzukehren, und warte auf eine aktualisierte Mod-Version.
 - **Einige Texte bleiben auf Englisch** : Wahrscheinlich Eigennamen, die bewusst beibehalten wurden (Skins, Stationen, Regionen). Falls es ein tatsächlicher UI-String ohne Übersetzung ist, [öffne ein Issue](../../issues) mit einem Screenshot.
 - **Verstümmelte Zeichen (ä, õ, etc.) statt korrekter Umlaute** : Zeichen einer Zip-Extraktions-Korruption. Lade erneut herunter und entpacke mit einem Tool, das große Dateien korrekt verarbeitet (7-Zip, Windows 10/11 Bordmittel, Ark auf Steam Deck).
-- **Einige Wörter bleiben auf Englisch im QuestBoard und im Quest-Ticket** : `Lock` auf dem Schloss-Button oben in der Quest-Tafel, `DESTINATION:` auf dem seitlichen Quest-Ticket. Dies sind interne UMG-Bezeichner (die Sub-Komponenten der Widgets), die einen Absturz verursachten, wenn sie übersetzt wurden. Akzeptierte Einschränkung für v1.4.3 ; soll in einer zukünftigen Version über einen alternativen Ansatz korrigiert werden.
+- **Einige Wörter bleiben auf Englisch im QuestBoard und im Quest-Ticket** : `Lock` auf dem Schloss-Button oben in der Quest-Tafel, `DESTINATION:` auf dem seitlichen Quest-Ticket. Dies sind interne UMG-Bezeichner (die Sub-Komponenten der Widgets), die einen Absturz verursachten, wenn sie übersetzt wurden. Bekannte Einschränkung in v1.4.6, soll in einer zukünftigen Version über einen alternativen Ansatz korrigiert werden.
 - **2 Strings `AM`/`PM` (im 9PM / 9AM der Aktionär-Aufgaben) bleiben auf Englisch** : Dubletten-Bug im neuen Patcher (die 2. Vorkommen jeder Dublette wird ignoriert). Nicht blockierend - "Bis 21 Uhr an Bord bleiben" bleibt lesbar mit einem englischen "AM" daneben. Wird in einer zukünftigen Minor-Version behoben.
 
 ---
@@ -93,6 +95,7 @@ Diese Methode ist auch dein Sicherheitsnetz : falls der Mod etwas kaputt macht, 
 ## Credits & Danksagungen
 
 - **Mod** : Shayano
+- **Übersetzung** : KI-unterstützte Übersetzung erstellt mit Claude Code (Anthropic), nicht von einem Muttersprachler korrekturgelesen. Feedback und Korrekturen sind über [GitHub Issues](../../issues) willkommen.
 - **Im Patch-Pipeline verwendete Werkzeuge** :
   - [retoc-rivals](https://github.com/natimerry/repak-rivals) - IoStore UE5.3 Repackager
   - [KissE / KismetEditor](https://github.com/SolicenTEAM/KismetEditor) - Blueprint-Bytecode-Patcher

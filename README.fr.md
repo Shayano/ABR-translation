@@ -31,11 +31,13 @@ Mod de traduction française pour [A Bumpy Ride](https://store.steampowered.com/
 
 ## Installation
 
-Le mod se distribue sous forme d'un zip qui contient les 3 fichiers de container du jeu déjà patchés. C'est un remplacement direct de fichiers, sans installeur.
+Le mod est distribué sous deux formats au choix :
+- **Installeur Windows** (`ABR-fr_v1.4.6.zip`, ~30-100 Mo) : installeur PowerShell qui détecte Steam automatiquement, ~3-5 min
+- **Drop-in prepatché** (`ABR-fr_v1.4.6_prepatched.zip`, ~1,9 Go) : remplacement direct des fichiers de container, tout OS (Windows / Linux / Steam Deck / macOS), sans installeur
 
-### Étapes
+### Étapes (drop-in prepatché)
 
-1. Téléchargez `ABR-fr_v1.4.6.zip` (cf. [Releases](../../releases)) - depuis v1.4.3, seul le zip installer PowerShell est publié officiellement ; le zip prepatched drop-in peut être regénéré localement en lançant `install.ps1` puis en zippant les `.ucas/.utoc/.pak` produits
+1. Téléchargez `ABR-fr_v1.4.6_prepatched.zip` (cf. [Releases](../../releases))
 2. **Fermez le jeu** s'il est ouvert
 3. Localisez le dossier `Paks` de votre installation A Bumpy Ride :
    - **Windows**   : `<bibliothèque Steam>\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks\`
@@ -75,7 +77,7 @@ Cette même méthode fonctionne en cas de problème : si le mod casse quelque ch
 | Sauvegardes | Compatibles, le mod ne touche à aucun fichier de save |
 | Multijoueur | Pas de multi dans ABR - non concerné |
 | Mise à jour du jeu | À chaque patch officiel du jeu, il faudra réinstaller la version à jour du mod (sinon le jeu peut crasher au lancement) |
-| Cohabitation FR/DE | Un seul container `.ucas` actif à la fois - pour changer de langue, désinstaller l'un (vérification d'intégrité Steam) puis installer l'autre |
+| Cohabitation FR/DE/ES | Un seul container `.ucas` actif à la fois - pour changer de langue, désinstaller l'un (vérification d'intégrité Steam) puis installer l'autre |
 
 ---
 
@@ -84,7 +86,7 @@ Cette même méthode fonctionne en cas de problème : si le mod casse quelque ch
 - **Le jeu crashe au lancement après l'install** : votre version du jeu est probablement plus récente que celle ciblée par le mod. Lancez une vérification d'intégrité Steam pour revenir au vanilla, et attendez une mise à jour du mod.
 - **Certains textes restent en anglais** : ce sont probablement des noms propres conservés volontairement (skins, stations, régions). Si c'est un texte d'interface non traduit, [ouvrez une issue](../../issues) avec une capture d'écran.
 - **Caractères bizarres (ä, õ, etc.) au lieu d'accents corrects** : signe d'une corruption à l'extraction du zip. Re-téléchargez et ré-extrayez avec un outil qui gère bien les fichiers volumineux (7-Zip, l'outil intégré Windows 10/11, Ark sur Steam Deck).
-- **Quelques mots restent en anglais sur le QuestBoard et le ticket de quête** : `Lock` sur le bouton cadenas en haut du tableau, `DESTINATION:` sur le ticket de quête latéral. Ce sont des identifiants internes UMG (les sous-composants graphiques du widget) qui causaient un crash s'ils étaient traduits. Limitation acceptée pour la v1.4.3 ; à corriger dans une future version via une approche alternative.
+- **Quelques mots restent en anglais sur le QuestBoard et le ticket de quête** : `Lock` sur le bouton cadenas en haut du tableau, `DESTINATION:` sur le ticket de quête latéral. Ce sont des identifiants internes UMG (les sous-composants graphiques du widget) qui causaient un crash s'ils étaient traduits. Limitation connue en v1.4.6, à corriger dans une future version via une approche alternative.
 - **2 strings `AM`/`PM` (sur le 9PM / 9AM des tâches Actionnaire) restent en anglais** : bug doublons dans le nouveau patcher (la 2e occurrence de chaque doublon est ignorée). Non bloquant - "Rester à bord jusqu'à 21h" reste lisible avec un "AM" anglais à côté du compteur. Sera corrigé dans une future version mineure.
 
 ---

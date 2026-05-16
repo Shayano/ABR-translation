@@ -30,7 +30,7 @@ Downloads are available in [Releases](../../releases).
 - **Deutsch** (DE-DE, Register `du`) : vollständige UI, Dialoge, Tutorial, Quests, Skins, Erfolge. Eigennamen und Western-Schilder im Original.
 - **Español** (ES, registro `tú`, variante neutra/España) : UI completa, diálogos, tutorial, misiones, skins, logros. Nombres propios y letreros western en VO.
 
-Both translations share the same conventions :
+All three translations share the same conventions :
 - Proper nouns (skins, stations, regions, credits) kept in English
 - `On` / `Off` buttons kept in English (UI width constraints)
 - Imperial units (FT, miles) preserved

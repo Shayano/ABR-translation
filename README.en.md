@@ -11,7 +11,7 @@ Unofficial translation mods for [A Bumpy Ride](https://store.steampowered.com/ap
 
 > This mod is neither developed nor endorsed by the game's creators. It's a fan project, provided as is.
 
-> ⚠️ This repository ships **French and German** translations. Pick the one you want (or none) — the mod replaces the game's English UI, dialogue and notifications with the target language. The English-language audience can use this overview, but the in-game text becomes FR or DE depending on which package you install.
+> ⚠️ This repository ships **French, German, and Spanish** translations. Pick the one you want (or none): the mod replaces the game's English UI, dialogue and notifications with the target language. The English-language audience can use this overview, but the in-game text becomes FR, DE, or ES depending on which package you install.
 
 ---
 
@@ -21,8 +21,9 @@ Unofficial translation mods for [A Bumpy Ride](https://store.steampowered.com/ap
 |---|---|---|
 | 🇫🇷 Français (French) | [README.fr.md](README.fr.md) | `tu` (informal) |
 | 🇩🇪 Deutsch (German) | [README.de.md](README.de.md) | `du` (informal) |
+| 🇪🇸 Español (Spanish) | [README.es.md](README.es.md) | `tú` (informal, neutral / Spain) |
 
-Both translations share these conventions :
+All three translations share these conventions :
 - Proper nouns (skins, stations, regions, credits authors) kept in English
 - `On` / `Off` buttons kept in English (UI width constraints)
 - Imperial units (FT, miles) preserved
@@ -44,8 +45,8 @@ Both translations share these conventions :
 
 Each language ships in two formats :
 
-1. **Installer zip** (`ABR-fr_v1.4.6.zip` / `ABR-de_v1.4.6.zip`, ~35-70 MB) : PowerShell installer for Windows, auto-detects Steam, ~3-5 min install
-2. **Prepatched zip** (drop-in, ~2 GB) : not published officially since v1.4.3 - regenerate locally by running `install.ps1` and zipping the produced `.ucas/.utoc/.pak`
+1. **Installer zip** (`ABR-fr_v1.4.6.zip` / `ABR-de_v1.4.6.zip` / `ABR-es_v1.4.6.zip`, ~30-100 MB) : PowerShell installer for Windows, auto-detects Steam, ~3-5 min install
+2. **Prepatched drop-in zip** (`ABR-fr_v1.4.6_prepatched.zip` / `ABR-de_v1.4.6_prepatched.zip` / `ABR-es_v1.4.6_prepatched.zip`, ~1.9 GB) : direct file replacement, works on any OS (Windows / Linux / Steam Deck / macOS), no installer required
 
 ### Drop-in steps
 
@@ -62,7 +63,7 @@ Each language ships in two formats :
    ABumpyRide-Windows.pak
    ```
    No need to back up the originals - Steam can restore them anytime (see uninstall).
-5. Launch the game through Steam normally. Menus should be in FR or DE depending on your chosen package.
+5. Launch the game through Steam normally. Menus should be in FR, DE, or ES depending on your chosen package.
 
 > Technical note: the patched `.ucas` is ~5.2 GB (vs ~1.6 GB vanilla) because the build pipeline doesn't re-Oodle-compress on output. It's fully functional, just heavier on disk.
 
@@ -81,7 +82,7 @@ This same trick is your safety net : if anything ever feels broken, run an integ
 
 ### Switching languages
 
-Only one `.ucas` container can be active at a time. To switch from FR to DE (or vice versa) :
+Only one `.ucas` container can be active at a time. To switch between FR, DE, and ES :
 1. Run a Steam integrity check (restores vanilla)
 2. Install the other language package
 
@@ -103,7 +104,7 @@ Only one `.ucas` container can be active at a time. To switch from FR to DE (or 
 - **Game crashes on launch after install** : your installed game version is likely newer than the one this mod targets. Run a Steam integrity check to revert to vanilla and wait for an updated mod build.
 - **Some text stays in English** : most likely a proper noun deliberately preserved (skins, stations, regions). If it's an actual UI string that's missing a translation, please [open an issue](../../issues) with a screenshot.
 - **Garbled characters (ä, é, ö, etc.) instead of proper accents** : a sign of zip-extraction corruption. Re-download and re-extract with a tool that handles large files cleanly (7-Zip, Windows 10/11 built-in extractor, Ark on Steam Deck).
-- **A few words stay in English on the QuestBoard and quest ticket** : `Lock` on the lock button above the quest tray, `DESTINATION:` on the side quest ticket. These are internal UMG identifiers (the widget sub-components) that caused a crash when translated. Known limitation in v1.4.3 - to be addressed in a future release via an alternative patching approach.
+- **A few words stay in English on the QuestBoard and quest ticket** : `Lock` on the lock button above the quest tray, `DESTINATION:` on the side quest ticket. These are internal UMG identifiers (the widget sub-components) that caused a crash when translated. Known limitation as of v1.4.6, to be addressed in a future release via an alternative patching approach.
 - **2 `AM`/`PM` strings (in the 9PM / 9AM Shareholder objectives) stay in English** : duplicate-handling bug in the new patcher (the 2nd occurrence of each duplicate is skipped). Non-blocking - "Stay aboard until 9PM" remains readable with an English `AM` next to the counter. Will be fixed in a future minor version.
 
 ---
@@ -116,7 +117,9 @@ Two reasons. First, English-speaking players who stumble onto this repo deserve 
 
 ## Credits & acknowledgments
 
-- **Translations** : Shayano
+- **Translations** :
+  - **Français** : human translation by Shayano (native speaker), manually proofread
+  - **Deutsch** and **Español** : AI-assisted translation produced with Claude Code (Anthropic), not human-proofread by a native speaker. Feedback and corrections welcome via GitHub issues.
 - **Tools used in the patch pipeline** :
   - [retoc-rivals](https://github.com/natimerry/repak-rivals) - IoStore UE5.3 repackager
   - [KissE / KismetEditor](https://github.com/SolicenTEAM/KismetEditor) - Blueprint bytecode patcher
