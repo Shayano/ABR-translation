@@ -94,7 +94,7 @@ Cette même méthode fonctionne en cas de problème : si le mod casse quelque ch
 - **Mod** : Shayano
 - **Outils utilisés pour le pipeline de patch** :
   - [retoc-rivals](https://github.com/natimerry/repak-rivals) - repackager IoStore UE5.3
-  - [KissE / KismetEditor](https://github.com/SolicenTEAM/KismetEditor) (fork patché par Shayano) - patcher de bytecode Blueprint
+  - [KissE / KismetEditor](https://github.com/SolicenTEAM/KismetEditor) - patcher de bytecode Blueprint
   - [Dumper-7](https://github.com/Encryqed/Dumper-7) - génération du `.usmap` du jeu
   - [UAssetAPI](https://github.com/atenfyr/UAssetAPI) - manipulation des assets UE
 - **Méthodologie** : développé en pair-programming avec Claude Code (Anthropic) sur ~10 sessions.

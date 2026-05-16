@@ -119,7 +119,7 @@ Two reasons. First, English-speaking players who stumble onto this repo deserve 
 - **Translations** : Shayano
 - **Tools used in the patch pipeline** :
   - [retoc-rivals](https://github.com/natimerry/repak-rivals) - IoStore UE5.3 repackager
-  - [KissE / KismetEditor](https://github.com/SolicenTEAM/KismetEditor) (patched fork by Shayano) - Blueprint bytecode patcher
+  - [KissE / KismetEditor](https://github.com/SolicenTEAM/KismetEditor) - Blueprint bytecode patcher
   - [Dumper-7](https://github.com/Encryqed/Dumper-7) - generates the game's `.usmap`
   - [UAssetAPI](https://github.com/atenfyr/UAssetAPI) - UE asset manipulation
 - **Methodology** : developed in pair-programming with Claude Code (Anthropic) over multiple sessions.

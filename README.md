@@ -28,6 +28,7 @@ Downloads are available in [Releases](../../releases).
 
 - **Français** (FR-FR, registre `tu`) : interface complète, dialogues, tutoriel, quêtes, skins, achievements. Noms propres et enseignes western en VO.
 - **Deutsch** (DE-DE, Register `du`) : vollständige UI, Dialoge, Tutorial, Quests, Skins, Erfolge. Eigennamen und Western-Schilder im Original.
+- **Español** (ES, registro `tú`, variante neutra/España) : UI completa, diálogos, tutorial, misiones, skins, logros. Nombres propios y letreros western en VO.
 
 Both translations share the same conventions :
 - Proper nouns (skins, stations, regions, credits) kept in English
@@ -50,3 +51,10 @@ Only one `.ucas` container can be active at a time. To switch languages, run a S
 ## License
 
 Free for personal use. No commercial redistribution. Translated assets derive from the original game (owned by its authors).
+
+---
+
+## Translation credits
+
+- **Français** and **Deutsch** : human translation, manually proofread.
+- **Español** : AI-assisted translation produced with Claude Code (Anthropic). Not human-proofread by a native Spanish speaker. Feedback and corrections welcome via GitHub issues.

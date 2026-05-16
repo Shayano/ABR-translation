@@ -88,7 +88,7 @@ Pour ajouter une langue (par exemple ES, DE, IT) :
 
 ## Comment relancer le patch des assets BP/maps (KissE)
 
-Les 78 fichiers de `languages/fr/installer/patched_assets/` sont produits avec [KissE](https://github.com/SolicenTEAM/KismetEditor) (fork patché par l'auteur, voir crédits du README principal) à partir des JSONs de `languages/fr/translations/`.
+Les 78 fichiers de `languages/fr/installer/patched_assets/` sont produits avec [KissE](https://github.com/SolicenTEAM/KismetEditor) à partir des JSONs de `languages/fr/translations/`.
 
 Pipeline KissE typique pour un seul asset (par exemple si on veut corriger une trad) :
 
@@ -130,13 +130,13 @@ Dépendance : [UAssetAPI 1.1.0](https://github.com/atenfyr/UAssetAPI). Pour rebu
 
 ---
 
-## Forks externes utilisés (non bundlés)
+## Outils externes utilisés (non bundlés)
 
-Pour transparence, voici les outils tiers utilisés, avec lien vers les forks Shayano qui contiennent les patches spécifiques au pipeline :
+Pour transparence, voici les outils tiers utilisés dans le pipeline :
 
-| Outil | Repo upstream | Fork avec patches |
+| Outil | Repo | Note |
 |---|---|---|
-| KissE / KismetEditor | [SolicenTEAM/KismetEditor](https://github.com/SolicenTEAM/KismetEditor) | [Shayano/KismetEditor](https://github.com/Shayano/KismetEditor) (UAssetAPI 1.1.0 + spinner + `--patch-assignments` + `--patch-all-functions`) |
-| UAssetAPI | [atenfyr/UAssetAPI](https://github.com/atenfyr/UAssetAPI) | [Shayano/UAssetAPI](https://github.com/Shayano/UAssetAPI) (fix encoding UTF-16 pour accents) |
+| KissE / KismetEditor | [SolicenTEAM/KismetEditor](https://github.com/SolicenTEAM/KismetEditor) | utilisé tel quel (tous les patches spécifiques au pipeline ont été mergés upstream : UAssetAPI 1.1.0, spinner, `--patch-assignments`, `--patch-all-functions`) |
+| UAssetAPI | [atenfyr/UAssetAPI](https://github.com/atenfyr/UAssetAPI) | [fork Shayano/UAssetAPI](https://github.com/Shayano/UAssetAPI) requis (fix encoding UTF-16 pour accents, non mergé upstream) |
 | retoc-rivals | [natimerry/repak-rivals](https://github.com/natimerry/repak-rivals) | utilisé tel quel (UE5.3 supporté nativement) |
-| Dumper-7 | [Encryqed/Dumper-7](https://github.com/Encryqed/Dumper-7) | utilisé tel quel — produit `installer/ABumpyRide.usmap` |
+| Dumper-7 | [Encryqed/Dumper-7](https://github.com/Encryqed/Dumper-7) | utilisé tel quel, produit `installer/ABumpyRide.usmap` |

@@ -95,7 +95,7 @@ Diese Methode ist auch dein Sicherheitsnetz : falls der Mod etwas kaputt macht, 
 - **Mod** : Shayano
 - **Im Patch-Pipeline verwendete Werkzeuge** :
   - [retoc-rivals](https://github.com/natimerry/repak-rivals) - IoStore UE5.3 Repackager
-  - [KissE / KismetEditor](https://github.com/SolicenTEAM/KismetEditor) (gepatchter Fork von Shayano) - Blueprint-Bytecode-Patcher
+  - [KissE / KismetEditor](https://github.com/SolicenTEAM/KismetEditor) - Blueprint-Bytecode-Patcher
   - [Dumper-7](https://github.com/Encryqed/Dumper-7) - generiert das `.usmap` des Spiels
   - [UAssetAPI](https://github.com/atenfyr/UAssetAPI) - UE-Asset-Manipulation
 - **Methodik** : Pair-Programming mit Claude Code (Anthropic) über etwa zehn Sessions.
