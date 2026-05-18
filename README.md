@@ -36,7 +36,7 @@ All four translations share the same conventions :
 - Proper nouns (skins, stations, regions, credits) kept in English
 - `On` / `Off` buttons kept in English (UI width constraints)
 - Imperial units (FT, miles) preserved
-- Pixel-art shop signs kept in English (1900s western atmosphere)
+- Pixel-art shop signs kept in English (1900s western atmosphere).
 
 The Japanese release additionally overrides 4 of the game's fonts with a composite Roboto + DroidSansFallback so that CJK glyphs (Hiragana / Katakana / Kanji) render correctly. Trade-off : the original pixel-art / digital aesthetic of `Pixel Times` and `AwfullyDigital` fonts is replaced by Roboto for all UI text.
 
