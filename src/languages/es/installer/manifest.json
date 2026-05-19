@@ -1,8 +1,8 @@
 {
   "mod_name": "A Bumpy Ride - Traducción al español",
-  "mod_version": "1.4.6",
+  "mod_version": "1.4.7",
   "mod_author": "Shayano",
-  "mod_date": "2026-05-16",
+  "mod_date": "2026-05-17",
   "engine_version": "UE5_3",
   "language": "es",
   "language_register": "tu",
@@ -25,10 +25,10 @@
     }
   },
   "bundle": {
-    "patched_uasset_count": 72,
+    "patched_uasset_count": 73,
     "patched_umap_count": 4,
-    "patched_uexp_count": 71,
-    "total_files": 147,
+    "patched_uexp_count": 72,
+    "total_files": 149,
     "approx_size_mb": 90.2
   },
   "install_requirements": {
@@ -37,6 +37,7 @@
   },
   "changelog": {
     "1.4.5": "Versión inicial de la traducción al español de A Bumpy Ride. ~1000 cadenas traducidas (UI, tutorial, logros, tienda, misiones, descripciones de skins, frases de la pantalla de título). Registro: tú (informal), variante neutra/España. Paridad funcional con FR/DE v1.4.5: incluye el parche SpecialPassenger vía BPOffsetPatcher (62 objetivos de tareas del Accionista en español), los hotfixes v1.4.1 (5 Blueprints UMG mantenidos vanilla para evitar el crash al recoger al Accionista: W_WonStocks, NPCPointer, QuestBoard parcial, QuestTicket, PopUp) y los parches Tutorial_Table (35 cadenas del tutorial del juego). Convenciones: nombres propios en EN (skins de trenes, estaciones, regiones), letreros de tiendas en EN (ambiente western), unidades imperiales conservadas (FT, millas), On/Off no traducidos.",
-    "1.4.6": "Alineación multi-idioma con FR y DE. Sin cambios funcionales para los jugadores ES respecto a v1.4.5, solo cierre de paridad cruzada."
+    "1.4.6": "Alineación multi-idioma con FR y DE. Sin cambios funcionales para los jugadores ES respecto a v1.4.5, solo cierre de paridad cruzada.",
+    "1.4.7": "Fix Actionnaire QuestBoard duplicates: second occurrence of ' law signs', ' hours', and ' times' was silently left in EN since v1.4.5 (same root cause as DE v1.4.7 - BPOffsetPatcher needs N JSON entries to patch N bytecode occurrences). Re-applied via unified wrapper. Bonus: QuestTicket.uasset now patched too (was vanilla in ES v1.4.6 - DESTINATION strings now in Spanish). ES now has 0 'law signs' in EN."
   }
 }

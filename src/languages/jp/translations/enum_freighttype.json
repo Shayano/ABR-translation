@@ -1,0 +1,54 @@
+[
+  {
+    "source": "Honey",
+    "translation": "ハチミツ"
+  },
+  {
+    "source": "TNT",
+    "translation": "TNT"
+  },
+  {
+    "source": "Hay",
+    "translation": "干し草"
+  },
+  {
+    "source": "Fruit",
+    "translation": "果物"
+  },
+  {
+    "source": "Ice",
+    "translation": "氷"
+  },
+  {
+    "source": "N/A",
+    "translation": "なし"
+  },
+  {
+    "source": "Cheese",
+    "translation": "チーズ"
+  },
+  {
+    "source": "DESTROYED FRUIT",
+    "translation": "壊れた果物"
+  },
+  {
+    "source": "DESTROYED HONEY",
+    "translation": "壊れたハチミツ"
+  },
+  {
+    "source": "DESTROYED TNT",
+    "translation": "壊れたTNT"
+  },
+  {
+    "source": "DESTROYED HAY",
+    "translation": "壊れた干し草"
+  },
+  {
+    "source": "DESTROYED ICE",
+    "translation": "壊れた氷"
+  },
+  {
+    "source": "DESTROYED CHEESE",
+    "translation": "壊れたチーズ"
+  }
+]

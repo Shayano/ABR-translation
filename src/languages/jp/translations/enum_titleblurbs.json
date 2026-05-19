@@ -1,0 +1,982 @@
+[
+  {
+    "source": "The wildest ride!",
+    "translation": "最高にワイルドな旅!"
+  },
+  {
+    "source": "All aboard!",
+    "translation": "皆さん、ご乗車を!"
+  },
+  {
+    "source": "On time, almost. . .",
+    "translation": "ほぼ時刻通り..."
+  },
+  {
+    "source": "EGAD! It IS a train!",
+    "translation": "なんと! 本当に列車だ!"
+  },
+  {
+    "source": "They're off!",
+    "translation": "発車!"
+  },
+  {
+    "source": "I think I can!",
+    "translation": "きっとできる!"
+  },
+  {
+    "source": "Too ripe. . .",
+    "translation": "熟れすぎだ..."
+  },
+  {
+    "source": "We've got the right-of-way!",
+    "translation": "通行優先権はこっちだ!"
+  },
+  {
+    "source": "Somebody's on the wrong track!",
+    "translation": "誰か線路を間違えてるよ!"
+  },
+  {
+    "source": "Curses, foiled again!",
+    "translation": "ちくしょう、またしてもだ!"
+  },
+  {
+    "source": "Hi-yo, silverware!",
+    "translation": "ハイヨー、シルバーウェア!"
+  },
+  {
+    "source": "Gotta keep schedule!",
+    "translation": "スケジュール厳守!"
+  },
+  {
+    "source": "I thought I could!",
+    "translation": "きっとできると思ってた!"
+  },
+  {
+    "source": "Chugga chugga!",
+    "translation": "シュッシュッ!"
+  },
+  {
+    "source": "Choo choo!",
+    "translation": "ポッポー!"
+  },
+  {
+    "source": "Protect the dolls!",
+    "translation": "人形を守れ!"
+  },
+  {
+    "source": "Tickets, please?",
+    "translation": "切符を拝見します"
+  },
+  {
+    "source": "Five Hundred Miles!",
+    "translation": "500マイル!"
+  },
+  {
+    "source": "Let's get rolling!",
+    "translation": "さあ動き出そう!"
+  },
+  {
+    "source": "Full steam ahead!",
+    "translation": "全速前進!"
+  },
+  {
+    "source": "Highball!",
+    "translation": "出発進行!"
+  },
+  {
+    "source": "This was railroading!",
+    "translation": "これぞ鉄道だ!"
+  },
+  {
+    "source": "Prince of the Shortlines!",
+    "translation": "ショートライン鉄道の王子!"
+  },
+  {
+    "source": "a smooth ride?? never",
+    "translation": "なめらかな旅?? あるわけない"
+  },
+  {
+    "source": "i'm running out of ideas",
+    "translation": "アイデアが尽きてきた"
+  },
+  {
+    "source": "uhhhh",
+    "translation": "うーんと..."
+  },
+  {
+    "source": ". . . . .",
+    "translation": ". . . . ."
+  },
+  {
+    "source": "i got nothin'",
+    "translation": "何も思いつかん"
+  },
+  {
+    "source": "We're friends of Dorothy!",
+    "translation": "ドロシーの仲間です!"
+  },
+  {
+    "source": "WANTED!",
+    "translation": "指名手配!"
+  },
+  {
+    "source": "Doin' good, kid.",
+    "translation": "いい感じだ、坊や。"
+  },
+  {
+    "source": "Playing with trains?",
+    "translation": "列車で遊んでるの?"
+  },
+  {
+    "source": "I missed you!",
+    "translation": "会いたかったよ!"
+  },
+  {
+    "source": "i miss my dog",
+    "translation": "うちの犬に会いたい"
+  },
+  {
+    "source": "i miss my cat",
+    "translation": "うちの猫に会いたい"
+  },
+  {
+    "source": "nice.",
+    "translation": "いいね。"
+  },
+  {
+    "source": "What in tarnation?!",
+    "translation": "なんてこったい?!"
+  },
+  {
+    "source": "is this minecraft?",
+    "translation": "これマイクラ?"
+  },
+  {
+    "source": "I'm making pizza!",
+    "translation": "ピザ作ってます!"
+  },
+  {
+    "source": "We're having soft tacos later!",
+    "translation": "あとでソフトタコスにしよう!"
+  },
+  {
+    "source": "One spike to rule them all!",
+    "translation": "唯一のスパイクが全てを支配する!"
+  },
+  {
+    "source": "Now boarding for. . .",
+    "translation": "ただいま乗車案内中..."
+  },
+  {
+    "source": "BIG IRON, BIG IRON",
+    "translation": "ビッグアイアン、ビッグアイアン"
+  },
+  {
+    "source": "Pardon me boy!",
+    "translation": "失礼します!"
+  },
+  {
+    "source": "The Chattanooga choo choo?!",
+    "translation": "チャタヌーガ チューチュー?!"
+  },
+  {
+    "source": "Train's a Comin'",
+    "translation": "列車がやってくる"
+  },
+  {
+    "source": "Oo-De-Lally!",
+    "translation": "ウー・ディ・ラリー!"
+  },
+  {
+    "source": "Hello, dolly!",
+    "translation": "ハロー、ドリー!"
+  },
+  {
+    "source": "Lightning Express!",
+    "translation": "電光特急!"
+  },
+  {
+    "source": "Made in the USA!",
+    "translation": "メイド・イン・USA!"
+  },
+  {
+    "source": "Dump the air!",
+    "translation": "ブレーキを抜け!"
+  },
+  {
+    "source": "Not a train sim!",
+    "translation": "鉄道シミュレーターじゃないよ!"
+  },
+  {
+    "source": "Good? Good.",
+    "translation": "いいね? よし。"
+  },
+  {
+    "source": "Join our Discord!",
+    "translation": "Discordに参加しよう!"
+  },
+  {
+    "source": "Thanks for riding with us!",
+    "translation": "ご乗車ありがとうございました!"
+  },
+  {
+    "source": "It's ok to not be ok!",
+    "translation": "つらくても大丈夫!"
+  },
+  {
+    "source": "We listen and we don't judge.",
+    "translation": "話を聞きます、批判はしません。"
+  },
+  {
+    "source": "Hear me out. . .",
+    "translation": "ちょっと聞いて..."
+  },
+  {
+    "source": "Little engines, littler men",
+    "translation": "小さな機関車、もっと小さな人々"
+  },
+  {
+    "source": "Track-work ahead?^I sure hope it does!",
+    "translation": "この先 線路工事?^きっとそうだといいな!"
+  },
+  {
+    "source": "I want to see how small this text can possibly get so^I'm making this unreasonably long I hope you can still read it!",
+    "translation": "テキストがどれだけ小さくなるか見たいから^めちゃくちゃ長くしてみたよ まだ読める?"
+  },
+  {
+    "source": "I HAVE A PLAN!!",
+    "translation": "計画があるんだ!!"
+  },
+  {
+    "source": "LENNY!",
+    "translation": "レニー!"
+  },
+  {
+    "source": "You'll never catch me!",
+    "translation": "捕まえられないよ!"
+  },
+  {
+    "source": "They'll never catch us!",
+    "translation": "奴らに捕まるわけがない!"
+  },
+  {
+    "source": "That's rough, buddy.",
+    "translation": "それはつらいね、相棒。"
+  },
+  {
+    "source": "JokeBlurb.exe has stopped.",
+    "translation": "JokeBlurb.exe が停止しました。"
+  },
+  {
+    "source": "Rebooting joke blurb.exe. . .",
+    "translation": "joke blurb.exe を再起動中..."
+  },
+  {
+    "source": "Gone fishin'",
+    "translation": "釣りに行ってきます"
+  },
+  {
+    "source": "No AI here!",
+    "translation": "AIは使ってません!"
+  },
+  {
+    "source": "Chooch!!",
+    "translation": "ポッポー!!"
+  },
+  {
+    "source": "Chooch2??!",
+    "translation": "ポッポー2??!"
+  },
+  {
+    "source": "Theodore is the best!",
+    "translation": "Theodore が一番!"
+  },
+  {
+    "source": "Pacifica is so pretty!",
+    "translation": "Pacifica は本当にきれい!"
+  },
+  {
+    "source": "Margot is a little lady!",
+    "translation": "Margot はおしとやかなレディ!"
+  },
+  {
+    "source": "What in taxation^without representation?!",
+    "translation": "代表なくして^課税なし?!"
+  },
+  {
+    "source": "Thank you to our testers!",
+    "translation": "テスターの皆さんに感謝!"
+  },
+  {
+    "source": "Thank you to our Patrons!",
+    "translation": "パトロンの皆さんに感謝!"
+  },
+  {
+    "source": "I GOT LUMBAGO",
+    "translation": "ぎっくり腰になった"
+  },
+  {
+    "source": "On the L&PRR!",
+    "translation": "L&PRR鉄道で!"
+  },
+  {
+    "source": "Don't mind Chompy. . .",
+    "translation": "Chompy のことは気にしないで..."
+  },
+  {
+    "source": "just a little guy!",
+    "translation": "ちっちゃな子だよ!"
+  },
+  {
+    "source": "I choo-choo choose you!",
+    "translation": "ポッポっと君に決めた!"
+  },
+  {
+    "source": "Need an engineer here!",
+    "translation": "ここに運転士が必要!"
+  },
+  {
+    "source": "You're already behind schedule.",
+    "translation": "もう予定より遅れていますよ。"
+  },
+  {
+    "source": "Regular law breaker.",
+    "translation": "常習法律違反者。"
+  },
+  {
+    "source": "NOBODY likes ya', tea kettle.",
+    "translation": "誰もお前を好きじゃない、やかん野郎。"
+  },
+  {
+    "source": "We don't need no stinkin' brakes!",
+    "translation": "ブレーキなんて要らねぇ!"
+  },
+  {
+    "source": "You're back already?!",
+    "translation": "もう戻ってきたの?!"
+  },
+  {
+    "source": "Huh, deja-choo.",
+    "translation": "あれ、デジャ・チュー。"
+  },
+  {
+    "source": "Watch the rails, traveler.",
+    "translation": "線路に気をつけて、旅人さん。"
+  },
+  {
+    "source": "Free pizza at the yard!",
+    "translation": "操車場で無料ピザ!"
+  },
+  {
+    "source": "DISPATCH, WE^ HAVE A PROBLEM",
+    "translation": "司令、^問題が発生した"
+  },
+  {
+    "source": "Free prize with every engine!",
+    "translation": "機関車購入で景品プレゼント!"
+  },
+  {
+    "source": "Speed limits are for chumps!",
+    "translation": "速度制限なんてダサい奴のためのもの!"
+  },
+  {
+    "source": "Catch ABR weekdays at 5!",
+    "translation": "ABRは平日5時に放送!"
+  },
+  {
+    "source": "Training montage, coming up",
+    "translation": "トレーニングモンタージュ、まもなく"
+  },
+  {
+    "source": "Training since day 1",
+    "translation": "1日目から訓練中"
+  },
+  {
+    "source": "On the right track!",
+    "translation": "順調そのもの!"
+  },
+  {
+    "source": "Definitely OSHA compliant!",
+    "translation": "もちろん労働安全基準に準拠!"
+  },
+  {
+    "source": "Rivet counters beware!",
+    "translation": "リベット鑑定家ご注意を!"
+  },
+  {
+    "source": "Steamy!",
+    "translation": "蒸気もくもく!"
+  },
+  {
+    "source": "Chug! Chug! Chug!",
+    "translation": "シュッ! シュッ! シュッ!"
+  },
+  {
+    "source": "Watch yer' caboose!",
+    "translation": "後ろに気をつけな!"
+  },
+  {
+    "source": "Hold my oil can.",
+    "translation": "オイル缶を持っててくれ。"
+  },
+  {
+    "source": "#trainsrule4ever",
+    "translation": "#列車最高永遠に"
+  },
+  {
+    "source": "They see me chuggin'",
+    "translation": "みんな俺の走りに見とれてる"
+  },
+  {
+    "source": "Smokestacks & rough tracks!",
+    "translation": "煙突とでこぼこレール!"
+  },
+  {
+    "source": "The Crash of '87- wait. . .",
+    "translation": "87年の大事故、待って..."
+  },
+  {
+    "source": "The name's Choo. Choo Choo.",
+    "translation": "名はチュー。チュー・チュー。"
+  },
+  {
+    "source": "Now with 50% more train!",
+    "translation": "列車成分50%増量!"
+  },
+  {
+    "source": "Safety not included.",
+    "translation": "安全は付属しません。"
+  },
+  {
+    "source": "What matters is^deciding to get on!",
+    "translation": "大事なのは^乗ると決めること!"
+  },
+  {
+    "source": "Well? You comin'?",
+    "translation": "で? 来るの?"
+  },
+  {
+    "source": "Let's make tracks!",
+    "translation": "出発しよう!"
+  },
+  {
+    "source": "Should've taken the train!",
+    "translation": "列車に乗ればよかった!"
+  },
+  {
+    "source": "Roundtrip!",
+    "translation": "往復切符!"
+  },
+  {
+    "source": "One way journey!",
+    "translation": "片道の旅!"
+  },
+  {
+    "source": "Unstoppable!",
+    "translation": "止められない!"
+  },
+  {
+    "source": "Trains are wonderful.",
+    "translation": "列車は素晴らしい。"
+  },
+  {
+    "source": "Trains, like time and tide,^stop for no one.",
+    "translation": "列車も時と潮も、^誰のためにも止まらない。"
+  },
+  {
+    "source": "don't be a slowcomotive!",
+    "translation": "のろのろ機関車になるな!"
+  },
+  {
+    "source": "Cover your tracks!",
+    "translation": "足跡を消せ!"
+  },
+  {
+    "source": "All steamed up and^nowhere to go.",
+    "translation": "蒸気は満タンなのに^行き先がない。"
+  },
+  {
+    "source": "This is how I roll!",
+    "translation": "これが俺の流儀だ!"
+  },
+  {
+    "source": "Let off some steam!",
+    "translation": "ガス抜きしようぜ!"
+  },
+  {
+    "source": "What's a crown sheet?",
+    "translation": "クラウンシートって何?"
+  },
+  {
+    "source": "Your attention please. . .",
+    "translation": "ご注目ください..."
+  },
+  {
+    "source": "I can't believe it's not butter!",
+    "translation": "バターじゃないなんて信じられない!"
+  },
+  {
+    "source": "no thoughts, just vibes",
+    "translation": "頭からっぽ、ノリだけ"
+  },
+  {
+    "source": "Roll for initiative!",
+    "translation": "イニシアチブを振れ!"
+  },
+  {
+    "source": "Beebe & Clegg could never.",
+    "translation": "ビーブ&クレッグでも無理。"
+  },
+  {
+    "source": "Engine of Love!",
+    "translation": "愛の機関車!"
+  },
+  {
+    "source": "Gotta Drive 'Em All!",
+    "translation": "全部運転しちゃおう!"
+  },
+  {
+    "source": "Now with more fraud!",
+    "translation": "詐欺要素増量!"
+  },
+  {
+    "source": "ft. Comet, the Engine!",
+    "translation": "出演: 機関車 Comet!"
+  },
+  {
+    "source": "ft. You, our Engineer!",
+    "translation": "出演: 運転士のあなた!"
+  },
+  {
+    "source": "i have loco motives",
+    "translation": "下心ありまくり"
+  },
+  {
+    "source": "Tickets not included!",
+    "translation": "切符は別売です!"
+  },
+  {
+    "source": "Use the brakes, driver!",
+    "translation": "ブレーキ使えよ、運転士!"
+  },
+  {
+    "source": "Sure hope this game does well. . .",
+    "translation": "このゲーム売れるといいな..."
+  },
+  {
+    "source": "AH! How did you find me?!",
+    "translation": "ああ! どうして見つけたの?!"
+  },
+  {
+    "source": "Have a great run!",
+    "translation": "良い旅を!"
+  },
+  {
+    "source": "Good luck!",
+    "translation": "幸運を!"
+  },
+  {
+    "source": "Good luck, you need it!",
+    "translation": "幸運を、必要だぞ!"
+  },
+  {
+    "source": "Yikes!",
+    "translation": "うわっ!"
+  },
+  {
+    "source": "oof.",
+    "translation": "うっ。"
+  },
+  {
+    "source": "Holiday who-be-what-ey?!",
+    "translation": "休日? なにそれ?!"
+  },
+  {
+    "source": "Now with more bump!",
+    "translation": "デコボコ増量!"
+  },
+  {
+    "source": "please i need to sleep",
+    "translation": "頼むから寝かせて"
+  },
+  {
+    "source": "hydrate!!!!",
+    "translation": "水分補給!!!!"
+  },
+  {
+    "source": "Posture check!",
+    "translation": "姿勢チェック!"
+  },
+  {
+    "source": "Focus!",
+    "translation": "集中!"
+  },
+  {
+    "source": "You've got this!",
+    "translation": "君ならできる!"
+  },
+  {
+    "source": "Beware of ghost trains!",
+    "translation": "幽霊列車に注意!"
+  },
+  {
+    "source": "Thunderstorms bring ghosts.",
+    "translation": "雷雨は幽霊を連れてくる。"
+  },
+  {
+    "source": ". . . .oh, hi",
+    "translation": ". . . .あ、こんちは"
+  },
+  {
+    "source": "Didn't see you there!",
+    "translation": "そこにいたとは!"
+  },
+  {
+    "source": "Have we met?",
+    "translation": "前に会いましたっけ?"
+  },
+  {
+    "source": "You whistled at me!",
+    "translation": "私に汽笛鳴らしたね!"
+  },
+  {
+    "source": "You're good at this!",
+    "translation": "うまいじゃないか!"
+  },
+  {
+    "source": "Holy cabooses!!",
+    "translation": "なんてこった!!"
+  },
+  {
+    "source": "i miss my son",
+    "translation": "息子に会いたい"
+  },
+  {
+    "source": "Ice-drifting pros!",
+    "translation": "氷上ドリフトのプロ!"
+  },
+  {
+    "source": "0 Days since last derailment",
+    "translation": "脱線から0日"
+  },
+  {
+    "source": "Locomotive? You mean engine car?",
+    "translation": "ロコモーティブ? つまり機関車のこと?"
+  },
+  {
+    "source": "Tender? You mean coal car?",
+    "translation": "テンダー? つまり炭水車のこと?"
+  },
+  {
+    "source": "Hoho! You found me!",
+    "translation": "ホッホー! 見つけたな!"
+  },
+  {
+    "source": "10 past and 30 late. . .",
+    "translation": "10分遅れの30分遅刻..."
+  },
+  {
+    "source": "100mph? Easy.",
+    "translation": "100マイル/時? 余裕。"
+  },
+  {
+    "source": "Lost on my train of thought. . .",
+    "translation": "考えの列車で迷子に..."
+  },
+  {
+    "source": "Derailing discussions!",
+    "translation": "話を脱線させる!"
+  },
+  {
+    "source": "Sidetracked as always.",
+    "translation": "いつものごとく脱線中。"
+  },
+  {
+    "source": "Running on fumes!",
+    "translation": "燃料カラで爆走!"
+  },
+  {
+    "source": "You're the whistleblower?!",
+    "translation": "君が内部告発者か?!"
+  },
+  {
+    "source": "My kind of wheelhouse.",
+    "translation": "俺の得意分野だ。"
+  },
+  {
+    "source": "Full throttle!",
+    "translation": "スロットル全開!"
+  },
+  {
+    "source": "Swing that Johnson bar!",
+    "translation": "ジョンソンバーを振れ!"
+  },
+  {
+    "source": "Runaway with me!",
+    "translation": "一緒に駆け落ちしよう!"
+  },
+  {
+    "source": "Cinders and ashes!",
+    "translation": "燃え殻と灰!"
+  },
+  {
+    "source": "GREAT SCOTT!",
+    "translation": "なんてこった!"
+  },
+  {
+    "source": "Shiver with antici. . . ",
+    "translation": "期待でゾクゾク..."
+  },
+  {
+    "source": ". . .pation.",
+    "translation": "...しちゃう。"
+  },
+  {
+    "source": "Go to your room!",
+    "translation": "自分の部屋に戻りなさい!"
+  },
+  {
+    "source": "BE A BIG SHOT!",
+    "translation": "大物になれ!"
+  },
+  {
+    "source": "When this baby hits 88 mph. . .",
+    "translation": "この子が88マイル/時に達したら..."
+  },
+  {
+    "source": "Where we're going,^we don't need roads!",
+    "translation": "俺たちが行く場所には^道路はいらない!"
+  },
+  {
+    "source": "Express yourself!",
+    "translation": "自分を表現しよう!"
+  },
+  {
+    "source": "I'm proud of you.",
+    "translation": "君を誇りに思うよ。"
+  },
+  {
+    "source": "We're proud of you.",
+    "translation": "私たちは君を誇りに思う。"
+  },
+  {
+    "source": "Wait a minute, who are you?",
+    "translation": "ちょっと待って、誰だっけ?"
+  },
+  {
+    "source": "Han shot first!",
+    "translation": "ハンが先に撃った!"
+  },
+  {
+    "source": "This train ain't big^enough for the two of us.",
+    "translation": "この列車は俺たち^二人には狭すぎる。"
+  },
+  {
+    "source": "What a wonderful world!",
+    "translation": "なんて素晴らしき世界!"
+  },
+  {
+    "source": "Am I real?",
+    "translation": "私って本物?"
+  },
+  {
+    "source": "Escape your responsibilities!",
+    "translation": "責任から逃げよう!"
+  },
+  {
+    "source": "Procrastination Station!",
+    "translation": "先延ばし駅!"
+  },
+  {
+    "source": "One short day. . .",
+    "translation": "短い一日だけ..."
+  },
+  {
+    "source": "You're never gonna bring me^DOOOOOOOOWN!!!",
+    "translation": "私を引きずり落とせるもんか^ぜったいに!!!"
+  },
+  {
+    "source": "Supercalifragilisticexpealidocious!",
+    "translation": "スーパーカリフラジリスティックエクスピアリドーシャス!"
+  },
+  {
+    "source": "Go ahead, make my day.",
+    "translation": "やれよ、楽しませてくれ。"
+  },
+  {
+    "source": "There's a great big^beautiful tomorrow!",
+    "translation": "輝かしい明日が^待っている!"
+  },
+  {
+    "source": "FOOLISH MORTAL.",
+    "translation": "愚かな人間め。"
+  },
+  {
+    "source": "Did you hear that?",
+    "translation": "今の聞こえた?"
+  },
+  {
+    "source": "Did you see that?",
+    "translation": "今の見えた?"
+  },
+  {
+    "source": "What was that?",
+    "translation": "今のは何?"
+  },
+  {
+    "source": "Were those eyes in the woods?",
+    "translation": "森に光る目があった?"
+  },
+  {
+    "source": "Definitely not haunted!",
+    "translation": "絶対に呪われてません!"
+  },
+  {
+    "source": "THE GAME",
+    "translation": "THE GAME"
+  },
+  {
+    "source": "Vibing!",
+    "translation": "ノリノリ!"
+  },
+  {
+    "source": "To Infinity!",
+    "translation": "無限の彼方へ!"
+  },
+  {
+    "source": "Fruity.",
+    "translation": "フルーティー。"
+  },
+  {
+    "source": "Unshaken!",
+    "translation": "揺るがず!"
+  },
+  {
+    "source": "It's a beautiful day^in the neighborhood!",
+    "translation": "ご近所は今日も^いいお天気!"
+  },
+  {
+    "source": "Timeless. . .",
+    "translation": "時を超えて..."
+  },
+  {
+    "source": "I have no memory of this place.",
+    "translation": "ここの記憶がない。"
+  },
+  {
+    "source": "YOU. SHALL NOT. PASS!!",
+    "translation": "お前は、通さん!!"
+  },
+  {
+    "source": "Fly, you fools!",
+    "translation": "逃げろ、愚か者ども!"
+  },
+  {
+    "source": "Not in Kansas anymore. . .",
+    "translation": "もうカンザスじゃないみたい..."
+  },
+  {
+    "source": "Fasten your seatbelts.",
+    "translation": "シートベルト着用。"
+  },
+  {
+    "source": "I'm ready for my close-up.",
+    "translation": "私のクローズアップの準備はできてるわ。"
+  },
+  {
+    "source": "Say \"hello\" to my little train!",
+    "translation": "俺のリトル・トレインに「ハロー」と言いな!"
+  },
+  {
+    "source": "Hasta la vista, baby.",
+    "translation": "アスタ・ラ・ビスタ、ベイビー。"
+  },
+  {
+    "source": "I feel the need for speed!",
+    "translation": "スピードへの渇望を感じる!"
+  },
+  {
+    "source": "Ain't it a sight for sore eyes?",
+    "translation": "目の保養じゃないか?"
+  },
+  {
+    "source": "I've seen a polka-dot railroad tie!",
+    "translation": "水玉模様の枕木を見たことある!"
+  },
+  {
+    "source": "Visit Rio Frontera!",
+    "translation": "Rio Frontera へ行こう!"
+  },
+  {
+    "source": "Visit the Whistling Peaks!",
+    "translation": "Whistling Peaks へ行こう!"
+  },
+  {
+    "source": "Visit the Lilli Woodlands!",
+    "translation": "Lilli Woodlands へ行こう!"
+  },
+  {
+    "source": "Visit the Put Prairie!",
+    "translation": "Put Prairie へ行こう!"
+  },
+  {
+    "source": "See Big Stack Summit!",
+    "translation": "Big Stack Summit を見に行こう!"
+  },
+  {
+    "source": "See Bayou Bél Nuit!",
+    "translation": "Bayou Bél Nuit を見に行こう!"
+  },
+  {
+    "source": "Catch the Cattail Queen!",
+    "translation": "Cattail Queen を捕まえろ!"
+  },
+  {
+    "source": "Definitely no saboteurs here!",
+    "translation": "ここに破壊工作員は絶対にいません!"
+  },
+  {
+    "source": "Tastes just like candy, honest!",
+    "translation": "キャンディーみたいな味、ホントだよ!"
+  },
+  {
+    "source": "Red, or blue?",
+    "translation": "赤か、青か?"
+  },
+  {
+    "source": "Are you not into trains?!",
+    "translation": "列車に興味ないの?!"
+  },
+  {
+    "source": "Can you do a wheelie?",
+    "translation": "ウィリーできる?"
+  },
+  {
+    "source": "I'm hungry",
+    "translation": "お腹すいた"
+  },
+  {
+    "source": "This game took 2 years to make!",
+    "translation": "このゲーム、制作に2年かかりました!"
+  },
+  {
+    "source": "Welcome!!!",
+    "translation": "ようこそ!!!"
+  },
+  {
+    "source": "by Cosmoporium Games",
+    "translation": "by Cosmoporium Games"
+  },
+  {
+    "source": "YAS QUEEN!",
+    "translation": "イェス クイーン!"
+  },
+  {
+    "source": "Honestly? Valid crashout.",
+    "translation": "正直? 妥当な脱線。"
+  },
+  {
+    "source": "Easy on the curves!",
+    "translation": "カーブはゆっくりね!"
+  }
+]

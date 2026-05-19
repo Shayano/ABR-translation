@@ -1,0 +1,47 @@
+{
+  "mod_name": "A Bumpy Ride - 日本語翻訳",
+  "mod_version": "1.4.7",
+  "mod_author": "Shayano",
+  "mod_date": "2026-05-17",
+  "engine_version": "UE5_3",
+  "language": "jp",
+  "language_register": "desu-masu",
+  "target_game": {
+    "name": "A Bumpy Ride",
+    "steam_app_id": "2540610",
+    "vanilla_files": {
+      "ABumpyRide-Windows.utoc": {
+        "size": 2228827,
+        "sha256": "a47fbb6b81634ea00a7b96b7619551b64ccd2a298a9f923c90110143ec78839e"
+      },
+      "ABumpyRide-Windows.ucas": {
+        "size": 1610401040,
+        "sha256": "c5d2e8d102f4c4cee2689c0017ef23d218e70af751499d0208642a2f4c74aa0d"
+      },
+      "ABumpyRide-Windows.pak": {
+        "size": 10065249,
+        "sha256": "5658ed6452a03e1e1c7b2e764c67446419275cdef34709ee52594fef11b649fa"
+      }
+    }
+  },
+  "bundle": {
+    "patched_uasset_count": 75,
+    "patched_umap_count": 3,
+    "patched_uexp_count": 77,
+    "total_files": 155,
+    "approx_size_mb": 76.5
+  },
+  "install_requirements": {
+    "free_disk_space_gb": 12,
+    "approx_install_time_minutes": 4
+  },
+  "changelog": {
+    "1.0.0": "Initial release of the Japanese translation of A Bumpy Ride. ~900 strings translated (UI, tutorial, achievements, shop, quests, skin descriptions, title screen catch phrases, tutorial dialogues, freight tooltips, settings menu, end-of-day screen, popups). Register: ですます調 (standard polite form, casual gaming convention). Conventions: proper names in EN (train skins, stations, regions), shop signs in EN (western atmosphere), imperial units preserved (FT, miles), On/Off not translated. Functional parity with FR/DE/ES v1.0.0 baseline. SpecialPassenger.uexp remains vanilla (62 Shareholder task strings stay in EN) for crash-safety reasons documented in TRANSLATION_RULES.md section 2.5.ter.",
+    "1.0.1": "Font fix for CJK glyph rendering. The vanilla game uses bitmap UFont atlases (Pixel_Times_Font, AwfullyDigital_Font, Cavalhatriz_Font, Pixel_Times_Bold_Font) that only contain Latin glyphs - all Japanese characters rendered as empty tofu. Fix: 4 font assets overridden with a composite Font cloned from Engine/EngineFonts/Roboto.uasset, which chains RobotoRegular (Latin) + DroidSansFallback (CJK fallback already embedded in Unreal Engine). All Hiragana/Katakana/Kanji now render correctly via the engine's built-in CJK fallback. Trade-off: the original pixel-art / digital aesthetic of Pixel Times and AwfullyDigital is lost - all UI text now uses Roboto. Game-internal bitmap fonts (Pixel_Times_Bold_Font_Signs for station signs and Universal_Serif_Font) are left vanilla since station names and shop signs are kept in EN anyway.",
+    "1.0.2": "Crash fix and missing strings. (1) Fix Actionnaire (Shareholder) pickup crash: SpecialPassenger.uasset/.uexp reverted to vanilla in the build, as patching it triggers an infinite script recursion in UE5 (same root cause documented in FR/DE v1.4.4 - the 62 Shareholder task strings stay in EN). (2) Add 10 strings that were present in the binary but missing from the original JSON extract (added manually in FR/DE v1.3.3+): QuestBoard 'Click to lock' -> 'クリックでロック', 'Click to unlock' -> 'クリックでロック解除', TrainScreen 'Watch out for tornadoes!' -> '竜巻に注意!', 'You are lost!' -> '迷子になりました!', 'Tracks may be slippery!' -> '線路が滑りやすいかも!', 'Water usage is twice as fast!' -> '水の消費が2倍速くなります!', 'Click to drop explosives' -> 'クリックで爆薬を投下', NewShopMenu 'OWNED' -> '所持済', 'PAINT' -> '塗装', EndOfDayScreen_Paper 'Money made today: ' -> '本日の売上: '.",
+    "1.0.3": "Real fix for Actionnaire pickup crash. v1.0.2 reverted SpecialPassenger but the crash persisted: the actual culprit was QuestTicket.uasset, patched in JP but kept vanilla in ES v1.4.6 for the exact same reason (EX_Jump offset corruption on change-of-length destination strings - JP destinations are longer than EN, breaking the bytecode jump targets). DE manages to patch it because of how its strings happen to align byte-wise, but JP cannot. Fix: QuestTicket.uasset/.uexp now reverted to vanilla in the build, matching ES policy. Cost: the destination panel on quest tickets (DESTINATION:, Destination: Nearest Station) stays in EN. Comparison audit added to staging/_package_jp.py post-fixes to prevent regression. SpecialPassenger also kept vanilla (62 Shareholder task strings stay in EN), same as v1.0.2.",
+    "1.0.4": "Translation parity with FR/DE v1.4.5 via BPOffsetPatcher. Instead of reverting SpecialPassenger and QuestTicket to vanilla (v1.0.2/v1.0.3 stopgap), both are now properly translated using the BPOffsetPatcher tool that was created in FR v1.4.5 specifically to solve the EX_Jump/EX_SwitchValue offset corruption that KissE's placeholder+branch approach introduces. BPOffsetPatcher rewrites strings edit-in-place, builds a global shift map, and updates all absolute jump-like opcodes (EX_Jump, EX_JumpIfNot, EX_PushExecutionFlow, EX_SwitchValue.EndGotoOffset + Cases.NextOffset) plus all internal callers' EX_IntConst entry-points. Result: 61 SpecialPassenger strings translated (Actionnaire tasks: See the sunset -> 夕日を見る, etc. - 2 'AM'/'PM' skipped due to known duplicate bug from FR v1.4.5) + 3 QuestTicket DESTINATION strings translated (DESTINATION: -> 目的地:). QuestTicket is a first-time use of BPOffsetPatcher on a non-SP Blueprint - same fix profile (EX_Jump offset corruption by change-of-length), 7 callers shifted. Both confirmed compiling without crashing the asset load.",
+    "1.0.5": "Fix Actionnaire QuestBoard duplicates: second occurrence of ' law signs', ' hours', and ' times' was left in EN in v1.0.4 because the BPOffsetPatcher wrapper dedup'd the input JSON by Original string. DE/FR v1.4.5 had not dedup'd (they passed all 72 SP entries through, with duplicates), letting BPOffsetPatcher patch all bytecode occurrences. Wrapper now keeps duplicates -> 64 SP strings patched (vs 61 in v1.0.4). AM/PM stay in EN intentionally (translation identical to source, universal abbreviation kept across all languages).",
+    "1.4.7": "Multi-language alignment with FR/DE/ES v1.4.7. No functional change vs JP v1.0.5 (same binaries: 61 SpecialPassenger strings + 3 QuestTicket strings translated via BPOffsetPatcher, font overrides for CJK rendering, 0 'law signs' in EN). JP joins the unified release tag v1.4.7 with FR/DE/ES."
+  }
+}

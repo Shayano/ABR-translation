@@ -1,8 +1,8 @@
 {
   "mod_name": "A Bumpy Ride - Traduction française",
-  "mod_version": "1.4.6",
+  "mod_version": "1.4.7",
   "mod_author": "Shayano",
-  "mod_date": "2026-05-16",
+  "mod_date": "2026-05-17",
   "engine_version": "UE5_3",
   "target_game": {
     "name": "A Bumpy Ride",
@@ -50,6 +50,7 @@
     "1.2.0": "Traduction de l'intro de la carte principale (\"Oh no! The tracks on your map got ruined...\" → \"Oh non ! Les rails de votre carte ont été abîmés...\"). Première traduction d'un bytecode embarqué dans un asset .uexp >2 GB que UAssetAPI/KissE refusent de charger normalement. Le patch est appliqué pendant l'install via un outil custom (MainMapPatcher.exe) qui isole l'export ExecuteUbergraph_MainMap et applique l'algorithme placeholder + branch détour de KissE. Ajoute MainMapPatcher.exe (~38 Mo) et ABumpyRide.usmap (344 Ko) à la trousse d'install.",
     "1.1.0": "Inclusion des 7 enums (TitleScreenBlurbs, BuildingType, FreightType, QuestLine, QuestType, PassengerEnum, TitleScreenBlurbsRainy) et de SkinButtonTable (descriptions de skins) qui étaient absents en 1.0.0.",
     "1.0.0": "Version initiale — BPs et maps.",
-    "1.4.6": "Alignement multi-langues. 4 noms de lieux (Bayou Bel Nuit, Big Stack Summit, Lake Polari, Pleasant Pond) remis vanilla dans SpecialPassenger pour cohérence avec la règle 'noms de lieux = EN'. Aucun impact gameplay, simple cohérence d'écriture entre FR/DE/ES."
+    "1.4.6": "Alignement multi-langues. 4 noms de lieux (Bayou Bel Nuit, Big Stack Summit, Lake Polari, Pleasant Pond) remis vanilla dans SpecialPassenger pour cohérence avec la règle 'noms de lieux = EN'. Aucun impact gameplay, simple cohérence d'écriture entre FR/DE/ES.",
+    "1.4.7": "Bump cosmétique pour aligner les 4 langues du mod ABR-translation (FR/DE/ES/JP). Aucun changement fonctionnel pour les joueurs FR : les binaires sont identiques à v1.4.6 (0 'law signs' en EN dans SpecialPassenger, QuestTicket déjà patché, tout est OK depuis v1.4.5). Cette release accompagne la première version JP v1.4.7 et les hotfix DE/ES v1.4.7 (qui corrigent le bug de la deuxième occurrence de ' law signs' / ' hours' / ' times' restée silencieusement en EN depuis v1.4.5 - cause : wrapper BPOffsetPatcher dédupliquait les Original identiques en input)."
   }
 }

@@ -1,8 +1,8 @@
 {
   "mod_name": "A Bumpy Ride - Deutsche Übersetzung",
-  "mod_version": "1.4.6",
+  "mod_version": "1.4.7",
   "mod_author": "Shayano",
-  "mod_date": "2026-05-16",
+  "mod_date": "2026-05-17",
   "engine_version": "UE5_3",
   "language": "de",
   "language_register": "du",
@@ -25,10 +25,10 @@
     }
   },
   "bundle": {
-    "patched_uasset_count": 72,
+    "patched_uasset_count": 73,
     "patched_umap_count": 4,
-    "patched_uexp_count": 70,
-    "total_files": 146,
+    "patched_uexp_count": 71,
+    "total_files": 148,
     "approx_size_mb": 90.2
   },
   "install_requirements": {
@@ -43,6 +43,7 @@
     "1.4.0": "Angleichung der Versionsnummerierung mit FR im Multi-Sprachen-Repo. Funktional identisch zur v1.1.0 (gleiche 154 Patches, gleicher Vanilla-Hash). Erste DE-Veröffentlichung über das gemeinsame GitHub-Tag v1.4.0.",
     "1.0.0": "🇩🇪 Initiale Veröffentlichung der deutschen Übersetzung. ~934 Strings übersetzt (UI, Tutorial, Achievements, Shop, Quests, Skin-Beschreibungen, Titelbildschirm-Sprüche). Registre `du` (informell). Konventionen erhalten: Eigennamen (Skins, Stationen, Regionen) auf EN, Ladenschilder auf EN (Western-Atmosphäre), On/Off auf EN (UI-Platz), kaiserliche Maßeinheiten beibehalten (FT, Meilen).",
     "1.1.0": "Anpassung an Spiel-Update vom 07.05.2026 + Parität mit FR v1.3.4. Tutorial_Table erstmals übersetzt (33 Strings des Spiel-Tutorials). QuestLine: 3 von Entwicklern umformulierte Questbeschreibungen übersetzt (Prärie, Minen und Schluchten, Tiefen des Lilli-Walds). Vanilla-Baseline auf das Post-Update-Spiel neu kalibriert. Alle Gedankenstriche durch klassische Bindestriche ersetzt.",
-    "1.4.6": "Mehrsprachen-Angleichung. Zwei Strings hinzugefügt: 'OWNED' -> 'BESITZT' (Shop-UI) und 'Tour the ' -> 'Besuche ' (Aktionär-Aufgaben in SpecialPassenger). Parität mit FR und ES erreicht."
+    "1.4.6": "Mehrsprachen-Angleichung. Zwei Strings hinzugefügt: 'OWNED' -> 'BESITZT' (Shop-UI) und 'Tour the ' -> 'Besuche ' (Aktionär-Aufgaben in SpecialPassenger). Parität mit FR und ES erreicht.",
+    "1.4.7": "Fix Actionnaire QuestBoard duplicates: second occurrence of ' law signs', ' hours', and ' times' was silently left in EN since v1.4.5 (BPOffsetPatcher patches one bytecode occurrence per JSON entry, but the original sp_strings_for_patcher_de.json kept duplicates correctly - so this bug was specific to a re-pipeline step that dedup'd). Re-applied BPOffsetPatcher via the unified wrapper staging/_apply_bp_offset.py (always keeps duplicates). Bonus: QuestTicket.uasset is now patched as well (3 DESTINATION strings - same fix profile, first-time non-SP BPOffsetPatcher use validated in JP v1.0.4). DE now has 0 'law signs' in EN."
   }
 }
