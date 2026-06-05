@@ -29,7 +29,7 @@
   },
   {
     "source": "We've got the right-of-way!",
-    "translation": "¡Tenemos preferencia de paso!"
+    "translation": "¡Tenemos derecha de paso!"
   },
   {
     "source": "Somebody's on the wrong track!",
@@ -61,7 +61,7 @@
   },
   {
     "source": "Protect the dolls!",
-    "translation": "¡Proteged las muñecas!"
+    "translation": "¡Proteja las muñecas!"
   },
   {
     "source": "Tickets, please?",
@@ -77,7 +77,7 @@
   },
   {
     "source": "Full steam ahead!",
-    "translation": "¡A todo vapor!"
+    "translation": "¡A toda máquina!"
   },
   {
     "source": "Highball!",
@@ -129,19 +129,19 @@
   },
   {
     "source": "I missed you!",
-    "translation": "¡Te he echado de menos!"
+    "translation": "¡Te extrañé!"
   },
   {
     "source": "i miss my dog",
-    "translation": "echo de menos a mi perro"
+    "translation": "extraño a mi perro"
   },
   {
     "source": "i miss my cat",
-    "translation": "echo de menos a mi gato"
+    "translation": "extraño a mi gato"
   },
   {
     "source": "nice.",
-    "translation": "guay."
+    "translation": "bien."
   },
   {
     "source": "What in tarnation?!",
@@ -157,7 +157,7 @@
   },
   {
     "source": "We're having soft tacos later!",
-    "translation": "¡Cenamos tacos blandos luego!"
+    "translation": "¡Cenamos tacos blandos más tarde!"
   },
   {
     "source": "One spike to rule them all!",
@@ -189,7 +189,7 @@
   },
   {
     "source": "Hello, dolly!",
-    "translation": "¡Hello, Dolly!"
+    "translation": "¡Hola, dolly!"
   },
   {
     "source": "Lightning Express!",
@@ -197,7 +197,7 @@
   },
   {
     "source": "Made in the USA!",
-    "translation": "¡Made in USA!"
+    "translation": "¡Hecho en el USA!"
   },
   {
     "source": "Dump the air!",
@@ -261,7 +261,7 @@
   },
   {
     "source": "That's rough, buddy.",
-    "translation": "Qué duro, colega."
+    "translation": "Qué duro, amigo."
   },
   {
     "source": "JokeBlurb.exe has stopped.",
@@ -305,11 +305,11 @@
   },
   {
     "source": "Thank you to our testers!",
-    "translation": "¡Gracias a nuestros testers!"
+    "translation": "¡Gracias a nuestros probadores!"
   },
   {
     "source": "Thank you to our Patrons!",
-    "translation": "¡Gracias a nuestros mecenas!"
+    "translation": "¡Gracias a nuestros Patrons!"
   },
   {
     "source": "I GOT LUMBAGO",
@@ -377,7 +377,7 @@
   },
   {
     "source": "Speed limits are for chumps!",
-    "translation": "¡Los límites de velocidad son para pringados!"
+    "translation": "¡Los límites de velocidad son para perdedores!"
   },
   {
     "source": "Catch ABR weekdays at 5!",
@@ -433,7 +433,7 @@
   },
   {
     "source": "The Crash of '87- wait. . .",
-    "translation": "El crac del 87... espera..."
+    "translation": "El choque del 87... espera..."
   },
   {
     "source": "The name's Choo. Choo Choo.",
@@ -441,7 +441,7 @@
   },
   {
     "source": "Now with 50% more train!",
-    "translation": "¡Ahora con un 50 % más de tren!"
+    "translation": "¡Ahora con un 50% más tren!"
   },
   {
     "source": "Safety not included.",
@@ -469,7 +469,7 @@
   },
   {
     "source": "One way journey!",
-    "translation": "¡Solo ida!"
+    "translation": "¡Viaje de ida!"
   },
   {
     "source": "Unstoppable!",
@@ -477,7 +477,7 @@
   },
   {
     "source": "Trains are wonderful.",
-    "translation": "Los trenes son maravillosos."
+    "translation": "Trenes son maravillosos."
   },
   {
     "source": "Trains, like time and tide,^stop for no one.",
@@ -517,11 +517,11 @@
   },
   {
     "source": "no thoughts, just vibes",
-    "translation": "sin pensar, solo vibes"
+    "translation": "sin pensar, solo vibras"
   },
   {
     "source": "Roll for initiative!",
-    "translation": "¡Tira iniciativa!"
+    "translation": "¡Tira para la iniciativa!"
   },
   {
     "source": "Beebe & Clegg could never.",
@@ -561,11 +561,11 @@
   },
   {
     "source": "Sure hope this game does well. . .",
-    "translation": "Ojalá este juego funcione bien..."
+    "translation": "Ojalá este juego le vaya bien..."
   },
   {
     "source": "AH! How did you find me?!",
-    "translation": "¡AH! ¿¡Cómo me has encontrado!?"
+    "translation": "¡AH! ¿¡Cómo me encontrastes!?"
   },
   {
     "source": "Have a great run!",
@@ -649,7 +649,7 @@
   },
   {
     "source": "i miss my son",
-    "translation": "echo de menos a mi hijo"
+    "translation": "extraño a mi hijo"
   },
   {
     "source": "Ice-drifting pros!",
@@ -681,7 +681,7 @@
   },
   {
     "source": "Lost on my train of thought. . .",
-    "translation": "Perdido en mi tren de pensamientos..."
+    "translation": "Perdi mi tren de pensamientos..."
   },
   {
     "source": "Derailing discussions!",
@@ -701,7 +701,7 @@
   },
   {
     "source": "My kind of wheelhouse.",
-    "translation": "Justo mi terreno."
+    "translation": "Justo mi timonera."
   },
   {
     "source": "Full throttle!",
@@ -769,7 +769,7 @@
   },
   {
     "source": "This train ain't big^enough for the two of us.",
-    "translation": "Este tren no es lo bastante grande^para los dos."
+    "translation": "Este tren no es bastante grande^para los dos."
   },
   {
     "source": "What a wonderful world!",
@@ -869,7 +869,7 @@
   },
   {
     "source": "Fly, you fools!",
-    "translation": "¡Volad, insensatos!"
+    "translation": "¡Volar, tontos!"
   },
   {
     "source": "Not in Kansas anymore. . .",
@@ -893,7 +893,7 @@
   },
   {
     "source": "I feel the need for speed!",
-    "translation": "¡Necesito velocidad!"
+    "translation": "¡Siento la necesidad de velocidad!"
   },
   {
     "source": "Ain't it a sight for sore eyes?",
@@ -933,7 +933,7 @@
   },
   {
     "source": "Definitely no saboteurs here!",
-    "translation": "¡Aquí ningún saboteador, palabra!"
+    "translation": "¡Aquí ningún saboteador!"
   },
   {
     "source": "Tastes just like candy, honest!",
@@ -941,11 +941,11 @@
   },
   {
     "source": "Red, or blue?",
-    "translation": "¿Roja o azul?"
+    "translation": "¿Rojo o azul?"
   },
   {
     "source": "Are you not into trains?!",
-    "translation": "¿¡No te van los trenes!?"
+    "translation": "¿¡No te gusta los trenes!?"
   },
   {
     "source": "Can you do a wheelie?",
@@ -969,7 +969,7 @@
   },
   {
     "source": "YAS QUEEN!",
-    "translation": "¡YAS QUEEN!"
+    "translation": "¡SI REINA!"
   },
   {
     "source": "Honestly? Valid crashout.",
@@ -977,6 +977,6 @@
   },
   {
     "source": "Easy on the curves!",
-    "translation": "¡Despacio en las curvas!"
+    "translation": "¡Suave en las curvas!"
   }
 ]
