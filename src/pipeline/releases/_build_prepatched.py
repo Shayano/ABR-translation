@@ -27,8 +27,13 @@ try:
 except Exception:
     pass
 
-ROOT = Path(r'F:\Tools\ABR-fr')
-STEAM_PAKS = Path(r'F:\Steam\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks')
+ROOT = Path(__file__).resolve().parents[1]
+# Steam install path: override with env var ABR_STEAM_PAKS for non-default installs.
+# Default = typical Windows Steam location.
+STEAM_PAKS = Path(os.environ.get(
+    'ABR_STEAM_PAKS',
+    r'C:\Program Files (x86)\Steam\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks'
+))
 VANILLA_BACKUP = STEAM_PAKS / '_ABRfr_backup'  # vanilla ABumpyRide-Windows.{utoc,ucas,pak}
 
 # Tools: pulled from patch-fr/ (FR ships all of them including MainMapPatcher)

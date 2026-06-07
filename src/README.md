@@ -1,11 +1,18 @@
-# Sources du mod — A Bumpy Ride traductions
+# Mod sources - A Bumpy Ride translations
 
-Ce dossier `src/` contient tout ce qui a servi à fabriquer les mods de traduction : les installeurs PowerShell pour Windows (alternative au drop-in pré-patché), les JSONs sources de traduction, les sources C# de l'outil custom MainMapPatcher, et le document maître des règles de traduction.
+This `src/` folder contains everything used to produce the translation mods: the
+PowerShell installers for Windows (alternative to the prepatched drop-in), the
+translation JSON sources, the C# sources of the custom tools, the build pipeline
+scripts, and the master translation rules document.
 
-L'utilisateur final n'a normalement pas à toucher à ce dossier — il télécharge directement le zip pré-patché de la langue qu'il veut. Ce répertoire existe pour :
-- transparence sur ce qui a été modifié dans le jeu
-- permettre à un contributeur de corriger une trad ou d'ajouter une nouvelle langue
-- archiver les sources avant que les forks externes ne disparaissent
+End users don't normally need to touch this folder - they download the prepatched
+zip for their language directly. This directory exists for:
+- transparency about what is modified in the game
+- letting a contributor fix a translation or add a new language
+- archiving the sources before any external fork disappears
+
+If you intend to maintain or fork this project, the entry point is
+[`MAINTAINER.md`](MAINTAINER.md).
 
 ---
 
@@ -13,130 +20,121 @@ L'utilisateur final n'a normalement pas à toucher à ce dossier — il téléch
 
 ```
 src/
-├── README.md                  ← ce fichier
-├── TRANSLATION_RULES.md       ← règles de traduction universelles + per-langue
-├── tools_src/                 ← sources des outils custom (langue-agnostique)
-│   └── mainmap_patcher/       ← Program.cs + .csproj
-└── languages/                 ← un sous-dossier par langue cible
-    └── fr/                    ← traduction française (1.3.0, prête)
-        ├── installer/         ← pipeline Windows complet pour FR
-        │   ├── install.ps1
-        │   ├── uninstall.ps1
-        │   ├── manifest.json
-        │   ├── retoc.exe
-        │   ├── oo2core_9_win64.dll
-        │   ├── MainMapPatcher.exe
-        │   ├── ABumpyRide.usmap
-        │   └── patched_assets/   ← 78 .uasset/.umap déjà patchés
-        └── translations/       ← JSONs sources qui ont produit les patched_assets
-            ├── fr_strings_BP_translated.json
-            ├── fr_strings_maps_translated.json
-            ├── enum_*_fr.json
-            └── skinbuttontable_fr.json
+├── README.md                    <- this file
+├── MAINTAINER.md                <- complete guide for forking / maintaining
+├── TRANSLATION_RULES.md         <- universal + per-language translation rules
+├── PROCESS_NEW_LANGUAGE.md      <- step-by-step process for a new language
+├── tools_src/                   <- custom tool sources (language-agnostic)
+│   ├── mainmap_patcher/         <- MainMap install-time patcher (FR)
+│   ├── bp_offset_patcher/       <- SP + QuestTicket BPOffsetPatcher
+│   ├── bp_string_patcher/       <- backup BP string patcher (rare)
+│   └── datatable_text_patcher/  <- DataTable + TextProperty patcher
+├── pipeline/                    <- Python build pipeline (mirror of /staging/ + /releases/)
+│   ├── staging/_package_de.py, _package_es.py, _patch_bpop.py, _rebundle.py, ...
+│   └── releases/_build_prepatched.py, _make_v148_installer_zips.py, _sync_github_repo_src.py
+└── languages/                   <- one subfolder per target language
+    ├── fr/
+    │   ├── installer/           <- ready-to-ship Windows installer (= patch-fr/ in working repo)
+    │   │   ├── install.ps1, uninstall.ps1, manifest.json
+    │   │   ├── retoc.exe, oo2core_9_win64.dll
+    │   │   ├── MainMapPatcher.exe, ABumpyRide.usmap
+    │   │   └── patched_assets/  <- ~150 patched .uasset/.umap
+    │   └── translations/        <- JSON sources that produced patched_assets
+    ├── de/, es/, jp/            <- same structure
 ```
 
-> Les binaires de `installer/` (retoc.exe, MainMapPatcher.exe, oo2core, ABumpyRide.usmap) sont identiques pour toutes les langues. Pour le moment ils sont dupliqués par langue — quand on aura plus de 2 langues stables, on factorisera dans un `shared/` au niveau de `src/`.
+> The binaries inside `installer/` (retoc.exe, MainMapPatcher.exe, oo2core,
+> ABumpyRide.usmap) come from `tools/` in the working repo and are committed for
+> reproducibility. `oo2core_9_win64.dll` is proprietary Oodle middleware (if
+> missing from your fork, get a copy from any retoc release on
+> https://github.com/trumank/retoc).
 
 ---
 
-## Comment patcher via PowerShell (cas FR)
+## How to install via PowerShell (FR example)
 
-L'installeur dans `languages/fr/installer/` est exactement le contenu du zip Windows historique (`ABR-fr_v1.3.0.zip`). Il fonctionne en deux modes de détection :
+The installer in `languages/fr/installer/` is exactly the content of the
+historical Windows zip (`ABR-fr_v1.4.X.zip`). It works in two detection modes:
 
-- **Drop-in** : exécuté depuis un dossier dans la hiérarchie du jeu (rare en pratique)
-- **Auto Steam** : lit `HKCU:\Software\Valve\Steam\SteamPath` et parse `libraryfolders.vdf` pour trouver A Bumpy Ride dans toutes les bibliothèques Steam
+- **Drop-in**: run from a directory in the game hierarchy (rare in practice)
+- **Steam auto-detect**: reads `HKCU:\Software\Valve\Steam\SteamPath` and parses
+  `libraryfolders.vdf` to find A Bumpy Ride across all Steam libraries
 
-Pipeline complet (~3-5 min, ~12 Go d'espace temporaire requis) :
+Complete pipeline (~3-5 min, ~12 GB temp space required):
 
-1. Backup `ABumpyRide-Windows.{utoc,ucas,pak}` vers `Paks/_ABRfr_backup/`
-2. `retoc.exe to-legacy <Paks/> <legacy_dir/> --filter "BP"` puis `--filter ".umap"` — extrait les .uasset/.uexp/.umap depuis le `.ucas` Oodle vanilla
-3. Overlay `installer/patched_assets/*` par-dessus → 78 fichiers remplacés par leurs versions FR
-4. **Étape 5/3b** : `MainMapPatcher.exe` patche `MainMap.uexp` (2,3 Go, hors capacités KissE) en deux passes — `--target=intro` puis `--target=staff`
-5. `retoc.exe to-zen <legacy_dir/> <fr.utoc>` — repackage en format Zen IoStore
-6. Re-injection dans le container vanilla via `unpack-raw` + filter chunks + `pack-raw`
-7. Copy du `.utoc/.ucas` final dans `Paks/`
+1. Backup `ABumpyRide-Windows.{utoc,ucas,pak}` into `Paks/_ABRfr_backup/`
+2. `retoc.exe to-legacy <Paks/> <legacy_dir/> --filter "BP"` then `--filter ".umap"`
+   - extracts the .uasset/.uexp/.umap from the Oodle-compressed vanilla `.ucas`
+3. Overlay `installer/patched_assets/*` on top -> ~150 files replaced with their FR versions
+4. **FR-only step**: `MainMapPatcher.exe` patches `MainMap.uexp` (2.3 GB, beyond
+   KissE's reach) in two passes - `--target=intro` then `--target=staff`
+5. `retoc.exe to-zen <legacy_dir/> <fr.utoc>` - repackage in Zen IoStore format
+6. Re-injection into the vanilla container via `unpack-raw` + filter chunks +
+   `pack-raw`
+7. Copy the final `.utoc/.ucas` into `Paks/`
 
-Lancement :
+To run:
 ```powershell
 cd src/languages/fr/installer
 .\install.ps1
 ```
 
-> Pré-requis : PowerShell 5.1+ (inclus dans Windows 10/11), .NET 8 runtime (inclus dans `MainMapPatcher.exe` self-contained — pas d'install séparée).
+> Prerequisites: PowerShell 5.1+ (bundled with Windows 10/11), .NET 8 runtime
+> (bundled in `MainMapPatcher.exe` self-contained, no separate install needed).
 
 ---
 
-## Ajouter une nouvelle langue
+## Adding a new language
 
-Pour ajouter une langue (par exemple ES, DE, IT) :
+See `PROCESS_NEW_LANGUAGE.md` for the detailed 5-phase process. Express summary:
 
-1. Crée `src/languages/<code>/` avec la même structure que `fr/`
-2. Repars de `src/languages/fr/translations/` comme template :
-   - copie les JSONs, vide le champ `NewValue` (ou `translation`) de chaque entrée
-   - traduis selon les règles de `src/TRANSLATION_RULES.md` (Tier 1 universel + Tier 2 spécifique à ta langue)
-3. Génère les `patched_assets/` :
-   - **BP/maps** : KissE avec les JSONs `*_translated.json` ou `*_fr.json` adaptés (cf. section ci-dessous)
-   - **Enums** : outil `datatable_text_patcher --inject-enum` (sources sur le repo principal de l'auteur, pas bundlé ici)
-   - **DataTable TextProperty** (SkinButtonTable) : `datatable_text_patcher --inject-textproperty`
-4. Adapte `installer/install.ps1` :
-   - change le nom du backup directory (par exemple `_ABRes_backup`)
-   - change le nom du temp directory
-   - traduis les messages PowerShell dans la langue cible
-5. Mets à jour `installer/manifest.json` (mod_version, langue, counts d'assets)
+1. `mkdir translations/<lang>/` and clone the 10 JSON file structure from `de/`
+2. Adapt `patch-<lang>/manifest.json` (language, register, version)
+3. Run `pipeline/staging/_inject_extra_strings.py <lang>` to inject the 10
+   strings missing from the initial extract
+4. Translate the JSONs (follow `TRANSLATION_RULES.md`)
+5. Clone `pipeline/staging/_package_de.py` -> `_package_<lang>.py` (adapt paths)
+6. Run the rebuild: `_package_<lang>.py` -> `_patch_bpop.py <lang>` -> `_rebundle.py <lang>`
+7. Test in-game (Shareholder pickup is mandatory, see MAINTAINER.md Pitfall #1)
+8. Standard release workflow (see MAINTAINER.md)
+
+For CJK languages (JP, ZH, KR), see `pipeline/staging/_make_jp_font_overrides.py`
+for the font fallback pattern.
 
 ---
 
-## Comment relancer le patch des assets BP/maps (KissE)
+## How to rebuild the C# tools
 
-Les 78 fichiers de `languages/fr/installer/patched_assets/` sont produits avec [KissE](https://github.com/SolicenTEAM/KismetEditor) à partir des JSONs de `languages/fr/translations/`.
-
-Pipeline KissE typique pour un seul asset (par exemple si on veut corriger une trad) :
+Source code is in `tools_src/<tool>/` with a `.csproj`. Standard build:
 
 ```powershell
-# Le .usmap est requis sinon UAssetAPI charge tout en RawExport et KissE no-op
-Set-Location <chemin>\KismetEditor
-
-.\KissE.exe `
-    F:\path\to\fr_strings_BP_translated.json `
-    F:\path\to\Asset.uasset `
-    --version=5.3 `
-    --patch-assignments `
-    --patch-all-functions `
-    --map=ABumpyRide.usmap
+cd tools_src/bp_offset_patcher
+dotnet build -c Release
+# Output in bin/Release/net8.0/BPOffsetPatcher.exe
 ```
 
-Pour les enums et SkinButtonTable (DataTable avec TextProperty), on n'utilise pas KissE mais l'outil `datatable_text_patcher` (séparé, sources sur le repo principal — pas bundlé ici).
-
----
-
-## Comment rebuild MainMapPatcher
-
-```powershell
-cd tools_src/mainmap_patcher
-dotnet publish -c Release -r win-x64 `
-    --self-contained true `
-    /p:PublishSingleFile=true `
-    /p:IncludeNativeLibrariesForSelfExtract=true `
-    /p:EnableCompressionInSingleFile=true
-```
-
-Produit `bin/Release/net8.0/win-x64/publish/MainMapPatcher.exe` (~38 Mo, .NET 8 runtime inclus).
-
-> Note : pour traduire les chaînes hardcodées dans MainMap.uexp dans une autre langue, il faut adapter `Program.cs` — les constantes `ORIGINAL_INTRO/FRENCH_INTRO` et `ORIGINAL_STAFF/FRENCH_STAFF` sont les sources et leur traduction. Refacto suggéré quand on ajoutera ES : extraire ces constantes dans un fichier de config (JSON par langue) lu au démarrage, plutôt que d'avoir un binaire MainMapPatcher par langue.
-
-Dépendance : [UAssetAPI 1.1.0](https://github.com/atenfyr/UAssetAPI). Pour rebuild proprement, soit :
-- pointer le `.csproj` sur le NuGet UAssetAPI 1.1.0 publié
-- soit cloner le fork [Shayano/UAssetAPI](https://github.com/Shayano/UAssetAPI) (avec le fix encoding UTF-8/16 pour les accents) à côté et ajuster le `<ProjectReference>`
-
----
-
-## Outils externes utilisés (non bundlés)
-
-Pour transparence, voici les outils tiers utilisés dans le pipeline :
-
-| Outil | Repo | Note |
+| Tool | Target framework | Single-file publish (for distribution) |
 |---|---|---|
-| KissE / KismetEditor | [SolicenTEAM/KismetEditor](https://github.com/SolicenTEAM/KismetEditor) | utilisé tel quel (tous les patches spécifiques au pipeline ont été mergés upstream : UAssetAPI 1.1.0, spinner, `--patch-assignments`, `--patch-all-functions`) |
-| UAssetAPI | [atenfyr/UAssetAPI](https://github.com/atenfyr/UAssetAPI) | [fork Shayano/UAssetAPI](https://github.com/Shayano/UAssetAPI) requis (fix encoding UTF-16 pour accents, non mergé upstream) |
-| retoc-rivals | [natimerry/repak-rivals](https://github.com/natimerry/repak-rivals) | utilisé tel quel (UE5.3 supporté nativement) |
-| Dumper-7 | [Encryqed/Dumper-7](https://github.com/Encryqed/Dumper-7) | utilisé tel quel, produit `installer/ABumpyRide.usmap` |
+| `bp_offset_patcher` | net8.0 | `dotnet publish -c Release -r win-x64 --self-contained true /p:PublishSingleFile=true` |
+| `bp_string_patcher` | net8.0 | same |
+| `mainmap_patcher` | net8.0 | same (shipped as single-file in patch-fr/) |
+| `datatable_text_patcher` | net9.0 | same |
+
+UAssetAPI is referenced via the Shayano fork (with the UTF-8/16 encoding fix
+required for accented characters). When rebuilding, either:
+- Point the `.csproj` to the published NuGet UAssetAPI 1.1.0, or
+- Clone https://github.com/Shayano/UAssetAPI next to the tool and adjust the
+  `<ProjectReference>` path.
+
+---
+
+## External tools used (not bundled)
+
+For transparency, here are the third-party tools used in the pipeline:
+
+| Tool | Repo | Note |
+|---|---|---|
+| KissE / KismetEditor | [SolicenTEAM/KismetEditor](https://github.com/SolicenTEAM/KismetEditor) | Used as-is (most pipeline-specific patches have been merged upstream: UAssetAPI 1.1.0, spinner fix, `--patch-assignments`, `--patch-all-functions`) |
+| UAssetAPI | [atenfyr/UAssetAPI](https://github.com/atenfyr/UAssetAPI) | [Shayano/UAssetAPI fork](https://github.com/Shayano/UAssetAPI) required (UTF-16 encoding fix for accents, not merged upstream) |
+| retoc | [trumank/retoc](https://github.com/trumank/retoc) | Used as-is (UE5.3 supported natively) |
+| Dumper-7 | [Encryqed/Dumper-7](https://github.com/Encryqed/Dumper-7) | Used as-is, produces `installer/ABumpyRide.usmap` (only needed if the game's UE version changes - rare) |

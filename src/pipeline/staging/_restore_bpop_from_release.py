@@ -26,7 +26,7 @@ try:
 except Exception:
     pass
 
-ROOT = Path(r'F:\Tools\ABR-fr')
+ROOT = Path(__file__).resolve().parents[1]
 
 BPOP_FILES = [
     Path('ABumpyRide/Content/Chooch/BP/Actors/Passenger/SpecialPassenger.uasset'),

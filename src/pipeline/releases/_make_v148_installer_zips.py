@@ -7,7 +7,7 @@ try:
 except Exception:
     pass
 
-ROOT = Path(r'F:\Tools\ABR-fr')
+ROOT = Path(__file__).resolve().parents[1]
 OUT_DIR = ROOT / 'releases' / 'github_repo' / 'dist_v1.4.8'
 OUT_DIR.mkdir(parents=True, exist_ok=True)
 

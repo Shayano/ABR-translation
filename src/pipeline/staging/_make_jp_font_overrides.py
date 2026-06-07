@@ -17,7 +17,8 @@ faire afficher les caracteres japonais sans refaire les atlases.
 """
 import json, os, shutil, subprocess
 
-ROOT = r'F:\Tools\ABR-fr'
+import pathlib
+ROOT = str(pathlib.Path(__file__).resolve().parents[1])
 UAGUI = os.path.join(ROOT, 'tools', 'UAssetGUI.exe')
 ROBOTO_SRC = os.path.join(ROOT, 'staging', 'jp_fonts_legacy', 'Engine', 'Content', 'EngineFonts', 'Roboto.uasset')
 WORK = os.path.join(ROOT, 'staging', 'jp_font_overrides')

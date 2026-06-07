@@ -36,7 +36,7 @@ try:
 except Exception:
     pass
 
-ROOT = Path(r'F:\Tools\ABR-fr')
+ROOT = Path(__file__).resolve().parents[1]
 VANILLA = ROOT / 'staging' / '_vanilla_post_update_legacy'
 USMAP = ROOT / 'tools' / 'KismetEditor' / 'ABumpyRide.usmap'
 BPOP = ROOT / 'tools' / 'bp_offset_patcher' / 'bin' / 'Release' / 'net8.0' / 'BPOffsetPatcher.exe'

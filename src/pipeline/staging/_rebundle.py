@@ -21,7 +21,7 @@ try:
 except Exception:
     pass
 
-ROOT = Path(r'F:\Tools\ABR-fr')
+ROOT = Path(__file__).resolve().parents[1]
 
 
 def rebundle(lang: str) -> None:

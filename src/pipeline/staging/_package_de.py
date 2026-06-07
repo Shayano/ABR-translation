@@ -18,7 +18,8 @@ try:
 except Exception:
     pass
 
-ROOT = r'F:\Tools\ABR-fr'
+import pathlib
+ROOT = str(pathlib.Path(__file__).resolve().parents[1])
 TRANS_DE = os.path.join(ROOT, 'translations', 'de')
 VANILLA = os.path.join(ROOT, 'staging', '_vanilla_post_update_legacy')
 PATCHED_DE = os.path.join(ROOT, 'staging', 'legacy_patched_DE')

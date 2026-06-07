@@ -34,7 +34,8 @@ EXTRA_STRINGS = {
     ],
 }
 
-ROOT = r'F:\Tools\ABR-fr'
+import pathlib
+ROOT = str(pathlib.Path(__file__).resolve().parents[1])
 
 
 def inject(lang):
