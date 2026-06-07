@@ -1,137 +1,139 @@
-# Règles de traduction A Bumpy Ride — réutilisables pour toutes langues
+# A Bumpy Ride translation rules - reusable across all languages
 
-Document de référence consolidé. Toute nouvelle traduction (FR, ES, DE, etc.)
-doit suivre ces règles. Si une règle n'est pas claire, demander **avant** de
-traduire — pas après.
+Consolidated reference document. Every new translation (FR, ES, DE, etc.) must
+follow these rules. If a rule is unclear, ask **before** translating, not after.
 
 ---
 
-## 1. Philosophie générale
+## 1. General philosophy
 
-**Public cible : grand public, pas passionnés.**
-A Bumpy Ride est un jeu d'aventure/casual sur les trains, pas un simulateur
-pour ferrovipathes. Préférer des termes descriptifs et compréhensibles plutôt
-que des termes techniques corrects mais obscurs.
+**Target audience: general public, not enthusiasts.**
+A Bumpy Ride is a casual adventure game about trains, not a simulator for railfans.
+Prefer descriptive and understandable terms over technically correct but obscure
+jargon.
 
-| EN | À éviter (technique) | À utiliser (descriptif) |
+| EN | Avoid (technical) | Use (descriptive) |
 |---|---|---|
-| Tender | `Tender` (tel quel) | `wagon-réservoir` ou `réservoir` (court) |
-| Caboose | (technique) | `fourgon de queue` |
-| Throttle | — | `régulateur` (intuitif en contexte vapeur) |
-| Switch / switchstand | — | `aiguillage` / `levier d'aiguillage` |
+| Tender | `Tender` (as-is) | `wagon-réservoir` / `Wassertank` (water tank wagon) |
+| Caboose | (technical) | `fourgon de queue` / `Schlusswagen` (rear/brake wagon) |
+| Throttle | - | `régulateur` / `Regler` (regulator, intuitive in steam context) |
+| Switch / switchstand | - | `aiguillage` / `Weiche` (switch) |
 
-**Règle générale** : si un joueur lambda non-passionné ne comprend pas, reformuler.
+**General rule**: if a non-enthusiast player would not understand, rephrase.
 
 ---
 
-## 2. Ce qu'on ne traduit JAMAIS
+## 2. What we NEVER translate
 
-### 2.1. Noms propres (universel)
+### 2.1. Proper nouns (universal)
 
-**Tous les noms propres restent tels quels en EN**, sans exception, dans tous
-les contextes. Ils représentent l'identité visuelle/narrative du jeu.
+**All proper nouns stay as-is in EN**, no exception, in every context. They are
+part of the game's visual/narrative identity.
 
-- **Skins de trains** : Comet, Forgotten, Bilge Rat, Bolt, Big Dipper, Shimmer,
+- **Train skins**: Comet, Forgotten, Bilge Rat, Bolt, Big Dipper, Shimmer,
   Theodore, Lavish, Stockton, Delta, Movie Star, Dayton, Zuma, Huntie, Courage,
   Rover, Hidden Rose, Little Engine, Bootlegger, Conrad, Very Useful, Jupiter,
   Voyager, Lil' Belle, Neko Neon, Spirit, Sweet Toot, Texas, General,
-  Sacramento — **tous gardés en EN**.
-- **Skins de personnages** : Margot, Pacifica, Theodore, etc. — gardés en EN.
-- **Noms de stations/gares** : Misty Creek, Cattail, Birchwood, Snowball, Aurora,
+  Sacramento - **all kept in EN**.
+- **Character skins**: Margot, Pacifica, Theodore, etc. - kept in EN.
+- **Station names**: Misty Creek, Cattail, Birchwood, Snowball, Aurora,
   Pinecone, Dustbowl, Chugwater, Bloomwater, Colby, Nowhere, Pearbury, Bumblebee,
-  Blowhistle, Sugarcube, Eagle Nest, Seaside, etc. — gardés en EN.
-- **Noms de régions/zones découvertes** (AreaDiscovered.uasset) : WHISTLING
-  PEAKS, LILLI FOREST, RIO FRONTERA, PUT PRAIRIE — gardés en EN.
-- **Auteurs/contributors** dans Basic_Credits.uasset : tous gardés en EN
+  Blowhistle, Sugarcube, Eagle Nest, Seaside, etc. - kept in EN.
+- **Region/area names** (AreaDiscovered.uasset): WHISTLING PEAKS, LILLI FOREST,
+  RIO FRONTERA, PUT PRAIRIE - kept in EN.
+- **Authors/contributors** in Basic_Credits.uasset: all kept in EN
   (Nathaniel Onandia, Harrison Hudson, Bobenny, Kobold, Eddie Sand, RWD, etc.).
 
-### 2.2. Enseignes de magasins / décors urbains (.umap _SubLvl)
+### 2.2. Shop signs / urban background (.umap _SubLvl)
 
-**Toutes les enseignes de magasins et bâtiments du décor restent en EN.**
-Cela couvre les fichiers `Frst_*_SubLvl.umap`, `Snw_*_SubLvl.umap`,
-`Dsrt_*_SubLvl.umap`, `Plns_*_SubLvl.umap`.
+**All shop signs and background buildings stay in EN.** This covers files
+`Frst_*_SubLvl.umap`, `Snw_*_SubLvl.umap`, `Dsrt_*_SubLvl.umap`, `Plns_*_SubLvl.umap`.
 
-Raison : ces enseignes font partie de l'identité visuelle de chaque ville
-(ambiance western/époque ~1900). Traduire `GROCERY` → `ÉPICERIE` casse
-l'ambiance et mélange noms propres et descriptifs sur les façades.
+Reason: these signs are part of each town's visual identity (western/circa 1900
+atmosphere). Translating `GROCERY` -> `ÉPICERIE` breaks the atmosphere and mixes
+proper nouns with descriptives on the same storefront.
 
-Couvre aussi bien les noms propres (`MAXIMILLIAN'S`, `STEVENS & SONS`,
-`HUDSON ENGINE CO.`, `HARVEY'S`, `KIMBALL FIRE CO.`) que les descriptifs
-génériques (`GROCERY`, `BAKERY`, `RESTAURANT`, `HARDWARE`, `POST OFFICE`,
-`INSURANCE`, `BAKED GOODS`, `MEAT & CHEESE`, `MUSIC, DANCING & FOOD`,
-`CONFECTIONARY`, `DRESSMAKER`, `MILLINERY`, `HABERDASHERY`, `ARCADE`, etc.).
+Covers both proper nouns (`MAXIMILLIAN'S`, `STEVENS & SONS`, `HUDSON ENGINE CO.`,
+`HARVEY'S`, `KIMBALL FIRE CO.`) and generic descriptives (`GROCERY`, `BAKERY`,
+`RESTAURANT`, `HARDWARE`, `POST OFFICE`, `INSURANCE`, `BAKED GOODS`, `MEAT & CHEESE`,
+`MUSIC, DANCING & FOOD`, `CONFECTIONARY`, `DRESSMAKER`, `MILLINERY`, `HABERDASHERY`,
+`ARCADE`, etc.).
 
-Aussi : fragments décoratifs (`KE`, `ba`, `ry` — morceaux d'une grosse
-enseigne) → laisser vide.
+Also: decorative fragments (`KE`, `ba`, `ry` - pieces of a large sign) -> leave empty.
 
-### 2.3. `On` / `Off` (toggles UI)
+### 2.3. `On` / `Off` (UI toggles)
 
-**Ne jamais traduire `On`, `Off`, `on`, `off`** dans aucun contexte.
+**Never translate `On`, `Off`, `on`, `off`** in any context.
 
-Raisons :
-1. **Cohérence cross-asset** : déjà laissés en EN ailleurs, on ne crée pas un mix.
-2. **Contraintes de largeur UI** : `Activé`/`Désactivé` ne rentrent pas dans les
-   cases dimensionnées pour 2-3 lettres.
+Reasons:
+1. **Cross-asset consistency**: already left in EN elsewhere, don't mix.
+2. **UI width constraints**: `Activé`/`Désactivé`, `Eingeschaltet`/`Ausgeschaltet`
+   don't fit in boxes sized for 2-3 letters.
 
-Cas connus : `WeatherToggle.uasset`, `New_SettingsMenu.uasset`.
+Known cases: `WeatherToggle.uasset`, `New_SettingsMenu.uasset`.
 
-### 2.4. Unités de mesure
+### 2.4. Units of measurement
 
-**Ne jamais convertir les valeurs ni l'abréviation d'unité.** Le jeu utilise
-le système impérial (FT, miles) — c'est un choix de design assumé.
+**Never convert values or unit abbreviations.** The game uses the imperial system
+(FT, miles) - that's an intentional design choice.
 
-Le **label** (mot anglais désignant la grandeur) peut et doit être traduit
-normalement ; seules les valeurs numériques et l'abréviation d'unité restent
-intactes :
+The **label** (English word naming the quantity) can and should be translated
+normally; only numeric values and unit abbreviations stay intact:
 
-- `ELEVATION: 624 FT` → `ALTITUDE : 624 FT` ✅ (label traduit, unité conservée)
-- `ELEVATION: 624 FT` → `ALTITUDE : 190 m` ❌ (conversion interdite)
-- `Distance Traveled: 50 Miles` → `Distance parcourue : 50 Miles` ✅
-- `Distance Traveled: 50 Miles` → `Distance parcourue : 80 Km` ❌
+- `ELEVATION: 624 FT` -> `ALTITUDE : 624 FT` ✅ (label translated, unit kept)
+- `ELEVATION: 624 FT` -> `ALTITUDE : 190 m` ❌ (conversion forbidden)
+- `Distance Traveled: 50 Miles` -> `Distance parcourue : 50 Miles` ✅
+- `Distance Traveled: 50 Miles` -> `Distance parcourue : 80 Km` ❌
 
-### 2.5. Internes techniques (jamais affichés au joueur)
+### 2.5. Technical internals (never displayed to the player)
 
-À garder vide systématiquement — ce sont des labels internes, pas du contenu user-facing.
+Always keep empty - these are internal labels, not user-facing content.
 
-- **Tags HTML/RichText** : `<Shakey>`, `</>`, `<cf>`, etc.
-- **Asset paths** : `Map.png`, etc.
-- **Commandes console UE** : `r.ScreenPercentage `, `r.*`, etc.
-- **Messages debug** : `MultiGate Node failed! Out of bounds indexing of the out pins...`
-- **Placeholders UMG par défaut** : `Text`, `Text Block`, `Pop up text`
-  (le widget les remplace au runtime).
-- **Tags d'effets** : `TNTShake`, etc.
-- **Labels enum internes** : ex `BP_Roundhouse_Engines.uasset` —
-  `Both In And On`, `Right Out, Left In, Both On` — non visibles en jeu.
+- **HTML/RichText tags**: `<Shakey>`, `</>`, `<cf>`, etc.
+- **Asset paths**: `Map.png`, etc.
+- **UE console commands**: `r.ScreenPercentage `, `r.*`, etc.
+- **Debug messages**: `MultiGate Node failed! Out of bounds indexing of the out pins...`
+- **Default UMG placeholders**: `Text`, `Text Block`, `Pop up text`
+  (the widget replaces them at runtime).
+- **Effect tags**: `TNTShake`, etc.
+- **Internal enum labels**: e.g. `BP_Roundhouse_Engines.uasset` -
+  `Both In And On`, `Right Out, Left In, Both On` - not visible in-game.
 
-### 2.5.ter. SpecialPassenger.uexp : BP intraduisible (cause de crash récursion infinie)
+### 2.5.ter. SpecialPassenger.uexp: untranslatable BP (cause of infinite recursion crash)
 
-**`SpecialPassenger.uasset/uexp` doit rester vanilla.** Toute tentative de patche
-de ses 72 (62 traduisibles) strings cause une **récursion infinie côté UE5**
-(`Infinite script recursion detected at 90 calls`) qui plante le jeu à la pickup
-de certaines tâches d'Actionnaire.
+**`SpecialPassenger.uasset/uexp` must stay vanilla.** Any attempt to patch its 72
+strings (62 translatable) triggers an **infinite recursion on the UE5 side**
+(`Infinite script recursion detected at 90 calls`) that crashes the game on the
+pickup of certain Shareholder tasks.
 
-**Symptôme observé** : crash non-déterministe au pickup d'Actionnaire selon la
-tâche affichée. Certaines tâches passent, d'autres font crasher systématiquement.
+**Observed symptom**: non-deterministic crash on Shareholder pickup depending on
+the displayed task. Some tasks pass, others crash systematically.
 
-**Diagnostic effectué (v1.4.4)** :
-- Full minidump (9 GB) montre 90 récursions `ProcessInternal` dans la VM UE5
-- Message d'erreur trouvé en mémoire : `"Infinite script recursion ({0} calls) detected"`
-- Bissection rigoureuse : SP isolé comme coupable parmi 30+ BPs candidats
+**Diagnostic performed (v1.4.4)**:
+- Full minidump (9 GB) shows 90 `ProcessInternal` recursions in the UE5 VM
+- Error message found in memory: `"Infinite script recursion ({0} calls) detected"`
+- Rigorous bisection: SP isolated as the culprit among 30+ BP candidates
 
-**Méthodes de patche testées qui ÉCHOUENT toutes** :
-- `KissE.exe` (v1.4.0 original) : casse un EX_Jump par change-of-length
-- `BPStringPatcher.exe` (placeholder+branch, normalement safe) : casse aussi malgré la technique
+**Patch methods tried that ALL FAIL**:
+- `KissE.exe` (original v1.4.0): breaks an EX_Jump via change-of-length
+- `BPStringPatcher.exe` (placeholder+branch, normally safe): breaks anyway despite the technique
 
-**Hypothèse** : la complexité du bytecode de SpecialPassenger (62 strings dans de
-nombreuses branches conditionnelles d'évaluation de type de tâche) crée des
-patterns que ni KissE ni BPStringPatcher ne gèrent correctement.
+**Hypothesis**: the bytecode complexity of SpecialPassenger (62 strings spread
+across many conditional branches evaluating task type) creates patterns that
+neither KissE nor BPStringPatcher handle correctly.
 
-**Conséquence côté JSON** : les 62 traductions de tâches restent dans
-`staging/fr_strings_BP_translated.json` et les JSONs DE/ES mais ne sont **pas
-appliquées au build**. SpecialPassenger.uasset/uexp est livré vanilla dans
-`patch-fr/patched_assets/` et `patch-de/patched_assets/`.
+**Consequence on the JSON side**: the 62 task translations remain in
+`staging/fr_strings_BP_translated.json` and the DE/ES JSONs but are **not applied
+in the build**. SpecialPassenger.uasset/uexp ships vanilla in
+`patch-fr/patched_assets/` and `patch-de/patched_assets/`.
 
-**Strings concernées** (62 en FR/DE) : "See the sunset", "Stay aboard until 9PM",
+> **2026-05-15 update**: a new tool, `BPOffsetPatcher`, validated in v1.4.5 the
+> SP rebuild via edit-in-place + global shift map + caller patching. The 62
+> objectives ship translated. **But** the v1.4.8 BPOP regression shows that the
+> tool can still corrupt SP/QT under certain JSON changes (cumulative delta of
+> ~23 bytes is enough). See `MAINTAINER.md` Pitfall #1 for the fallback recipe.
+
+**Strings concerned** (62 in FR/DE): "See the sunset", "Stay aboard until 9PM",
 "Don't open your map", "Desert/Prairie/Mountains/Forest", "Ride the train for at
 least X hours", "Avoid the [biome] between X and Y", "Always see the sky",
 "See Lava", "Travel through X tunnels", "Pass by X different stations",
@@ -144,250 +146,263 @@ backwards", "Run out of water", "Lean the train X times", "Pick up some
 "Experience a blizzard", "Breathe dusty air", "Reach 1000ft elevation",
 "Run into X pedestrians".
 
-**Voies de recherche futures** : approche manuelle de patche binaire ciblé
-(byte-by-byte sur chaque EX_StringConst sans toucher au bytecode autour),
-ou attendre une nouvelle version d'UE5 / KissE qui gère mieux ce pattern.
+**Future research paths**: manual targeted binary patching (byte-by-byte on each
+EX_StringConst without touching surrounding bytecode), or wait for a new UE5 /
+KissE version that handles this pattern better. The current production answer
+is BPOffsetPatcher (see MAINTAINER.md).
 
-### 2.5.bis. Identifiants UMG dans la NameMap (CRITIQUE, cause de crash)
+### 2.5.bis. UMG identifiers in the NameMap (CRITICAL, cause of crashes)
 
-**Certaines strings du JSON `*_strings_BP_translated.json` correspondent en réalité à
-des noms d'identifiants UMG** (sub-widgets, animations Widget, classes UE5) stockés
-dans la NameMap du `.uasset`. KissE les traite comme des FText et les remplace, ce
-qui casse les appels runtime `FindChildWidget("Lock_Panel")` / `PlayAnimation("Pulsate")`
-et déclenche une **EXCEPTION_ACCESS_VIOLATION** quand le widget est instancié.
+**Some strings in the `*_strings_BP_translated.json` JSONs actually correspond
+to UMG identifier names** (sub-widgets, Widget animations, UE5 classes) stored in
+the `.uasset` NameMap. KissE treats them as FText and replaces them, which breaks
+runtime `FindChildWidget("Lock_Panel")` / `PlayAnimation("Pulsate")` calls and
+triggers an **EXCEPTION_ACCESS_VIOLATION** when the widget is instantiated.
 
-Détecté pour la première fois sur la quête Shareholder (Actionnaire) en v1.4.0 →
-hotfix v1.4.1. Cinq Blueprints contiennent des strings qu'il ne faut PAS traduire :
+First detected on the Shareholder quest in v1.4.0 -> v1.4.1 hotfix. Five
+Blueprints contain strings that must NOT be translated:
 
-| Blueprint | Strings interdites | Pourquoi |
+| Blueprint | Forbidden strings | Why |
 |---|---|---|
-| `W_WonStocks.uasset` | `Float` | Nom d'animation Widget (`Float_INST`) + type UE5 (`MovieSceneFloatTrack`) |
-| `NPCPointer.uasset` | `Pulsate` | Nom d'animation Widget (`Pulsate_INST`) |
-| `QuestBoard.uasset` | `Lock` | Nom d'animation (`Lock_INST`) + sub-widget (`Lock_Panel`) + texture refs (`LockIcon_Locked`, `LockIcon_Unlocked`) |
-| `QuestTicket.uasset` | `Quest 1`, `Quest 2`, `Quest 3` | Noms de sub-widgets UMG (`Quest 1 check`, `Quest 1 Text`, etc., qui contiennent les objectifs de quête) |
-| `PopUp.uasset` | `Unlocked Item`, `Unlocked Text` | Noms de sub-widgets (`UnlockedImage`, `UnlockedItem`, `UnlockedText`) |
+| `W_WonStocks.uasset` | `Float` | Widget animation name (`Float_INST`) + UE5 type (`MovieSceneFloatTrack`) |
+| `NPCPointer.uasset` | `Pulsate` | Widget animation name (`Pulsate_INST`) |
+| `QuestBoard.uasset` | `Lock` | Animation name (`Lock_INST`) + sub-widget (`Lock_Panel`) + texture refs (`LockIcon_Locked`, `LockIcon_Unlocked`) |
+| `QuestTicket.uasset` | `Quest 1`, `Quest 2`, `Quest 3` | UMG sub-widget names (`Quest 1 check`, `Quest 1 Text`, etc., which contain the quest objectives) |
+| `PopUp.uasset` | `Unlocked Item`, `Unlocked Text` | Sub-widget names (`UnlockedImage`, `UnlockedItem`, `UnlockedText`) |
 
-**Conséquence côté JSON** : ces 8 entrées ont été retirées de
-`staging/fr_strings_BP_translated.json`, `translations/de/strings_BP.json` et
-`translations/es/strings_BP.json` à la v1.4.1. Ne pas les rajouter.
+**Consequence on the JSON side**: these 8 entries were removed from
+`staging/fr_strings_BP_translated.json`, `translations/de/strings_BP.json` and
+`translations/es/strings_BP.json` in v1.4.1. Do not re-add them.
 
-**Conséquence côté patch** : les 5 fichiers `.uasset/.uexp` correspondants sont
-livrés en VANILLA dans `patch-fr/patched_assets/` et `patch-de/patched_assets/`.
+**Consequence on the patch side**: the 5 corresponding `.uasset/.uexp` files
+ship VANILLA in `patch-fr/patched_assets/` and `patch-de/patched_assets/`.
 
-**Comment détecter ce type de string dans le futur** :
-1. Avant de patcher un nouveau `.uasset`, dumper les entrées de sa NameMap.
-2. Pour chaque `Original` à patcher, vérifier s'il apparaît **isolé** dans la
-   NameMap (= entrée standalone, pas FText avec namespace+KeyValue).
-3. Si oui, c'est probablement un identifiant. Tester in-game avant de shipper —
-   en particulier sur les widgets qui ont des animations (`*_INST`) ou des
-   sub-widgets nommés.
-4. Attention : tous les "isolated NameMap entries" ne crashent pas. Beaucoup
-   sont aussi utilisés comme FText (Speed Up, Slow Down, Awards, Quit, Settings,
-   etc. ont tous validé des heures de gameplay malgré le pattern). L'audit
-   statique est un INDICE, pas une preuve — confirmer par bissection en jeu.
+**How to detect this kind of string in the future**:
+1. Before patching a new `.uasset`, dump its NameMap entries.
+2. For each `Original` to patch, check whether it appears **alone** in the
+   NameMap (= standalone entry, not FText with namespace+KeyValue).
+3. If yes, it's probably an identifier. Test in-game before shipping -
+   especially on widgets that have animations (`*_INST`) or named sub-widgets.
+4. Be careful: not all "isolated NameMap entries" crash. Many are also used as
+   FText (Speed Up, Slow Down, Awards, Quit, Settings, etc. all validated hours
+   of gameplay despite the pattern). Static audit is a HINT, not a proof -
+   confirm by in-game bisection.
 
-### 2.6. Auteurs et références dans DataTables
+### 2.6. Authors and references in DataTables
 
-Crédits, contributors, références studio/historiques → toujours en EN.
+Credits, contributors, studio/historical references -> always in EN.
 
 ---
 
-## 2.7. Tutoiement vs vouvoiement
+## 2.7. Informal vs formal address
 
-**Décision par langue** (option B confirmée 2026-05-04) : chaque langue
-suit sa convention casual gaming naturelle. Les langues peuvent diverger
-sur le registre sans que ce soit une incohérence — c'est ce que font les
-localisations pro.
+**Per-language decision** (option B confirmed 2026-05-04): each language follows
+its natural casual-gaming convention. Languages can diverge on register without
+this being an inconsistency - it's what pro localizations do.
 
-| Langue | Registre game-to-player | Justification |
+| Language | Game-to-player register | Justification |
 |---|---|---|
-| FR | **tutoiement** (`tu`) | Convention casual gaming FR pour jeu cosy famille. Bascule effectuée 2026-05-07 sur 45 strings BP (Tutorial_Table, NewShopMenu, StaffBoard, AreYouSure, PlayerTrain, etc.) pour cohérence avec les enums déjà en `tu`. **Exception** : les *catch phrases diégétiques* du title screen (`enum_titleblurbs_fr.json`) où un PNJ s'adresse formellement à des voyageurs gardent leur vouvoiement (`Vos tickets, s'il vous plaît ?` = contrôleur, `Votre attention s'il vous plaît...` = annonce gare, `VOUS. NE. PASSEREZ. PAS !!` = citation VF Gandalf). |
-| ES | **tutoiement** (`tú`) | Convention casual gaming en ES. `usted` réservé aux contextes formels. |
-| DE | **`du` informel** (confirmé 2026-05-05) | Convention casual gaming DE pour jeu famille. `Sie` réservé aux jeux corporate/serious. |
-| JP | **ですます調 (forme polie standard)** (confirmé 2026-05-16) | Pas de tu/vous formel en JP. ですます調 est la norme casual gaming friendly (équivalent du `du` allemand : poli mais pas distant). 敬語 (keigo formel humble/respectueux) évité car trop solennel. Style enjoué : exclamations 「！」 OK, particules finales 「ね」「よ」 acceptées dans les dialogues PNJ. Les ordres UI courts utilisent souvent la forme nominale ou impérative neutre (`購入` plutôt que `購入してください`). |
-| ZH | (à décider) | Pas de marque grammaticale équivalente. |
+| FR | **informal** (`tu`) | French casual gaming convention for a cozy family game. Switched on 2026-05-07 across 45 BP strings (Tutorial_Table, NewShopMenu, StaffBoard, AreYouSure, PlayerTrain, etc.) for consistency with enums already in `tu`. **Exception**: the *diegetic catch phrases* of the title screen (`enum_titleblurbs_fr.json`) where an NPC formally addresses travelers keep their formal register (`Vos tickets, s'il vous plaît ?` = conductor, `Votre attention s'il vous plaît...` = station announcement, `VOUS. NE. PASSEREZ. PAS !!` = French Gandalf quote). |
+| ES | **informal** (`tú`) | Casual gaming convention in ES. `usted` reserved for formal contexts. |
+| DE | **`du` informal** (confirmed 2026-05-05) | German casual gaming convention for a family game. `Sie` reserved for corporate/serious games. |
+| JP | **ですます調 (standard polite form)** (confirmed 2026-05-16) | No tu/vous formal in JP. ですます調 is the casual-gaming-friendly norm (equivalent to German `du`: polite but not distant). 敬語 (humble/respectful keigo) avoided as too solemn. Playful style: exclamations 「！」 OK, final particles 「ね」「よ」 accepted in NPC dialogues. Short UI orders often use the nominal or neutral imperative form (`購入` rather than `購入してください`). |
+| ZH | (to be decided) | No equivalent grammatical marker. |
 
 ---
 
-## 3. Ce qu'on traduit normalement
+## 3. What we translate normally
 
-- Dialogues, narration, didactiques, tutoriels.
-- Descriptions d'items, blurbs, types (de fret, quêtes, passagers, bâtiments).
-- Libellés UI génériques (Cancel, Confirm, Apply, Settings, Options, etc. —
-  cf. `staging\translations_dict.ps1`).
-- Statistiques (Distance Traveled, Passengers Delivered, etc.).
-- Boutons d'action.
-- Messages de jeu (achievements, notifications, pop-ups).
+- Dialogues, narration, didactics, tutorials.
+- Item descriptions, blurbs, types (freight, quests, passengers, buildings).
+- Generic UI labels (Cancel, Confirm, Apply, Settings, Options, etc. - cf.
+  `staging\translations_dict.ps1`).
+- Statistics (Distance Traveled, Passengers Delivered, etc.).
+- Action buttons.
+- Game messages (achievements, notifications, pop-ups).
 
 ---
 
 ## 4. Encoding
 
-**Forcer UTF-16 LE (`Encoding.Unicode`) sur toute FString contenant des
-caractères > 127** (accents : é, à, ô, ù, etc.).
+**Force UTF-16 LE (`Encoding.Unicode`) on every FString containing characters
+> 127** (accents: é, à, ô, ù, etc.).
 
-Si UAssetAPI écrit du UTF-8 dans un slot dimensionné ASCII, le jeu crash.
-Cf. `memory/reference_uassetapi_text_encoding.md`.
-
----
-
-## 5. Cohérence inter-langues
-
-Pour traduire vers une nouvelle langue (ES, DE, etc.) :
-
-1. **Réutiliser ces règles intégralement** — la liste de "ne jamais traduire"
-   est universelle (noms propres, enseignes, unités, On/Off, internes).
-2. Construire un dico équivalent à `staging\translations_dict.ps1` pour la
-   nouvelle langue.
-3. Adapter le lexique grand public à la culture cible (un terme technique
-   pénible en FR peut être clair en DE et inversement).
-4. Tester en jeu et confirmer les choix avec l'utilisateur — chaque langue
-   peut ajouter ses propres règles spécifiques.
+If UAssetAPI writes UTF-8 into an ASCII-sized slot, the game crashes.
+See `memory/reference_uassetapi_text_encoding.md`.
 
 ---
 
-## 6. Confirmations cumulées (historique des décisions user)
+## 5. Cross-language consistency
 
-- **2026-05-04** : skins de trains/personnages = noms propres → EN.
-- **2026-05-04** : noms de stations = noms propres → EN.
-- **2026-05-03** : ne pas garder le jargon ferroviaire (Tender, etc.).
-- **2026-05-04** : `On`/`Off` jamais traduits (cohérence + largeur UI).
-- **2026-05-04** : noms de régions/zones découvertes = noms propres → EN.
-- **2026-05-04** : enseignes de magasins (toutes les `.umap _SubLvl`) → EN
-  (ambiance western/époque + noms propres).
-- **2026-05-04** : pas de conversion d'unités (FT, miles restent tels quels).
-- **2026-05-04** : auteurs/credits → EN.
-- **2026-05-04** : vouvoiement systématique en FR (cohérence avec trads existantes).
-- **2026-05-04** : option B sur le registre — décision par langue, pas d'imposition cross-langue. ES sera en `tú` (convention casual gaming) malgré le FR en `vous`.
-- **2026-05-05** : DE confirmé en `du` informel (jeu famille).
-- **2026-05-05** : contraintes de longueur UI à respecter pour DE (et toute langue ≥ EN en moyenne) — voir section 7 ci-dessous.
-- **2026-05-15** : hotfix v1.4.1 — 8 strings retirées (Float, Pulsate, Lock, Quest 1/2/3, Unlocked Item/Text) car identifiants UMG dans la NameMap, traduction → crash au pickup Actionnaire. Cf. section 2.5.bis.
-- **2026-05-15** : hotfix v1.4.4 — `SpecialPassenger.uexp` reste vanilla (62 strings de tâches d'Actionnaire en EN). Ni KissE ni BPStringPatcher ne le patche sans casser un EX_Jump dans une branche conditionnelle profonde. Diagnostic via full minidump (9 GB) + bissection rigoureuse. Cf. section 2.5.ter.
-- **2026-05-16** : ouverture de la traduction JP (japonais). Registre : ですます調 (poli standard, équivalent du `du` DE). Pas de conversion d'unités (FT/miles intacts), noms propres EN, On/Off EN, enseignes western EN. Encoding UTF-16 LE obligatoire (caractères CJK). Contraintes UI revisitées : 1 caractère CJK ≈ 2 caractères latins de largeur, donc budgets EN/2 environ.
+To translate into a new language (ES, DE, etc.):
+
+1. **Reuse these rules in full** - the "never translate" list is universal
+   (proper nouns, signs, units, On/Off, internals).
+2. Build a dictionary equivalent to `staging\translations_dict.ps1` for the new
+   language.
+3. Adapt the lay vocabulary to the target culture (a painful technical term in
+   FR may be clear in DE and vice versa).
+4. Test in-game and confirm choices with the user - each language can add its
+   own specific rules.
 
 ---
 
-## 7. Contraintes de longueur UI (par langue)
+## 6. Cumulative confirmations (history of user decisions)
 
-L'allemand est en moyenne **30-40% plus long** que l'anglais. Plusieurs
-champs ont une largeur fixe à l'écran et ne tolèrent pas l'expansion.
-Ces budgets sont **stricts** : si la trad dépasse, il faut reformuler ou
-abréger jusqu'à rentrer.
+- **2026-05-04**: train/character skins = proper nouns -> EN.
+- **2026-05-04**: station names = proper nouns -> EN.
+- **2026-05-03**: no railway jargon (Tender, etc.).
+- **2026-05-04**: `On`/`Off` never translated (consistency + UI width).
+- **2026-05-04**: region/area names = proper nouns -> EN.
+- **2026-05-04**: shop signs (all `.umap _SubLvl`) -> EN (western/period
+  atmosphere + proper nouns).
+- **2026-05-04**: no unit conversion (FT, miles stay as-is).
+- **2026-05-04**: authors/credits -> EN.
+- **2026-05-04**: systematic formal address in FR (consistency with existing translations).
+- **2026-05-04**: option B on register - per-language decision, no cross-language
+  imposition. ES will be in `tú` (casual gaming convention) despite FR in `vous`.
+- **2026-05-05**: DE confirmed in informal `du` (family game).
+- **2026-05-05**: UI length constraints to respect for DE (and any language
+  averaging longer than EN) - see section 7 below.
+- **2026-05-15**: v1.4.1 hotfix - 8 strings removed (Float, Pulsate, Lock,
+  Quest 1/2/3, Unlocked Item/Text) because they are UMG identifiers in the
+  NameMap, translation -> Shareholder pickup crash. See section 2.5.bis.
+- **2026-05-15**: v1.4.4 hotfix - `SpecialPassenger.uexp` stays vanilla (62
+  Shareholder task strings in EN). Neither KissE nor BPStringPatcher patches it
+  without breaking an EX_Jump in a deep conditional branch. Diagnosis via full
+  minidump (9 GB) + rigorous bisection. See section 2.5.ter.
+- **2026-05-16**: opening of JP (Japanese) translation. Register: ですます調
+  (standard polite, equivalent to German `du`). No unit conversion (FT/miles
+  intact), proper nouns EN, On/Off EN, western signs EN. UTF-16 LE encoding
+  mandatory (CJK characters). UI constraints revisited: 1 CJK char ≈ 2 Latin
+  chars wide, so budgets EN/2 approximately.
+- **2026-05-16+**: BPOffsetPatcher unlocks SP+QT translation for FR/DE/ES/JP
+  (v1.4.5+). Sections 2.5.ter and 2.5.bis are kept as historical context.
+- **2026-06-07**: v1.4.8 BPOP regression discovered - even BPOP can corrupt SP/QT
+  under certain JSON changes. Documented in MAINTAINER.md Pitfall #1, with safe
+  fallback "restore SP+QT from previous working release".
 
-### 7.1. Onglets / catégories du shop (≤ 8 caractères)
+---
 
-`NewShopMenu.uasset` — boutons d'onglet de la vitrine du shop.
+## 7. UI length constraints (per language)
 
-| EN | FR (référence) | Budget DE | Proposition DE |
+German is on average **30-40% longer than English**. Several fields have fixed
+on-screen width and don't tolerate expansion. These budgets are **strict**: if
+the translation overflows, rephrase or abbreviate until it fits.
+
+### 7.1. Shop tabs / categories (≤ 8 characters)
+
+`NewShopMenu.uasset` - shop window tab buttons.
+
+| EN | FR (reference) | DE budget | DE proposal |
 |---|---|---|---|
-| `UPGRADES` | `AMÉLIO.` (7) | **≤ 8** | `UPGRADES` (8) ou `TUNING` (6) |
-| `FLAGS` | `DRAPEAUX` (8) | **≤ 8** | `FLAGGEN` (7) ou `FAHNEN` (6) |
+| `UPGRADES` | `AMÉLIO.` (7) | **≤ 8** | `UPGRADES` (8) or `TUNING` (6) |
+| `FLAGS` | `DRAPEAUX` (8) | **≤ 8** | `FLAGGEN` (7) or `FAHNEN` (6) |
 | `PAINT` | `COULEURS` (8) | **≤ 8** | `FARBEN` (6) |
 | `BUY` | `ACHETER` (7) | **≤ 8** | `KAUFEN` (6) |
-| `COST` | `COÛT` (4) | **≤ 8** | `KOSTEN` (6) ou `PREIS` (5) |
+| `COST` | `COÛT` (4) | **≤ 8** | `KOSTEN` (6) or `PREIS` (5) |
 
-### 7.2. Menu principal — directions / raccourcis (≤ longueur EN)
+### 7.2. Main menu - directions / shortcuts (≤ EN length)
 
 `IA_TurnLeft.uasset`, `IA_TurnRight.uasset`, `IA_SpeedUp.uasset`,
-`IA_SlowDown.uasset`, etc. — descriptions des actions de direction
-affichées dans la barre d'aide / le menu de raccourcis.
+`IA_SlowDown.uasset`, etc. - direction action descriptions displayed in the help
+bar / shortcut menu.
 
-| EN | Longueur EN | FR (référence) | Budget DE |
+| EN | EN length | FR (reference) | DE budget |
 |---|---|---|---|
-| `Turn Left` | 9 | `à gauche` (8) | **≤ 9** → `Links` (5) |
-| `Turn Right` | 10 | `à droite` (8) | **≤ 10** → `Rechts` (6) |
-| `Speed Up` | 8 | (à voir FR) | **≤ 8** → `Schneller` (9) NON, `Beschl.` (7) ou `Schneller` reformulé |
-| `Slow Down` | 9 | (à voir FR) | **≤ 9** → `Bremsen` (7) |
+| `Turn Left` | 9 | `à gauche` (8) | **≤ 9** -> `Links` (5) |
+| `Turn Right` | 10 | `à droite` (8) | **≤ 10** -> `Rechts` (6) |
+| `Speed Up` | 8 | (see FR) | **≤ 8** -> `Schneller` (9) NO, `Beschl.` (7) or rephrased |
+| `Slow Down` | 9 | (see FR) | **≤ 9** -> `Bremsen` (7) |
 
-**Règle** : si une direction/action ne tient pas dans la longueur EN, abréger
-ou choisir un synonyme court. Ne **jamais** dépasser — la barre d'aide tronque.
+**Rule**: if a direction/action doesn't fit within the EN length, abbreviate or
+pick a shorter synonym. **Never** overflow - the help bar truncates.
 
-### 7.3. Settings menu — labels d'options
+### 7.3. Settings menu - option labels
 
-`New_SettingsMenu.uasset` — cases de paramètres. La largeur est généreuse
-(le FR a pu mettre `Sensibilité caméra` 18 chars), mais certaines cases
-sont restreintes :
+`New_SettingsMenu.uasset` - settings checkboxes. The width is generous (FR was
+able to fit `Sensibilité caméra`, 18 chars), but some boxes are restricted:
 
-| EN | FR (référence) | Constat |
+| EN | FR (reference) | Note |
 |---|---|---|
-| `Auto Board` | `Embarq. auto` (12) | abrégé en FR |
-| `Reset` | `Réinit.` (7) | abrégé en FR (case étroite) |
-| `Saves & Backups` | `Sauvegardes` (11) | simplifié en FR |
+| `Auto Board` | `Embarq. auto` (12) | abbreviated in FR |
+| `Reset` | `Réinit.` (7) | abbreviated in FR (narrow box) |
+| `Saves & Backups` | `Sauvegardes` (11) | simplified in FR |
 | `Tender Icon` | `Icône réservoir` (15) | OK |
 
-**Règle DE** : si la trad littérale dépasse, abréger avec un point (`Einst.`,
-`Zurücks.`) ou choisir un terme plus court. Tester en jeu avant de finaliser.
+**DE rule**: if the literal translation overflows, abbreviate with a period
+(`Einst.`, `Zurücks.`) or pick a shorter term. Test in-game before finalizing.
 
-### 7.4. Méthode de validation
+### 7.4. Validation method
 
-Pour chaque chaîne sous contrainte, ajouter dans le JSON DE un commentaire
-(`_max_chars`) ou utiliser le fichier `translations/de/_budget_chars.json`
-qui mappe `KeyValue` → `max_chars`. Un linter peut alors vérifier
-que `len(NewValue) <= max_chars` avant patch.
+For every constrained string, add a comment (`_max_chars`) in the DE JSON or use
+the file `translations/de/_budget_chars.json` which maps `KeyValue` ->
+`max_chars`. A linter can then check that `len(NewValue) <= max_chars` before
+patching.
 
 ---
 
-## 8. Glossaire DE (allemand)
+## 8. DE (German) glossary
 
-Dictionnaire de termes récurrents pour cohérence inter-asset. À enrichir
-au fil de la traduction.
+Dictionary of recurring terms for cross-asset consistency. Enrich as translation
+progresses.
 
-### 8.1. Termes ferroviaires (grand public, pas jargon)
+### 8.1. Railway terms (general public, not jargon)
 
-| EN | DE recommandé | Notes |
+| EN | DE recommended | Notes |
 |---|---|---|
-| Train | `Zug` | universel |
-| Engine / Locomotive | `Lokomotive` (long) ou `Lok` (3) | `Lok` dans contraintes serrées |
-| Tender | **`Wassertank`** (réservoir d'eau, 10) ou **`Tank`** (4, court) | Ne **PAS** garder `Tender` tel quel — c'est aussi un terme ferroviaire technique en DE. Cohérent avec la philosophie grand public (FR utilise `réservoir`). |
-| Caboose | `Schlusswagen` ou `Bremserwagen` | ou simplement `Wagen am Ende` |
-| Cupola | `Aussichtskuppel` (15) ou `Kuppel` (6) | |
-| Gondola | `Flachwagen` (10) ou `Plattformwagen` | |
+| Train | `Zug` | universal |
+| Engine / Locomotive | `Lokomotive` (long) or `Lok` (3) | `Lok` under tight constraints |
+| Tender | **`Wassertank`** (water tank, 10) or **`Tank`** (4, short) | Do **NOT** keep `Tender` as-is - it's also a technical railway term in DE. Consistent with the general-public philosophy (FR uses `réservoir`). |
+| Caboose | `Schlusswagen` or `Bremserwagen` | or simply `Wagen am Ende` |
+| Cupola | `Aussichtskuppel` (15) or `Kuppel` (6) | |
+| Gondola | `Flachwagen` (10) or `Plattformwagen` | |
 | Track | `Gleis` / `Schiene` | |
 | Switch / switchstand | `Weiche` / `Weichenhebel` | |
-| Whistle | `Pfeife` (verbe : `pfeifen`) | |
+| Whistle | `Pfeife` (verb: `pfeifen`) | |
 | Brake / Brakeman | `Bremse` / `Bremser` | |
 | Conductor | `Schaffner` | |
 | Fireman | `Heizer` | |
-| Throttle | `Regler` ou `Drossel` | |
+| Throttle | `Regler` or `Drossel` | |
 | Coal | `Kohle` | |
 | Steam | `Dampf` | |
 | Water tower | `Wasserturm` | |
 | Freight | `Fracht` | |
 
-### 8.2. UI / boutons / actions
+### 8.2. UI / buttons / actions
 
-| EN | DE recommandé | Longueur |
+| EN | DE recommended | Length |
 |---|---|---|
 | Apply | `Anwenden` | 8 |
 | Cancel | `Abbrechen` | 9 |
 | Confirm | `Bestätigen` | 10 |
-| Reset | `Zurücks.` ou `Reset` (anglicisme) | 8 / 5 |
-| Close | `Schließen` | 9 |
+| Reset | `Zurücks.` or `Reset` (anglicism) | 8 / 5 |
+| Close | `Schliessen` (ß->ss per v1.4.8 FuelFire review) | 10 |
 | Back | `Zurück` | 6 |
 | Return | `Zurück` | 6 |
 | Settings | `Einstellungen` | 13 |
 | Options | `Optionen` | 8 |
 | Audio | `Audio` | 5 |
 | Graphics | `Grafik` | 6 |
-| Gameplay | `Gameplay` (anglicisme courant) | 8 |
+| Gameplay | `Gameplay` (common anglicism) | 8 |
 | Controls | `Steuerung` | 9 |
-| Credits | `Mitwirkende` ou `Credits` (anglicisme) | 11 / 7 |
+| Credits | `Mitwirkende` or `Credits` (anglicism) | 11 / 7 |
 | Tutorial | `Tutorial` | 8 |
 | Quit | `Beenden` | 7 |
-| Exit | `Verlassen` ou `Beenden` | 9 / 7 |
+| Exit | `Verlassen` or `Beenden` | 9 / 7 |
 | Stats | `Statistik` | 9 |
 | Map | `Karte` | 5 |
 | Load | `Laden` | 5 |
 | Save | `Speichern` | 9 |
 | Delete | `Löschen` | 7 |
 | Buy | `Kaufen` | 6 |
-| Level | `Level` (anglicisme) ou `Stufe` | 5 |
+| Level | `Level` (anglicism) or `Stufe` | 5 |
 | Day | `Tag` | 3 |
 | Money | `Geld` | 4 |
 | Yes | `Ja` | 2 |
 | No | `Nein` | 4 |
 
-### 8.3. Personnages / postes
+### 8.3. Characters / jobs
 
 | EN | DE | Notes |
 |---|---|---|
@@ -400,67 +415,69 @@ au fil de la traduction.
 | Freight Agent | `Frachtagent` | |
 | Pyrotechnist | `Pyrotechniker` | |
 | Early Bird | `Frühaufsteher` | |
-| Big 'Fella | (nom propre — laisser EN ?) | |
+| Big 'Fella | (proper noun - keep EN?) | |
 
-### 8.4. Tonalité
+### 8.4. Tone
 
-- **Registre `du`** : tutoie le joueur partout (`du brauchst`, `dein Zug`, `dich`).
-- **Pas de jargon** : préférer `schneller` à `Beschleunigung`, `bremsen` à `verzögern`.
-- **Ton enjoué/casual** : exclamations OK (`Los geht's!`, `Klasse!`).
-- **Anglicismes acceptés** quand ils sont courants en gaming DE (`Level`,
-  `Upgrade`, `Gameplay`, `Reset`, `Highscore`).
+- **`du` register**: address the player informally everywhere (`du brauchst`,
+  `dein Zug`, `dich`).
+- **No jargon**: prefer `schneller` to `Beschleunigung`, `bremsen` to `verzögern`.
+- **Playful/casual tone**: exclamations OK (`Los geht's!`, `Klasse!`).
+- **Anglicisms accepted** when common in DE gaming (`Level`, `Upgrade`,
+  `Gameplay`, `Reset`, `Highscore`).
+- **`ß` -> `ss`** everywhere since v1.4.8 (the in-game font lacks the Eszett
+  glyph; Swiss German uses `ss` as standard substitute).
 
 ---
 
-## 9. Glossaire JP (japonais)
+## 9. JP (Japanese) glossary
 
-Dictionnaire de termes récurrents pour cohérence inter-asset. À enrichir
-au fil de la traduction.
+Dictionary of recurring terms for cross-asset consistency. Enrich as translation
+progresses.
 
-### 9.1. Conventions générales JP
+### 9.1. General JP conventions
 
-- **Style** : ですます調 (forme polie standard, ni keigo formel ni langage familier).
-- **Particules finales** dans dialogues PNJ : 「ね」「よ」「な」 OK pour ton enjoué.
-- **Onomatopées** : adapter (`Hello` → `こんにちは` ou `やあ` selon contexte casual).
-- **Ponctuation CJK** :
-  - Préférer 「」 pour les guillemets, ！ et ？ full-width pour les exclamations
-    dans les dialogues longs.
-  - Pour les chaînes courtes UI : ponctuation minimale, half-width OK.
-- **Nombres et unités** : half-width (ASCII) pour `624 FT`, `50 Miles`, `Day 3`
-  (cohérent avec l'identité du jeu et lisibilité).
-- **Noms propres** : restent en EN (cf. règle 2.1).
-- **Anglicismes courants** acceptés en katakana quand l'usage gaming JP les a
-  adoptés : アップグレード (Upgrade), レベル (Level), セーブ (Save), マップ (Map),
+- **Style**: ですます調 (standard polite form, neither formal keigo nor familiar speech).
+- **Final particles** in NPC dialogues: 「ね」「よ」「な」 OK for a playful tone.
+- **Onomatopoeia**: adapt (`Hello` -> `こんにちは` or `やあ` depending on casual context).
+- **CJK punctuation**:
+  - Prefer 「」 for quotes, full-width ！ and ？ for exclamations in long dialogues.
+  - For short UI strings: minimal punctuation, half-width OK.
+- **Numbers and units**: half-width (ASCII) for `624 FT`, `50 Miles`, `Day 3`
+  (consistent with game identity and readability).
+- **Proper nouns**: stay in EN (cf. rule 2.1).
+- **Common anglicisms** accepted in katakana when JP gaming usage adopts them:
+  アップグレード (Upgrade), レベル (Level), セーブ (Save), マップ (Map),
   メニュー (Menu), アイテム (Item).
 
-### 9.2. Termes ferroviaires (grand public, pas jargon)
+### 9.2. Railway terms (general public, not jargon)
 
-| EN | JP recommandé | Notes |
+| EN | JP recommended | Notes |
 |---|---|---|
-| Train | `列車` ou `汽車` | `列車` neutre, `汽車` pour vapeur old-school |
-| Engine / Locomotive | `機関車` (3) | universel |
-| Tender | `炭水車` (3) ou `タンク` (3) | Pas garder `Tender` tel quel (jargon). FR utilise `réservoir`, DE `Tank`. |
-| Caboose | `車掌車` (3) | wagon de queue |
-| Cupola | `展望台` ou `屋根の見張り` | |
-| Gondola | `無蓋車` (3) | wagon ouvert |
-| Track / Rail | `線路` (2) ou `レール` (3) | |
-| Switch / switchstand | `分岐器` / `転てつ機` | technique ; préférer `ポイント` (katakana, courant) |
-| Whistle | `汽笛` (2) (verbe `鳴らす`) | |
+| Train | `列車` or `汽車` | `列車` neutral, `汽車` for old-school steam |
+| Engine / Locomotive | `機関車` (3) | universal |
+| Tender | `炭水車` (3) or `タンク` (3) | Don't keep `Tender` as-is (jargon). FR uses `réservoir`, DE `Tank`. |
+| Caboose | `車掌車` (3) | rear wagon |
+| Cupola | `展望台` or `屋根の見張り` | |
+| Gondola | `無蓋車` (3) | open wagon |
+| Track / Rail | `線路` (2) or `レール` (3) | |
+| Switch / switchstand | `分岐器` / `転てつ機` | technical; prefer `ポイント` (katakana, common) |
+| Whistle | `汽笛` (2) (verb `鳴らす`) | |
 | Brake / Brakeman | `ブレーキ` / `制動手` | |
 | Conductor | `車掌` (2) | |
-| Fireman | `機関助士` (4) ou `火夫` (2) | `火夫` plus court mais vieilli |
+| Fireman | `機関助士` (4) or `火夫` (2) | `火夫` shorter but archaic |
 | Engineer / Driver | `運転士` (3) | |
-| Throttle | `スロットル` ou `加減弁` | |
+| Throttle | `スロットル` or `加減弁` | |
 | Coal | `石炭` (2) | |
 | Steam | `蒸気` (2) | |
 | Water tower | `給水塔` (3) | |
 | Freight | `貨物` (2) | |
 | Passenger | `乗客` (2) | |
-| Station | `駅` (1) | (les noms restent EN : `Aurora 駅` non, juste `Aurora`) |
+| Station | `駅` (1) | (names stay EN: not `Aurora 駅`, just `Aurora`) |
 
-### 9.3. UI / boutons / actions
+### 9.3. UI / buttons / actions
 
-| EN | JP recommandé | Largeur (caractères CJK) |
+| EN | JP recommended | Width (CJK chars) |
 |---|---|---|
 | Apply | `適用` | 2 |
 | Cancel | `キャンセル` | 5 |
@@ -471,14 +488,14 @@ au fil de la traduction.
 | Return | `戻る` | 2 |
 | Settings | `設定` | 2 |
 | Options | `オプション` | 5 |
-| Audio | `オーディオ` ou `音声` | 5 / 2 |
-| Graphics | `グラフィック` ou `画面` | 6 / 2 |
+| Audio | `オーディオ` or `音声` | 5 / 2 |
+| Graphics | `グラフィック` or `画面` | 6 / 2 |
 | Gameplay | `ゲームプレイ` | 6 |
 | Controls | `操作` | 2 |
 | Credits | `クレジット` | 5 |
 | Tutorial | `チュートリアル` | 7 |
 | Quit | `終了` | 2 |
-| Exit | `戻る` ou `終了` | 2 |
+| Exit | `戻る` or `終了` | 2 |
 | Stats | `統計` | 2 |
 | Map | `マップ` | 3 |
 | Load | `ロード` | 3 |
@@ -486,30 +503,30 @@ au fil de la traduction.
 | Delete | `削除` | 2 |
 | Buy | `購入` | 2 |
 | Level | `レベル` | 3 |
-| Day | `日目` ou `Day` | 2 |
+| Day | `日目` or `Day` | 2 |
 | Money | `お金` | 2 |
 | Yes | `はい` | 2 |
 | No | `いいえ` | 3 |
-| Pause | `一時停止` ou `ポーズ` | 4 / 3 |
+| Pause | `一時停止` or `ポーズ` | 4 / 3 |
 | Resume | `再開` | 2 |
-| Upgrade | `アップグレード` ou `強化` | 7 / 2 |
+| Upgrade | `アップグレード` or `強化` | 7 / 2 |
 | Paint | `塗装` | 2 |
-| Flags | `フラッグ` ou `旗` | 4 / 1 |
+| Flags | `フラッグ` or `旗` | 4 / 1 |
 | Cost | `価格` | 2 |
 | Unlock | `解放` | 2 |
 | Locked | `ロック中` | 4 |
 | Unlocked | `解放済み` | 4 |
 | Skip | `スキップ` | 4 |
 | Continue | `続ける` | 3 |
-| Start | `スタート` ou `開始` | 4 / 2 |
+| Start | `スタート` or `開始` | 4 / 2 |
 | Reach | `達成` | 2 |
 | Complete | `完了` | 2 |
 
-### 9.4. Personnages / postes
+### 9.4. Characters / jobs
 
 | EN | JP | Notes |
 |---|---|---|
-| Bouncer | `用心棒` | sécurité |
+| Bouncer | `用心棒` | security |
 | Bartender | `バーテンダー` | |
 | Brakeman | `制動手` | |
 | Fireman | `機関助士` | |
@@ -518,18 +535,18 @@ au fil de la traduction.
 | Freight Agent | `貨物係` | |
 | Pyrotechnist | `花火師` | |
 | Early Bird | `早起き` | |
-| Big 'Fella | (nom propre — laisser EN) | |
-| Shareholder | `株主` | (`Actionnaire` en FR) |
+| Big 'Fella | (proper noun - keep EN) | |
+| Shareholder | `株主` | (`Actionnaire` in FR) |
 
-### 9.5. Contraintes UI JP (largeur)
+### 9.5. JP UI constraints (width)
 
-**Règle clé** : 1 caractère CJK ≈ 2 caractères latins de largeur.
-Les budgets EN/2 sont une bonne approximation.
+**Key rule**: 1 CJK character ≈ 2 Latin characters wide. EN/2 budgets are a good
+approximation.
 
-| Champ | Budget EN | Budget JP recommandé | Proposition |
+| Field | EN budget | Recommended JP budget | Proposal |
 |---|---|---|---|
 | Shop UPGRADES | ≤ 8 EN | ≤ 4 CJK | `強化` (2) |
-| Shop FLAGS | ≤ 8 EN | ≤ 4 CJK | `フラッグ` (4) ou `旗` (1) |
+| Shop FLAGS | ≤ 8 EN | ≤ 4 CJK | `フラッグ` (4) or `旗` (1) |
 | Shop PAINT | ≤ 8 EN | ≤ 4 CJK | `塗装` (2) |
 | Shop BUY | ≤ 8 EN | ≤ 4 CJK | `購入` (2) |
 | Shop COST | ≤ 8 EN | ≤ 4 CJK | `価格` (2) |
