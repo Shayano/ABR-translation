@@ -412,10 +412,6 @@ For `DataTable` rows (skin descriptions, achievements, Tutorial_Table), use `dat
 
 The `target_game.vanilla_files.{size,sha256}` in each manifest document the target vanilla version. Update them after every post-update re-baseline, otherwise the PowerShell installers refuse to install if the user's vanilla doesn't match.
 
-### #9: Em-dashes
-
-Convention: only the classic hyphen `-` (U+002D). Never `—` (U+2014, em-dash) or `–` (U+2013, en-dash). Check new changelogs and release notes.
-
 ---
 
 ## Troubleshooting
