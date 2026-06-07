@@ -94,7 +94,7 @@
       {
         "KeyValue": "NewRow_1",
         "Original": "Complete 20 freight jobs",
-        "NewValue": "Schließe 20 Frachtaufträge ab"
+        "NewValue": "Schliesse 20 Frachtaufträge ab"
       },
       {
         "KeyValue": "NewRow_15",
@@ -174,7 +174,7 @@
       {
         "KeyValue": "NewRow_13",
         "Original": "Run into 10 pedestrians",
-        "NewValue": "Erfasse 10 Fußgänger"
+        "NewValue": "Erfasse 10 Fussgänger"
       },
       {
         "KeyValue": "NewRow_16",
@@ -361,7 +361,7 @@
       },
       {
         "Original": "Pedestrians Hit: ",
-        "NewValue": "Fußgänger getroffen: "
+        "NewValue": "Fussgänger getroffen: "
       },
       {
         "Original": "Photos Taken: ",
@@ -397,7 +397,7 @@
       },
       {
         "Original": "Pedestrians Hit: ",
-        "NewValue": "Fußgänger getroffen: "
+        "NewValue": "Fussgänger getroffen: "
       },
       {
         "Original": "Photos Taken: ",
@@ -496,7 +496,7 @@
       {
         "KeyValue": "470E5EF54F7445E030D9FFB460778D99",
         "Original": "Pedestrians Hit:",
-        "NewValue": "Fußgänger getroffen:"
+        "NewValue": "Fussgänger getroffen:"
       },
       {
         "KeyValue": "4D70A1354337DB658CBD14BD2CFB2F64",
@@ -516,7 +516,7 @@
       {
         "KeyValue": "988F99D7432590F19D0488B21879A0B4",
         "Original": "Station Deliveries",
-        "NewValue": "Lieferungen pro Station"
+        "NewValue": "Lieferungen pro Bahnhof"
       },
       {
         "KeyValue": "C89B9CF44C9AF6A26B71CBB5DCFDAAF2",
@@ -539,11 +539,11 @@
       },
       {
         "Original": "It looks like you already have the needed freight from this station.",
-        "NewValue": "Du hast bereits die benötigte Fracht von dieser Station."
+        "NewValue": "Du hast bereits die benötigte Fracht von diesem Bahnhof."
       },
       {
         "Original": "It looks like you don't need freight from this station.",
-        "NewValue": "Du brauchst keine Fracht von dieser Station."
+        "NewValue": "Du brauchst keine Fracht von diesem Bahnhof."
       },
       {
         "Original": "It looks like you don't have a freight car, come back when you do!",
@@ -584,7 +584,7 @@
       {
         "KeyValue": "NewRow_2",
         "Original": "Once you feel comfortable driving, stop      at the station to move on.",
-        "NewValue": "Wenn du dich sicher fühlst, halte       an der Station, um weiterzumachen."
+        "NewValue": "Wenn du dich sicher fühlst, halte       am Bahnhof, um weiterzumachen."
       },
       {
         "KeyValue": "NewRow_0",
@@ -594,7 +594,7 @@
       {
         "KeyValue": "NewRow_1",
         "Original": "Pull up to the upcoming station to pick     up the passenger.",
-        "NewValue": "Fahr zur nächsten Station, um den      Passagier abzuholen."
+        "NewValue": "Fahr zum nächsten Bahnhof, um den      Passagier abzuholen."
       },
       {
         "KeyValue": "NewRow_5",
@@ -604,7 +604,7 @@
       {
         "KeyValue": "NewRow_6",
         "Original": "Looks like they want to go to the next     station down the line! Make sure to drop them off on time!",
-        "NewValue": "Er will zur nächsten Station auf der Linie! Setz ihn pünktlich ab!"
+        "NewValue": "Er will zum nächsten Bahnhof auf der Linie! Setz ihn pünktlich ab!"
       },
       {
         "KeyValue": "NewRow_8",
@@ -634,7 +634,7 @@
       {
         "KeyValue": "NewRow_13",
         "Original": "Accuracy is how well you align your stop at the platform. Don't drive past their      desired station!",
-        "NewValue": "Genauigkeit misst, wie gut du am Bahnsteig hältst. Fahr nicht über die       gewünschte Station hinaus!"
+        "NewValue": "Genauigkeit misst, wie gut du am Bahnsteig hältst. Fahr nicht über den       gewünschten Bahnhof hinaus!"
       },
       {
         "KeyValue": "NewRow_14",
@@ -679,7 +679,7 @@
       {
         "KeyValue": "NewRow_21",
         "Original": "Now that you have your passenger, drop     them off at the next station while            following what the signs say.",
-        "NewValue": "Du hast den Passagier - setz ihn an der nächsten Station ab und             befolge die Schilder."
+        "NewValue": "Du hast den Passagier - setz ihn am nächsten Bahnhof ab und             befolge die Schilder."
       },
       {
         "KeyValue": "NewRow_22",
@@ -846,7 +846,7 @@
       },
       {
         "Original": "Station Points: ",
-        "NewValue": "Stationspunkte: "
+        "NewValue": "Bahnhofspunkte: "
       },
       {
         "Original": "Following Signs Points: ",
@@ -959,7 +959,7 @@
       },
       {
         "Original": " different stations",
-        "NewValue": " verschiedenen Stationen vorbei"
+        "NewValue": " verschiedenen Bahnhöfen vorbei"
       },
       {
         "Original": "mining facility",
@@ -975,7 +975,7 @@
       },
       {
         "Original": "big tree",
-        "NewValue": "großer Baum"
+        "NewValue": "grosser Baum"
       },
       {
         "Original": "boat dock",
@@ -1147,7 +1147,7 @@
       },
       {
         "Original": " pedestrians",
-        "NewValue": " Fußgänger"
+        "NewValue": " Fussgänger"
       },
       {
         "Original": "Pick up some ",
@@ -1315,11 +1315,11 @@
       },
       {
         "Original": "Let's try this again. Pick up your passenger at the station.",
-        "NewValue": "Versuchen wir es nochmal. Hol deinen Passagier an der Station ab."
+        "NewValue": "Versuchen wir es nochmal. Hol deinen Passagier am Bahnhof ab."
       },
       {
         "Original": "Make sure to pick up your passenger at the station!",
-        "NewValue": "Vergiss nicht, deinen Passagier an der Station abzuholen!"
+        "NewValue": "Vergiss nicht, deinen Passagier am Bahnhof abzuholen!"
       }
     ]
   },
@@ -1468,7 +1468,7 @@
       },
       {
         "Original": "Caboose",
-        "NewValue": "Schlusswagen"
+        "NewValue": "Bremswagen"
       },
       {
         "Original": "New Paint Job Unlocked!",
@@ -1625,7 +1625,7 @@
       },
       {
         "Original": "Ice:<cf>Melts outside of snowy areas.<cf>Rapidly melts in the Desert.",
-        "NewValue": "Eis:<cf>Schmilzt außerhalb von Schneegebieten.<cf>In der Wüste sehr schnell."
+        "NewValue": "Eis:<cf>Schmilzt ausserhalb von Schneegebieten.<cf>In der Wüste sehr schnell."
       },
       {
         "Original": "Hay:<cf>Be careful traveling<cf>too quickly!",
@@ -1646,7 +1646,7 @@
       {
         "KeyValue": "55EDB4B54001F89828CF16B42E347F65",
         "Original": "Ice:<cf>Melts outside of snowy areas.<cf>Rapidly melts in the Desert.",
-        "NewValue": "Eis:<cf>Schmilzt außerhalb von Schneegebieten.<cf>In der Wüste sehr schnell."
+        "NewValue": "Eis:<cf>Schmilzt ausserhalb von Schneegebieten.<cf>In der Wüste sehr schnell."
       }
     ]
   },
@@ -1744,7 +1744,7 @@
       },
       {
         "Original": "Passengers will board the train automatically if enabled.<cf><cf>If disabled, you must blow your whistle at the station for them to board.",
-        "NewValue": "Wenn aktiviert, steigen Passagiere automatisch ein.<cf><cf>Wenn deaktiviert, musst du an der Station pfeifen, damit sie einsteigen."
+        "NewValue": "Wenn aktiviert, steigen Passagiere automatisch ein.<cf><cf>Wenn deaktiviert, musst du am Bahnhof pfeifen, damit sie einsteigen."
       },
       {
         "Original": "Passengers give cues that reflect their mood if enabled.<cf><cf>If disabled, passengers will no longer notify you of mood updates.",
@@ -1891,12 +1891,12 @@
       {
         "KeyValue": "1521A5514645895975AF6FA6EFF38EF8",
         "Original": "Cursor<cf>Size",
-        "NewValue": "Cursor-<cf>Größe"
+        "NewValue": "Cursor-<cf>Grösse"
       },
       {
         "KeyValue": "7C6008464E9D86F39A91BF8A778601F1",
         "Original": "Close",
-        "NewValue": "Schließen"
+        "NewValue": "Schliessen"
       },
       {
         "KeyValue": "811C5E7B4F45889CAC3BD188B798E538",
@@ -2319,7 +2319,7 @@
       {
         "KeyValue": "0143246840AEB12D971F369838A5D2AB",
         "Original": "Close",
-        "NewValue": "Schließen"
+        "NewValue": "Schliessen"
       },
       {
         "KeyValue": "B0A286554856BBA4DDD8A393525F15CC",
@@ -2431,7 +2431,7 @@
       },
       {
         "Original": "Destination: Nearest Station",
-        "NewValue": "Ziel: Nächste Station"
+        "NewValue": "Ziel: Nächster Bahnhof"
       },
       {
         "KeyValue": "DDB5F425430644EF4EBCB7967EF5983E",
@@ -2461,7 +2461,7 @@
       {
         "KeyValue": "FC0558A34F39C4FACCB2B0BA5F51CF6A",
         "Original": "Station 0",
-        "NewValue": "Station 0"
+        "NewValue": "Bahnhof 0"
       },
       {
         "KeyValue": "C519402349E6F8BBE34BCB8219FAB7D9",
@@ -2598,7 +2598,7 @@
       {
         "KeyValue": "40D702F44CE714339985F9A5E616CE83",
         "Original": "You can now earn stocks by picking<cf> up Shareholders! Find them at circled<cf>stations on the map for a new challenge.",
-        "NewValue": "Du kannst jetzt Aktien verdienen, indem<cf> du Aktionäre einsammelst! Sie warten an<cf>eingekreisten Stationen auf der Karte."
+        "NewValue": "Du kannst jetzt Aktien verdienen, indem<cf> du Aktionäre einsammelst! Sie warten an<cf>eingekreisten Bahnhöfen auf der Karte."
       },
       {
         "KeyValue": "5DD83954471FE341D70B89A3C4E87B51",
@@ -2878,7 +2878,7 @@
       {
         "KeyValue": "FA4F832D439F21B84D70CC8427901F6D",
         "Original": "Close",
-        "NewValue": "Schließen"
+        "NewValue": "Schliessen"
       }
     ]
   },
@@ -2975,7 +2975,7 @@
       },
       {
         "Original": "Freight stations provide twice<cf>  as many contract options",
-        "NewValue": "Frachtstationen bieten doppelt<cf>  so viele Vertragsoptionen"
+        "NewValue": "Frachtbahnhöfe bieten doppelt<cf>  so viele Vertragsoptionen"
       },
       {
         "Original": " Passengers can upgrade to a<cf>first class ticket after boarding",
@@ -3211,7 +3211,7 @@
       {
         "KeyValue": "6DBE942D41DCC70A797741BB5A6F285D",
         "Original": "Caboose",
-        "NewValue": "Schlusswagen"
+        "NewValue": "Bremswagen"
       },
       {
         "KeyValue": "123F32EE484818B234B502B0EC0D0D79",
@@ -3281,7 +3281,7 @@
       {
         "KeyValue": "6BFCC069432C4CA428C66E9F19C2CB49",
         "Original": "Larger water tank means filling up less often.",
-        "NewValue": "Größerer Tank = weniger oft auftanken."
+        "NewValue": "Grösserer Tank = weniger oft auftanken."
       },
       {
         "Original": "PAINT",
@@ -3593,7 +3593,7 @@
       {
         "KeyValue": "694915FB43EE7466660FAEB053163E3D",
         "Original": "Close",
-        "NewValue": "Schließen"
+        "NewValue": "Schliessen"
       },
       {
         "KeyValue": "0440F13E472FBD9B0F8B2E83CB293922",
@@ -3613,7 +3613,7 @@
       {
         "KeyValue": "596F657A49323B42ECC6E4A8515BCD89",
         "Original": "Station Name",
-        "NewValue": "Stationsname"
+        "NewValue": "Bahnhofsname"
       }
     ]
   }

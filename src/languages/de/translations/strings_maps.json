@@ -13,11 +13,11 @@
     "Values": [
       {
         "Original": "Pick up passengers by stopping at their station and blowing your whistle!^The tickets they give you will tell you   where they want to go.",
-        "NewValue": "Halte an der Station und pfeife, um Passagiere abzuholen!^Ihre Tickets zeigen dir,   wohin sie wollen."
+        "NewValue": "Halte am Bahnhof und pfeife, um Passagiere abzuholen!^Ihre Tickets zeigen dir,   wohin sie wollen."
       },
       {
         "Original": "It looks like they want to go to Eagle   Nest station at the top of the mountain, let's go!",
-        "NewValue": "Er will zur Station Eagle   Nest oben auf dem Berg - auf geht's!"
+        "NewValue": "Er will zum Bahnhof Eagle   Nest oben auf dem Berg - auf geht's!"
       },
       {
         "Original": "Also, you can right-click and drag to     rotate your camera!^Now, let's go get that passenger.",
