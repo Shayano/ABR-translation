@@ -4,10 +4,10 @@
 
 Inoffizieller Übersetzungs-Mod für [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), ein indie Eisenbahn-Simulationsspiel auf Steam.
 
-**Aktuelle Version : 1.4.7** (17. Mai 2026)
+**Aktuelle Version : 1.4.8** (7. Juni 2026)
 **Spiel-Engine : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.7** : Hotfix für ein stiller Bug seit v1.4.5 - die zweite Vorkommen von ` law signs`, ` hours` und ` times` in Aktionär-Aufgaben blieb auf Englisch (`Befolge 3 law signs` statt `Befolge 3 Schilder`). Ursache : der Wrapper rund um `BPOffsetPatcher` deduplizierte identische `Original`-Einträge, sodass nur die erste Bytecode-Vorkommen gepatcht wurde. Bonus : `QuestTicket.uasset` ist jetzt ebenfalls übersetzt (Ziel-Anzeige `Ziel: Nächste Station` statt `Destination: Nearest Station` - erste Anwendung von `BPOffsetPatcher` auf ein anderes Blueprint als SpecialPassenger). Diese Release begleitet die erste **japanische Übersetzung** ([README.jp.md](README.jp.md)).
+> 🆕 **v1.4.8** : Native-Speaker-Review von FuelFire (Discord des Entwicklers) angewendet. `Bahnhof` statt `Station` für Bahnhöfe (mit Grammatik-Anpassungen), `ss` statt `ß` überall (die Spielschriftart enthält keine Eszett-Glyphe und stellte sie als leeres Zeichen dar), `Bremswagen` statt `Schlusswagen` für Caboose. Begleitet die ES-Release v1.4.8 (erster Community-PR) und einen kosmetischen Versions-Bump für FR und JP.
 
 > Dieser Mod wird weder von den Entwicklern des Spiels entwickelt noch unterstützt. Es ist ein Fan-Projekt, ohne Gewähr.
 
@@ -33,12 +33,12 @@ Inoffizieller Übersetzungs-Mod für [A Bumpy Ride](https://store.steampowered.c
 ## Installation
 
 Der Mod wird in zwei Formaten zur Auswahl verteilt :
-- **Windows-Installer** (`ABR-de_v1.4.7.zip`, ~30-100 MB) : PowerShell-Installer, erkennt Steam automatisch, ~3-5 Min
-- **Drop-in Prepatched** (`ABR-de_v1.4.7_prepatched.zip`, ~1,9 GB) : direkter Dateiaustausch der Container-Dateien, jedes OS (Windows / Linux / Steam Deck / macOS), ohne Installer
+- **Windows-Installer** (`ABR-de_v1.4.8.zip`, ~30-100 MB) : PowerShell-Installer, erkennt Steam automatisch, ~3-5 Min
+- **Drop-in Prepatched** (`ABR-de_v1.4.8_prepatched.zip`, ~1,9 GB) : direkter Dateiaustausch der Container-Dateien, jedes OS (Windows / Linux / Steam Deck / macOS), ohne Installer
 
 ### Schritte (Drop-in Prepatched)
 
-1. Lade `ABR-de_v1.4.7_prepatched.zip` herunter (siehe [Releases](../../releases))
+1. Lade `ABR-de_v1.4.8_prepatched.zip` herunter (siehe [Releases](../../releases))
 2. **Schließe das Spiel**, falls es läuft
 3. Suche den Ordner `Paks` deiner A Bumpy Ride Installation :
    - **Windows**   : `<Steam-Bibliothek>\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks\`

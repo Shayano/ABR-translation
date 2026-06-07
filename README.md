@@ -2,10 +2,10 @@
 
 Unofficial translation mods for [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), an indie railroad-simulation game on Steam.
 
-**Current version : 1.4.7** (May 17, 2026)
+**Current version : 1.4.8** (June 7, 2026)
 **Game engine : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.7 highlights** : **first Japanese release** (`ですます調` register, ~900 strings translated) with a CJK font fix using a composite Roboto + DroidSansFallback override - no more empty-tofu glyphs. Bonus on **DE / ES**: fixed a silent bug where the second occurrence of ` law signs`, ` hours`, ` times` in Shareholder tasks stayed in English since v1.4.5 (now `Befolge 3 Schilder` / `Obedece 3 señales` instead of mixed-language), plus first-time `QuestTicket` patch (`Destination: Nearest Station` → `Ziel: Nächste Station` / `Destino: estación más cercana`). FR unchanged binaries from v1.4.6 (cosmetic version bump for cross-language alignment).
+> 🆕 **v1.4.8 highlights** : community feedback release. **DE**: native-speaker review by FuelFire applied (Bahnhof for station, ss for ß, Bremswagen for caboose). **ES**: merged first community PR #1 from @Dev-Will-R (73 refinements for clarity and word usage). FR / JP unchanged binaries from v1.4.7 (cosmetic version bump for cross-language alignment).
 
 > Not developed or endorsed by the game's creators. Fan project, provided as is.
 
@@ -15,10 +15,10 @@ Unofficial translation mods for [A Bumpy Ride](https://store.steampowered.com/ap
 
 | Language | README | Installer | Drop-in |
 |---|---|---|---|
-| 🇫🇷 **Français** | [README.fr.md](README.fr.md) | `ABR-fr_v1.4.7.zip` | `ABR-fr_v1.4.7_prepatched.zip` |
-| 🇩🇪 **Deutsch** | [README.de.md](README.de.md) | `ABR-de_v1.4.7.zip` | `ABR-de_v1.4.7_prepatched.zip` |
-| 🇪🇸 **Español** | [README.es.md](README.es.md) | `ABR-es_v1.4.7.zip` | `ABR-es_v1.4.7_prepatched.zip` |
-| 🇯🇵 **日本語** | [README.jp.md](README.jp.md) | `ABR-jp_v1.4.7.zip` | `ABR-jp_v1.4.7_prepatched.zip` |
+| 🇫🇷 **Français** | [README.fr.md](README.fr.md) | `ABR-fr_v1.4.8.zip` | `ABR-fr_v1.4.8_prepatched.zip` |
+| 🇩🇪 **Deutsch** | [README.de.md](README.de.md) | `ABR-de_v1.4.8.zip` | `ABR-de_v1.4.8_prepatched.zip` |
+| 🇪🇸 **Español** | [README.es.md](README.es.md) | `ABR-es_v1.4.8.zip` | `ABR-es_v1.4.8_prepatched.zip` |
+| 🇯🇵 **日本語** | [README.jp.md](README.jp.md) | `ABR-jp_v1.4.8.zip` | `ABR-jp_v1.4.8_prepatched.zip` |
 | 🇬🇧 English (overview only) | [README.en.md](README.en.md) | - | - |
 
 Downloads are available in [Releases](../../releases).

@@ -1,8 +1,8 @@
 {
   "mod_name": "A Bumpy Ride - 日本語翻訳",
-  "mod_version": "1.4.7",
+  "mod_version": "1.4.8",
   "mod_author": "Shayano",
-  "mod_date": "2026-05-17",
+  "mod_date": "2026-06-07",
   "engine_version": "UE5_3",
   "language": "jp",
   "language_register": "desu-masu",
@@ -42,6 +42,7 @@
     "1.0.3": "Real fix for Actionnaire pickup crash. v1.0.2 reverted SpecialPassenger but the crash persisted: the actual culprit was QuestTicket.uasset, patched in JP but kept vanilla in ES v1.4.6 for the exact same reason (EX_Jump offset corruption on change-of-length destination strings - JP destinations are longer than EN, breaking the bytecode jump targets). DE manages to patch it because of how its strings happen to align byte-wise, but JP cannot. Fix: QuestTicket.uasset/.uexp now reverted to vanilla in the build, matching ES policy. Cost: the destination panel on quest tickets (DESTINATION:, Destination: Nearest Station) stays in EN. Comparison audit added to staging/_package_jp.py post-fixes to prevent regression. SpecialPassenger also kept vanilla (62 Shareholder task strings stay in EN), same as v1.0.2.",
     "1.0.4": "Translation parity with FR/DE v1.4.5 via BPOffsetPatcher. Instead of reverting SpecialPassenger and QuestTicket to vanilla (v1.0.2/v1.0.3 stopgap), both are now properly translated using the BPOffsetPatcher tool that was created in FR v1.4.5 specifically to solve the EX_Jump/EX_SwitchValue offset corruption that KissE's placeholder+branch approach introduces. BPOffsetPatcher rewrites strings edit-in-place, builds a global shift map, and updates all absolute jump-like opcodes (EX_Jump, EX_JumpIfNot, EX_PushExecutionFlow, EX_SwitchValue.EndGotoOffset + Cases.NextOffset) plus all internal callers' EX_IntConst entry-points. Result: 61 SpecialPassenger strings translated (Actionnaire tasks: See the sunset -> 夕日を見る, etc. - 2 'AM'/'PM' skipped due to known duplicate bug from FR v1.4.5) + 3 QuestTicket DESTINATION strings translated (DESTINATION: -> 目的地:). QuestTicket is a first-time use of BPOffsetPatcher on a non-SP Blueprint - same fix profile (EX_Jump offset corruption by change-of-length), 7 callers shifted. Both confirmed compiling without crashing the asset load.",
     "1.0.5": "Fix Actionnaire QuestBoard duplicates: second occurrence of ' law signs', ' hours', and ' times' was left in EN in v1.0.4 because the BPOffsetPatcher wrapper dedup'd the input JSON by Original string. DE/FR v1.4.5 had not dedup'd (they passed all 72 SP entries through, with duplicates), letting BPOffsetPatcher patch all bytecode occurrences. Wrapper now keeps duplicates -> 64 SP strings patched (vs 61 in v1.0.4). AM/PM stay in EN intentionally (translation identical to source, universal abbreviation kept across all languages).",
-    "1.4.7": "Multi-language alignment with FR/DE/ES v1.4.7. No functional change vs JP v1.0.5 (same binaries: 61 SpecialPassenger strings + 3 QuestTicket strings translated via BPOffsetPatcher, font overrides for CJK rendering, 0 'law signs' in EN). JP joins the unified release tag v1.4.7 with FR/DE/ES."
+    "1.4.7": "Multi-language alignment with FR/DE/ES v1.4.7. No functional change vs JP v1.0.5 (same binaries: 61 SpecialPassenger strings + 3 QuestTicket strings translated via BPOffsetPatcher, font overrides for CJK rendering, 0 'law signs' in EN). JP joins the unified release tag v1.4.7 with FR/DE/ES.",
+    "1.4.8": "Cosmetic version bump to align with the unified v1.4.8 release (community feedback applied to DE and ES). No functional change vs JP v1.4.7 - JP binaries are identical."
   }
 }

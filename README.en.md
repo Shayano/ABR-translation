@@ -4,10 +4,10 @@
 
 Unofficial translation mods for [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), an indie railroad-simulation game on Steam.
 
-**Current version : 1.4.7** (May 17, 2026)
+**Current version : 1.4.8** (June 7, 2026)
 **Game engine : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.7 highlights** : **first Japanese release** (`ですます調` register, ~900 strings translated) with a CJK font fix (composite Roboto + DroidSansFallback override) - no more empty-tofu glyphs for Hiragana/Katakana/Kanji. **Hotfix on DE/ES**: the second occurrence of ` law signs`, ` hours`, ` times` in Shareholder tasks stayed silently in English since v1.4.5 (cause: BPOffsetPatcher wrapper dedup'd identical Original entries, so only the first bytecode occurrence got patched). Now `Befolge 3 Schilder` / `Obedece 3 señales` instead of `Befolge 3 law signs` / `Obedece 3 law signs`. Bonus on DE/ES: `QuestTicket.uasset` now patched too (`Ziel: Nächste Station` / `Destino: estación más cercana` instead of `Destination: Nearest Station`). FR unchanged binaries from v1.4.6 (cosmetic version bump for cross-language alignment).
+> 🆕 **v1.4.8 highlights** : community feedback release. **DE**: native-speaker review applied (thanks to FuelFire on the dev's Discord) - Bahnhof replaces Station, ss replaces ß (the in-game font lacks the Eszett glyph), Bremswagen replaces Schlusswagen for caboose. **ES**: first community PR merged ([#1](https://github.com/Shayano/ABR-translation/pull/1) by @Dev-Will-R, 73 refinements for clarity and word usage across enums and BP strings). FR / JP unchanged binaries from v1.4.7 (cosmetic version bump for cross-language alignment).
 
 > This mod is neither developed nor endorsed by the game's creators. It's a fan project, provided as is.
 
@@ -45,8 +45,8 @@ All three translations share these conventions :
 
 Each language ships in two formats :
 
-1. **Installer zip** (`ABR-fr_v1.4.7.zip` / `ABR-de_v1.4.7.zip` / `ABR-es_v1.4.7.zip` / `ABR-jp_v1.4.7.zip`, ~30-70 MB) : PowerShell installer for Windows, auto-detects Steam, ~3-5 min install
-2. **Prepatched drop-in zip** (`ABR-fr_v1.4.7_prepatched.zip` / `ABR-de_v1.4.7_prepatched.zip` / `ABR-es_v1.4.7_prepatched.zip` / `ABR-jp_v1.4.7_prepatched.zip`, ~1.9 GB) : direct file replacement, works on any OS (Windows / Linux / Steam Deck / macOS), no installer required
+1. **Installer zip** (`ABR-fr_v1.4.8.zip` / `ABR-de_v1.4.8.zip` / `ABR-es_v1.4.8.zip` / `ABR-jp_v1.4.8.zip`, ~30-70 MB) : PowerShell installer for Windows, auto-detects Steam, ~3-5 min install
+2. **Prepatched drop-in zip** (`ABR-fr_v1.4.8_prepatched.zip` / `ABR-de_v1.4.8_prepatched.zip` / `ABR-es_v1.4.8_prepatched.zip` / `ABR-jp_v1.4.8_prepatched.zip`, ~1.9 GB) : direct file replacement, works on any OS (Windows / Linux / Steam Deck / macOS), no installer required
 
 ### Drop-in steps
 

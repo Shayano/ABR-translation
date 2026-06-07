@@ -4,10 +4,10 @@
 
 Mod de traduction française pour [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/), un jeu de simulation ferroviaire indé sur Steam.
 
-**Version actuelle : 1.4.7** (17 mai 2026)
+**Version actuelle : 1.4.8** (7 juin 2026)
 **Moteur du jeu : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.7** : bump cosmétique côté FR (binaires identiques à v1.4.6, tout est OK depuis v1.4.5). Cette release accompagne l'arrivée de la **traduction japonaise** ([README.jp.md](README.jp.md)) et un hotfix DE/ES qui corrige un bug silencieux découvert depuis v1.4.5 (deuxième occurrence de `law signs`/`hours`/`times` qui restait en anglais sur certaines tâches Actionnaire). FR n'était pas concerné par ce bug.
+> 🆕 **v1.4.8** : bump cosmétique côté FR (binaires identiques à v1.4.7). Cette release accompagne les retours communautaires appliqués aux versions allemande (relecture par FuelFire, native speaker) et espagnole (premier PR communautaire de @Dev-Will-R, 73 affinements).
 
 > Ce mod n'est ni développé ni soutenu par les créateurs du jeu. C'est un travail de fan, fourni en l'état.
 
@@ -32,12 +32,12 @@ Mod de traduction française pour [A Bumpy Ride](https://store.steampowered.com/
 ## Installation
 
 Le mod est distribué sous deux formats au choix :
-- **Installeur Windows** (`ABR-fr_v1.4.7.zip`, ~30-100 Mo) : installeur PowerShell qui détecte Steam automatiquement, ~3-5 min
-- **Drop-in prepatché** (`ABR-fr_v1.4.7_prepatched.zip`, ~1,9 Go) : remplacement direct des fichiers de container, tout OS (Windows / Linux / Steam Deck / macOS), sans installeur
+- **Installeur Windows** (`ABR-fr_v1.4.8.zip`, ~30-100 Mo) : installeur PowerShell qui détecte Steam automatiquement, ~3-5 min
+- **Drop-in prepatché** (`ABR-fr_v1.4.8_prepatched.zip`, ~1,9 Go) : remplacement direct des fichiers de container, tout OS (Windows / Linux / Steam Deck / macOS), sans installeur
 
 ### Étapes (drop-in prepatché)
 
-1. Téléchargez `ABR-fr_v1.4.7_prepatched.zip` (cf. [Releases](../../releases))
+1. Téléchargez `ABR-fr_v1.4.8_prepatched.zip` (cf. [Releases](../../releases))
 2. **Fermez le jeu** s'il est ouvert
 3. Localisez le dossier `Paks` de votre installation A Bumpy Ride :
    - **Windows**   : `<bibliothèque Steam>\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks\`

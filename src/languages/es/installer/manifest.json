@@ -1,8 +1,8 @@
 {
   "mod_name": "A Bumpy Ride - Traducción al español",
-  "mod_version": "1.4.7",
+  "mod_version": "1.4.8",
   "mod_author": "Shayano",
-  "mod_date": "2026-05-17",
+  "mod_date": "2026-06-07",
   "engine_version": "UE5_3",
   "language": "es",
   "language_register": "tu",
@@ -38,6 +38,7 @@
   "changelog": {
     "1.4.5": "Versión inicial de la traducción al español de A Bumpy Ride. ~1000 cadenas traducidas (UI, tutorial, logros, tienda, misiones, descripciones de skins, frases de la pantalla de título). Registro: tú (informal), variante neutra/España. Paridad funcional con FR/DE v1.4.5: incluye el parche SpecialPassenger vía BPOffsetPatcher (62 objetivos de tareas del Accionista en español), los hotfixes v1.4.1 (5 Blueprints UMG mantenidos vanilla para evitar el crash al recoger al Accionista: W_WonStocks, NPCPointer, QuestBoard parcial, QuestTicket, PopUp) y los parches Tutorial_Table (35 cadenas del tutorial del juego). Convenciones: nombres propios en EN (skins de trenes, estaciones, regiones), letreros de tiendas en EN (ambiente western), unidades imperiales conservadas (FT, millas), On/Off no traducidos.",
     "1.4.6": "Alineación multi-idioma con FR y DE. Sin cambios funcionales para los jugadores ES respecto a v1.4.5, solo cierre de paridad cruzada.",
-    "1.4.7": "Fix Actionnaire QuestBoard duplicates: second occurrence of ' law signs', ' hours', and ' times' was silently left in EN since v1.4.5 (same root cause as DE v1.4.7 - BPOffsetPatcher needs N JSON entries to patch N bytecode occurrences). Re-applied via unified wrapper. Bonus: QuestTicket.uasset now patched too (was vanilla in ES v1.4.6 - DESTINATION strings now in Spanish). ES now has 0 'law signs' in EN."
+    "1.4.7": "Fix Actionnaire QuestBoard duplicates: second occurrence of ' law signs', ' hours', and ' times' was silently left in EN since v1.4.5 (same root cause as DE v1.4.7 - BPOffsetPatcher needs N JSON entries to patch N bytecode occurrences). Re-applied via unified wrapper. Bonus: QuestTicket.uasset now patched too (was vanilla in ES v1.4.6 - DESTINATION strings now in Spanish). ES now has 0 'law signs' in EN.",
+    "1.4.8": "First community contribution to the Spanish translation: merged PR #1 from @Dev-Will-R (https://github.com/Shayano/ABR-translation/pull/1). 73 refinements across 7 files for clarity and better word usage. Highlights: 'Cachorro' → 'Perrito', 'Lugar' → 'Marca' (Landmark quest type), 'Aficionado' → 'Admirador' (Railfan), 'Tío gorila' → 'Señor gorila', 'guay.' → 'bien.', '¡Hello, Dolly!' → '¡Hola, dolly!' (was previously left untranslated), 'Made in USA!' → 'Hecho en el USA!', '¡A todo vapor!' → '¡A toda máquina!', 'echo de menos' → 'extraño' (more universally Latin American Spanish), 'colega' → 'amigo', 'pringados' → 'perdedores', and many more polish edits in enum_buildingtype, enum_passengerenum, enum_questtype, enum_titleblurbs, enum_titleblurbsrainy, strings_BP and strings_maps. Patch binaries rebuilt from the updated JSONs via the standard _package_es.py + _bundle_es.py pipeline. KNOWN LIMITATION: SpecialPassenger.uasset/.uexp AND QuestTicket.uasset/.uexp kept as the v1.4.7 binaries - both are BPOffsetPatcher targets, and the staging/_package_es.py pipeline (despite correctly excluding SP from KissE) still re-patches QuestTicket through KissE, breaking its EX_Jump offsets and causing an Actionnaire pickup recursion crash. The 2 SP-incidental refinements from the PR (' photo spot' → ' punto para fotos', 'hay bales' → 'pacas de heno') would have triggered the same crash even via BPOffsetPatcher (untested-regression in BPOP, not yet diagnosed). Visible side-effect: the photo-spot Shareholder objective still reads ' spot foto', the hay-bales reference still reads 'fardos de heno', and the QuestTicket DESTINATION strings are unchanged from v1.4.7. All other PR refinements landed normally."
   }
 }

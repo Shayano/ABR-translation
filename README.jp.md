@@ -4,10 +4,10 @@
 
 [A Bumpy Ride](https://store.steampowered.com/app/2540610/A_Bumpy_Ride/) (Steam の鉄道シミュレーションインディーゲーム) の日本語翻訳 Mod です。
 
-**現在のバージョン : 1.4.7** (2026年5月17日)
+**現在のバージョン : 1.4.8** (2026年6月7日)
 **ゲームエンジン : Unreal Engine 5.3.2 (IoStore)**
 
-> 🆕 **v1.4.7** : 日本語翻訳の初公開リリース。`ですます調` 登録、約 900 文字列翻訳。重要な技術修正 : ゲームのビットマップ `UFont` フォント (`Pixel_Times_Font` 等) には CJK グリフが含まれていないため、すべての日本語文字が空のとうふとして表示されていました。Engine 同梱の composite Roboto + DroidSansFallback フォントオーバーライドで修正済 - すべてのひらがな・カタカナ・漢字が正しく表示されます。SpecialPassenger (Actionnaire の 62 タスク目標) と QuestTicket は `BPOffsetPatcher` を使ってクラッシュなしで翻訳されています (FR/DE v1.4.5 と同じ修正)。
+> 🆕 **v1.4.8** : 日本語版のバイナリは v1.4.7 から変更なし (バージョン番号のみ更新、多言語リリースの統一のため)。このリリースは DE と ES のコミュニティフィードバック (DE: FuelFire によるネイティブスピーカーレビュー、ES: @Dev-Will-R による初のコミュニティ PR、73 件の改善) を伴います。
 
 > この Mod はゲーム開発元によって開発・支援されているものではありません。ファンプロジェクトとして「現状のまま」提供されます。
 
@@ -47,12 +47,12 @@
 ## インストール
 
 Mod は 2 つの形式で配布されています :
-- **Windows インストーラ** (`ABR-jp_v1.4.7.zip`、~30 MB) : Steam を自動検出する PowerShell インストーラ、~3-5 分
-- **Drop-in プリパッチ** (`ABR-jp_v1.4.7_prepatched.zip`、~1.9 GB) : container ファイルの直接置き換え、任意の OS (Windows / Linux / Steam Deck / macOS)、インストーラ不要
+- **Windows インストーラ** (`ABR-jp_v1.4.8.zip`、~30 MB) : Steam を自動検出する PowerShell インストーラ、~3-5 分
+- **Drop-in プリパッチ** (`ABR-jp_v1.4.8_prepatched.zip`、~1.9 GB) : container ファイルの直接置き換え、任意の OS (Windows / Linux / Steam Deck / macOS)、インストーラ不要
 
 ### 手順 (drop-in プリパッチ)
 
-1. `ABR-jp_v1.4.7_prepatched.zip` をダウンロード ([Releases](../../releases) 参照)
+1. `ABR-jp_v1.4.8_prepatched.zip` をダウンロード ([Releases](../../releases) 参照)
 2. ゲームが開いている場合は**閉じる**
 3. A Bumpy Ride インストールの `Paks` フォルダを探す :
    - **Windows**   : `<Steam ライブラリ>\steamapps\common\A Bumpy Ride\ABumpyRide\Content\Paks\`
@@ -69,7 +69,7 @@ Mod は 2 つの形式で配布されています :
 
 ### 手順 (Windows インストーラ)
 
-1. `ABR-jp_v1.4.7.zip` をダウンロード
+1. `ABR-jp_v1.4.8.zip` をダウンロード
 2. ゲームが開いている場合は閉じる
 3. zip を任意のフォルダに展開
 4. `install.ps1` を実行 (右クリック > PowerShell で実行、~3-5 分)
