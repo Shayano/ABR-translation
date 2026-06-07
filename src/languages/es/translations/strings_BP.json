@@ -104,7 +104,7 @@
       {
         "KeyValue": "NewRow_15",
         "Original": "Make $25000",
-        "NewValue": "Gana 25 000 $"
+        "NewValue": "Gana 25000$"
       },
       {
         "KeyValue": "NewRow_7",
@@ -179,7 +179,7 @@
       {
         "KeyValue": "NewRow_16",
         "Original": "See Ya!",
-        "NewValue": "¡Chao!"
+        "NewValue": "¡Nos vemos!"
       },
       {
         "KeyValue": "NewRow_16",
@@ -268,7 +268,7 @@
       {
         "KeyValue": "D7FFA9B74DA89E9CA64DFC85AC4486F4",
         "Original": "Awards",
-        "NewValue": "Logros"
+        "NewValue": "Premios"
       }
     ]
   },
@@ -476,7 +476,7 @@
       {
         "KeyValue": "66F9D5DF4C543992884318B3E221A719",
         "Original": "Money Made:",
-        "NewValue": "Ganado:"
+        "NewValue": "Dinero ganado:"
       },
       {
         "KeyValue": "304BC43D4D92DFB2B78E688C5E0D5D04",
@@ -521,7 +521,7 @@
       {
         "KeyValue": "C89B9CF44C9AF6A26B71CBB5DCFDAAF2",
         "Original": "Awards",
-        "NewValue": "Logros"
+        "NewValue": "Premios"
       },
       {
         "KeyValue": "E1FA04DC4DCFFBCA4075EE8E59427219",
@@ -579,7 +579,7 @@
       {
         "KeyValue": "NewRow",
         "Original": "You can click and drag to interact, or      use W and S to change the speed. Right-    click and drag to move the camera.",
-        "NewValue": "Pulsa y arrastra para interactuar, o      usa W y S para cambiar la velocidad. Clic    derecho y arrastrar mueve la cámara."
+        "NewValue": "Pulsa y arrastra para interactuar, o      usa W y S para cambiar la velocidad. Clic    derecho y arrastrar para mover la cámara."
       },
       {
         "KeyValue": "NewRow_2",
@@ -589,7 +589,7 @@
       {
         "KeyValue": "NewRow_0",
         "Original": "Now that you've mastered controlling the train, it's time to start making some      money!",
-        "NewValue": "Ya dominas el tren, ¡toca ganar algo de      dinero!"
+        "NewValue": "Ahora que ya dominas el tren, ¡es hora de ganar      dinero!"
       },
       {
         "KeyValue": "NewRow_1",
@@ -1011,7 +1011,7 @@
       },
       {
         "Original": " photo spot",
-        "NewValue": " spot foto"
+        "NewValue": " punto para fotos"
       },
       {
         "Original": "Obey ",
@@ -1115,7 +1115,7 @@
       },
       {
         "Original": "hay bales",
-        "NewValue": "fardos de heno"
+        "NewValue": "pacas de heno"
       },
       {
         "Original": "ice cubes",
@@ -1290,7 +1290,7 @@
       },
       {
         "Original": "Bring honey back to move Big Fella out of the way!",
-        "NewValue": "¡Trae miel para apartar a Big Fella!"
+        "NewValue": "¡Trae miel para apartar a el Señor Grande!"
       },
       {
         "Original": "Bring TNT to remove the boulder!",
@@ -1386,7 +1386,7 @@
       {
         "KeyValue": "8B04C8DE460CD6C61324839573BFBF00",
         "Original": "Awards",
-        "NewValue": "Logros"
+        "NewValue": "Premios"
       },
       {
         "KeyValue": "571119FB451264C09FB4D9AD5E4C06BD",
@@ -2273,7 +2273,7 @@
       },
       {
         "Original": "Watch out for thieves! Keep moving!",
-        "NewValue": "¡Cuidado con los ladrones! ¡No te detengas!"
+        "NewValue": "¡Cuidado con los ladrones! ¡Sigue avanzando!"
       },
       {
         "Original": "Very volatile. Avoid sudden stops.",
@@ -2648,7 +2648,7 @@
       {
         "KeyValue": "4F9ED8FE45730941FD762693BDD0B2F6",
         "Original": "Beta Testers",
-        "NewValue": "Beta testers"
+        "NewValue": "Beta ensayadores"
       },
       {
         "KeyValue": "DDA958884495C3137ABBC28E5D2EC94D",
@@ -2902,7 +2902,7 @@
       {
         "KeyValue": "9FD5D1F547086357238D17AD2421E00D",
         "Original": "Awards",
-        "NewValue": "Logros"
+        "NewValue": "Premios"
       },
       {
         "KeyValue": "C516C1D14873620F5C5DE09461789F99",
@@ -2935,7 +2935,7 @@
       },
       {
         "Original": "Bouncer",
-        "NewValue": "Gorila"
+        "NewValue": "Bravucón"
       },
       {
         "Original": "Freight Agent",
@@ -2947,7 +2947,7 @@
       },
       {
         "Original": "Big 'Fella",
-        "NewValue": "Big 'Fella"
+        "NewValue": "Señor Grande"
       },
       {
         "Original": "Fireman",
@@ -2979,7 +2979,7 @@
       },
       {
         "Original": " Passengers can upgrade to a<cf>first class ticket after boarding",
-        "NewValue": " Los pasajeros pueden pasar<cf>a 1ª clase tras embarcar"
+        "NewValue": " Los pasajeros pueden pasar<cf>a clase primera tras embarcar"
       },
       {
         "Original": "    Prevents the train<cf>from leaning on curves",
@@ -3029,7 +3029,7 @@
       {
         "KeyValue": "E67B6F8A48516E30AAF03FA3FDC86C4B",
         "Original": "Increase by 0.5",
-        "NewValue": "Aumentar en 0,5"
+        "NewValue": "Aumentar en 0.5"
       },
       {
         "KeyValue": "4B35D28F41311351709450B5DE418E7F",
@@ -3054,7 +3054,7 @@
       {
         "KeyValue": "CAEB292C410B055E031917AD6D73215A",
         "Original": "Increase by 0.1",
-        "NewValue": "Aumentar en 0,1"
+        "NewValue": "Aumentar en 0.1"
       },
       {
         "KeyValue": "59109B094A5A3F084966BC9CFB999E86",
@@ -3087,7 +3087,7 @@
       },
       {
         "Original": "First Class Car",
-        "NewValue": "Vagón 1ª clase"
+        "NewValue": "Vagón de clase primera"
       },
       {
         "Original": "New Staff Member Unlocked!",
@@ -3166,7 +3166,7 @@
       {
         "KeyValue": "1A092F254B04A4DA4B02738EED54AE15",
         "Original": "The first class car<cf>allows you to pick up<cf>first class tickets. ",
-        "NewValue": "El vagón de 1ª clase<cf>permite recoger billetes<cf>de primera clase. "
+        "NewValue": "El vagón de clase primera<cf>permite recoger billetes<cf>de primera clase. "
       },
       {
         "KeyValue": "B60B5C7543D4AB04D3DC60B41CD7C113",
@@ -3206,7 +3206,7 @@
       {
         "KeyValue": "864335B44543CE81BFE020B609F826C7",
         "Original": "First Class",
-        "NewValue": "1ª clase"
+        "NewValue": "Clase primera"
       },
       {
         "KeyValue": "6DBE942D41DCC70A797741BB5A6F285D",
@@ -3236,12 +3236,12 @@
       {
         "KeyValue": "C40BFA7740AA49DB03D1ECA22270EA74",
         "Original": "Room for two?",
-        "NewValue": "¿Sitio para dos?"
+        "NewValue": "¿Espacio para dos?"
       },
       {
         "KeyValue": "28A00A7F4853CA9CE12150B56CC47F1A",
         "Original": "Even more room!",
-        "NewValue": "¡Aún más sitio!"
+        "NewValue": "¡Aún más espacio!"
       },
       {
         "KeyValue": "B1D1B4124465F84597131CB5E383E6B3",
@@ -3289,7 +3289,7 @@
       },
       {
         "Original": "OWNED",
-        "NewValue": "TUYO"
+        "NewValue": "COMPRADO"
       }
     ]
   },
@@ -3340,7 +3340,7 @@
     "Values": [
       {
         "Original": "There's no more <cf>room on the train!",
-        "NewValue": "¡No queda sitio <cf>en el tren!"
+        "NewValue": "¡No queda espacio <cf>en el tren!"
       },
       {
         "Original": "You can't afford that!",
@@ -3394,7 +3394,7 @@
       {
         "KeyValue": "17CA08784420E0064C4240AC77768ABB",
         "Original": "Bouncer",
-        "NewValue": "Gorila"
+        "NewValue": "Bravucón"
       },
       {
         "KeyValue": "EF049216417D68C2C9C76E86B37EC1E5",
@@ -3419,7 +3419,7 @@
       {
         "KeyValue": "22CF39164ADF9DF9EFC146A6DE68E3B4",
         "Original": "Big 'Fella",
-        "NewValue": "Big 'Fella"
+        "NewValue": "Señor Grande"
       },
       {
         "KeyValue": "22C10F444C5F0CDA0DF7D4B76F18E0AA",
