@@ -107,9 +107,14 @@ Only the directories you'll actually touch are listed here. The repo contains ot
 │   ├── README.md                  # user doc for that language
 │   └── patched_assets/            # ~150 patched .uasset/.uexp/.umap (built by the pipeline)
 │
-├── patch-fr/                      # FR is special: also ships the tooling needed by other languages
-│   ├── retoc.exe + oo2core_9_win64.dll       # IoStore repackaging
-│   ├── MainMapPatcher.exe + ABumpyRide.usmap # FR-only MainMap bytecode patch at install time
+├── patch-{fr,de,es,jp}/           # all 4 patches ship retoc.exe + oo2core_9_win64.dll for IoStore repackaging
+│
+├── patch-fr/                      # FR ships 2 extra binaries the others don't have
+│   ├── MainMapPatcher.exe + ABumpyRide.usmap # FR-only: patches 2 hardcoded strings in MainMap.uexp (~2.3 GB)
+│   │                                         # at install time. KissE can't load MainMap (Int32 MemoryStream
+│   │                                         # limit). DE/ES/JP leave these 2 strings ("Oh no!...", "New Staff
+│   │                                         # Member!") in English: ~2 strings out of ~1500, accepted loss
+│   │                                         # vs the cost of porting MainMapPatcher to each language. See Pitfall #4.
 │
 ├── staging/                       # BUILD WORKSPACE
 │   ├── _vanilla_post_update_legacy/   # vanilla UE Legacy (pipeline input)
