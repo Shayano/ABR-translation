@@ -123,7 +123,7 @@ across many conditional branches evaluating task type) creates patterns that
 neither KissE nor BPStringPatcher handle correctly.
 
 **Consequence on the JSON side**: the 62 task translations remain in
-`staging/fr_strings_BP_translated.json` and the DE/ES JSONs but are **not applied
+`translations/fr/strings_BP.json` and the DE/ES JSONs but are **not applied
 in the build**. SpecialPassenger.uasset/uexp ships vanilla in
 `patch-fr/patched_assets/` and `patch-de/patched_assets/`.
 
@@ -171,7 +171,7 @@ Blueprints contain strings that must NOT be translated:
 | `PopUp.uasset` | `Unlocked Item`, `Unlocked Text` | Sub-widget names (`UnlockedImage`, `UnlockedItem`, `UnlockedText`) |
 
 **Consequence on the JSON side**: these 8 entries were removed from
-`staging/fr_strings_BP_translated.json`, `translations/de/strings_BP.json` and
+`translations/fr/strings_BP.json`, `translations/de/strings_BP.json` and
 `translations/es/strings_BP.json` in v1.4.1. Do not re-add them.
 
 **Consequence on the patch side**: the 5 corresponding `.uasset/.uexp` files
@@ -202,7 +202,7 @@ this being an inconsistency - it's what pro localizations do.
 
 | Language | Game-to-player register | Justification |
 |---|---|---|
-| FR | **informal** (`tu`) | French casual gaming convention for a cozy family game. Switched on 2026-05-07 across 45 BP strings (Tutorial_Table, NewShopMenu, StaffBoard, AreYouSure, PlayerTrain, etc.) for consistency with enums already in `tu`. **Exception**: the *diegetic catch phrases* of the title screen (`enum_titleblurbs_fr.json`) where an NPC formally addresses travelers keep their formal register (`Vos tickets, s'il vous plaît ?` = conductor, `Votre attention s'il vous plaît...` = station announcement, `VOUS. NE. PASSEREZ. PAS !!` = French Gandalf quote). |
+| FR | **informal** (`tu`) | French casual gaming convention for a cozy family game. Switched on 2026-05-07 across 45 BP strings (Tutorial_Table, NewShopMenu, StaffBoard, AreYouSure, PlayerTrain, etc.) for consistency with enums already in `tu`. **Exception**: the *diegetic catch phrases* of the title screen (`translations/fr/enum_titleblurbs.json`) where an NPC formally addresses travelers keep their formal register (`Vos tickets, s'il vous plaît ?` = conductor, `Votre attention s'il vous plaît...` = station announcement, `VOUS. NE. PASSEREZ. PAS !!` = French Gandalf quote). |
 | ES | **informal** (`tú`) | Casual gaming convention in ES. `usted` reserved for formal contexts. |
 | DE | **`du` informal** (confirmed 2026-05-05) | German casual gaming convention for a family game. `Sie` reserved for corporate/serious games. |
 | JP | **ですます調 (standard polite form)** (confirmed 2026-05-16) | No tu/vous formal in JP. ですます調 is the casual-gaming-friendly norm (equivalent to German `du`: polite but not distant). 敬語 (humble/respectful keigo) avoided as too solemn. Playful style: exclamations 「！」 OK, final particles 「ね」「よ」 accepted in NPC dialogues. Short UI orders often use the nominal or neutral imperative form (`購入` rather than `購入してください`). |

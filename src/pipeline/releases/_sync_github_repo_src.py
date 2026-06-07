@@ -1,9 +1,7 @@
 """Synchronise releases/github_repo/src/ depuis les sources canoniques du repo principal.
 
 Sources canoniques :
-- translations FR : staging/{fr_strings_BP_translated.json,fr_strings_maps_translated.json,
-                             skinbuttontable_fr.json,enum_*_fr.json}
-- translations DE/ES/JP : translations/<lang>/*.json
+- translations FR/DE/ES/JP : translations/<lang>/*.json
 - installer par langue : patch-<lang>/* (hors patched_assets.bak_*)
 - outils source : tools/{bp_string_patcher,bp_offset_patcher,mainmap_patcher}/{Program.cs,*.csproj}
                   scripts/datatable_text_patcher/{Program.cs,*.csproj}
@@ -26,19 +24,6 @@ DEST = ROOT / 'releases' / 'github_repo' / 'src'
 
 PATCH_LANGS = ['fr', 'de', 'es', 'jp']
 
-FR_TRANSLATION_FILES = [
-    'fr_strings_BP_translated.json',
-    'fr_strings_maps_translated.json',
-    'skinbuttontable_fr.json',
-    'enum_buildingtype_fr.json',
-    'enum_freighttype_fr.json',
-    'enum_passengerenum_fr.json',
-    'enum_questline_fr.json',
-    'enum_questtype_fr.json',
-    'enum_titleblurbs_fr.json',
-    'enum_titleblurbsrainy_fr.json',
-]
-
 TOOL_DIRS = [
     ('tools', 'bp_string_patcher'),
     ('tools', 'bp_offset_patcher'),
@@ -52,6 +37,7 @@ DOC_FILES = ['TRANSLATION_RULES.md', 'PROCESS_NEW_LANGUAGE.md', 'MAINTAINER.md']
 # rebuild). Listed explicitement plutot que de tout copier staging/ (qui contient
 # plein de scripts one-shot historiques + workdirs).
 PIPELINE_SCRIPTS = [
+    'staging/_package_fr.py',
     'staging/_package_de.py',
     'staging/_package_es.py',
     'staging/_rebundle.py',
@@ -79,14 +65,8 @@ def plan_pairs() -> list[tuple[Path, Path]]:
     """Retourne (src_file, dest_file) pour tous les fichiers qui devraient exister dans src/."""
     pairs: list[tuple[Path, Path]] = []
 
-    # FR translations
-    for name in FR_TRANSLATION_FILES:
-        src = ROOT / 'staging' / name
-        if src.exists():
-            pairs.append((src, DEST / 'languages' / 'fr' / 'translations' / name))
-
-    # DE / ES / JP translations
-    for lang in ['de', 'es', 'jp']:
+    # FR / DE / ES / JP translations
+    for lang in ['fr', 'de', 'es', 'jp']:
         src_dir = ROOT / 'translations' / lang
         if not src_dir.exists():
             continue

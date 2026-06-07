@@ -98,8 +98,7 @@ Only the directories you'll actually touch are listed here. The repo contains ot
 ```
 <repo>/
 ├── translations/                  # SOURCES (edit these to change translations)
-│   ├── de/, es/, jp/              # 10 JSON files per language
-│   └── (FR sources live in staging/fr_* for historical reasons)
+│   └── fr/, de/, es/, jp/         # 10 JSON files per language
 │
 ├── patch-{fr,de,es,jp}/           # ONE BUILD per language (ships in the installer zip)
 │   ├── manifest.json              # version + changelog + target vanilla hashes
@@ -116,7 +115,8 @@ Only the directories you'll actually touch are listed here. The repo contains ot
 │   ├── _vanilla_post_update_legacy/   # vanilla UE Legacy (pipeline input)
 │   ├── legacy_patched_{FR,DE,ES,JP}/  # pipeline output, before bundling
 │   │
-│   ├── _package_de.py             # rebuild pipeline for DE (KissE + DTP)
+│   ├── _package_fr.py             # rebuild pipeline for FR (KissE + DTP)
+│   ├── _package_de.py             # rebuild pipeline for DE
 │   ├── _package_es.py             # rebuild pipeline for ES
 │   ├── _rebundle.py               # copies staging/legacy_patched_* -> patch-*/patched_assets
 │   ├── _patch_bpop.py             # BPOffsetPatcher for SP + QuestTicket
@@ -148,7 +148,6 @@ Only the directories you'll actually touch are listed here. The repo contains ot
 
 ### Quirks to know
 
-- **FR has no `translations/fr/` folder**: for historical reasons, FR translations live in `staging/fr_strings_BP_translated.json` and `staging/enum_*_fr.json`. The sync script handles this.
 - **Sync is one-way**: `releases/_sync_github_repo_src.py` copies working repo -> `releases/github_repo/src/`. If a contributor opens a PR on the public repo, you must **backport manually** (see [Reacting to a community PR](#community-pr)).
 - **The working repo is local-only** (no `git remote`). All distribution goes through `releases/github_repo/` which is a real clone of the public repo.
 
@@ -178,7 +177,7 @@ A full release takes ~1h30, mostly the prepatched zip build.
 
 ### 1. Edit translations
 
-Edit the JSONs in `translations/<lang>/`. For FR, edit `staging/fr_*_translated.json`. Follow `TRANSLATION_RULES.md`.
+Edit the JSONs in `translations/<lang>/`. Follow `TRANSLATION_RULES.md`.
 
 If you touch entries under `FileName: "SpecialPassenger.uasset"` or `"QuestTicket.uasset"`, this is the major pitfall - see [Pitfalls #1](#pitfalls).
 

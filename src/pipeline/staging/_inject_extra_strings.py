@@ -1,6 +1,7 @@
 """
 Helper reutilisable : injecte les 10 strings absentes de l'extract initial
-(`fr_strings_BP_all.json`) mais presentes dans le bytecode du jeu.
+(`staging/fr_strings_BP_all.json`, template historique conserve dans staging/)
+mais presentes dans le bytecode du jeu.
 
 A appeler imperativement apres tout `_init_<lang>_structure.py` ou tout
 re-baseline post-update du jeu, AVANT de commencer la traduction.

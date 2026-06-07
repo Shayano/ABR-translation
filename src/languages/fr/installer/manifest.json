@@ -23,13 +23,11 @@
     }
   },
   "bundle": {
-    "patched_uasset_count": 74,
+    "patched_uasset_count": 73,
     "patched_umap_count": 5,
-    "total_files": 157,
-    "approx_size_mb": 93,
-    "runtime_patch": {
-      "MainMap.umap": "Patch bytecode appliqué à l'install via MainMapPatcher.exe en deux passes (--target=intro puis --target=staff). Vise l'export ExecuteUbergraph_MainMap pour traduire (1) l'intro du jeu et (2) la notification \"New Staff Member Unlocked!\". Algorithme : KissE-style placeholder + branch détour sur l'export isolé (le .uexp vanilla fait 2,3 GB et ne tient pas dans un MemoryStream Int32)."
-    }
+    "patched_uexp_count": 75,
+    "total_files": 153,
+    "approx_size_mb": 92.0
   },
   "install_requirements": {
     "free_disk_space_gb": 12,
